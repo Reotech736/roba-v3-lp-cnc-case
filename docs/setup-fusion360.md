@@ -12,6 +12,8 @@ Windows上のFusionを使用します。
 
 2026-11-06に10×10×10mmの立方体を作り、寸法と体積1,000mm³を検証した。
 
+操作はMCPとFusion APIを優先する。Computer Useが必要な場合は、MCP/APIで対応できない理由を先に説明する。現在確認できる `DataFile.isReadOnly` は読み取り専用プロパティであり、編集可能枠の切り替えには使えない。
+
 ## 保存先
 
 - 旧プロジェクト: `roba-v3-lp-cnc-case_old`
