@@ -1,120 +1,28 @@
-# Fusion360セットアップガイド（WSL環境向け）
+# FusionとAIの連携
 
-## 概要
+Windows上のFusionを使用します。
 
-WSL（Windows Subsystem for Linux）環境でこのプロジェクトを扱う場合、Fusion360はWindows側にインストールし、WSLのファイルシステムにアクセスする形で作業します。
+## 接続
 
-## Windows側のパス
+1. Fusionを起動する。
+2. 基本設定 → 一般 → API → Fusion MCP Serverを有効にする。
+3. 既定の接続先は `http://127.0.0.1:27182/mcp`。
+4. Codexには `autodesk-fusion` として登録済み。新規登録時は `codex mcp add autodesk-fusion --url http://127.0.0.1:27182/mcp`。
+5. 設定反映後、プロジェクト一覧の読み取りで接続を確認する。
 
-WSLのこのプロジェクトは、Windows側から以下のパスでアクセスできます：
+2026-11-06に10×10×10mmの立方体を作り、寸法と体積1,000mm³を検証した。
 
-```
-\\wsl$\Ubuntu\home\relion911\roba-v3-lp-cnc-case
-```
+## 保存先
 
-または、エクスプローラーで以下のように入力：
+- 旧プロジェクト: `roba-v3-lp-cnc-case_old`
+- 現行プロジェクト: `roba-v3-lp-cnc-case`
+- `01_source_roBa`: 元データの参照用
+- `02_design`: 編集する設計用
+- `03_export`: 発注・見積用
 
-```
-\\wsl.localhost\Ubuntu\home\relion911\roba-v3-lp-cnc-case
-```
+参照データの複製を設計用に保存してから編集する。設計の節目にはFusion形式（外部参照に応じてF3D/F3Z）をローカルにも書き出し、交換用にSTEPを残す。クラウド保存は非同期のため、完了を確認する。
 
-## Fusion360のインストール手順
+## 公式資料
 
-### 1. Autodesk アカウントの作成
-
-1. [Autodesk公式サイト](https://www.autodesk.co.jp/)にアクセス
-2. 「サインイン」→「アカウントを作成」
-3. 個人利用の場合は無料の個人用ライセンスを選択可能
-
-### 2. Fusion360のダウンロード
-
-1. [Fusion360ダウンロードページ](https://www.autodesk.co.jp/products/fusion-360/personal)にアクセス
-2. 「個人用Fusion360」または「無料体験版」をダウンロード
-3. インストーラーを実行してインストール
-
-### 3. ライセンスについて
-
-- **個人用（趣味）**: 完全無料、非商用利用
-- **スタートアップ**: 年間売上10万ドル未満の企業は無料
-- **商用版**: 有料（年間サブスクリプション）
-
-## プロジェクトファイルの開き方
-
-### 方法1: Windowsエクスプローラー経由
-
-1. エクスプローラーで `\\wsl$\Ubuntu\home\relion911\roba-v3-lp-cnc-case\cad\case` を開く
-2. ファイルをダブルクリックしてFusion360で開く
-
-### 方法2: Fusion360内から開く
-
-1. Fusion360を起動
-2. 「ファイル」→「開く」
-3. 「コンピューターから開く」を選択
-4. 上記のWSLパスに移動してファイルを選択
-
-## 推奨設定
-
-### データパネルの同期先
-
-Fusion360はデフォルトでクラウドに保存しますが、ローカルファイルとしても扱えます：
-
-1. 「ファイル」→「エクスポート」でローカル保存
-2. STEPファイル（.step）やF3D形式で保存推奨
-
-### 作業フォルダ構造
-
-```
-cad/case/
-├── v1/              # バージョン管理
-│   ├── top.f3d
-│   └── bottom.f3d
-└── export/          # エクスポートファイル
-    ├── top.step
-    └── bottom.step
-```
-
-## 学習リソース
-
-### 公式チュートリアル
-
-- [Fusion360 公式チュートリアル](https://help.autodesk.com/view/fusion360/JPN/courses/)
-- [Fusion360 YouTubeチャンネル](https://www.youtube.com/@Fusion360)
-
-### キーボードケース設計向け
-
-- 「DIY Keyboard Case Design Guide」（このプロジェクトのdocs/内、非公開）
-- 第3章「Fusion360を用いて立体形状のケースを設計する」を参照
-
-## よくある問題
-
-### WSLファイルが見つからない
-
-- WSLが起動しているか確認
-- `\\wsl$\` ではなく `\\wsl.localhost\` を試す（Windows 11）
-
-### ファイルが開けない
-
-- ファイル拡張子を確認（.f3d, .step, .stp等）
-- Windowsの権限設定を確認
-
-### 保存が遅い
-
-- WSL経由のI/Oは若干遅いため、作業中はWindows側（C:\）に一時保存し、完成後にWSL側にコピーすることも検討
-
-## Git連携
-
-Fusion360で編集したファイルは、WSL側のターミナルでコミット：
-
-```bash
-cd /home/relion911/roba-v3-lp-cnc-case
-git add cad/case/
-git commit -m "ケース設計を更新"
-git push
-```
-
-## 次のステップ
-
-1. Fusion360をインストール
-2. 公式チュートリアルで基本操作を学習
-3. `cad/case/source/` の既存STEPファイルを開いて構造を理解
-4. 「DIY Keyboard Case Design Guide」の第3章を読みながら実践
+- [Fusion MCP接続](https://help.autodesk.com/cloudhelp/ENU/ADSKMCP-FusionDesktopMcp/files/ADSKMCP_FusionDesktopMcp_connecting_to_the_fusion_mcp_server_html.html)
+- [Codex MCP](https://learn.chatgpt.com/docs/extend/mcp)

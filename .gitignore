@@ -36,6 +36,8 @@ Thumbs.db
 build/
 output/
 export/
+!cad/export/
+!cad/export/**
 
 # Project management
 prompt.md

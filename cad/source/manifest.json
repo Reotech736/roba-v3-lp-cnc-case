@@ -1,0 +1,44 @@
+{
+  "repository": "https://github.com/kumamuk-git/roBa",
+  "commit": "69fc34d2996e6aaf63b29f6a58d104b32669f610",
+  "retrieved_on": "2026-11-06",
+  "license": "GPL-3.0",
+  "files": [
+    {
+      "upstream_path": "case/v3/forLP/top_L_LP.stp",
+      "local_path": "cad/source/roBa/case/v3/forLP/top_L_LP.stp",
+      "git_blob_sha1": "a4f19d440326f00925d171c34660e6b832fe1d38",
+      "size": 462834
+    },
+    {
+      "upstream_path": "case/v3/bottom_L.stp",
+      "local_path": "cad/source/roBa/case/v3/bottom_L.stp",
+      "git_blob_sha1": "8c167efe423e7d7575d93c713f0d788b7474c016",
+      "size": 1112143
+    },
+    {
+      "upstream_path": "case/v3/forLP/forCOROPIT/top_R_LP_COROPIT.stp",
+      "local_path": "cad/source/roBa/case/v3/forLP/forCOROPIT/top_R_LP_COROPIT.stp",
+      "git_blob_sha1": "9c3343e02215cbd65089041e5e059f81bd3e3621",
+      "size": 610662
+    },
+    {
+      "upstream_path": "case/v3/forLP/forCOROPIT/bottom_R_LP_COROPIT.stp",
+      "local_path": "cad/source/roBa/case/v3/forLP/forCOROPIT/bottom_R_LP_COROPIT.stp",
+      "git_blob_sha1": "3922be6f58921f0be21204ea01eaef79644cf8c2",
+      "size": 893456
+    },
+    {
+      "upstream_path": "case/v3/forLP/reset_stick_LP.stp",
+      "local_path": "cad/source/roBa/case/v3/forLP/reset_stick_LP.stp",
+      "git_blob_sha1": "dcd97eabc24e11dc9016250af4c3d74205dff14d",
+      "size": 13960
+    },
+    {
+      "upstream_path": "case/v3/power_sw.stp",
+      "local_path": "cad/source/roBa/case/v3/power_sw.stp",
+      "git_blob_sha1": "94c1418e48ebd57101ef6fbdf647cc2b50e25baa",
+      "size": 27392
+    }
+  ]
+}
