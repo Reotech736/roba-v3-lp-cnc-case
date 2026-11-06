@@ -24,6 +24,12 @@ Windows上のFusionを使用します。
 
 参照データの複製を設計用に保存してから編集する。設計の節目にはFusion形式（外部参照に応じてF3D/F3Z）をローカルにも書き出し、交換用にSTEPを残す。クラウド保存は非同期のため、完了を確認する。
 
+## 個人用の編集枠
+
+2026-11-06の確認時点で編集可能ドキュメントは0/10件。`01_source_roBa` の6点はすべて読み取り専用で、クラウド処理も完了している。
+
+新規デザインを保存すると編集枠を使うことがある。上限に達して保存できない場合は、Fusionのデータパネルから使っていないデザインを読み取り専用に切り替える。これはファイル削除とは異なり、枠に空きがあれば編集可能に戻せる。元データは参照用のままにし、編集する複製に枠を使う。
+
 ## 公式資料
 
 - [Fusion MCP接続](https://help.autodesk.com/cloudhelp/ENU/ADSKMCP-FusionDesktopMcp/files/ADSKMCP_FusionDesktopMcp_connecting_to_the_fusion_mcp_server_html.html)
