@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-07",
+  "status": "provisional; no physical fit or opening test",
+  "adhesive": "supplied double-sided tape; thickness unknown; physical 4mm thickness may include tape",
+  "measurement": {
+    "name": "stand_test_provisional_56p8x14p8",
+    "id": "urn:adsk.wipprod:dm.lineage:lDZgmkagRVyxKxH9jObjvw",
+    "version": 2,
+    "complete": true,
+    "modified": false,
+    "solid": true,
+    "bodies": 1,
+    "bbox": {
+      "min": [
+        -10.90219,
+        -27.92157,
+        -8.395
+      ],
+      "max": [
+        53.39781,
+        -7.12157,
+        -1.695
+      ]
+    },
+    "horizontalFaces": [
+      {
+        "area_mm2": 1334.0064,
+        "min": [
+          -10.90219,
+          -27.92157,
+          -1.695
+        ],
+        "max": [
+          53.39781,
+          -7.12157,
+          -1.695
+        ]
+      },
+      {
+        "area_mm2": 473.0978,
+        "min": [
+          -10.90219,
+          -27.92157,
+          -8.395
+        ],
+        "max": [
+          53.39781,
+          -7.12157,
+          -8.395
+        ]
+      },
+      {
+        "area_mm2": 22.2,
+        "min": [
+          47.39781,
+          -24.92157,
+          -7.395
+        ],
+        "max": [
+          50.39781,
+          -10.12157,
+          -7.395
+        ]
+      },
+      {
+        "area_mm2": 838.7086,
+        "min": [
+          -7.90219,
+          -24.92157,
+          -4.695
+        ],
+        "max": [
+          48.89781,
+          -10.12157,
+          -4.695
+        ]
+      }
+    ],
+    "issues": [],
+    "oldStand": [
+      {
+        "readOnly": true,
+        "modified": false
+      }
+    ]
+  }
+}

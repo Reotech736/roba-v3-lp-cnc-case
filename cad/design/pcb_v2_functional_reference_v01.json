@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-07",
+  "purpose": "Independent provisional PCB outline and mounting-hole envelope derived from pinned KiCad data. Not a complete populated PCB or confirmed LP geometry.",
+  "coordinateRule": "For each board: x=xKiCad-U1.x; y=U1.y-yKiCad; z=0..1.6. Right occurrence translated +160mm in X only for display. Battery body envelope parked at local x=0..30,y=30..50,z=0..4; not installed position.",
+  "verification": {
+    "id": "urn:adsk.wipprod:dm.lineage:TDPgr-O0Ro-8BhpLoqM8uA",
+    "version": 1,
+    "complete": true,
+    "modified": false,
+    "issues": [],
+    "bodies": [
+      {
+        "component": "Battery_R_30x20x4_PARKED_NOT_INSTALLED",
+        "solid": true,
+        "volume_mm3": 2400,
+        "min": [
+          0,
+          30,
+          0
+        ],
+        "max": [
+          30,
+          50,
+          4
+        ],
+        "innerLoops": 0
+      },
+      {
+        "component": "PCB_L_v2_reference_NOT_VERIFIED",
+        "solid": true,
+        "volume_mm3": 14276.7644,
+        "min": [
+          -104.619997,
+          -87.434164,
+          0
+        ],
+        "max": [
+          19.319462,
+          7.054,
+          1.6
+        ],
+        "innerLoops": 7
+      },
+      {
+        "component": "Battery_L_30x20x4_PARKED_NOT_INSTALLED",
+        "solid": true,
+        "volume_mm3": 2400,
+        "min": [
+          0,
+          30,
+          0
+        ],
+        "max": [
+          30,
+          50,
+          4
+        ],
+        "innerLoops": 0
+      },
+      {
+        "component": "PCB_R_v2_reference_NOT_VERIFIED",
+        "solid": true,
+        "volume_mm3": 12765.28644,
+        "min": [
+          -19.271558,
+          -87.437225,
+          0
+        ],
+        "max": [
+          104.667899,
+          7.037495,
+          1.6
+        ],
+        "innerLoops": 6
+      }
+    ]
+  }
+}
