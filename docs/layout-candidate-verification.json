@@ -1,0 +1,35 @@
+{
+  "name": "internal_layout_candidate_v01_NOT_FOR_MANUFACTURE",
+  "version": 3,
+  "complete": true,
+  "modified": false,
+  "batteries": [
+    {
+      "component": "Battery_L_30x20x4_CANDIDATE_UNVERIFIED",
+      "min_mm": [
+        -65,
+        -50,
+        -8
+      ],
+      "max_mm": [
+        -35,
+        -30,
+        -4
+      ]
+    },
+    {
+      "component": "Battery_R_30x20x4_CANDIDATE_UNVERIFIED",
+      "min_mm": [
+        195,
+        -50,
+        -8
+      ],
+      "max_mm": [
+        225,
+        -30,
+        -4
+      ]
+    }
+  ],
+  "timelineIssues": []
+}

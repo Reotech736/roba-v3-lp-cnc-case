@@ -1,0 +1,227 @@
+{
+  "count": 40,
+  "bySwitch": {
+    "SW21": 2,
+    "SW18": 2,
+    "SW13": 2,
+    "SW15": 2,
+    "SW11": 2,
+    "SW9": 2,
+    "SW6": 2,
+    "SW8": 2,
+    "SW3": 2,
+    "SW1": 2,
+    "SW2": 2,
+    "SW4": 2,
+    "SW7": 2,
+    "SW5": 2,
+    "SW10": 2,
+    "SW12": 2,
+    "SW14": 2,
+    "SW17": 2,
+    "SW19": 2,
+    "SW22": 2
+  },
+  "matches": [
+    {
+      "switch": "SW21",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW18",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW13",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW15",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW11",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW9",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW6",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW8",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW3",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW1",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW2",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW4",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW7",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW5",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW10",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW12",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW14",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW17",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW19",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW22",
+      "dx_mm": -5.000001,
+      "dy_mm": -3.7
+    },
+    {
+      "switch": "SW21",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW18",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW13",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW15",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW11",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW9",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW6",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW8",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW3",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW1",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW2",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW4",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW7",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW5",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW10",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW12",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW14",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW17",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW19",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    },
+    {
+      "switch": "SW22",
+      "dx_mm": 0.0,
+      "dy_mm": -5.9
+    }
+  ]
+}

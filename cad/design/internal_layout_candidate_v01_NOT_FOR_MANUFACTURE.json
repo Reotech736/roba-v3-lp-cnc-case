@@ -1,0 +1,115 @@
+{
+  "name": "internal_layout_candidate_v01_NOT_FOR_MANUFACTURE",
+  "id": "urn:adsk.wipprod:dm.lineage:NCa0X1qHQyWJ9c1dNVD4-A",
+  "date": "2026-11-07",
+  "status": "PROVISIONAL_NOT_FOR_MANUFACTURE",
+  "coordinateSystem": "PCB underside z=0, each U1 XY origin; right display only +160 mm X",
+  "summary": [
+    {
+      "side": "L",
+      "displayTranslateX_mm": 0,
+      "batteryLocalBounds_mm": [
+        [
+          -65,
+          -50,
+          -8
+        ],
+        [
+          -35,
+          -30,
+          -4
+        ]
+      ],
+      "allowanceLocalBounds_mm": [
+        [
+          -66,
+          -51,
+          -9
+        ],
+        [
+          -34,
+          -29,
+          -3.5
+        ]
+      ],
+      "screwAxesLocalXY_mm": [
+        [
+          -109.61999700000001,
+          -7.945999999999991
+        ],
+        [
+          24.31946179471142,
+          -7.945999999999991
+        ],
+        [
+          -109.61999700000001,
+          -72.43416448738688
+        ],
+        [
+          24.31946179471142,
+          -72.43416448738688
+        ]
+      ],
+      "perimeterSampleCount": 220,
+      "outsidePCBMaterialSamples": 0,
+      "outsideSamplePoints_mm": []
+    },
+    {
+      "side": "R",
+      "displayTranslateX_mm": 160,
+      "batteryLocalBounds_mm": [
+        [
+          35,
+          -50,
+          -8
+        ],
+        [
+          65,
+          -30,
+          -4
+        ]
+      ],
+      "allowanceLocalBounds_mm": [
+        [
+          34,
+          -51,
+          -9
+        ],
+        [
+          66,
+          -29,
+          -3.5
+        ]
+      ],
+      "screwAxesLocalXY_mm": [
+        [
+          -24.271558477913608,
+          -7.962504999999993
+        ],
+        [
+          109.66789899999998,
+          -7.962504999999993
+        ],
+        [
+          -24.271558477913608,
+          -72.43722540864286
+        ],
+        [
+          109.66789899999998,
+          -72.43722540864286
+        ]
+      ],
+      "perimeterSampleCount": 220,
+      "outsidePCBMaterialSamples": 0,
+      "outsideSamplePoints_mm": []
+    }
+  ],
+  "timelineIssues": [],
+  "limitations": [
+    "Perimeter sampling is not exact containment or populated-board collision detection.",
+    "Battery allowance is a design assumption, not a battery swelling specification. Connector and wire routing are unresolved.",
+    "External screw axes imply expanded case planform. No case walls or screw solids exist.",
+    "COROPIT absolute placement, resin shell, antenna and MCU clearances remain unresolved.",
+    "STEP exports are component-local body geometry; use JSON/F3D for assembly placement."
+  ]
+}

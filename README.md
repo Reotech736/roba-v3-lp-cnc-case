@@ -12,7 +12,7 @@ roBa v3 LP（COROPIT対応）の左右上下ケースをアルミ削り出しで
 | Fusion | 新プロジェクトに6点を保存、クラウド処理完了を確認済み |
 | 参照データの保護 | 2026-11-07に6点すべて読み取り専用・処理完了を再確認。試験片は編集用として別管理 |
 | AI連携 | Fusion MCPで作成・読み取り・取り込み・保存を確認済み |
-| CNC向け設計 | 02_designにスタンド試験片と、公開PCBから独立作成した基板・電池の仮参照を保存。LP実機との照合、ケース本体・固定方式は検討中 |
+| CNC向け設計 | 02_designにスタンド試験片、独立した基板参照、電池・ねじ軸の仮配置案を保存。Spring Mini Choc V2とImagine Black版COROPITの資料調査済み。実機適合・ケース本体は未検証・未作成 |
 | 試作・見積・発注 | 未実施 |
 
 設計状況は [設計ノート](docs/design-notes.md)、接続方法と保存先は [Fusionセットアップ](docs/setup-fusion360.md)、更新時のルールは [CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。
@@ -61,6 +61,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts/fetch-upstream.ps1
 ## 次の作業
 
 次回は[再開メモ](docs/next-session.md)から確認してください。LPスイッチ・ソケットとCOROPITの必要空間を調べ、内部配置、支持・締結、新規ケース形状の順で進めます。
+
+2026-11-07の[LP・COROPIT・内部配置の調査](docs/lp-coropit-layout-study.md)に、メーカー図面、COROPIT参照穴ピッチ16 mm、電池と外側ねじの仮配置、スタンドくぼみと底厚の積み上げを記録しました。次はLP支持部と、電池・スタンドの重複を避ける配置案を具体化します。
 
 新ケースの現行方針は[新規ケース設計の要件と検討順](docs/new-case-requirements.md)を参照してください。確定要件、仮寸法、不足する部品情報、上下の役割と固定方式の比較案をまとめています。
 
