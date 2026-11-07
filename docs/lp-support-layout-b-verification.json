@@ -1,0 +1,139 @@
+{
+  "designs": [
+    {
+      "name": "lp_support_parameter_study_v01_NOT_FOR_MANUFACTURE",
+      "id": "urn:adsk.wipprod:dm.lineage:X1drcMRfTfiFc_K394dWvA",
+      "complete": true,
+      "version": 1,
+      "modified": false,
+      "timelineIssues": [],
+      "bodies": []
+    },
+    {
+      "name": "internal_layout_B_stand_separated_v01_NOT_FOR_MANUFACTURE",
+      "id": "urn:adsk.wipprod:dm.lineage:8JXbPTMvTWa6ShpdKIQW5A",
+      "complete": true,
+      "version": 2,
+      "modified": false,
+      "timelineIssues": [],
+      "bodies": [
+        {
+          "component": "Battery_L_30x20x4_CANDIDATE_UNVERIFIED",
+          "min_mm": [
+            -65,
+            -50,
+            -8
+          ],
+          "max_mm": [
+            -35,
+            -30,
+            -4
+          ]
+        },
+        {
+          "component": "Battery_R_30x20x4_CANDIDATE_UNVERIFIED",
+          "min_mm": [
+            195,
+            -50,
+            -8
+          ],
+          "max_mm": [
+            225,
+            -30,
+            -4
+          ]
+        },
+        {
+          "component": "Stand_L_POCKET_VOID_NOT_PART_14p8x56p8_R2p2",
+          "min_mm": [
+            -103.3,
+            -65,
+            -11.5
+          ],
+          "max_mm": [
+            -88.5,
+            -8.2,
+            -7.8
+          ]
+        },
+        {
+          "component": "Stand_L_RESIDUAL_WALL_2mm_STUDY_NOT_CASE",
+          "min_mm": [
+            -105.3,
+            -67,
+            -7.8
+          ],
+          "max_mm": [
+            -86.5,
+            -6.2,
+            -5.8
+          ]
+        },
+        {
+          "component": "Stand_R_POCKET_VOID_NOT_PART_14p8x56p8_R2p2",
+          "min_mm": [
+            248.5,
+            -65,
+            -11.5
+          ],
+          "max_mm": [
+            263.3,
+            -8.2,
+            -7.8
+          ]
+        },
+        {
+          "component": "Stand_R_RESIDUAL_WALL_2mm_STUDY_NOT_CASE",
+          "min_mm": [
+            246.5,
+            -67,
+            -7.8
+          ],
+          "max_mm": [
+            265.3,
+            -6.2,
+            -5.8
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "bottom_L",
+      "readOnly": true,
+      "version": 1,
+      "complete": true
+    },
+    {
+      "name": "bottom_R_LP_COROPIT",
+      "readOnly": true,
+      "version": 1,
+      "complete": true
+    },
+    {
+      "name": "power_sw",
+      "readOnly": true,
+      "version": 1,
+      "complete": true
+    },
+    {
+      "name": "reset_stick_LP",
+      "readOnly": true,
+      "version": 1,
+      "complete": true
+    },
+    {
+      "name": "top_L_LP",
+      "readOnly": true,
+      "version": 1,
+      "complete": true
+    },
+    {
+      "name": "top_R_LP_COROPIT",
+      "readOnly": true,
+      "version": 1,
+      "complete": true
+    }
+  ]
+}

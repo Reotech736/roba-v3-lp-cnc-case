@@ -1,0 +1,71 @@
+{
+  "name": "lp_support_cnc_corners_v02_NOT_FOR_MANUFACTURE",
+  "id": "urn:adsk.wipprod:dm.lineage:q2A54eJqSNOq5vguXcQwXg",
+  "date": "2026-11-07",
+  "variants": [
+    {
+      "component": "Opening_14p2_Lip_1p2",
+      "opening_mm": 14.2,
+      "lip_mm": 1.2,
+      "reliefRadius_mm": 0.5,
+      "openingMaximumSpan_mm": 14.492893,
+      "nominal15mmFlangeEdgeMargin_mm": 0.253553,
+      "volume_mm3": 629.623594
+    },
+    {
+      "component": "Opening_14p1_Lip_1p2",
+      "opening_mm": 14.1,
+      "lip_mm": 1.2,
+      "reliefRadius_mm": 0.5,
+      "openingMaximumSpan_mm": 14.392893,
+      "nominal15mmFlangeEdgeMargin_mm": 0.303553,
+      "volume_mm3": 633.019594
+    },
+    {
+      "component": "Opening_14p2_Lip_1p3",
+      "opening_mm": 14.2,
+      "lip_mm": 1.3,
+      "reliefRadius_mm": 0.5,
+      "openingMaximumSpan_mm": 14.492893,
+      "nominal15mmFlangeEdgeMargin_mm": 0.253553,
+      "volume_mm3": 641.609373
+    },
+    {
+      "component": "Opening_14_Lip_1p2",
+      "opening_mm": 14.0,
+      "lip_mm": 1.2,
+      "reliefRadius_mm": 0.5,
+      "openingMaximumSpan_mm": 14.292893,
+      "nominal15mmFlangeEdgeMargin_mm": 0.353553,
+      "volume_mm3": 636.391594
+    },
+    {
+      "component": "Opening_14p1_Lip_1p3",
+      "opening_mm": 14.1,
+      "lip_mm": 1.3,
+      "reliefRadius_mm": 0.5,
+      "openingMaximumSpan_mm": 14.392893,
+      "nominal15mmFlangeEdgeMargin_mm": 0.303553,
+      "volume_mm3": 645.288373
+    },
+    {
+      "component": "Opening_14_Lip_1p3",
+      "opening_mm": 14.0,
+      "lip_mm": 1.3,
+      "reliefRadius_mm": 0.5,
+      "openingMaximumSpan_mm": 14.292893,
+      "nominal15mmFlangeEdgeMargin_mm": 0.353553,
+      "volume_mm3": 648.941373
+    }
+  ],
+  "timelineIssues": [],
+  "parameterCheck": "radius 0.5->0.6->0.5 and middle aperture 14.1->14.15->14.1; analytic volume checked",
+  "limitations": [
+    "Tool diameter 1 mm and depth access not confirmed by JLCCNC.",
+    "15 mm switch flange edge margin is a nominal plan-view calculation, not retention strength.",
+    "No fit, switch-corner or latch-deflection test; printed/physical validation pending.",
+    "Does not set PCB-to-plate height, cap clearance or assembled dimensions."
+  ],
+  "cloudVersion": 2,
+  "cloudComplete": true
+}

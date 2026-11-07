@@ -1,0 +1,33 @@
+{
+  "name": "left_case_fastening_v03_NOT_FOR_MANUFACTURE",
+  "id": "urn:adsk.wipprod:dm.lineage:leEiFcrzSuejFVjMptHmiA",
+  "date": "2026-11-07",
+  "candidate": {
+    "screw": "M2 x 12 socket cap, pitch 0.4 mm, dimensional comparison only",
+    "nominalHeadDiameter_mm": 3.8,
+    "nominalHeadHeight_mm": 2,
+    "headSeatDiameter_mm": 4.2,
+    "headSeatDepth_mm": 2.2,
+    "headRecess_mm": 0.2,
+    "nominalProjectionPastSeam_mm": 3.7,
+    "pilotCylindricalDepth_mm": 4.5,
+    "nominalPilotEndClearance_mm": 0.8,
+    "pilotEndCap_mm": 1,
+    "nominalBossRadialWallAtSeat_mm": 0.9
+  },
+  "solidInterferences": 0,
+  "collisionSet": "lower/upper/unpopulated public PCB/battery allowance; screw threads not modeled",
+  "analyticalSeatRemoval_mm3": 88.46724912508859,
+  "timelineIssues": [],
+  "limitations": [
+    "Screw is a dimensional candidate; no purchase or grade/coating/threadlocker specification.",
+    "3.7 mm is geometric projection, not verified full thread engagement; thread lead/chamfer/drill tip/tolerances remain.",
+    "Blind-hole end cap 1 mm and counterbore sidewall 0.9 mm require DFM and strength review.",
+    "No locating feature, final preload/torque, switch plate, ports or RF window.",
+    "No populated-board or physical assembly validation."
+  ],
+  "cloudVersion": 3,
+  "cloudComplete": true,
+  "diameterParameterBindings": 20,
+  "diameterParameterCheck": "M2_clearance 2.2 -> 2.3 -> 2.2 mm, analytic volume removal verified, zero interference after restore"
+}

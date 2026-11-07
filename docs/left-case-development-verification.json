@@ -1,0 +1,72 @@
+{
+  "designs": [
+    {
+      "name": "lp_support_cnc_corners_v02_NOT_FOR_MANUFACTURE",
+      "id": "urn:adsk.wipprod:dm.lineage:q2A54eJqSNOq5vguXcQwXg",
+      "version": 2,
+      "complete": true,
+      "modified": false
+    },
+    {
+      "name": "left_case_structure_v01_NOT_FOR_MANUFACTURE",
+      "id": "urn:adsk.wipprod:dm.lineage:EWVREkV5TH2SDjE3mckEog",
+      "version": 2,
+      "complete": true,
+      "modified": null
+    },
+    {
+      "name": "left_case_structure_cnc_v02_NOT_FOR_MANUFACTURE",
+      "id": "urn:adsk.wipprod:dm.lineage:HmUsrr7xTKmz10_1WWkcew",
+      "version": 2,
+      "complete": true,
+      "modified": null
+    },
+    {
+      "name": "left_case_fastening_v03_NOT_FOR_MANUFACTURE",
+      "id": "urn:adsk.wipprod:dm.lineage:leEiFcrzSuejFVjMptHmiA",
+      "version": 3,
+      "complete": true,
+      "modified": false
+    }
+  ],
+  "latestSolidInterferenceCount": 0,
+  "timelineIssues": [],
+  "sources": [
+    {
+      "name": "bottom_L",
+      "readOnly": true,
+      "complete": true,
+      "version": 1
+    },
+    {
+      "name": "bottom_R_LP_COROPIT",
+      "readOnly": true,
+      "complete": true,
+      "version": 1
+    },
+    {
+      "name": "power_sw",
+      "readOnly": true,
+      "complete": true,
+      "version": 1
+    },
+    {
+      "name": "reset_stick_LP",
+      "readOnly": true,
+      "complete": true,
+      "version": 1
+    },
+    {
+      "name": "top_L_LP",
+      "readOnly": true,
+      "complete": true,
+      "version": 1
+    },
+    {
+      "name": "top_R_LP_COROPIT",
+      "readOnly": true,
+      "complete": true,
+      "version": 1
+    }
+  ]
+}

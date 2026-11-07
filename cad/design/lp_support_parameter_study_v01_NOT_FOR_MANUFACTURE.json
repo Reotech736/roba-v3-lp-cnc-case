@@ -1,0 +1,60 @@
+{
+  "name": "lp_support_parameter_study_v01_NOT_FOR_MANUFACTURE",
+  "id": "urn:adsk.wipprod:dm.lineage:X1drcMRfTfiFc_K394dWvA",
+  "date": "2026-11-07",
+  "variants": [
+    {
+      "component": "Opening_14_Lip_1p2",
+      "opening_mm": 14,
+      "lip_mm": 1.2,
+      "volume_mm3": 633.6,
+      "analyticalVolume_mm3": 633.6
+    },
+    {
+      "component": "Opening_14p1_Lip_1p2",
+      "opening_mm": 14.1,
+      "lip_mm": 1.2,
+      "volume_mm3": 630.228,
+      "analyticalVolume_mm3": 630.228
+    },
+    {
+      "component": "Opening_14p2_Lip_1p2",
+      "opening_mm": 14.2,
+      "lip_mm": 1.2,
+      "volume_mm3": 626.832,
+      "analyticalVolume_mm3": 626.832
+    },
+    {
+      "component": "Opening_14_Lip_1p3",
+      "opening_mm": 14,
+      "lip_mm": 1.3,
+      "volume_mm3": 646.4,
+      "analyticalVolume_mm3": 646.4
+    },
+    {
+      "component": "Opening_14p1_Lip_1p3",
+      "opening_mm": 14.1,
+      "lip_mm": 1.3,
+      "volume_mm3": 642.747,
+      "analyticalVolume_mm3": 642.747
+    },
+    {
+      "component": "Opening_14p2_Lip_1p3",
+      "opening_mm": 14.2,
+      "lip_mm": 1.3,
+      "volume_mm3": 639.068,
+      "analyticalVolume_mm3": 639.068
+    }
+  ],
+  "parameterPerturbation": "opening_middle 14.1 -> 14.15 -> 14.1 mm, recompute and analytic volume verified",
+  "timelineIssues": [],
+  "limitations": [
+    "No physical switch fit or retention test.",
+    "Sharp internal corners are idealized, not a CNC toolpath; cutter radius and corner relief remain unresolved.",
+    "No PCB, socket, cap or removal-tool model. Coupon does not set final plate height relative to PCB.",
+    "Numbers are comparison candidates, not manufacturing tolerances.",
+    "Each STEP is component-local geometry."
+  ],
+  "cloudVersion": 1,
+  "cloudComplete": true
+}

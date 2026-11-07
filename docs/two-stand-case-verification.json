@@ -1,0 +1,83 @@
+{
+  "name": "left_case_two_stands_v05_NOT_FOR_MANUFACTURE",
+  "id": "urn:adsk.wipprod:dm.lineage:H9Nq8f1PSl6GXmxJMgIkbw",
+  "version": 2,
+  "complete": true,
+  "modified": false,
+  "bodies": [
+    {
+      "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "min_mm": [
+        -111.119997,
+        -91.434164,
+        -11.5
+      ],
+      "max_mm": [
+        23.319462,
+        11.054,
+        -0.2
+      ],
+      "volume_mm3": 35980.31911
+    },
+    {
+      "component": "Upper_L_PERIMETER_ONLY_NO_SWITCH_PLATE",
+      "min_mm": [
+        -111.119997,
+        -91.434164,
+        -1
+      ],
+      "max_mm": [
+        23.319462,
+        11.054,
+        4.5
+      ],
+      "volume_mm3": 7660.169716
+    },
+    {
+      "component": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+      "min_mm": [
+        -104.619997,
+        -87.434164,
+        0
+      ],
+      "max_mm": [
+        19.319462,
+        7.054,
+        1.6
+      ],
+      "volume_mm3": 14276.764404
+    },
+    {
+      "component": "Battery_L_ALLOWANCE_32x22x5p5_NOT_CELL",
+      "min_mm": [
+        -66,
+        -51,
+        -9
+      ],
+      "max_mm": [
+        -34,
+        -29,
+        -3.5
+      ],
+      "volume_mm3": 3872
+    },
+    {
+      "component": "XIAO_KEY_SIDE_ENVELOPE_FROM_OLD_SINGLE_PART_UNVERIFIED",
+      "min_mm": [
+        -8.89,
+        -20.955,
+        1.6
+      ],
+      "max_mm": [
+        8.89,
+        1.52698,
+        6.06
+      ],
+      "volume_mm3": 1337.088169
+    }
+  ],
+  "residualInteriorSamples": 18,
+  "supportTopGlobalZ_mm": -0.2,
+  "interferences": 0,
+  "timelineIssues": []
+}

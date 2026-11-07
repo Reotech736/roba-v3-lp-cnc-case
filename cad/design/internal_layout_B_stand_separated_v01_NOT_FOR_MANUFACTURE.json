@@ -1,0 +1,79 @@
+{
+  "name": "internal_layout_B_stand_separated_v01_NOT_FOR_MANUFACTURE",
+  "date": "2026-11-07",
+  "id": "urn:adsk.wipprod:dm.lineage:8JXbPTMvTWa6ShpdKIQW5A",
+  "summary": [
+    {
+      "side": "L",
+      "displayTranslationX_mm": 0,
+      "pocketLocalBounds_mm": [
+        [
+          -103.3,
+          -65,
+          -11.5
+        ],
+        [
+          -88.5,
+          -8.2,
+          -7.8
+        ]
+      ],
+      "cornerRadius_mm": 2.2,
+      "depth_mm": 3.7,
+      "projectionSamples": 928,
+      "outsidePCBMaterialSamples": 0,
+      "batteryAllowanceXYGap_mm": 22.5,
+      "residualWallZ_mm": [
+        -7.8,
+        -5.8
+      ],
+      "residualThickness_mm": 2,
+      "PCB3mmReservationToRaisedFloorGap_mm": 2.8,
+      "notes": "XY position and rounded-corner radius are provisional. Stand opening direction/support polygon unverified."
+    },
+    {
+      "side": "R",
+      "displayTranslationX_mm": 160,
+      "pocketLocalBounds_mm": [
+        [
+          88.5,
+          -65,
+          -11.5
+        ],
+        [
+          103.3,
+          -8.2,
+          -7.8
+        ]
+      ],
+      "cornerRadius_mm": 2.2,
+      "depth_mm": 3.7,
+      "projectionSamples": 928,
+      "outsidePCBMaterialSamples": 0,
+      "batteryAllowanceXYGap_mm": 22.5,
+      "residualWallZ_mm": [
+        -7.8,
+        -5.8
+      ],
+      "residualThickness_mm": 2,
+      "PCB3mmReservationToRaisedFloorGap_mm": 2.8,
+      "notes": "XY position and rounded-corner radius are provisional. Stand opening direction/support polygon unverified."
+    }
+  ],
+  "baseline": {
+    "PCBLowerFaceZ_mm": 0,
+    "assumedOutsideBottomZ_mm": -11.5,
+    "batteryRegionInsideFloorZ_mm": -9.5,
+    "standRegionInsideFloorZ_mm": -5.8
+  },
+  "timelineIssues": [],
+  "limitations": [
+    "Void and wall study bodies are not a case assembly. No material was removed from reference cases.",
+    "Actual stand body/sweep and adhesive are not modeled. Finger access 6 mm is a placeholder at both ends.",
+    "PCB projection sampling is not an exact containment or component collision test.",
+    "M2 external screw markers retained from layout A, not optimized.",
+    "COROPIT, MCU, USB, wire routing, antenna, tipping stability and final CNC corners remain unresolved."
+  ],
+  "cloudVersion": 2,
+  "cloudComplete": true
+}

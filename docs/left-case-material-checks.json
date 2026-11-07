@@ -1,0 +1,23 @@
+{
+  "standResidualInteriorChecks": 27,
+  "voidBelowAndAboveChecks": 18,
+  "nominalResidual_mm": 2,
+  "headSeats": [
+    {
+      "radius_mm": 2.1,
+      "height_mm": 2.2
+    },
+    {
+      "radius_mm": 2.1,
+      "height_mm": 2.2
+    },
+    {
+      "radius_mm": 2.1,
+      "height_mm": 2.2
+    },
+    {
+      "radius_mm": 2.1,
+      "height_mm": 2.2
+    }
+  ]
+}

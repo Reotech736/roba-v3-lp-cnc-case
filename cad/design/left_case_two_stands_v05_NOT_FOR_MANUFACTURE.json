@@ -1,0 +1,215 @@
+{
+  "name": "left_case_two_stands_v05_NOT_FOR_MANUFACTURE",
+  "id": "urn:adsk.wipprod:dm.lineage:H9Nq8f1PSl6GXmxJMgIkbw",
+  "date": "2026-11-07",
+  "standPocketsXYWH_mm": [
+    [
+      -50,
+      -71,
+      56.8,
+      14.8
+    ],
+    [
+      -50,
+      -24.5,
+      56.8,
+      14.8
+    ]
+  ],
+  "standBackingXYXY_mm": [
+    [
+      -52,
+      -73,
+      8.8,
+      -54.2
+    ],
+    [
+      -52,
+      -26.5,
+      8.8,
+      -7.7
+    ]
+  ],
+  "coordinateSystem": "Each U1 XY origin; PCB underside global z=0. Lower component z=-11.5, upper=-1. STEP files are component local.",
+  "screwAxesXY_mm": [
+    [
+      -108.119997,
+      -59
+    ],
+    [
+      -108.119997,
+      -17
+    ],
+    [
+      13.576167,
+      -59
+    ],
+    [
+      13.576167,
+      -17
+    ]
+  ],
+  "edgeSupportsXY_mm": [
+    [
+      -106.12,
+      -61,
+      -103.82,
+      -53
+    ],
+    [
+      -106.12,
+      -27,
+      -103.82,
+      -19
+    ],
+    [
+      9.276167,
+      -43,
+      11.576167,
+      -37
+    ],
+    [
+      -60,
+      6.254,
+      -54,
+      8.554
+    ]
+  ],
+  "pointChecks": [
+    {
+      "label": "battery_floor",
+      "inside": true
+    },
+    {
+      "label": "battery_cavity",
+      "inside": false
+    },
+    {
+      "label": "0_stand_void",
+      "inside": false
+    },
+    {
+      "label": "0_stand_residual",
+      "inside": true
+    },
+    {
+      "label": "0_stand_above",
+      "inside": false
+    },
+    {
+      "label": "1_stand_void",
+      "inside": false
+    },
+    {
+      "label": "1_stand_residual",
+      "inside": true
+    },
+    {
+      "label": "1_stand_above",
+      "inside": false
+    }
+  ],
+  "prototypeSolidInterferences": 0,
+  "timelineIssues": [],
+  "limitations": [
+    "Upper roof/plate datum and actual switch retention are provisional.",
+    "Keycap XY checks include 0.35 mm per side assumption; vertical pressed motion/insertion depth not modeled.",
+    "Nonmetal MCU cover retention and production method remain unresolved.",
+    "RF, actual cable fit, stand deployment and physical PCB trace clearances not validated."
+  ],
+  "cutScope": "Explicit component participant body for every cut",
+  "fillets": [
+    {
+      "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "edges": 30,
+      "radius_mm": 1
+    },
+    {
+      "component": "Upper_L_PERIMETER_ONLY_NO_SWITCH_PLATE",
+      "edges": 17,
+      "radius_mm": 1
+    }
+  ],
+  "headSeats_mm": {
+    "diameter": 4.2,
+    "depth": 2.2
+  },
+  "pilotDepth_mm": 4.5,
+  "batteryAllowance_mm": [
+    32,
+    22,
+    5.5
+  ],
+  "XIAOMountedTopZ_mm": 6.06,
+  "USBAccessBounds_mm": [
+    [
+      -6,
+      0,
+      1
+    ],
+    [
+      6,
+      18,
+      7
+    ]
+  ],
+  "solidInterferences": 0,
+  "collisionSet": "All casing/reference occurrences except intentional USB cable-access reference; cable tested separately against upper and cover",
+  "cloudVersion": 6,
+  "cloudComplete": true,
+  "supportTopGlobalZ_mm": -0.2,
+  "residualInteriorSamples": 18,
+  "components": [
+    {
+      "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "bodyCount": 1,
+      "volume_mm3": 35980.31911,
+      "visible": true
+    },
+    {
+      "component": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "bodyCount": 1,
+      "volume_mm3": 13035.613948,
+      "visible": true
+    },
+    {
+      "component": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+      "bodyCount": 1,
+      "volume_mm3": 14276.764404,
+      "visible": false
+    },
+    {
+      "component": "Battery_L_ALLOWANCE_32x22x5p5_NOT_CELL",
+      "bodyCount": 1,
+      "volume_mm3": 3872,
+      "visible": false
+    },
+    {
+      "component": "XIAO_KEY_SIDE_ENVELOPE_FROM_OLD_SINGLE_PART_UNVERIFIED",
+      "bodyCount": 1,
+      "volume_mm3": 1337.088169,
+      "visible": false
+    },
+    {
+      "component": "MCU_NONMETAL_COVER_CONCEPT_RETENTION_PENDING",
+      "bodyCount": 1,
+      "volume_mm3": 732.38,
+      "visible": true
+    },
+    {
+      "component": "SWITCH_MAX_HOUSING_14mm_ENVELOPES_NOT_LATCHES",
+      "bodyCount": 23,
+      "volume_mm3": 13073.2,
+      "visible": false
+    },
+    {
+      "component": "USB_CABLE_ACCESS_ASSUMED_NOT_A_PART",
+      "bodyCount": 1,
+      "volume_mm3": 1296,
+      "visible": false
+    }
+  ],
+  "upperRoofReport": "upper-roof-development.json",
+  "cableAccessInterferences": 0,
+  "cloudCheckpointNote": "v6 saves current display state; geometry unchanged from validated v5"
+}

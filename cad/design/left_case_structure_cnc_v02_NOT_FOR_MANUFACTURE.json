@@ -1,0 +1,29 @@
+{
+  "name": "left_case_structure_cnc_v02_NOT_FOR_MANUFACTURE",
+  "id": "urn:adsk.wipprod:dm.lineage:HmUsrr7xTKmz10_1WWkcew",
+  "date": "2026-11-07",
+  "baseDesign": "left_case_structure_v01_NOT_FOR_MANUFACTURE",
+  "fillets": [
+    {
+      "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "edgeCount": 27,
+      "radius_mm": 1
+    },
+    {
+      "component": "Upper_L_PERIMETER_ONLY_NO_SWITCH_PLATE",
+      "edgeCount": 17,
+      "radius_mm": 1
+    }
+  ],
+  "solidInterferences": 0,
+  "collisionSet": "lower tray, upper perimeter, unpopulated public PCB, battery installation allowance",
+  "timelineIssues": [],
+  "limitations": [
+    "R1 is a candidate, not blanket JLCCNC approval: deep concavities, short upper notches and horizontal floor corners still require review.",
+    "No switch plate, ports, antenna window, locating feature, battery retention or screw head seats.",
+    "PCB supports still need physical trace clearance and insulation confirmation.",
+    "No actual populated component collision or stand operation test."
+  ],
+  "cloudVersion": 2,
+  "cloudComplete": true
+}

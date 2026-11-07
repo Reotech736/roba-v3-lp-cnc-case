@@ -1,0 +1,203 @@
+{
+  "name": "left_case_two_stands_v05_NOT_FOR_MANUFACTURE",
+  "id": "urn:adsk.wipprod:dm.lineage:H9Nq8f1PSl6GXmxJMgIkbw",
+  "cloudVersion": 6,
+  "cloudComplete": true,
+  "modified": false,
+  "openingCenterChecks": 23,
+  "ledgeMaterialChecks": 46,
+  "physicalReferenceInterferences": 0,
+  "cableAccessInterferences": 0,
+  "timelineIssues": [],
+  "switches": [
+    {
+      "reference": "SW14",
+      "x_mm": -38.46934000000002,
+      "y_mm": -23.456249999999997,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW18",
+      "x_mm": -19.419340000000005,
+      "y_mm": -25.956500000000005,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW12",
+      "x_mm": -57.54368000000002,
+      "y_mm": -59.036,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW23",
+      "x_mm": 7.962044443275744,
+      "y_mm": -76.12690902650048,
+      "angle_deg": -20
+    },
+    {
+      "reference": "SW19",
+      "x_mm": -19.419340000000005,
+      "y_mm": -45.0065,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW1",
+      "x_mm": -95.61934000000001,
+      "y_mm": -13.605999999999996,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW13",
+      "x_mm": -38.46934000000002,
+      "y_mm": -4.406249000000004,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW10",
+      "x_mm": -57.51934,
+      "y_mm": -20.956000000000003,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW9",
+      "x_mm": -57.51934,
+      "y_mm": -1.9060000000000001,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW15",
+      "x_mm": -38.46934000000002,
+      "y_mm": -42.506249999999994,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW11",
+      "x_mm": -57.51934,
+      "y_mm": -40.006,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW5",
+      "x_mm": -76.56934000000001,
+      "y_mm": -6.606499000000001,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW4",
+      "x_mm": -95.61934000000001,
+      "y_mm": -70.756,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW17",
+      "x_mm": -19.419340000000005,
+      "y_mm": -6.906498999999998,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW22",
+      "x_mm": -0.36934000000002243,
+      "y_mm": -49.531000000000006,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW6",
+      "x_mm": -76.56934000000001,
+      "y_mm": -25.656499999999994,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW21",
+      "x_mm": -0.3593400000000031,
+      "y_mm": -30.486,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW3",
+      "x_mm": -95.61934000000001,
+      "y_mm": -51.706,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW2",
+      "x_mm": -95.61934000000001,
+      "y_mm": -32.656000000000006,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW16",
+      "x_mm": -34.45234000000002,
+      "y_mm": -68.83125100000001,
+      "angle_deg": 0
+    },
+    {
+      "reference": "SW8",
+      "x_mm": -76.56934000000001,
+      "y_mm": -63.7565,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW7",
+      "x_mm": -76.56934000000001,
+      "y_mm": -44.706500000000005,
+      "angle_deg": 180
+    },
+    {
+      "reference": "SW20",
+      "x_mm": -13.115089138374003,
+      "y_mm": -70.57125679148511,
+      "angle_deg": -9
+    }
+  ],
+  "components": [
+    {
+      "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "bodyCount": 1,
+      "volume_mm3": 35980.31911,
+      "visible": true
+    },
+    {
+      "component": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "bodyCount": 1,
+      "volume_mm3": 13035.613948,
+      "visible": true
+    },
+    {
+      "component": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+      "bodyCount": 1,
+      "volume_mm3": 14276.764404,
+      "visible": false
+    },
+    {
+      "component": "Battery_L_ALLOWANCE_32x22x5p5_NOT_CELL",
+      "bodyCount": 1,
+      "volume_mm3": 3872,
+      "visible": false
+    },
+    {
+      "component": "XIAO_KEY_SIDE_ENVELOPE_FROM_OLD_SINGLE_PART_UNVERIFIED",
+      "bodyCount": 1,
+      "volume_mm3": 1337.088169,
+      "visible": false
+    },
+    {
+      "component": "MCU_NONMETAL_COVER_CONCEPT_RETENTION_PENDING",
+      "bodyCount": 1,
+      "volume_mm3": 732.38,
+      "visible": true
+    },
+    {
+      "component": "SWITCH_MAX_HOUSING_14mm_ENVELOPES_NOT_LATCHES",
+      "bodyCount": 23,
+      "volume_mm3": 13073.2,
+      "visible": false
+    },
+    {
+      "component": "USB_CABLE_ACCESS_ASSUMED_NOT_A_PART",
+      "bodyCount": 1,
+      "volume_mm3": 1296,
+      "visible": false
+    }
+  ],
+  "cloudCheckpointNote": "v6 saves current display state; geometry unchanged from validated v5"
+}

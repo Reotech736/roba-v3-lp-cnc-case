@@ -1,0 +1,129 @@
+{
+  "name": "left_case_structure_v01_NOT_FOR_MANUFACTURE",
+  "id": "urn:adsk.wipprod:dm.lineage:EWVREkV5TH2SDjE3mckEog",
+  "date": "2026-11-07",
+  "coordinateSystem": "Each U1 XY origin; PCB underside global z=0. Lower component z=-11.5, upper=-1. STEP files are component local.",
+  "screwAxesXY_mm": [
+    [
+      -108.119997,
+      -59
+    ],
+    [
+      -108.119997,
+      -17
+    ],
+    [
+      13.576167,
+      -59
+    ],
+    [
+      13.576167,
+      -17
+    ]
+  ],
+  "edgeSupportsXY_mm": [
+    [
+      -106.12,
+      -61,
+      -103.82,
+      -53
+    ],
+    [
+      -106.12,
+      -27,
+      -103.82,
+      -19
+    ],
+    [
+      9.276167,
+      -43,
+      11.576167,
+      -37
+    ],
+    [
+      -60,
+      6.254,
+      -54,
+      8.554
+    ]
+  ],
+  "pointChecks": [
+    {
+      "label": "stand_void",
+      "inside": false
+    },
+    {
+      "label": "stand_residual",
+      "inside": true
+    },
+    {
+      "label": "stand_above",
+      "inside": false
+    },
+    {
+      "label": "battery_floor",
+      "inside": true
+    },
+    {
+      "label": "battery_cavity",
+      "inside": false
+    }
+  ],
+  "bodies": [
+    {
+      "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "min_mm": [
+        -111.119997,
+        -91.434164,
+        -11.5
+      ],
+      "max_mm": [
+        23.319462,
+        11.054,
+        -0.2
+      ],
+      "volume_mm3": 35221.93422
+    },
+    {
+      "component": "Upper_L_PERIMETER_ONLY_NO_SWITCH_PLATE",
+      "min_mm": [
+        -111.119997,
+        -91.434164,
+        -1.0
+      ],
+      "max_mm": [
+        23.319462,
+        11.054,
+        4.5
+      ],
+      "volume_mm3": 7822.20426
+    },
+    {
+      "component": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+      "min_mm": [
+        -104.619997,
+        -87.434164,
+        0.0
+      ],
+      "max_mm": [
+        19.319462,
+        7.054,
+        1.6
+      ],
+      "volume_mm3": 14276.7644
+    }
+  ],
+  "timelineIssues": [],
+  "limitations": [
+    "Upper component is a perimeter frame, not a finished keyboard top.",
+    "M2 pilots are geometry only; no thread callout, head seats, locating step or final screw selection.",
+    "Edge supports require trace/pad clearance and insulating interface verification.",
+    "No USB, reset, power switch, antenna window or battery retention detail.",
+    "No stand finger access or actual opening sweep yet.",
+    "Remaining small internal radii, floor-wall corners, finishing and tool reach require machining review.",
+    "Real LP PCB, keycaps and all populated components not validated. Right case not created."
+  ],
+  "prototypeSolidInterferences": 0,
+  "cloudVersion": 2,
+  "cloudComplete": true
+}
