@@ -1,2 +1,4 @@
 # Keep upstream STEP bytes identical to the recorded Git blob hashes.
 cad/source/roBa/** -text
+# Preserve component reference downloads and their recorded SHA-256 hashes.
+cad/reference/** -text

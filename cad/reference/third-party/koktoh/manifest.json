@@ -1,0 +1,32 @@
+{
+  "repository": "https://github.com/koktoh/keyswitch_model",
+  "commit": "2b6bcfac0032f1547e27b18b9a897e065e544b37",
+  "date": "2026-11-08",
+  "author": "koktoh",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "usage": "Unmodified component references. Separate from project GPL license. Not manufacturer-certified Spring Mini CAD.",
+  "files": [
+    {
+      "file": "choc-v2-red-kicad.step",
+      "upstreamPath": "choc/v2/KiCad/red.step",
+      "url": "https://raw.githubusercontent.com/koktoh/keyswitch_model/2b6bcfac0032f1547e27b18b9a897e065e544b37/choc/v2/KiCad/red.step",
+      "bytes": 1642981,
+      "sha256": "0542ee277eeb6988412e0780ae86b23d96fdd118f8242e0bf3224cff7dd7acc4"
+    },
+    {
+      "file": "choc-socket-kicad.step",
+      "upstreamPath": "socket/KiCad/choc.step",
+      "url": "https://raw.githubusercontent.com/koktoh/keyswitch_model/2b6bcfac0032f1547e27b18b9a897e065e544b37/socket/KiCad/choc.step",
+      "bytes": 363105,
+      "sha256": "184d44a24609105b12144cf17a945c8438a3b45d4617fb5d21ec4291df883db5"
+    },
+    {
+      "file": "upstream-README.md",
+      "upstreamPath": "README.md",
+      "url": "https://raw.githubusercontent.com/koktoh/keyswitch_model/2b6bcfac0032f1547e27b18b9a897e065e544b37/README.md",
+      "bytes": 1101,
+      "sha256": "d755dc5e05dae4843abc51f690486dba8ea0d3b8a70c3ce08c8832c594b12d8b"
+    }
+  ]
+}

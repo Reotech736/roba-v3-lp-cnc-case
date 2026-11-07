@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-08",
+  "id": "urn:adsk.wipprod:dm.lineage:H9Nq8f1PSl6GXmxJMgIkbw",
+  "cloudVersion": 7,
+  "cloudComplete": true,
+  "modified": false,
+  "roofTopZ_mm": 3.8,
+  "roofBottomZ_mm": 2.6,
+  "roofThickness_mm": 1.2,
+  "mainAssemblyInterferences": [],
+  "mainAssemblySolidCount": 52,
+  "cableAccessInterferences": [],
+  "keycapSweepChecks": [
+    {
+      "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "count": 0
+    },
+    {
+      "component": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "count": 0
+    },
+    {
+      "component": "MCU_RAISED_SKIRT_COVER_18p6_WIDE_RETENTION_PENDING",
+      "count": 0
+    }
+  ],
+  "assumedCapD_mm": 3.0,
+  "keycapSweepLowerZ_mm": 4.15,
+  "capToRoofNominalGap_mm": 0.35,
+  "capToRelievedRimNominalGap_mm": 0.25,
+  "openingsChecked": 23,
+  "roofLedgePointsChecked": 46,
+  "lowerVolumeUnchanged": true,
+  "upperVolume_mm3": 13035.598586251876,
+  "coverVolume_mm3": 631.9800000000002,
+  "coverPlanGap_mm": 0.71934,
+  "oldXiaoSourceVersion": 2,
+  "oldXiaoSourceUnmodified": true,
+  "timelineIssues": [],
+  "limitations": [
+    "Nominal dimensions and assumed D3.0 cap seating, not measured physical fit",
+    "Full switch CAD, latch/socket/pin engagement and real cap underside still pending",
+    "Cover retention, lower openings, RF, tolerance and manufacturing review unresolved",
+    "Detailed old MCU provenance and real installed revision/placement unverified"
+  ]
+}

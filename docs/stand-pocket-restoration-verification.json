@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-08",
+  "restoredPocket_mm": [
+    56.8,
+    14.8,
+    3.7
+  ],
+  "pocketR_mm": 2.2,
+  "pocketVoidSamples": 36,
+  "fingerResidualSamples": 24,
+  "removedIntrudingBacking_mm3": 106.54553750807099,
+  "lowerVolume_mm3": 36010.94061700775,
+  "timelineIssues": []
+}

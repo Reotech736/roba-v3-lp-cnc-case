@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-08",
+  "oldSupportXY_mm": [
+    -60,
+    6.254,
+    -54,
+    8.554
+  ],
+  "newSupportXY_mm": [
+    -66.3,
+    6.254,
+    -60.3,
+    8.554
+  ],
+  "upperReliefXY_mm": [
+    -66.5,
+    6.054,
+    -60.1,
+    8.754
+  ],
+  "supportTopGlobalZ_mm": -0.2,
+  "bearingSamples": 20,
+  "nominalSocketPlasticBoundingGapX_mm": 0.50566,
+  "lowerVolume_mm3": 35952.77766397885,
+  "upperVolume_mm3": 13052.742557932268,
+  "timelineIssues": [],
+  "limitations": [
+    "PCB trace clearance and insulation not established",
+    "Socket orientation remains provisional"
+  ]
+}

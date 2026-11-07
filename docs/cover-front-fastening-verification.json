@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-08",
+  "axesXY_mm": [
+    [
+      -8,
+      3.8
+    ],
+    [
+      8,
+      3.8
+    ]
+  ],
+  "bossDiameter_mm": 3.6,
+  "coverSeatZ_mm": 4.5,
+  "headSeatZ_mm": 8,
+  "capClearanceHole_mm": 1.8,
+  "tapCandidate": "M1.6 x 0.35",
+  "pilot_mm": 1.25,
+  "pilotDepth_mm": 3.2,
+  "screwCandidate": "M1.6 x 6; head D3.2 x H1.6 assumed, procurement pending",
+  "nominalProjectionIntoUpper_mm": 2.5,
+  "nominalPilotBottomGap_mm": 0.7,
+  "capGrip_mm": 3.5,
+  "headReliefDiameter_mm": 3.8,
+  "headReliefOpenToOuterEdge": true,
+  "volumesBefore_mm3": {
+    "upper": 13035.598586251876,
+    "cover": 631.9800000000002
+  },
+  "volumesAfter_mm3": {
+    "upper": 13056.534090796617,
+    "cover": 681.4346104673141
+  },
+  "initialInterferences": [
+    {
+      "first": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+      "second": "USB_CABLE_ACCESS_ASSUMED_NOT_A_PART",
+      "volume_mm3": 0.38879268531044936
+    },
+    {
+      "first": "XIAO_KEY_SIDE_ENVELOPE_FROM_OLD_SINGLE_PART_UNVERIFIED",
+      "second": "USB_CABLE_ACCESS_ASSUMED_NOT_A_PART",
+      "volume_mm3": 57.33504504000001
+    }
+  ],
+  "timelineIssues": [],
+  "limitations": [
+    "Provisional front fastening; rear cantilever stiffness and material/process unverified",
+    "Geometric projection is not guaranteed full thread engagement; lead, drill point and chamfers remain",
+    "Screw head dimensions, grade, torque, fit and thread serviceability not finalized"
+  ]
+}

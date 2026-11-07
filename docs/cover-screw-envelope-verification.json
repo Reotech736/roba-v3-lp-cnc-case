@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-08",
+  "screwCount": 2,
+  "screw": "M1.6x6 nominal envelope",
+  "headAssumedDiameter_mm": 3.2,
+  "headAssumedHeight_mm": 1.6,
+  "headSeatZ_mm": 8,
+  "tipZ_mm": 2,
+  "nominalProjectionIntoUpper_mm": 2.5,
+  "nominalPilotBottomGap_mm": 0.7,
+  "casingAndSweepInterferences": [],
+  "expectedThreadPilotOverlap": [
+    {
+      "first": "COVER_M1p6x6_SCREW_ENVELOPES_HEAD_ASSUMED_THREAD_NOT_MODELED",
+      "second": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "volume_mm3": 1.958586669972299
+    },
+    {
+      "first": "COVER_M1p6x6_SCREW_ENVELOPES_HEAD_ASSUMED_THREAD_NOT_MODELED",
+      "second": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "volume_mm3": 1.958586669972299
+    }
+  ],
+  "limitations": [
+    "Nominal major-diameter cylinder is not a modeled thread",
+    "Head standard and actual screw supply still unconfirmed",
+    "Preload, resin creep, rear cantilever stiffness and physical fit remain unverified"
+  ]
+}

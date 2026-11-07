@@ -1,0 +1,272 @@
+[
+  {
+    "reference": "CHOC_V2_RED_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "bottom",
+    "volume_mm3": 268.4660832878684,
+    "bounds": [
+      [
+        -7.5,
+        -7.5,
+        -3.3000000000000003
+      ],
+      [
+        7.5,
+        7.5,
+        3.7000000000000006
+      ]
+    ]
+  },
+  {
+    "reference": "CHOC_V2_RED_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "contact",
+    "volume_mm3": 2.2492245992875626,
+    "bounds": [
+      [
+        -0.5999999999999943,
+        -4.6000000000000005,
+        2.0
+      ],
+      [
+        0.5999999999999943,
+        -3.3000000000000007,
+        4.1
+      ]
+    ]
+  },
+  {
+    "reference": "CHOC_V2_RED_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "pin1",
+    "volume_mm3": 4.651851613513348,
+    "bounds": [
+      [
+        -3.8499999999999943,
+        -6.000000000000001,
+        -3.0000000000000004
+      ],
+      [
+        5.299952273405381,
+        -3.9500000000000006,
+        4.0
+      ]
+    ]
+  },
+  {
+    "reference": "CHOC_V2_RED_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "stem",
+    "volume_mm3": 111.78230659676926,
+    "bounds": [
+      [
+        -4.5,
+        -3.926301278119,
+        0.20000000000000018
+      ],
+      [
+        4.5,
+        4.0,
+        8.600000000000001
+      ]
+    ]
+  },
+  {
+    "reference": "CHOC_V2_RED_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "top",
+    "volume_mm3": 271.4174905605547,
+    "bounds": [
+      [
+        -7.400000000000006,
+        -6.9,
+        0.050000000000000044
+      ],
+      [
+        7.399999999999977,
+        6.9,
+        5.300000000000001
+      ]
+    ]
+  },
+  {
+    "reference": "CHOC_V2_RED_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "pin2",
+    "volume_mm3": 5.121385148683867,
+    "bounds": [
+      [
+        -5.399999999999977,
+        -4.25,
+        -3.0000000000000004
+      ],
+      [
+        -2.200000000000017,
+        -3.5999999999999996,
+        4.0
+      ]
+    ]
+  },
+  {
+    "reference": "CHOC_V2_RED_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "pin3",
+    "volume_mm3": 2.1359745406836,
+    "bounds": [
+      [
+        3.299999999999983,
+        5.3500000000000005,
+        -3.0000000000000004
+      ],
+      [
+        5.399999999999977,
+        5.8500000000000005,
+        2.8000000000000003
+      ]
+    ]
+  },
+  {
+    "reference": "CHOC_V2_RED_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "shrunken_spring",
+    "volume_mm3": 3.671412988910545,
+    "bounds": [
+      [
+        -1.6500000000079922,
+        -1.6499999530980003,
+        -2.8019999999990004
+      ],
+      [
+        1.6499999999999773,
+        1.6499999531054999,
+        4.102000000003001
+      ]
+    ]
+  },
+  {
+    "reference": "CHOC_SOCKET_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "choc_body",
+    "volume_mm3": 78.25890417917317,
+    "bounds": [
+      [
+        -7.574999999999989,
+        -2.325,
+        0.0
+      ],
+      [
+        2.2749999999999773,
+        4.525,
+        3.05
+      ]
+    ]
+  },
+  {
+    "reference": "CHOC_SOCKET_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "contact_a1",
+    "volume_mm3": 0.49462896731540723,
+    "bounds": [
+      [
+        -0.5500000000000114,
+        0.04999999999999989,
+        0.3
+      ],
+      [
+        0.5500000000000114,
+        0.8400000000000002,
+        2.3000000000000003
+      ]
+    ]
+  },
+  {
+    "reference": "CHOC_SOCKET_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "contact_a2",
+    "volume_mm3": 0.494628967315407,
+    "bounds": [
+      [
+        -0.5500000000000114,
+        -0.8400000000000002,
+        0.2999999999999998
+      ],
+      [
+        0.5500000000000114,
+        -0.049999999999999906,
+        2.3
+      ]
+    ]
+  },
+  {
+    "reference": "CHOC_SOCKET_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "contact_b",
+    "volume_mm3": 2.0570305208363564,
+    "bounds": [
+      [
+        0.5500000000000114,
+        -0.8399999999999999,
+        0.15
+      ],
+      [
+        4.074999999999989,
+        0.840000000000001,
+        1.8500000000000005
+      ]
+    ]
+  },
+  {
+    "reference": "CHOC_SOCKET_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "contact_a003",
+    "volume_mm3": 0.49462896731540723,
+    "bounds": [
+      [
+        -5.550000000000011,
+        1.36,
+        0.3
+      ],
+      [
+        -4.449999999999989,
+        2.1500000000000004,
+        2.3000000000000003
+      ]
+    ]
+  },
+  {
+    "reference": "CHOC_SOCKET_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "contact_a004",
+    "volume_mm3": 0.494628967315407,
+    "bounds": [
+      [
+        -5.550000000000011,
+        2.25,
+        0.2999999999999998
+      ],
+      [
+        -4.449999999999989,
+        3.0400000000000005,
+        2.3
+      ]
+    ]
+  },
+  {
+    "reference": "CHOC_SOCKET_AUTHOR_REFERENCE_DATUM_PENDING",
+    "body": "ボディ1",
+    "component": "contact_b001",
+    "volume_mm3": 2.0570305208363564,
+    "bounds": [
+      [
+        -9.074999999999989,
+        1.3600000000000003,
+        0.15
+      ],
+      [
+        -5.550000000000011,
+        3.040000000000002,
+        1.8500000000000005
+      ]
+    ]
+  }
+]

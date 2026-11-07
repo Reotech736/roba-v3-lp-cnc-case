@@ -1,0 +1,347 @@
+{
+  "date": "2026-11-08",
+  "id": "urn:adsk.wipprod:dm.lineage:H9Nq8f1PSl6GXmxJMgIkbw",
+  "cloudVersion": 9,
+  "cloudComplete": true,
+  "modified": false,
+  "coreSolids": 52,
+  "coreInterferences": [],
+  "cableVsCasingInterferences": [],
+  "assumedCapSweepVsCasingInterferences": [],
+  "detailedMCUVsCasingInterferences": [],
+  "detailedMCUInternalOverlaps": 12,
+  "checkedChocInstanceOrigins": 46,
+  "standPocketVoidSamples": 36,
+  "standFingerResidualSamples": 24,
+  "coverTabPlanarGaps_mm": [
+    {
+      "x": -8,
+      "gap_mm": 0.6051348553877409,
+      "closestKey": "SW17"
+    },
+    {
+      "x": 8,
+      "gap_mm": 16.26664201429256,
+      "closestKey": "SW17"
+    }
+  ],
+  "minimumCapToCoverPlanarGap_mm": 0.6051348553877409,
+  "volumes_mm3": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 36010.94061700775,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13052.742557932268,
+    "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL": 681.4346104673141
+  },
+  "oldMCUUnmodified": true,
+  "timelineIssues": [],
+  "parts": [
+    {
+      "name": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "bodyCount": 1,
+      "visible": true
+    },
+    {
+      "name": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "bodyCount": 1,
+      "visible": true
+    },
+    {
+      "name": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+      "bodyCount": 1,
+      "visible": false
+    },
+    {
+      "name": "Battery_L_ALLOWANCE_32x22x5p5_NOT_CELL",
+      "bodyCount": 1,
+      "visible": false
+    },
+    {
+      "name": "XIAO_KEY_SIDE_ENVELOPE_FROM_OLD_SINGLE_PART_UNVERIFIED",
+      "bodyCount": 1,
+      "visible": false
+    },
+    {
+      "name": "SWITCH_LOWER_14mm_PCB_SEATED_ENVELOPES_NOT_LATCHES",
+      "bodyCount": 23,
+      "visible": false
+    },
+    {
+      "name": "USB_CABLE_ACCESS_ASSUMED_NOT_A_PART",
+      "bodyCount": 1,
+      "visible": false
+    },
+    {
+      "name": "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL",
+      "bodyCount": 1,
+      "visible": true
+    },
+    {
+      "name": "SWITCH_UPPER_15p2_SQUARE_CONSERVATIVE_ENVELOPES_NOT_FULL_SWITCHES",
+      "bodyCount": 23,
+      "visible": false
+    },
+    {
+      "name": "KEYCAP_SWEEP_D3p0_18p8_SQUARE_ASSUMED_NOT_PARTS",
+      "bodyCount": 23,
+      "visible": false
+    },
+    {
+      "name": "XIAO_DETAILED_FROM_OLD_V2_PLACEMENT_UNVERIFIED",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "COVER_M1p6x6_SCREW_ENVELOPES_HEAD_ASSUMED_THREAD_NOT_MODELED",
+      "bodyCount": 2,
+      "visible": false
+    }
+  ],
+  "limitations": [
+    "Generic Choc V2 reference and provisional socket placement, not an exact measured populated PCB",
+    "Screw thread engagement, head standard, torque and cover rear stiffness remain provisional",
+    "Cap D3.0 and 18.8 mm footprints are assumptions; real cap insertion and rocking not verified",
+    "Stand left access, hinge sweep, tape, feet and physical deployment remain unverified",
+    "Public outline PCB omits functional switch holes and does not establish copper/insulation clearance",
+    "F3D includes third-party CC BY-NC-SA component references; case-only STEP exports exclude them"
+  ],
+  "localFileChecks": {
+    "sourceHashes": 6,
+    "thirdPartyHashes": 3,
+    "singleSolidSTEPParts": 3,
+    "pythonAndJSON": "parsed",
+    "F3D": "Fusion export succeeded; ZIP directory readable; full internal CRC not checked because Python zipfile does not support compression method",
+    "F3DCompressionMethods": [
+      0,
+      93
+    ]
+  }
+}

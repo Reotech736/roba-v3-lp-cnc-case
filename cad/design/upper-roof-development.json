@@ -1,8 +1,8 @@
 {
   "name": "left_case_two_stands_v05_NOT_FOR_MANUFACTURE",
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "id": "urn:adsk.wipprod:dm.lineage:H9Nq8f1PSl6GXmxJMgIkbw",
-  "roofTopZ_mm": 4.5,
+  "roofTopZ_mm": 3.8,
   "roofThickness_mm": 1.2,
   "opening_mm": 14.1,
   "cornerReliefR_mm": 0.5,
@@ -19,13 +19,13 @@
   ],
   "coverBounds_mm": [
     [
-      -9.9,
-      -20.95,
+      -9.8,
+      -20.35,
       4.5
     ],
     [
-      9.9,
-      3,
+      9.8,
+      5.6,
       8.7
     ]
   ],
@@ -41,16 +41,17 @@
   "cableAccessInterferences": 0,
   "timelineIssues": [],
   "limitations": [
-    "Roof Z and thickness are provisional; actual latch retention/PCB seating and cap mounting depth unverified.",
-    "Switch bodies are 14 mm box envelopes, not full switch/latch CAD.",
-    "Keycaps checked only in XY against controller cover; vertical pressed/released motion and extraction not modeled.",
-    "Cover is a nonmetal concept with retention pending; back lower edge raised to clear MCU.",
-    "No RF validation, cover seal, material/process choice or final DFM approval.",
-    "Stand opening sweep/finger access and PCB-edge trace clearance still pending."
+    "Generic Choc V2 reference and provisional socket placement, not an exact measured populated PCB",
+    "Screw thread engagement, head standard, torque and cover rear stiffness remain provisional",
+    "Cap D3.0 and 18.8 mm footprints are assumptions; real cap insertion and rocking not verified",
+    "Stand left access, hinge sweep, tape, feet and physical deployment remain unverified",
+    "Public outline PCB omits functional switch holes and does not establish copper/insulation clearance",
+    "F3D includes third-party CC BY-NC-SA component references; case-only STEP exports exclude them"
   ],
-  "cloudVersion": 6,
+  "cloudVersion": 9,
   "cloudComplete": true,
-  "minimumExpandedKeycapPlanarGap_mm": 0.11934000000000289,
+  "minimumExpandedKeycapPlanarGap_mm": 0.6051348553877409,
   "closestKey": "SW17",
-  "cloudCheckpointNote": "v6 saves current display state; geometry unchanged from validated v5"
+  "cloudCheckpointNote": "v9: detailed Choc V2/socket, relocated support, provisional cover fastening and backed finger access; original pockets recut",
+  "currentVerification": "../../docs/choc-reference-final-verification.json"
 }

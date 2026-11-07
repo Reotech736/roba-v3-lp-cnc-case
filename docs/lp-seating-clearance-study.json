@@ -1,0 +1,844 @@
+{
+  "date": "2026-11-08",
+  "currentFusionDocument": "left_case_two_stands_v05_NOT_FOR_MANUFACTURE",
+  "inspectedCloudVersion": 6,
+  "geometryModified": false,
+  "switchDrawing": "https://www.kailhswitch.com/uploads/15927/files/CPG1353D01D01-24-data-sheet.pdf",
+  "datumCorrection": "6.40 is stem top to flange underside, not PCB seating face",
+  "nominalUnderFlangeDepth_mm": 2.2,
+  "nominalStemAbovePCB_mm": 8.6,
+  "nominalPCBTopZ_mm": 1.6,
+  "nominalFlangeUndersideZ_mm": 3.8,
+  "currentRoofZ_mm": 4.5,
+  "nominalCurrentRoofExcess_mm": 0.7,
+  "maxTravel_mm": 3.05,
+  "assumedRequiredGap_mm": 0.3,
+  "capDropMaxAtNominalSeatingFor0p3Gap_mm": 3.05,
+  "heightSensitivity": [
+    {
+      "roofZ_mm": 4.5,
+      "capLowestPointBelowReleasedStem_mm": 1.0,
+      "pressedGap_mm": 1.65,
+      "meetsAssumed0p3Gap": true
+    },
+    {
+      "roofZ_mm": 4.5,
+      "capLowestPointBelowReleasedStem_mm": 2.0,
+      "pressedGap_mm": 0.65,
+      "meetsAssumed0p3Gap": true
+    },
+    {
+      "roofZ_mm": 4.5,
+      "capLowestPointBelowReleasedStem_mm": 2.5,
+      "pressedGap_mm": 0.15,
+      "meetsAssumed0p3Gap": false
+    },
+    {
+      "roofZ_mm": 4.5,
+      "capLowestPointBelowReleasedStem_mm": 3.0,
+      "pressedGap_mm": -0.35,
+      "meetsAssumed0p3Gap": false
+    },
+    {
+      "roofZ_mm": 4.5,
+      "capLowestPointBelowReleasedStem_mm": 3.5,
+      "pressedGap_mm": -0.85,
+      "meetsAssumed0p3Gap": false
+    },
+    {
+      "roofZ_mm": 4.5,
+      "capLowestPointBelowReleasedStem_mm": 3.94,
+      "pressedGap_mm": -1.29,
+      "meetsAssumed0p3Gap": false
+    },
+    {
+      "roofZ_mm": 3.8,
+      "capLowestPointBelowReleasedStem_mm": 1.0,
+      "pressedGap_mm": 2.35,
+      "meetsAssumed0p3Gap": true
+    },
+    {
+      "roofZ_mm": 3.8,
+      "capLowestPointBelowReleasedStem_mm": 2.0,
+      "pressedGap_mm": 1.35,
+      "meetsAssumed0p3Gap": true
+    },
+    {
+      "roofZ_mm": 3.8,
+      "capLowestPointBelowReleasedStem_mm": 2.5,
+      "pressedGap_mm": 0.85,
+      "meetsAssumed0p3Gap": true
+    },
+    {
+      "roofZ_mm": 3.8,
+      "capLowestPointBelowReleasedStem_mm": 3.0,
+      "pressedGap_mm": 0.35,
+      "meetsAssumed0p3Gap": true
+    },
+    {
+      "roofZ_mm": 3.8,
+      "capLowestPointBelowReleasedStem_mm": 3.5,
+      "pressedGap_mm": -0.15,
+      "meetsAssumed0p3Gap": false
+    },
+    {
+      "roofZ_mm": 3.8,
+      "capLowestPointBelowReleasedStem_mm": 3.94,
+      "pressedGap_mm": -0.59,
+      "meetsAssumed0p3Gap": false
+    },
+    {
+      "roofZ_mm": 3.5,
+      "capLowestPointBelowReleasedStem_mm": 1.0,
+      "pressedGap_mm": 2.65,
+      "meetsAssumed0p3Gap": true
+    },
+    {
+      "roofZ_mm": 3.5,
+      "capLowestPointBelowReleasedStem_mm": 2.0,
+      "pressedGap_mm": 1.65,
+      "meetsAssumed0p3Gap": true
+    },
+    {
+      "roofZ_mm": 3.5,
+      "capLowestPointBelowReleasedStem_mm": 2.5,
+      "pressedGap_mm": 1.15,
+      "meetsAssumed0p3Gap": true
+    },
+    {
+      "roofZ_mm": 3.5,
+      "capLowestPointBelowReleasedStem_mm": 3.0,
+      "pressedGap_mm": 0.65,
+      "meetsAssumed0p3Gap": true
+    },
+    {
+      "roofZ_mm": 3.5,
+      "capLowestPointBelowReleasedStem_mm": 3.5,
+      "pressedGap_mm": 0.15,
+      "meetsAssumed0p3Gap": false
+    },
+    {
+      "roofZ_mm": 3.5,
+      "capLowestPointBelowReleasedStem_mm": 3.94,
+      "pressedGap_mm": -0.29,
+      "meetsAssumed0p3Gap": false
+    }
+  ],
+  "coverPlanSensitivity": [
+    {
+      "halfWidth_mm": 9.9,
+      "rearY_mm": -20.95,
+      "frontY_mm": 3,
+      "minimumGap_mm": 0.11934000000000289,
+      "closestKey": "SW17",
+      "gaps": [
+        {
+          "key": "SW17",
+          "gap_mm": 0.11934000000000289
+        },
+        {
+          "key": "SW18",
+          "gap_mm": 0.11934000000000289
+        },
+        {
+          "key": "SW21",
+          "gap_mm": 0.13599999999999923
+        },
+        {
+          "key": "SW19",
+          "gap_mm": 14.6569858526779
+        },
+        {
+          "key": "SW13",
+          "gap_mm": 19.16934000000002
+        },
+        {
+          "key": "SW14",
+          "gap_mm": 19.16934000000002
+        },
+        {
+          "key": "SW22",
+          "gap_mm": 19.181000000000008
+        },
+        {
+          "key": "SW15",
+          "gap_mm": 22.69885481908946
+        },
+        {
+          "key": "SW10",
+          "gap_mm": 38.21934
+        },
+        {
+          "key": "SW9",
+          "gap_mm": 38.21934
+        },
+        {
+          "key": "SW11",
+          "gap_mm": 39.420252232013944
+        },
+        {
+          "key": "SW20",
+          "gap_mm": 40.113287528045326
+        },
+        {
+          "key": "SW16",
+          "gap_mm": 41.35698352153602
+        },
+        {
+          "key": "SW23",
+          "gap_mm": 43.12880904385166
+        },
+        {
+          "key": "SW12",
+          "gap_mm": 47.80654407026722
+        },
+        {
+          "key": "SW5",
+          "gap_mm": 57.26934000000001
+        },
+        {
+          "key": "SW6",
+          "gap_mm": 57.26934000000001
+        },
+        {
+          "key": "SW7",
+          "gap_mm": 59.041395616004884
+        },
+        {
+          "key": "SW8",
+          "gap_mm": 66.30061497667725
+        },
+        {
+          "key": "SW1",
+          "gap_mm": 76.31934
+        },
+        {
+          "key": "SW2",
+          "gap_mm": 76.35417011555819
+        },
+        {
+          "key": "SW3",
+          "gap_mm": 79.25099617061983
+        },
+        {
+          "key": "SW4",
+          "gap_mm": 86.35558171905045
+        }
+      ]
+    },
+    {
+      "halfWidth_mm": 9.9,
+      "rearY_mm": -20.35,
+      "frontY_mm": 3,
+      "minimumGap_mm": 0.11934000000000289,
+      "closestKey": "SW17",
+      "gaps": [
+        {
+          "key": "SW17",
+          "gap_mm": 0.11934000000000289
+        },
+        {
+          "key": "SW18",
+          "gap_mm": 0.11934000000000289
+        },
+        {
+          "key": "SW21",
+          "gap_mm": 0.7359999999999971
+        },
+        {
+          "key": "SW19",
+          "gap_mm": 15.25696674590333
+        },
+        {
+          "key": "SW13",
+          "gap_mm": 19.16934000000002
+        },
+        {
+          "key": "SW14",
+          "gap_mm": 19.16934000000002
+        },
+        {
+          "key": "SW22",
+          "gap_mm": 19.781000000000006
+        },
+        {
+          "key": "SW15",
+          "gap_mm": 23.02575753581412
+        },
+        {
+          "key": "SW10",
+          "gap_mm": 38.21934
+        },
+        {
+          "key": "SW9",
+          "gap_mm": 38.21934
+        },
+        {
+          "key": "SW11",
+          "gap_mm": 39.57149840523606
+        },
+        {
+          "key": "SW20",
+          "gap_mm": 40.70590053240241
+        },
+        {
+          "key": "SW16",
+          "gap_mm": 41.91583933551376
+        },
+        {
+          "key": "SW23",
+          "gap_mm": 43.72880904385166
+        },
+        {
+          "key": "SW12",
+          "gap_mm": 48.168961541042194
+        },
+        {
+          "key": "SW5",
+          "gap_mm": 57.26934000000001
+        },
+        {
+          "key": "SW6",
+          "gap_mm": 57.26934000000001
+        },
+        {
+          "key": "SW7",
+          "gap_mm": 59.19015286587458
+        },
+        {
+          "key": "SW8",
+          "gap_mm": 66.60494986324666
+        },
+        {
+          "key": "SW1",
+          "gap_mm": 76.31934
+        },
+        {
+          "key": "SW2",
+          "gap_mm": 76.37464562297883
+        },
+        {
+          "key": "SW3",
+          "gap_mm": 79.41478196177081
+        },
+        {
+          "key": "SW4",
+          "gap_mm": 86.63794604003259
+        }
+      ]
+    },
+    {
+      "halfWidth_mm": 9.7,
+      "rearY_mm": -20.95,
+      "frontY_mm": 3,
+      "minimumGap_mm": 0.13599999999999923,
+      "closestKey": "SW21",
+      "gaps": [
+        {
+          "key": "SW21",
+          "gap_mm": 0.13599999999999923
+        },
+        {
+          "key": "SW17",
+          "gap_mm": 0.31934000000000395
+        },
+        {
+          "key": "SW18",
+          "gap_mm": 0.31934000000000395
+        },
+        {
+          "key": "SW19",
+          "gap_mm": 14.6599785226855
+        },
+        {
+          "key": "SW22",
+          "gap_mm": 19.181000000000008
+        },
+        {
+          "key": "SW13",
+          "gap_mm": 19.36934000000002
+        },
+        {
+          "key": "SW14",
+          "gap_mm": 19.36934000000002
+        },
+        {
+          "key": "SW15",
+          "gap_mm": 22.868007042549657
+        },
+        {
+          "key": "SW10",
+          "gap_mm": 38.419340000000005
+        },
+        {
+          "key": "SW9",
+          "gap_mm": 38.419340000000005
+        },
+        {
+          "key": "SW11",
+          "gap_mm": 39.61418965516776
+        },
+        {
+          "key": "SW20",
+          "gap_mm": 40.14457442105337
+        },
+        {
+          "key": "SW16",
+          "gap_mm": 41.43067730559811
+        },
+        {
+          "key": "SW23",
+          "gap_mm": 43.12880904385166
+        },
+        {
+          "key": "SW12",
+          "gap_mm": 47.966687689920825
+        },
+        {
+          "key": "SW5",
+          "gap_mm": 57.46934
+        },
+        {
+          "key": "SW6",
+          "gap_mm": 57.46934
+        },
+        {
+          "key": "SW7",
+          "gap_mm": 59.23541282278364
+        },
+        {
+          "key": "SW8",
+          "gap_mm": 66.47344794943015
+        },
+        {
+          "key": "SW1",
+          "gap_mm": 76.51934
+        },
+        {
+          "key": "SW2",
+          "gap_mm": 76.55407912081236
+        },
+        {
+          "key": "SW3",
+          "gap_mm": 79.44361604330206
+        },
+        {
+          "key": "SW4",
+          "gap_mm": 86.53238832966301
+        }
+      ]
+    },
+    {
+      "halfWidth_mm": 9.5,
+      "rearY_mm": -20.95,
+      "frontY_mm": 3,
+      "minimumGap_mm": 0.13599999999999923,
+      "closestKey": "SW21",
+      "gaps": [
+        {
+          "key": "SW21",
+          "gap_mm": 0.13599999999999923
+        },
+        {
+          "key": "SW17",
+          "gap_mm": 0.5193400000000032
+        },
+        {
+          "key": "SW18",
+          "gap_mm": 0.5193400000000032
+        },
+        {
+          "key": "SW19",
+          "gap_mm": 14.665698288373457
+        },
+        {
+          "key": "SW22",
+          "gap_mm": 19.181000000000008
+        },
+        {
+          "key": "SW13",
+          "gap_mm": 19.569340000000018
+        },
+        {
+          "key": "SW14",
+          "gap_mm": 19.569340000000018
+        },
+        {
+          "key": "SW15",
+          "gap_mm": 23.037653571883155
+        },
+        {
+          "key": "SW10",
+          "gap_mm": 38.61934
+        },
+        {
+          "key": "SW9",
+          "gap_mm": 38.61934
+        },
+        {
+          "key": "SW11",
+          "gap_mm": 39.80818707295774
+        },
+        {
+          "key": "SW20",
+          "gap_mm": 40.175861314061414
+        },
+        {
+          "key": "SW16",
+          "gap_mm": 41.50520398697737
+        },
+        {
+          "key": "SW23",
+          "gap_mm": 43.12880904385166
+        },
+        {
+          "key": "SW12",
+          "gap_mm": 48.12712956267392
+        },
+        {
+          "key": "SW5",
+          "gap_mm": 57.669340000000005
+        },
+        {
+          "key": "SW6",
+          "gap_mm": 57.669340000000005
+        },
+        {
+          "key": "SW7",
+          "gap_mm": 59.42946969547685
+        },
+        {
+          "key": "SW8",
+          "gap_mm": 66.64643289993546
+        },
+        {
+          "key": "SW1",
+          "gap_mm": 76.71934
+        },
+        {
+          "key": "SW2",
+          "gap_mm": 76.75398860017374
+        },
+        {
+          "key": "SW3",
+          "gap_mm": 79.63627230122968
+        },
+        {
+          "key": "SW4",
+          "gap_mm": 86.70929573024797
+        }
+      ]
+    },
+    {
+      "halfWidth_mm": 9.3,
+      "rearY_mm": -20.95,
+      "frontY_mm": 3,
+      "minimumGap_mm": 0.13599999999999923,
+      "closestKey": "SW21",
+      "gaps": [
+        {
+          "key": "SW21",
+          "gap_mm": 0.13599999999999923
+        },
+        {
+          "key": "SW17",
+          "gap_mm": 0.7193400000000025
+        },
+        {
+          "key": "SW18",
+          "gap_mm": 0.7193400000000025
+        },
+        {
+          "key": "SW19",
+          "gap_mm": 14.674141960796213
+        },
+        {
+          "key": "SW22",
+          "gap_mm": 19.181000000000008
+        },
+        {
+          "key": "SW13",
+          "gap_mm": 19.769340000000017
+        },
+        {
+          "key": "SW14",
+          "gap_mm": 19.769340000000017
+        },
+        {
+          "key": "SW15",
+          "gap_mm": 23.207783567116024
+        },
+        {
+          "key": "SW10",
+          "gap_mm": 38.81934
+        },
+        {
+          "key": "SW9",
+          "gap_mm": 38.81934
+        },
+        {
+          "key": "SW11",
+          "gap_mm": 40.002243612522534
+        },
+        {
+          "key": "SW20",
+          "gap_mm": 40.207148207069466
+        },
+        {
+          "key": "SW16",
+          "gap_mm": 41.580559087157575
+        },
+        {
+          "key": "SW23",
+          "gap_mm": 43.12880904385166
+        },
+        {
+          "key": "SW12",
+          "gap_mm": 48.2878667155881
+        },
+        {
+          "key": "SW5",
+          "gap_mm": 57.86934000000001
+        },
+        {
+          "key": "SW6",
+          "gap_mm": 57.86934000000001
+        },
+        {
+          "key": "SW7",
+          "gap_mm": 59.62356584678244
+        },
+        {
+          "key": "SW8",
+          "gap_mm": 66.81956864785646
+        },
+        {
+          "key": "SW1",
+          "gap_mm": 76.91934
+        },
+        {
+          "key": "SW2",
+          "gap_mm": 76.95389854994743
+        },
+        {
+          "key": "SW3",
+          "gap_mm": 79.82896468097029
+        },
+        {
+          "key": "SW4",
+          "gap_mm": 86.88630330515622
+        }
+      ]
+    },
+    {
+      "halfWidth_mm": 9.3,
+      "rearY_mm": -20.95,
+      "frontY_mm": 2.4,
+      "minimumGap_mm": 0.13599999999999923,
+      "closestKey": "SW21",
+      "gaps": [
+        {
+          "key": "SW21",
+          "gap_mm": 0.13599999999999923
+        },
+        {
+          "key": "SW17",
+          "gap_mm": 0.7193400000000025
+        },
+        {
+          "key": "SW18",
+          "gap_mm": 0.7193400000000025
+        },
+        {
+          "key": "SW19",
+          "gap_mm": 14.674141960796213
+        },
+        {
+          "key": "SW22",
+          "gap_mm": 19.181000000000008
+        },
+        {
+          "key": "SW13",
+          "gap_mm": 19.769340000000017
+        },
+        {
+          "key": "SW14",
+          "gap_mm": 19.769340000000017
+        },
+        {
+          "key": "SW15",
+          "gap_mm": 23.207783567116024
+        },
+        {
+          "key": "SW10",
+          "gap_mm": 38.81934
+        },
+        {
+          "key": "SW9",
+          "gap_mm": 38.81934
+        },
+        {
+          "key": "SW11",
+          "gap_mm": 40.002243612522534
+        },
+        {
+          "key": "SW20",
+          "gap_mm": 40.207148207069466
+        },
+        {
+          "key": "SW16",
+          "gap_mm": 41.580559087157575
+        },
+        {
+          "key": "SW23",
+          "gap_mm": 43.12880904385166
+        },
+        {
+          "key": "SW12",
+          "gap_mm": 48.2878667155881
+        },
+        {
+          "key": "SW5",
+          "gap_mm": 57.86934000000001
+        },
+        {
+          "key": "SW6",
+          "gap_mm": 57.86934000000001
+        },
+        {
+          "key": "SW7",
+          "gap_mm": 59.62356584678244
+        },
+        {
+          "key": "SW8",
+          "gap_mm": 66.81956864785646
+        },
+        {
+          "key": "SW1",
+          "gap_mm": 76.91934
+        },
+        {
+          "key": "SW2",
+          "gap_mm": 76.95389854994743
+        },
+        {
+          "key": "SW3",
+          "gap_mm": 79.82896468097029
+        },
+        {
+          "key": "SW4",
+          "gap_mm": 86.88630330515622
+        }
+      ]
+    },
+    {
+      "halfWidth_mm": 9.3,
+      "rearY_mm": -20.35,
+      "frontY_mm": 2.4,
+      "minimumGap_mm": 0.7193400000000025,
+      "closestKey": "SW17",
+      "gaps": [
+        {
+          "key": "SW17",
+          "gap_mm": 0.7193400000000025
+        },
+        {
+          "key": "SW18",
+          "gap_mm": 0.7193400000000025
+        },
+        {
+          "key": "SW21",
+          "gap_mm": 0.7359999999999971
+        },
+        {
+          "key": "SW19",
+          "gap_mm": 15.273448932235315
+        },
+        {
+          "key": "SW13",
+          "gap_mm": 19.769340000000017
+        },
+        {
+          "key": "SW14",
+          "gap_mm": 19.769340000000017
+        },
+        {
+          "key": "SW22",
+          "gap_mm": 19.781000000000006
+        },
+        {
+          "key": "SW15",
+          "gap_mm": 23.527616073416798
+        },
+        {
+          "key": "SW10",
+          "gap_mm": 38.81934
+        },
+        {
+          "key": "SW9",
+          "gap_mm": 38.81934
+        },
+        {
+          "key": "SW11",
+          "gap_mm": 40.151297538630054
+        },
+        {
+          "key": "SW20",
+          "gap_mm": 40.79976121142654
+        },
+        {
+          "key": "SW16",
+          "gap_mm": 42.13644972230815
+        },
+        {
+          "key": "SW23",
+          "gap_mm": 43.72880904385166
+        },
+        {
+          "key": "SW12",
+          "gap_mm": 48.646698469088335
+        },
+        {
+          "key": "SW5",
+          "gap_mm": 57.86934000000001
+        },
+        {
+          "key": "SW6",
+          "gap_mm": 57.86934000000001
+        },
+        {
+          "key": "SW7",
+          "gap_mm": 59.77087421383094
+        },
+        {
+          "key": "SW8",
+          "gap_mm": 67.121550595063
+        },
+        {
+          "key": "SW1",
+          "gap_mm": 76.91934
+        },
+        {
+          "key": "SW2",
+          "gap_mm": 76.97421452691545
+        },
+        {
+          "key": "SW3",
+          "gap_mm": 79.9915670682579
+        },
+        {
+          "key": "SW4",
+          "gap_mm": 87.16694844971688
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Derived heights are nominal dimensions, not tolerance-qualified assembly targets.",
+    "Actual switch seating, PCB revision and cap insertion/underside geometry remain unverified.",
+    "Cap drops and 0.3 mm clearance are comparison assumptions, not measured specifications.",
+    "18.8 mm footprint is a provisional lateral envelope, not certified full cap motion.",
+    "Shortened cover candidates require renewed MCU coverage, wall, retention and USB checks.",
+    "No geometry or cloud document was changed."
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "left_case_two_stands_v05_NOT_FOR_MANUFACTURE",
   "id": "urn:adsk.wipprod:dm.lineage:H9Nq8f1PSl6GXmxJMgIkbw",
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "standPocketsXYWH_mm": [
     [
       -50,
@@ -30,7 +30,7 @@
       -7.7
     ]
   ],
-  "coordinateSystem": "Each U1 XY origin; PCB underside global z=0. Lower component z=-11.5, upper=-1. STEP files are component local.",
+  "coordinateSystem": "U1 XY origin; PCB underside global Z0. Lower component Z=-11.5, upper Z=-1, cover origin global. STEP exports are component-local; assembly transforms are in F3D.",
   "screwAxesXY_mm": [
     [
       -108.119997,
@@ -69,9 +69,9 @@
       -37
     ],
     [
-      -60,
+      -66.3,
       6.254,
-      -54,
+      -60.3,
       8.554
     ]
   ],
@@ -112,10 +112,12 @@
   "prototypeSolidInterferences": 0,
   "timelineIssues": [],
   "limitations": [
-    "Upper roof/plate datum and actual switch retention are provisional.",
-    "Keycap XY checks include 0.35 mm per side assumption; vertical pressed motion/insertion depth not modeled.",
-    "Nonmetal MCU cover retention and production method remain unresolved.",
-    "RF, actual cable fit, stand deployment and physical PCB trace clearances not validated."
+    "Generic Choc V2 reference and provisional socket placement, not an exact measured populated PCB",
+    "Screw thread engagement, head standard, torque and cover rear stiffness remain provisional",
+    "Cap D3.0 and 18.8 mm footprints are assumptions; real cap insertion and rocking not verified",
+    "Stand left access, hinge sweep, tape, feet and physical deployment remain unverified",
+    "Public outline PCB omits functional switch holes and does not establish copper/insulation clearance",
+    "F3D includes third-party CC BY-NC-SA component references; case-only STEP exports exclude them"
   ],
   "cutScope": "Explicit component participant body for every cut",
   "fillets": [
@@ -154,62 +156,555 @@
     ]
   ],
   "solidInterferences": 0,
-  "collisionSet": "All casing/reference occurrences except intentional USB cable-access reference; cable tested separately against upper and cover",
-  "cloudVersion": 6,
+  "collisionSet": "52 coarse-core solids; detailed Choc, sockets, MCU, cable, cap sweep and screw envelopes checked in separate sets",
+  "cloudVersion": 9,
   "cloudComplete": true,
   "supportTopGlobalZ_mm": -0.2,
   "residualInteriorSamples": 18,
   "components": [
     {
-      "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "name": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
       "bodyCount": 1,
-      "volume_mm3": 35980.31911,
       "visible": true
     },
     {
-      "component": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "name": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
       "bodyCount": 1,
-      "volume_mm3": 13035.613948,
       "visible": true
     },
     {
-      "component": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+      "name": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
       "bodyCount": 1,
-      "volume_mm3": 14276.764404,
       "visible": false
     },
     {
-      "component": "Battery_L_ALLOWANCE_32x22x5p5_NOT_CELL",
+      "name": "Battery_L_ALLOWANCE_32x22x5p5_NOT_CELL",
       "bodyCount": 1,
-      "volume_mm3": 3872,
       "visible": false
     },
     {
-      "component": "XIAO_KEY_SIDE_ENVELOPE_FROM_OLD_SINGLE_PART_UNVERIFIED",
+      "name": "XIAO_KEY_SIDE_ENVELOPE_FROM_OLD_SINGLE_PART_UNVERIFIED",
       "bodyCount": 1,
-      "volume_mm3": 1337.088169,
       "visible": false
     },
     {
-      "component": "MCU_NONMETAL_COVER_CONCEPT_RETENTION_PENDING",
-      "bodyCount": 1,
-      "volume_mm3": 732.38,
-      "visible": true
-    },
-    {
-      "component": "SWITCH_MAX_HOUSING_14mm_ENVELOPES_NOT_LATCHES",
+      "name": "SWITCH_LOWER_14mm_PCB_SEATED_ENVELOPES_NOT_LATCHES",
       "bodyCount": 23,
-      "volume_mm3": 13073.2,
       "visible": false
     },
     {
-      "component": "USB_CABLE_ACCESS_ASSUMED_NOT_A_PART",
+      "name": "USB_CABLE_ACCESS_ASSUMED_NOT_A_PART",
       "bodyCount": 1,
-      "volume_mm3": 1296,
+      "visible": false
+    },
+    {
+      "name": "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL",
+      "bodyCount": 1,
+      "visible": true
+    },
+    {
+      "name": "SWITCH_UPPER_15p2_SQUARE_CONSERVATIVE_ENVELOPES_NOT_FULL_SWITCHES",
+      "bodyCount": 23,
+      "visible": false
+    },
+    {
+      "name": "KEYCAP_SWEEP_D3p0_18p8_SQUARE_ASSUMED_NOT_PARTS",
+      "bodyCount": 23,
+      "visible": false
+    },
+    {
+      "name": "XIAO_DETAILED_FROM_OLD_V2_PLACEMENT_UNVERIFIED",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodyCount": 0,
+      "visible": false
+    },
+    {
+      "name": "COVER_M1p6x6_SCREW_ENVELOPES_HEAD_ASSUMED_THREAD_NOT_MODELED",
+      "bodyCount": 2,
       "visible": false
     }
   ],
-  "upperRoofReport": "upper-roof-development.json",
+  "upperRoofReport": "../../docs/choc-reference-final-verification.json",
   "cableAccessInterferences": 0,
-  "cloudCheckpointNote": "v6 saves current display state; geometry unchanged from validated v5"
+  "cloudCheckpointNote": "v9: detailed Choc V2/socket, relocated support, provisional cover fastening and backed finger access; original pockets recut",
+  "roofTopZ_mm": 3.8,
+  "roofBottomZ_mm": 2.6,
+  "detailedMCUBodyCountIncludingChildren": 77,
+  "detailedChocReport": "../../docs/choc-v2-placement-verification.json",
+  "minimumCapToCoverPlanarGap_mm": 0.6051348553877409,
+  "detailedChocSwitchSolids": 184,
+  "detailedChocSocketSolids": 161,
+  "coverBoundsGlobal_mm": [
+    [
+      -9.8,
+      -20.35,
+      4.5
+    ],
+    [
+      9.8,
+      5.6,
+      8.7
+    ]
+  ],
+  "standFingerAccess": {
+    "date": "2026-11-08",
+    "centersXY_mm": [
+      [
+        -50,
+        -63.6
+      ],
+      [
+        -50,
+        -17.1
+      ]
+    ],
+    "notchDiameter_mm": 8,
+    "notchDepth_mm": 3.7,
+    "backingDiameter_mm": 12,
+    "nominalResidual_mm": 2,
+    "addedLeftAccessBeyondPocket_mm": 4,
+    "originalPocket_mm": [
+      56.8,
+      14.8,
+      3.7
+    ],
+    "pointChecks": [
+      [
+        -53,
+        -63.6,
+        3,
+        false
+      ],
+      [
+        -53,
+        -63.6,
+        3.71,
+        true
+      ],
+      [
+        -53,
+        -63.6,
+        5.69,
+        true
+      ],
+      [
+        -53,
+        -63.6,
+        5.71,
+        false
+      ],
+      [
+        -52,
+        -63.6,
+        3,
+        false
+      ],
+      [
+        -52,
+        -63.6,
+        3.71,
+        true
+      ],
+      [
+        -52,
+        -63.6,
+        5.69,
+        true
+      ],
+      [
+        -52,
+        -63.6,
+        5.71,
+        false
+      ],
+      [
+        -51,
+        -63.6,
+        3,
+        false
+      ],
+      [
+        -51,
+        -63.6,
+        3.71,
+        true
+      ],
+      [
+        -51,
+        -63.6,
+        5.69,
+        true
+      ],
+      [
+        -51,
+        -63.6,
+        5.71,
+        false
+      ],
+      [
+        -53,
+        -17.1,
+        3,
+        false
+      ],
+      [
+        -53,
+        -17.1,
+        3.71,
+        true
+      ],
+      [
+        -53,
+        -17.1,
+        5.69,
+        true
+      ],
+      [
+        -53,
+        -17.1,
+        5.71,
+        false
+      ],
+      [
+        -52,
+        -17.1,
+        3,
+        false
+      ],
+      [
+        -52,
+        -17.1,
+        3.71,
+        true
+      ],
+      [
+        -52,
+        -17.1,
+        5.69,
+        true
+      ],
+      [
+        -52,
+        -17.1,
+        5.71,
+        false
+      ],
+      [
+        -51,
+        -17.1,
+        3,
+        false
+      ],
+      [
+        -51,
+        -17.1,
+        3.71,
+        true
+      ],
+      [
+        -51,
+        -17.1,
+        5.69,
+        true
+      ],
+      [
+        -51,
+        -17.1,
+        5.71,
+        false
+      ]
+    ],
+    "volumeBefore_mm3": 35952.77766397885,
+    "volumeAfter_mm3": 36117.48615451582,
+    "timelineIssues": [],
+    "limitations": [
+      "Left-end access is provisional; actual hinge/nail deployment direction unconfirmed",
+      "Finger size, tape thickness, hinge sweep and physical use not validated",
+      "Not a promise of stand deployment clearance"
+    ],
+    "originalPocketsRecut": true,
+    "pocketVoidSamples": 36,
+    "finalVolume_mm3": 36010.94061700775
+  },
+  "coverFastening": {
+    "date": "2026-11-08",
+    "axesXY_mm": [
+      [
+        -8,
+        3.8
+      ],
+      [
+        8,
+        3.8
+      ]
+    ],
+    "bossDiameter_mm": 3.6,
+    "coverSeatZ_mm": 4.5,
+    "headSeatZ_mm": 8,
+    "capClearanceHole_mm": 1.8,
+    "tapCandidate": "M1.6 x 0.35",
+    "pilot_mm": 1.25,
+    "pilotDepth_mm": 3.2,
+    "screwCandidate": "M1.6 x 6; head D3.2 x H1.6 assumed, procurement pending",
+    "nominalProjectionIntoUpper_mm": 2.5,
+    "nominalPilotBottomGap_mm": 0.7,
+    "capGrip_mm": 3.5,
+    "headReliefDiameter_mm": 3.8,
+    "headReliefOpenToOuterEdge": true,
+    "volumesBefore_mm3": {
+      "upper": 13035.598586251876,
+      "cover": 631.9800000000002
+    },
+    "volumesAfter_mm3": {
+      "upper": 13056.534090796617,
+      "cover": 681.4346104673141
+    },
+    "initialInterferences": [
+      {
+        "first": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+        "second": "USB_CABLE_ACCESS_ASSUMED_NOT_A_PART",
+        "volume_mm3": 0.38879268531044936
+      },
+      {
+        "first": "XIAO_KEY_SIDE_ENVELOPE_FROM_OLD_SINGLE_PART_UNVERIFIED",
+        "second": "USB_CABLE_ACCESS_ASSUMED_NOT_A_PART",
+        "volume_mm3": 57.33504504000001
+      }
+    ],
+    "timelineIssues": [],
+    "limitations": [
+      "Provisional front fastening; rear cantilever stiffness and material/process unverified",
+      "Geometric projection is not guaranteed full thread engagement; lead, drill point and chamfers remain",
+      "Screw head dimensions, grade, torque, fit and thread serviceability not finalized"
+    ]
+  }
 }

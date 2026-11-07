@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-08",
+  "assumedD_mm": 3.0,
+  "footprint_mm": 18.8,
+  "capHeight_mm": 3.94,
+  "travelMax_mm": 3.05,
+  "sweptZ_mm": [
+    4.15,
+    11.14
+  ],
+  "results": [
+    {
+      "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "collisions": []
+    },
+    {
+      "component": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "collisions": [
+        {
+          "first": "Sweep_SW9_D3p0_ASSUMED",
+          "second": "ボディ1",
+          "volume_mm3": 2.2011886483259422e-05
+        },
+        {
+          "first": "Sweep_SW1_D3p0_ASSUMED",
+          "second": "ボディ1",
+          "volume_mm3": 2.2189031481555183e-05
+        },
+        {
+          "first": "Sweep_SW5_D3p0_ASSUMED",
+          "second": "ボディ1",
+          "volume_mm3": 2.0067222691844954e-05
+        }
+      ]
+    },
+    {
+      "component": "MCU_RAISED_SKIRT_COVER_18p6_WIDE_RETENTION_PENDING",
+      "collisions": []
+    }
+  ],
+  "limitations": [
+    "Comparison volume, not a measured cap solid",
+    "Ignores real underside cavities and full rocking motion",
+    "Intentionally excludes switch bodies, which enter cap cavities"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-08",
+  "sourceId": "urn:adsk.wipprod:dm.lineage:mwqP27TVRxe5Ray66zFHMg",
+  "sourceVersion": 2,
+  "sourceUnmodified": true,
+  "bodyCount": 77,
+  "boundsGlobal_mm": [
+    [
+      -8.889999955412502,
+      -20.95500131441357,
+      1.599999999999998
+    ],
+    [
+      8.8900000445875,
+      1.5269798357402664,
+      6.06000001490115
+    ]
+  ],
+  "transform": [
+    0.0,
+    0.0,
+    1.0,
+    0.61114,
+    1.0,
+    0.0,
+    0.0,
+    -1.228166,
+    0.0,
+    1.0,
+    0.0,
+    0.185,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "results": [
+    {
+      "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "collisions": [],
+      "totalIncludingInternal": 12
+    },
+    {
+      "component": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "collisions": [],
+      "totalIncludingInternal": 12
+    },
+    {
+      "component": "MCU_RAISED_SKIRT_COVER_18p6_WIDE_RETENTION_PENDING",
+      "collisions": [],
+      "totalIncludingInternal": 12
+    }
+  ],
+  "limitations": [
+    "Old model provenance and match to installed revision not established",
+    "Placement uses existing PCB-top and connector datum assumptions",
+    "Conservative envelope retained as hidden clearance tool"
+  ]
+}

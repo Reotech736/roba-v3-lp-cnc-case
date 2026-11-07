@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-08",
+  "coincidentFacesIncluded": false,
+  "results": [
+    {
+      "kind": "switch",
+      "count": 0,
+      "collisions": [],
+      "internalOverlapsExcluded": 115
+    },
+    {
+      "kind": "socket",
+      "count": 1,
+      "collisions": [
+        {
+          "key": null,
+          "target": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+          "component": "choc_body",
+          "volume_mm3": 0.29598200281301273,
+          "boundsGlobal_mm": [
+            [
+              -58.85934,
+              6.254,
+              -1.843674969975947
+            ],
+            [
+              -55.97933999999999,
+              6.319,
+              -0.19999999999999796
+            ]
+          ]
+        }
+      ],
+      "internalOverlapsExcluded": 0
+    }
+  ],
+  "positionsCaptured": true,
+  "excluded": "Public outline PCB and hidden coarse switch envelopes; neither is the populated PCB or exact switch solid"
+}
