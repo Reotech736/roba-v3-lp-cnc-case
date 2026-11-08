@@ -24,144 +24,191 @@
       "reference": "SW14",
       "x": -38.46934000000002,
       "y": -23.456249999999997,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW18",
       "x": -19.419340000000005,
       "y": -25.956500000000005,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW12",
       "x": -57.54368000000002,
       "y": -59.036,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW23",
       "x": 7.962044443275744,
       "y": -76.12690902650048,
-      "angle": -0.3490658503988659
+      "angle": -0.3490658503988659,
+      "footprintAngle_rad": -0.3490658503988659,
+      "chocModelAngle_rad": 2.792526803190927
     },
     {
       "reference": "SW19",
       "x": -19.419340000000005,
       "y": -45.0065,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW1",
       "x": -95.61934000000001,
       "y": -13.605999999999996,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW13",
       "x": -38.46934000000002,
       "y": -4.406249000000004,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW10",
       "x": -57.51934,
       "y": -20.956000000000003,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW9",
       "x": -57.51934,
       "y": -1.9060000000000001,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW15",
       "x": -38.46934000000002,
       "y": -42.506249999999994,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW11",
       "x": -57.51934,
       "y": -40.006,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW5",
       "x": -76.56934000000001,
       "y": -6.606499000000001,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW4",
       "x": -95.61934000000001,
       "y": -70.756,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW17",
       "x": -19.419340000000005,
       "y": -6.906498999999998,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW22",
       "x": -0.36934000000002243,
       "y": -49.531000000000006,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW6",
       "x": -76.56934000000001,
       "y": -25.656499999999994,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW21",
       "x": -0.3593400000000031,
       "y": -30.486,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW3",
       "x": -95.61934000000001,
       "y": -51.706,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW2",
       "x": -95.61934000000001,
       "y": -32.656000000000006,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW16",
       "x": -34.45234000000002,
       "y": -68.83125100000001,
-      "angle": 0.0
+      "angle": 0.0,
+      "footprintAngle_rad": 0.0,
+      "chocModelAngle_rad": 3.141592653589793
     },
     {
       "reference": "SW8",
       "x": -76.56934000000001,
       "y": -63.7565,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW7",
       "x": -76.56934000000001,
       "y": -44.706500000000005,
-      "angle": 3.141592653589793
+      "angle": 3.141592653589793,
+      "footprintAngle_rad": 3.141592653589793,
+      "chocModelAngle_rad": 6.283185307179586
     },
     {
       "reference": "SW20",
       "x": -13.115089138374003,
       "y": -70.57125679148511,
-      "angle": -0.15707963267948966
+      "angle": -0.15707963267948966,
+      "footprintAngle_rad": -0.15707963267948966,
+      "chocModelAngle_rad": 2.9845130209103035
     }
   ],
   "limitations": [
     "Nominal seating, physical fit not proven",
     "Upper switch squares overestimate tapered shape; pins, latches, stems and sockets omitted",
     "Cover retention and lower skirt gaps unresolved"
-  ]
+  ],
+  "angleConvention": "angle retains public footprint/plate orientation; detailed Choc model uses angle+pi (LP v20 correction)."
 }

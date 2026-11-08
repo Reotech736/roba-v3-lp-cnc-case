@@ -37,7 +37,7 @@ def run(_context: str):
     # Verify all 46 origins against the recorded captured transforms after all geometry edits.
     coords=placement['positionChecks'];index=0
     for prefix in ['CHOC_V2_RED_DETAILED_','CHOC_SOCKET_DETAILED_']:
-        occs=[o for o in root.occurrences if o.component.name.startswith(prefix)];assert len(occs)==23
+        occs=[o for o in root.allOccurrences if o.component.name.startswith(prefix)];assert len(occs)==23
         for o in occs:
             v=o.transform2.translation;expected=coords[index]['expected_mm'];actual=[v.x*10,v.y*10,v.z*10]
             assert max(abs(x-y) for x,y in zip(actual,expected))<1e-6;index+=1

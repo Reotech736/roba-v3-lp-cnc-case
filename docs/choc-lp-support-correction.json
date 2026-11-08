@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-08",
+  "oldSupport1XYXY_mm": [
+    -106.12,
+    -61,
+    -103.82,
+    -53
+  ],
+  "newSupport1XYXY_mm": [
+    -106.12,
+    -53,
+    -103.82,
+    -45
+  ],
+  "shiftY_mm": 8,
+  "changes": [
+    {
+      "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "feature": "PCB_edge_support_1_INSULATION_PENDING",
+      "oldMinY_mm": -61.0,
+      "newMinY_mm": -53.0,
+      "dy_mm": 8
+    },
+    {
+      "component": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "feature": "Support_clearance_1_0p2mm",
+      "oldMinY_mm": -61.2,
+      "newMinY_mm": -53.2,
+      "dy_mm": 8
+    },
+    {
+      "component": "PCB_SUPPORT_INSULATION_STACK_0p2_MATERIAL_PENDING",
+      "feature": "Four_dielectric_support_stack_allowances",
+      "oldMinY_mm": -61.0,
+      "newMinY_mm": -53.0,
+      "dy_mm": 8
+    }
+  ],
+  "Choc46TransformsPreserved": true,
+  "timelineIssues": [],
+  "currentCaseVolumes_mm3": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 36934.72094132882,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13564.530096681126
+  },
+  "limitations": [
+    "Public unpopulated PCB outline; actual copper/terminal revision and insulation material remain unqualified"
+  ],
+  "cloudVersion": 20,
+  "cloudComplete": true,
+  "modified": false
+}

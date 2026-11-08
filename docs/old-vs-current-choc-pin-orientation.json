@@ -1,0 +1,1405 @@
+[
+  {
+    "key": "SW14",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              152.85,
+              -72.98024999999998
+            ],
+            "nearestOldHole_mm": [
+              155.39,
+              -73.80025
+            ],
+            "error_mm": 2.6690822392725173
+          },
+          {
+            "expectedNative_mm": [
+              157.85,
+              -75.18024999999999
+            ],
+            "nearestOldHole_mm": [
+              155.39,
+              -73.80025
+            ],
+            "error_mm": 2.820638225650356
+          }
+        ],
+        "maxError_mm": 2.820638225650356
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              152.85,
+              -84.78025
+            ],
+            "nearestOldHole_mm": [
+              152.85,
+              -84.78025000000002
+            ],
+            "error_mm": 2.842170943040401e-14
+          },
+          {
+            "expectedNative_mm": [
+              147.85,
+              -82.58024999999999
+            ],
+            "nearestOldHole_mm": [
+              147.849999,
+              -82.58025000000002
+            ],
+            "error_mm": 9.999999974752431e-07
+          }
+        ],
+        "maxError_mm": 9.999999974752431e-07
+      }
+    ]
+  },
+  {
+    "key": "SW18",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              171.9,
+              -75.4805
+            ],
+            "nearestOldHole_mm": [
+              174.44,
+              -76.3005
+            ],
+            "error_mm": 2.6690822392725084
+          },
+          {
+            "expectedNative_mm": [
+              176.9,
+              -77.68050000000001
+            ],
+            "nearestOldHole_mm": [
+              174.44,
+              -76.3005
+            ],
+            "error_mm": 2.8206382256503697
+          }
+        ],
+        "maxError_mm": 2.8206382256503697
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              171.9,
+              -87.28050000000002
+            ],
+            "nearestOldHole_mm": [
+              171.9,
+              -87.28050000000002
+            ],
+            "error_mm": 0.0
+          },
+          {
+            "expectedNative_mm": [
+              166.9,
+              -85.08050000000001
+            ],
+            "nearestOldHole_mm": [
+              166.899999,
+              -85.0805
+            ],
+            "error_mm": 9.999999974752427e-07
+          }
+        ],
+        "maxError_mm": 9.999999974752427e-07
+      }
+    ]
+  },
+  {
+    "key": "SW12",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              133.77566,
+              -108.56
+            ],
+            "nearestOldHole_mm": [
+              136.31566,
+              -109.38000000000001
+            ],
+            "error_mm": 2.66908223927254
+          },
+          {
+            "expectedNative_mm": [
+              138.77566,
+              -110.76
+            ],
+            "nearestOldHole_mm": [
+              136.31566,
+              -109.38000000000001
+            ],
+            "error_mm": 2.8206382256503377
+          }
+        ],
+        "maxError_mm": 2.8206382256503377
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              133.77566,
+              -120.36000000000001
+            ],
+            "nearestOldHole_mm": [
+              133.77566,
+              -120.36
+            ],
+            "error_mm": 1.4210854715202004e-14
+          },
+          {
+            "expectedNative_mm": [
+              128.77566,
+              -118.16000000000001
+            ],
+            "nearestOldHole_mm": [
+              128.77565900000002,
+              -118.16
+            ],
+            "error_mm": 9.999999690535333e-07
+          }
+        ],
+        "maxError_mm": 9.999999690535333e-07
+      }
+    ]
+  },
+  {
+    "key": "SW23",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              197.26346559765432,
+              -137.09509548913735
+            ],
+            "nearestOldHole_mm": [
+              195.157102,
+              -135.455816
+            ],
+            "error_mm": 2.6690831476425787
+          },
+          {
+            "expectedNative_mm": [
+              193.31744680904123,
+              -133.31767100678
+            ],
+            "nearestOldHole_mm": [
+              195.157102,
+              -135.455816
+            ],
+            "error_mm": 2.8206373807445333
+          }
+        ],
+        "maxError_mm": 2.8206373807445333
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              201.2993032888972,
+              -126.00672256386362
+            ],
+            "nearestOldHole_mm": [
+              201.29930200000004,
+              -126.006722
+            ],
+            "error_mm": 1.4068397402043126e-06
+          },
+          {
+            "expectedNative_mm": [
+              205.24532207751028,
+              -129.78414704622097
+            ],
+            "nearestOldHole_mm": [
+              205.245322,
+              -129.784147
+            ],
+            "error_mm": 9.02453552379998e-08
+          }
+        ],
+        "maxError_mm": 1.4068397402043126e-06
+      }
+    ]
+  },
+  {
+    "key": "SW19",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              171.9,
+              -94.53049999999999
+            ],
+            "nearestOldHole_mm": [
+              174.44,
+              -95.3505
+            ],
+            "error_mm": 2.669082239272513
+          },
+          {
+            "expectedNative_mm": [
+              176.9,
+              -96.73049999999999
+            ],
+            "nearestOldHole_mm": [
+              174.44,
+              -95.3505
+            ],
+            "error_mm": 2.8206382256503626
+          }
+        ],
+        "maxError_mm": 2.8206382256503626
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              171.9,
+              -106.3305
+            ],
+            "nearestOldHole_mm": [
+              171.9,
+              -106.33050000000003
+            ],
+            "error_mm": 2.842170943040401e-14
+          },
+          {
+            "expectedNative_mm": [
+              166.9,
+              -104.1305
+            ],
+            "nearestOldHole_mm": [
+              166.899999,
+              -104.13050000000001
+            ],
+            "error_mm": 9.999999974752427e-07
+          }
+        ],
+        "maxError_mm": 9.999999974752427e-07
+      }
+    ]
+  },
+  {
+    "key": "SW1",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              95.7,
+              -63.13
+            ],
+            "nearestOldHole_mm": [
+              98.24,
+              -63.95
+            ],
+            "error_mm": 2.6690822392725106
+          },
+          {
+            "expectedNative_mm": [
+              100.7,
+              -65.33
+            ],
+            "nearestOldHole_mm": [
+              98.24,
+              -63.95
+            ],
+            "error_mm": 2.8206382256503626
+          }
+        ],
+        "maxError_mm": 2.8206382256503626
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              95.7,
+              -74.93
+            ],
+            "nearestOldHole_mm": [
+              95.7,
+              -74.93000000000002
+            ],
+            "error_mm": 1.4210854715202004e-14
+          },
+          {
+            "expectedNative_mm": [
+              90.7,
+              -72.73
+            ],
+            "nearestOldHole_mm": [
+              90.699999,
+              -72.73000000000002
+            ],
+            "error_mm": 9.999999974752427e-07
+          }
+        ],
+        "maxError_mm": 9.999999974752427e-07
+      }
+    ]
+  },
+  {
+    "key": "SW13",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              152.85,
+              -53.930249
+            ],
+            "nearestOldHole_mm": [
+              155.39,
+              -54.750249000000004
+            ],
+            "error_mm": 2.6690822392725106
+          },
+          {
+            "expectedNative_mm": [
+              157.85,
+              -56.130249
+            ],
+            "nearestOldHole_mm": [
+              155.39,
+              -54.750249000000004
+            ],
+            "error_mm": 2.8206382256503626
+          }
+        ],
+        "maxError_mm": 2.8206382256503626
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              152.85,
+              -65.730249
+            ],
+            "nearestOldHole_mm": [
+              152.85,
+              -65.73024900000001
+            ],
+            "error_mm": 1.4210854715202004e-14
+          },
+          {
+            "expectedNative_mm": [
+              147.85,
+              -63.530249000000005
+            ],
+            "nearestOldHole_mm": [
+              147.849999,
+              -63.53024900000001
+            ],
+            "error_mm": 9.999999974752427e-07
+          }
+        ],
+        "maxError_mm": 9.999999974752427e-07
+      }
+    ]
+  },
+  {
+    "key": "SW10",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              133.8,
+              -70.47999999999999
+            ],
+            "nearestOldHole_mm": [
+              136.34,
+              -71.3
+            ],
+            "error_mm": 2.669082239272513
+          },
+          {
+            "expectedNative_mm": [
+              138.8,
+              -72.67999999999999
+            ],
+            "nearestOldHole_mm": [
+              136.34,
+              -71.3
+            ],
+            "error_mm": 2.8206382256503626
+          }
+        ],
+        "maxError_mm": 2.8206382256503626
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              133.8,
+              -82.28
+            ],
+            "nearestOldHole_mm": [
+              133.8,
+              -82.28000000000002
+            ],
+            "error_mm": 1.4210854715202004e-14
+          },
+          {
+            "expectedNative_mm": [
+              128.8,
+              -80.08
+            ],
+            "nearestOldHole_mm": [
+              128.79999900000004,
+              -80.08000000000001
+            ],
+            "error_mm": 9.999999690535333e-07
+          }
+        ],
+        "maxError_mm": 9.999999690535333e-07
+      }
+    ]
+  },
+  {
+    "key": "SW9",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              133.8,
+              -51.43
+            ],
+            "nearestOldHole_mm": [
+              136.34,
+              -52.25000000000001
+            ],
+            "error_mm": 2.669082239272513
+          },
+          {
+            "expectedNative_mm": [
+              138.8,
+              -53.629999999999995
+            ],
+            "nearestOldHole_mm": [
+              136.34,
+              -52.25000000000001
+            ],
+            "error_mm": 2.820638225650359
+          }
+        ],
+        "maxError_mm": 2.820638225650359
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              133.8,
+              -63.23
+            ],
+            "nearestOldHole_mm": [
+              133.8,
+              -63.23000000000002
+            ],
+            "error_mm": 2.1316282072803006e-14
+          },
+          {
+            "expectedNative_mm": [
+              128.8,
+              -61.03
+            ],
+            "nearestOldHole_mm": [
+              128.79999900000004,
+              -61.030000000000015
+            ],
+            "error_mm": 9.999999690535333e-07
+          }
+        ],
+        "maxError_mm": 9.999999690535333e-07
+      }
+    ]
+  },
+  {
+    "key": "SW15",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              152.85,
+              -92.03025
+            ],
+            "nearestOldHole_mm": [
+              155.39,
+              -92.85025000000002
+            ],
+            "error_mm": 2.6690822392725173
+          },
+          {
+            "expectedNative_mm": [
+              157.85,
+              -94.23025
+            ],
+            "nearestOldHole_mm": [
+              155.39,
+              -92.85025000000002
+            ],
+            "error_mm": 2.820638225650356
+          }
+        ],
+        "maxError_mm": 2.820638225650356
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              152.85,
+              -103.83025
+            ],
+            "nearestOldHole_mm": [
+              152.85,
+              -103.83025000000002
+            ],
+            "error_mm": 1.4210854715202004e-14
+          },
+          {
+            "expectedNative_mm": [
+              147.85,
+              -101.63025
+            ],
+            "nearestOldHole_mm": [
+              147.849999,
+              -101.63025000000002
+            ],
+            "error_mm": 9.999999974752427e-07
+          }
+        ],
+        "maxError_mm": 9.999999974752427e-07
+      }
+    ]
+  },
+  {
+    "key": "SW11",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              133.8,
+              -89.53
+            ],
+            "nearestOldHole_mm": [
+              136.34,
+              -90.35
+            ],
+            "error_mm": 2.6690822392725084
+          },
+          {
+            "expectedNative_mm": [
+              138.8,
+              -91.73
+            ],
+            "nearestOldHole_mm": [
+              136.34,
+              -90.35
+            ],
+            "error_mm": 2.8206382256503697
+          }
+        ],
+        "maxError_mm": 2.8206382256503697
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              133.8,
+              -101.33000000000001
+            ],
+            "nearestOldHole_mm": [
+              133.8,
+              -101.33000000000003
+            ],
+            "error_mm": 1.4210854715202004e-14
+          },
+          {
+            "expectedNative_mm": [
+              128.8,
+              -99.13000000000001
+            ],
+            "nearestOldHole_mm": [
+              128.79999900000004,
+              -99.13000000000002
+            ],
+            "error_mm": 9.999999690535333e-07
+          }
+        ],
+        "maxError_mm": 9.999999690535333e-07
+      }
+    ]
+  },
+  {
+    "key": "SW5",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              114.75,
+              -56.130499
+            ],
+            "nearestOldHole_mm": [
+              117.29,
+              -56.95049900000001
+            ],
+            "error_mm": 2.669082239272526
+          },
+          {
+            "expectedNative_mm": [
+              119.75,
+              -58.330498999999996
+            ],
+            "nearestOldHole_mm": [
+              117.29,
+              -56.95049900000001
+            ],
+            "error_mm": 2.820638225650347
+          }
+        ],
+        "maxError_mm": 2.820638225650347
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              114.75,
+              -67.930499
+            ],
+            "nearestOldHole_mm": [
+              114.75000000000001,
+              -67.93049900000001
+            ],
+            "error_mm": 2.0097183471152322e-14
+          },
+          {
+            "expectedNative_mm": [
+              109.75,
+              -65.730499
+            ],
+            "nearestOldHole_mm": [
+              109.74999900000002,
+              -65.73049900000001
+            ],
+            "error_mm": 9.99999983264388e-07
+          }
+        ],
+        "maxError_mm": 9.99999983264388e-07
+      }
+    ]
+  },
+  {
+    "key": "SW4",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              95.7,
+              -120.28
+            ],
+            "nearestOldHole_mm": [
+              98.24,
+              -121.1
+            ],
+            "error_mm": 2.6690822392725084
+          },
+          {
+            "expectedNative_mm": [
+              100.7,
+              -122.48
+            ],
+            "nearestOldHole_mm": [
+              98.24,
+              -121.1
+            ],
+            "error_mm": 2.8206382256503697
+          }
+        ],
+        "maxError_mm": 2.8206382256503697
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              95.7,
+              -132.08
+            ],
+            "nearestOldHole_mm": [
+              95.7,
+              -132.08000000000004
+            ],
+            "error_mm": 2.842170943040401e-14
+          },
+          {
+            "expectedNative_mm": [
+              90.7,
+              -129.88
+            ],
+            "nearestOldHole_mm": [
+              90.699999,
+              -129.88000000000002
+            ],
+            "error_mm": 9.999999974752431e-07
+          }
+        ],
+        "maxError_mm": 9.999999974752431e-07
+      }
+    ]
+  },
+  {
+    "key": "SW17",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              171.9,
+              -56.430499
+            ],
+            "nearestOldHole_mm": [
+              174.44,
+              -57.250499000000005
+            ],
+            "error_mm": 2.669082239272513
+          },
+          {
+            "expectedNative_mm": [
+              176.9,
+              -58.63049899999999
+            ],
+            "nearestOldHole_mm": [
+              174.44,
+              -57.250499000000005
+            ],
+            "error_mm": 2.820638225650359
+          }
+        ],
+        "maxError_mm": 2.820638225650359
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              171.9,
+              -68.230499
+            ],
+            "nearestOldHole_mm": [
+              171.9,
+              -68.23049900000002
+            ],
+            "error_mm": 2.842170943040401e-14
+          },
+          {
+            "expectedNative_mm": [
+              166.9,
+              -66.03049899999999
+            ],
+            "nearestOldHole_mm": [
+              166.899999,
+              -66.03049900000002
+            ],
+            "error_mm": 9.999999974752431e-07
+          }
+        ],
+        "maxError_mm": 9.999999974752431e-07
+      }
+    ]
+  },
+  {
+    "key": "SW22",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              190.95,
+              -99.055
+            ],
+            "nearestOldHole_mm": [
+              193.49000000000004,
+              -99.875
+            ],
+            "error_mm": 2.6690822392725626
+          },
+          {
+            "expectedNative_mm": [
+              195.95,
+              -101.25500000000001
+            ],
+            "nearestOldHole_mm": [
+              193.49000000000004,
+              -99.875
+            ],
+            "error_mm": 2.82063822565032
+          }
+        ],
+        "maxError_mm": 2.82063822565032
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              190.95,
+              -110.85500000000002
+            ],
+            "nearestOldHole_mm": [
+              190.95,
+              -110.85500000000002
+            ],
+            "error_mm": 0.0
+          },
+          {
+            "expectedNative_mm": [
+              185.95,
+              -108.65500000000002
+            ],
+            "nearestOldHole_mm": [
+              185.949999,
+              -108.655
+            ],
+            "error_mm": 9.999999974752427e-07
+          }
+        ],
+        "maxError_mm": 9.999999974752427e-07
+      }
+    ]
+  },
+  {
+    "key": "SW6",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              114.75,
+              -75.1805
+            ],
+            "nearestOldHole_mm": [
+              117.29,
+              -76.0005
+            ],
+            "error_mm": 2.669082239272526
+          },
+          {
+            "expectedNative_mm": [
+              119.75,
+              -77.3805
+            ],
+            "nearestOldHole_mm": [
+              117.29,
+              -76.0005
+            ],
+            "error_mm": 2.82063822565035
+          }
+        ],
+        "maxError_mm": 2.82063822565035
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              114.75,
+              -86.9805
+            ],
+            "nearestOldHole_mm": [
+              114.75000000000001,
+              -86.98050000000002
+            ],
+            "error_mm": 2.0097183471152322e-14
+          },
+          {
+            "expectedNative_mm": [
+              109.75,
+              -84.7805
+            ],
+            "nearestOldHole_mm": [
+              109.74999900000002,
+              -84.78050000000002
+            ],
+            "error_mm": 9.99999983264388e-07
+          }
+        ],
+        "maxError_mm": 9.99999983264388e-07
+      }
+    ]
+  },
+  {
+    "key": "SW21",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              190.96,
+              -80.00999999999999
+            ],
+            "nearestOldHole_mm": [
+              193.5,
+              -80.83
+            ],
+            "error_mm": 2.669082239272513
+          },
+          {
+            "expectedNative_mm": [
+              195.96,
+              -82.21
+            ],
+            "nearestOldHole_mm": [
+              193.5,
+              -80.83
+            ],
+            "error_mm": 2.8206382256503626
+          }
+        ],
+        "maxError_mm": 2.8206382256503626
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              190.96,
+              -91.81
+            ],
+            "nearestOldHole_mm": [
+              190.96,
+              -91.81
+            ],
+            "error_mm": 0.0
+          },
+          {
+            "expectedNative_mm": [
+              185.96,
+              -89.61
+            ],
+            "nearestOldHole_mm": [
+              185.95999899999998,
+              -89.61
+            ],
+            "error_mm": 1.0000000258969521e-06
+          }
+        ],
+        "maxError_mm": 1.0000000258969521e-06
+      }
+    ]
+  },
+  {
+    "key": "SW3",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              95.7,
+              -101.22999999999999
+            ],
+            "nearestOldHole_mm": [
+              98.24,
+              -102.05
+            ],
+            "error_mm": 2.669082239272513
+          },
+          {
+            "expectedNative_mm": [
+              100.7,
+              -103.42999999999999
+            ],
+            "nearestOldHole_mm": [
+              98.24,
+              -102.05
+            ],
+            "error_mm": 2.8206382256503626
+          }
+        ],
+        "maxError_mm": 2.8206382256503626
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              95.7,
+              -113.03
+            ],
+            "nearestOldHole_mm": [
+              95.7,
+              -113.03000000000003
+            ],
+            "error_mm": 2.842170943040401e-14
+          },
+          {
+            "expectedNative_mm": [
+              90.7,
+              -110.83
+            ],
+            "nearestOldHole_mm": [
+              90.699999,
+              -110.83000000000001
+            ],
+            "error_mm": 9.999999974752427e-07
+          }
+        ],
+        "maxError_mm": 9.999999974752427e-07
+      }
+    ]
+  },
+  {
+    "key": "SW2",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              95.7,
+              -82.18
+            ],
+            "nearestOldHole_mm": [
+              98.24,
+              -83.0
+            ],
+            "error_mm": 2.6690822392725084
+          },
+          {
+            "expectedNative_mm": [
+              100.7,
+              -84.38000000000001
+            ],
+            "nearestOldHole_mm": [
+              98.24,
+              -83.0
+            ],
+            "error_mm": 2.8206382256503697
+          }
+        ],
+        "maxError_mm": 2.8206382256503697
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              95.7,
+              -93.98000000000002
+            ],
+            "nearestOldHole_mm": [
+              95.7,
+              -93.98000000000002
+            ],
+            "error_mm": 0.0
+          },
+          {
+            "expectedNative_mm": [
+              90.7,
+              -91.78000000000002
+            ],
+            "nearestOldHole_mm": [
+              90.699999,
+              -91.78
+            ],
+            "error_mm": 9.999999974752427e-07
+          }
+        ],
+        "maxError_mm": 9.999999974752427e-07
+      }
+    ]
+  },
+  {
+    "key": "SW16",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              156.867,
+              -130.15525100000002
+            ],
+            "nearestOldHole_mm": [
+              154.327,
+              -129.335251
+            ],
+            "error_mm": 2.6690822392725173
+          },
+          {
+            "expectedNative_mm": [
+              151.867,
+              -127.95525100000002
+            ],
+            "nearestOldHole_mm": [
+              154.327,
+              -129.335251
+            ],
+            "error_mm": 2.820638225650356
+          }
+        ],
+        "maxError_mm": 2.820638225650356
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              156.867,
+              -118.35525100000001
+            ],
+            "nearestOldHole_mm": [
+              156.867,
+              -118.355251
+            ],
+            "error_mm": 1.4210854715202004e-14
+          },
+          {
+            "expectedNative_mm": [
+              161.867,
+              -120.55525100000001
+            ],
+            "nearestOldHole_mm": [
+              161.867001,
+              -120.555251
+            ],
+            "error_mm": 9.999999974752427e-07
+          }
+        ],
+        "maxError_mm": 9.999999974752427e-07
+      }
+    ]
+  },
+  {
+    "key": "SW8",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              114.75,
+              -113.28049999999999
+            ],
+            "nearestOldHole_mm": [
+              117.29,
+              -114.1005
+            ],
+            "error_mm": 2.669082239272526
+          },
+          {
+            "expectedNative_mm": [
+              119.75,
+              -115.48049999999999
+            ],
+            "nearestOldHole_mm": [
+              117.29,
+              -114.1005
+            ],
+            "error_mm": 2.82063822565035
+          }
+        ],
+        "maxError_mm": 2.82063822565035
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              114.75,
+              -125.0805
+            ],
+            "nearestOldHole_mm": [
+              114.75000000000001,
+              -125.08050000000003
+            ],
+            "error_mm": 3.1776437161565096e-14
+          },
+          {
+            "expectedNative_mm": [
+              109.75,
+              -122.8805
+            ],
+            "nearestOldHole_mm": [
+              109.74999900000002,
+              -122.88050000000001
+            ],
+            "error_mm": 9.99999983264388e-07
+          }
+        ],
+        "maxError_mm": 9.99999983264388e-07
+      }
+    ]
+  },
+  {
+    "key": "SW7",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              114.75,
+              -94.2305
+            ],
+            "nearestOldHole_mm": [
+              117.29,
+              -95.0505
+            ],
+            "error_mm": 2.669082239272522
+          },
+          {
+            "expectedNative_mm": [
+              119.75,
+              -96.43050000000001
+            ],
+            "nearestOldHole_mm": [
+              117.29,
+              -95.0505
+            ],
+            "error_mm": 2.8206382256503573
+          }
+        ],
+        "maxError_mm": 2.8206382256503573
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              114.75,
+              -106.03050000000002
+            ],
+            "nearestOldHole_mm": [
+              114.75000000000001,
+              -106.03050000000002
+            ],
+            "error_mm": 1.4210854715202004e-14
+          },
+          {
+            "expectedNative_mm": [
+              109.75,
+              -103.83050000000001
+            ],
+            "nearestOldHole_mm": [
+              109.74999900000002,
+              -103.8305
+            ],
+            "error_mm": 9.99999983264388e-07
+          }
+        ],
+        "maxError_mm": 9.99999983264388e-07
+      }
+    ]
+  },
+  {
+    "key": "SW20",
+    "variants": [
+      {
+        "delta_deg": 0.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              177.28128751788864,
+              -131.8226180009964
+            ],
+            "nearestOldHole_mm": [
+              174.900835,
+              -130.61537
+            ],
+            "error_mm": 2.669082600039231
+          },
+          {
+            "expectedNative_mm": [
+              172.68700163800145,
+              -128.86753132648596
+            ],
+            "nearestOldHole_mm": [
+              174.900835,
+              -130.61537
+            ],
+            "error_mm": 2.8206379036184672
+          }
+        ],
+        "maxError_mm": 2.8206379036184672
+      },
+      {
+        "delta_deg": 180.0,
+        "matches": [
+          {
+            "expectedNative_mm": [
+              179.12721420536337,
+              -120.1678955819738
+            ],
+            "nearestOldHole_mm": [
+              179.12721400000004,
+              -120.16789600000001
+            ],
+            "error_mm": 4.6574673210006747e-07
+          },
+          {
+            "expectedNative_mm": [
+              183.72150008525057,
+              -123.12298225648425
+            ],
+            "nearestOldHole_mm": [
+              183.721501,
+              -123.12298200000001
+            ],
+            "error_mm": 9.500266678974258e-07
+          }
+        ],
+        "maxError_mm": 9.500266678974258e-07
+      }
+    ]
+  }
+]

@@ -15,7 +15,7 @@ def run(_context: str):
     keys=json.load(open(BASE+'docs/lp-seating-revision-verification.json',encoding='utf-8'))['keys']
     switch_occs=[];socket_occs=[]
     for i,k in enumerate(keys):
-        t=k['angle'];ct=math.cos(t);st=math.sin(t)
+        t=k['angle']+math.pi;ct=math.cos(t);st=math.sin(t)
         def matrix(dx,dy,z):
             m=adsk.core.Matrix3D.create()
             m.setWithCoordinateSystem(adsk.core.Point3D.create((k['x']+ct*dx-st*dy)/10,(k['y']+st*dx+ct*dy)/10,z/10),adsk.core.Vector3D.create(ct,st,0),adsk.core.Vector3D.create(-st,ct,0),adsk.core.Vector3D.create(0,0,1))
@@ -42,7 +42,7 @@ def run(_context: str):
     for occ,k in zip(switch_occs,keys):walk(occ,'switch',k['reference'])
     for occ,k in zip(socket_occs,keys):walk(occ,'socket',k['reference'])
     report=dict(date='2026-11-08',switchOccurrences=23,socketOccurrences=23,switchSolids=184,socketSolids=161,
-                switchPCBSeatingZ_mm=1.6,socketTranslationNative_mm=[0,-5.9,-1.85],
+                switchPCBSeatingZ_mm=1.6,orientationCorrection_deg=180,socketTranslationNative_mm=[0,-5.9,-1.85],
                 socketZSource='https://koktoh.hatenablog.com/entry/2023/06/05/173318',
                 sourceCommit='2b6bcfac0032f1547e27b18b9a897e065e544b37',records=records,timelineIssues=issues,
                 limitations=['Generic Choc V2 Red accepted as reference; not certified exact Spring Mini revision',

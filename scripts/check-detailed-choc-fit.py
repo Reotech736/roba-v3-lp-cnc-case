@@ -11,7 +11,7 @@ def run(_context: str):
     targets=[o for o in root.occurrences if o.component.name.startswith(('Upper_L_','Lower_L_','MCU_RAISED_','Battery_L_','XIAO_KEY_SIDE_ENVELOPE_'))]
     target_names={o.component.name for o in targets};out=[]
     for kind,prefix in [('switch','CHOC_V2_RED_DETAILED_'),('socket','CHOC_SOCKET_DETAILED_')]:
-        refs=[o for o in root.occurrences if o.component.name.startswith(prefix)];assert len(refs)==23
+        refs=[o for o in root.allOccurrences if o.component.name.startswith(prefix)];assert len(refs)==23
         entities=adsk.core.ObjectCollection.create();lookup={}
         for o in targets:entities.add(o)
         def walk(o,key):
