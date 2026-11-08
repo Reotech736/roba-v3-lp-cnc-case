@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-08",
+  "baselineCloudVersion": 20,
+  "selectedPart": "pin3",
+  "targetProduct": "Kailh Spring MINI ChocV2",
+  "derivedComponentName": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
+  "operation": "Parametric Remove feature on shared imported red component; removed from all23 instances, not merely hidden",
+  "removedPinOccurrences": 23,
+  "removedPinBodyVolumeEach_mm3": 2.1359745406836,
+  "switchBodies": 161,
+  "socketBodies": 161,
+  "totalDetailedChocBodies": 322,
+  "electricalPinOccurrencesPreserved": 46,
+  "stemsPreserved": 23,
+  "remainingMatricesVolumesAndVisibilityPreserved": true,
+  "caseAndCarrierGeometryUnchanged": true,
+  "upstreamFilesHashVerified": true,
+  "timelineIssues": [],
+  "decisionBasis": "User suspects target lacks selected pin; manufacturer old fix-pin design and retailer Spring MINI underside photo corroborate omission from this target proxy.",
+  "sources": [
+    {
+      "url": "https://www.kailhswitch.com/info/kailh-choc-v2-feature-44841625.html",
+      "finding": "2020 generic ChocV2 design includes a movable fix pin"
+    },
+    {
+      "url": "https://shop.talpkeyboard.com/products/kailh-spring-mini-chocv2",
+      "finding": "Retailer product underside photo shows two metal contacts and central plastic post, with no corresponding opposite-corner metal fix pin",
+      "imageURL": "https://shop.talpkeyboard.com/cdn/shop/files/2025-05-1522.10.58.png?v=1747314687"
+    },
+    {
+      "url": "https://shop.yushakobo.jp/products/18433",
+      "finding": "3pin listing exists; pin-count label alone does not prove three metal terminals"
+    }
+  ],
+  "limitations": [
+    "Spring MINI-specific full CAD/dimension drawing not obtained; remaining proxy dimensions and exact lot are not certified",
+    "Removal affects CAD reference only; no recommendation to cut a physical switch or electrical terminal",
+    "Remaining physical PCB hole/pad, latch, press-fit, tolerances and machining checks still pending"
+  ],
+  "fitReport": "detailed-choc-fit-verification.json",
+  "retentionFitReport": "internal-retention-fit-verification.json",
+  "placementReport": "choc-v2-placement-verification.json",
+  "positionsRechecked": 46,
+  "stemTopsRechecked": 23,
+  "caseVolumesUnchanged": true,
+  "cloudVersion": 21,
+  "cloudComplete": true,
+  "modified": false
+}

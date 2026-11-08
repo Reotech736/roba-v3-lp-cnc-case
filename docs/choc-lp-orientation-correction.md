@@ -36,3 +36,5 @@ ChocV2 Redの作者モデルはSpring MINIそのものの厳密な製品モデ�
 [向き修正の記録](choc-orientation-correction.json)、[旧穴との照合](old-vs-current-choc-pin-orientation.json)、[支持部の修正](choc-lp-support-correction.json)、[現行46配置](choc-v2-placement-verification.json)、[詳細部品の検査](detailed-choc-fit-verification.json)。
 
 今後はフットプリント角度だけで部品の向きを決めず、Chocの穴・受け・端子の非対称な位置を照合すること。旧配置を使った検証記録は履歴として扱います。
+
+2026-11-08 v21追記: [Spring MINIの固定ピン差](spring-mini-fix-pin-removal.md)を調査し、汎用Redの補助pin3を現行派生参照の全23個からRemove。元STEPを保持、電気端子2本・ステムは保持。旧文書の第三突起未確認は本更新を優先し、残る形状・PCB適合は未認定。

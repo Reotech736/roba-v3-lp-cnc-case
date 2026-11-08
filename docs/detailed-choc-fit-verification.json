@@ -6,7 +6,7 @@
       "kind": "switch",
       "count": 0,
       "collisions": [],
-      "internalOverlapsExcluded": 115
+      "internalOverlapsExcluded": 92
     },
     {
       "kind": "socket",
@@ -17,7 +17,7 @@
   ],
   "positionsCaptured": true,
   "excluded": "Public outline PCB and hidden coarse switch envelopes; neither is the populated PCB or exact switch solid",
-  "cloudVersion": 20,
+  "cloudVersion": 21,
   "cloudComplete": true,
   "modified": false
 }

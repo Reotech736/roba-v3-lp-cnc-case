@@ -6,17 +6,19 @@ roBa v3 LP（COROPIT対応）の左右上下ケースをアルミ削り出しで
 
 ## 現在の状態（2026-11-08）
 
-現行は `02_design/left_case_two_stands_v05_NOT_FOR_MANUFACTURE` のクラウドv20。全体F3D・上下ケースSTEPを更新済みです。右ケース・実物適合・製造条件は未完成です。
+現行は `02_design/left_case_two_stands_v05_NOT_FOR_MANUFACTURE` のクラウドv21。全体F3Dはv21、形状不変の上下ケースSTEPはv20を維持しています。右ケース・実物適合・製造条件は未完成です。
 
 | 項目 | 現行と検証範囲 |
 | --- | --- |
-| LP配置 | Choc側だけを基準に23スイッチ・23ソケットを180°補正。旧LP穴と照合、支持1・対応逃げ・絶縁材も修正。[詳細](docs/choc-lp-orientation-correction.md) |
+| LP配置 | Choc側だけを基準に23スイッチ・23ソケットを180°補正。Spring MINI写真にない補助pin3を派生参照から除外。旧LP穴と照合、支持1・対応逃げ・絶縁材も修正。[詳細](docs/choc-lp-orientation-correction.md) |
 | スタンド | 横向き2本、収納56.8×14.8×深さ3.5・指掛かりD8・残肉2。穴閉塞と裏当て張り出しを修正。[詳細](docs/stand-and-M2-correction.md) |
 | 接地辺 | ねじ座外端へ揃えた連続42 mm。最大外接寸法を維持し、指定した理想傾斜平面で検査。[詳細](docs/continuous-contact-edge.md) |
 | 電池 | 設計対象42×20×5・線40 mm、受け内寸43×21・仮経路31.08 mm。実端子・曲げ・交換は未確認。[詳細](docs/battery42-layout-development.md) |
 | 表示管理 | 旧12個をOLD、Choc46個と電池一式をグループ化。[操作](docs/component-organization.md) |
 | 参照保護 | 元STEP6点・公開PCB・第三者部品の保存バイトとハッシュを検証。旧モデルは読み取り参照のみ |
 | 試作・見積・発注 | 未実施。指定の幾何検査合格を、実物適合・強度・加工成立の認定としない |
+
+Spring MINIと汎用Choc V2の固定ピン差は[調査・除外記録](docs/spring-mini-fix-pin-removal.md)を参照してください。
 
 次のセッションは[再開メモ](docs/next-session.md)から開始してください。[現行要件](docs/new-case-requirements.md)と[CAD一覧](cad/design/README.md)も整理しました。過去段階の「未確認」「未コミット」などの記載は作成時の履歴です。現在のコミット状態はGit履歴を参照してください。
 

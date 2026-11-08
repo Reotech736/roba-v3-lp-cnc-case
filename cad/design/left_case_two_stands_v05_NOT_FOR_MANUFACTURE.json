@@ -156,7 +156,7 @@
   ],
   "solidInterferences": 0,
   "collisionSet": "52 coarse-core solids; detailed Choc, sockets, MCU, cable, cap sweep and screw envelopes checked in separate sets",
-  "cloudVersion": 20,
+  "cloudVersion": 21,
   "cloudComplete": true,
   "supportTopGlobalZ_mm": -0.2,
   "residualInteriorSamples": 18,
@@ -178,13 +178,13 @@
   ],
   "upperRoofReport": "upper-roof-development.json",
   "cableAccessInterferences": 0,
-  "cloudCheckpointNote": "v20 corrects Choc switches/sockets by180deg and relocates support1, upper relief and insulation. Legacy old board inspected only. MX side not used. Case/socket/wire/hole checks rerun; actual PCB revision/pins remain unqualified.",
+  "cloudCheckpointNote": "v21: omit generic pin3 in23 shared switch instances; preserve two electrical contacts, stems, transforms and case geometry. Raw upstream STEP unchanged. Derived proxy is not a manufacturer-certified Spring MINI model.",
   "roofTopZ_mm": 3.8,
   "roofBottomZ_mm": 2.6,
   "detailedMCUBodyCountIncludingChildren": 77,
   "detailedChocReport": "../../docs/choc-v2-placement-verification.json",
   "minimumCapToCoverPlanarGap_mm": 0.6051348553877409,
-  "detailedChocSwitchSolids": 184,
+  "detailedChocSwitchSolids": 161,
   "detailedChocSocketSolids": 161,
   "coverBoundsGlobal_mm": [
     [
@@ -273,7 +273,7 @@
       "Screw head dimensions, grade, torque, fit and thread serviceability not finalized"
     ]
   },
-  "currentVerification": "../../docs/choc-orientation-correction.json",
+  "currentVerification": "../../docs/spring-mini-fix-pin-removal.json",
   "serviceAndLocating": {
     "date": "2026-11-08",
     "locatorsXY_mm": [
@@ -356,7 +356,7 @@
     "BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL": 1127.6285834705777
   },
   "lowerMaximumGlobalZ_mm": 0,
-  "geometryValidatedCloudVersion": 20,
+  "geometryValidatedCloudVersion": 21,
   "standPocketDepth_mm": 3.5,
   "standResidual_mm": 2,
   "standBackingTopGlobalZ_mm": -6.0,
@@ -580,7 +580,7 @@
     },
     {
       "name": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
-      "visible": true,
+      "visible": false,
       "children": []
     },
     {
@@ -829,7 +829,7 @@
       "visible": true,
       "children": [
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -863,11 +863,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -952,7 +947,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -986,11 +981,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -1075,7 +1065,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -1109,11 +1099,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -1198,7 +1183,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -1232,11 +1217,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -1321,7 +1301,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -1355,11 +1335,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -1444,7 +1419,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -1478,11 +1453,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -1567,7 +1537,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -1601,11 +1571,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -1690,7 +1655,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -1724,11 +1689,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -1813,7 +1773,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -1847,11 +1807,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -1936,7 +1891,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -1970,11 +1925,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -2059,7 +2009,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -2093,11 +2043,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -2182,7 +2127,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -2216,11 +2161,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -2305,7 +2245,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -2339,11 +2279,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -2428,7 +2363,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -2462,11 +2397,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -2551,7 +2481,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -2585,11 +2515,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -2674,7 +2599,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -2708,11 +2633,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -2797,7 +2717,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -2831,11 +2751,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -2920,7 +2835,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -2954,11 +2869,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -3043,7 +2953,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -3077,11 +2987,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -3166,7 +3071,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -3200,11 +3105,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -3289,7 +3189,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -3323,11 +3223,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -3412,7 +3307,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -3446,11 +3341,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -3535,7 +3425,7 @@
           ]
         },
         {
-          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
           "children": [
             {
@@ -3569,11 +3459,6 @@
                 },
                 {
                   "name": "pin2",
-                  "visible": true,
-                  "children": []
-                },
-                {
-                  "name": "pin3",
                   "visible": true,
                   "children": []
                 },
@@ -3727,7 +3612,7 @@
     },
     {
       "name": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL",
-      "visible": false,
+      "visible": true,
       "children": [
         {
           "name": "BATTERY_CELL_NOMINAL_42x20x5_USER_TARGET",
@@ -3788,7 +3673,7 @@
       ]
     }
   ],
-  "overallDesignStatus": "CHOC_LP_ORIENTATION_CORRECTED_PHYSICAL_ASSEMBLY_AND_MANUFACTURING_PENDING",
+  "overallDesignStatus": "SPRING_MINI_DERIVED_PROXY_NO_FIX_PIN_PHYSICAL_ASSEMBLY_PENDING",
   "supersedingDesignAudit": "../../docs/stand-and-M2-correction.json",
   "unresolvedFindings": [],
   "resolvedV17Findings": [
@@ -3805,5 +3690,7 @@
   "contactEdgeOffsetFromSelectedV18_mm": 2.5,
   "overallCaseBoundsUnchanged": true,
   "placementScope": "LP Choc only",
-  "chocModelOrientationCorrection_deg": 180
+  "chocModelOrientationCorrection_deg": 180,
+  "derivedSpringMiniWithoutFixPin": true,
+  "springMiniVariantReport": "../../docs/spring-mini-fix-pin-removal.json"
 }

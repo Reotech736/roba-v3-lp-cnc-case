@@ -30,12 +30,17 @@ def run(_context: str):
             assert max(abs(a-b) for a,b in zip(actual,expected))<1e-6,str((actual,expected))
             origins.append(dict(kind=kind,key=k['reference'],actual_mm=actual,expected_mm=expected))
             walk(o,kind,k['reference'])
-    assert len(records)==345 and len(origins)==46
+    derivedNoFixPin=groups[0][1][0].component.name=='CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN'
+    expectedSwitchBodies=161 if derivedNoFixPin else 184
+    switchRecords=[r for r in records if r['kind']=='switch']
+    socketRecords=[r for r in records if r['kind']=='socket']
+    assert len(switchRecords)==expectedSwitchBodies and len(socketRecords)==161 and len(origins)==46
+    if derivedNoFixPin:assert not any(r['component']=='pin3' for r in switchRecords)
     # Every stem top must now be at Z=10.2, proving placement in assembly context.
     stems=[r for r in records if r['kind']=='switch' and r['component']=='stem']
     assert len(stems)==23 and all(abs(r['boundsGlobal_mm'][1][2]-10.2)<1e-5 for r in stems)
     path=BASE+'docs/choc-v2-placement-verification.json';report=json.load(open(path,encoding='utf-8'))
-    report.update(records=records,positionChecks=origins,positionsCaptured=True,orientationCorrection_deg=180,datumCheck='46 origins and 23 released stem tops checked after computeAll',
+    report.update(records=records,positionChecks=origins,positionsCaptured=True,orientationCorrection_deg=180,switchSolids=expectedSwitchBodies,socketSolids=161,derivedSpringMiniWithoutFixPin=derivedNoFixPin,datumCheck='46 origins and 23 released stem tops checked after computeAll',
                   invalidatedEarlierFitResults=True)
     json.dump(report,open(path,'w',encoding='utf-8'),ensure_ascii=False,indent=2)
     print(json.dumps(dict(positionChecks=46,stemTopChecks=23,stemTopZ_mm=10.2,positionsCaptured=True)))

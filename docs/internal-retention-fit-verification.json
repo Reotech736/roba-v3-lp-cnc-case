@@ -8,7 +8,7 @@
   "pullTabAccessVsAssemblyInterferences": [],
   "detailedSocketsVsNewPartsInterferences": [],
   "intentionalWireVsSlackReservationOverlap": [],
-  "cloudVersion": 20,
+  "cloudVersion": 21,
   "cloudComplete": true,
   "modified": false
 }
