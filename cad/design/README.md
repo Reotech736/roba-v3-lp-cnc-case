@@ -1,13 +1,19 @@
-# 設計データ
+# 設計データ（2026-11-08、クラウドv20）
 
-## 2026-11-07 基板配置用の仮参照
+現行は `left_case_two_stands_v05_NOT_FOR_MANUFACTURE`。同名F3Dが全体・履歴、同名JSONが寸法・参照座標・最新検証への入口です。クラウドとローカルの版を混同しないでください。
 
-`pcb_v2_functional_reference_v01.f3d` は公開v2 KiCadから独立作成した左右の基板輪郭・取付穴と、30×20×4 mm電池の仮包絡です。ケース形状や実装済み基板ではありません。実機のLP仕様・版との整合は未確認。部品別STEP、入力JSON、検証JSONを同名で保存しています。[照合と制限](../../docs/pcb-reference-investigation.md)を参照してください。
+| データ | 内容 |
+| --- | --- |
+| `left_case_two_stands_v05_NOT_FOR_MANUFACTURE.f3d` | 左ケース全体、Choc23組、PCB・XIAO・電池等の参照と検討工具 |
+| `…_Lower_L_LOCAL.step` | v20下ケース、単一ソリッド、部品ローカル座標 |
+| `…_Upper_L_protective_roof_LOCAL.step` | v20上ケース、単一ソリッド、部品ローカル座標 |
+| `…_MCU_cover_concept_LOCAL.step` | 別体カバー候補、形状更新の最終出力を維持 |
+| `battery_carrier_provisional_NONMETAL_NOT_FOR_MANUFACTURE_LOCAL.step` | 42×20×5電池用の非金属受け、単一ソリッド |
+| `stand_test_depth3p5_fingerD8_NOT_FOR_MANUFACTURE.*` | 現行の局所試験片。F3D/STEP/mm STL/JSON |
+| `checkpoints/` | [変更前の節目](checkpoints/README.md)。現行ではない |
 
-元データの複製から作成するFusion形式の設計データを置きます。ケース全体のCNC向け設計は未作成です。
+STEPは組立座標ではありません。下ケースは組立Z−11.5、上側Z−1の変換をF3D側で管理。現行の寸法・未認定事項は[要件](../../docs/new-case-requirements.md)、次の作業は[再開メモ](../../docs/next-session.md)。発注用のデータはまだありません。
 
-## 2026-11-07 仮寸法スタンド試験片
+局所試験片はくぼみ56.8×14.8×深さ3.5、R2.2、底厚2、D8指掛かり、外形64.8×18.8×5.5 mm。STLはmm・708三角形・全辺を2面で共有する閉じたメッシュを確認。方式・材質・公差・実物開閉は未検証です。旧深さ3.7の `stand_test_provisional_56p8x14p8` は比較履歴です。
 
-`stand_test_provisional_56p8x14p8.f3d` は旧stand_test v3の複製から作成した履歴付き設計、同名STEPは形状交換用です。Fusion現行プロジェクトの02_designに保存（v2、処理完了）。測定結果は同名JSONを参照。
-
-主くぼみ56.8×14.8×深さ3.7 mm、外形64.3×20.8×6.7 mm。旧指掛かり段差を保持。両面テープ固定予定ですが厚さは未確認。実物の収納・開閉・ケース全体への適合は未検証です。試験片はケース内側の形状を省略した局所モデルで、底厚・剛性をケース全体の検証に使わないでください。加工発注用データではありません。
+`pcb_v2_functional_reference_v01` は公開KiCadの輪郭・取付穴の独立参照で、実装済みLP基板ではありません。古い30×20×4電池や旧配置試作も現行の採用値とは区別し、参照・履歴として保持しています。

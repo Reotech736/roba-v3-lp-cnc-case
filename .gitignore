@@ -42,3 +42,10 @@ export/
 # Project management
 prompt.md
 docs/DIY-Keyboard-Case-Design-Guide_r1.*
+
+# Local diagnostic checkpoints; retained on disk, milestone archives are tracked
+cad/design/checkpoints/v05_cell42_before_wire_clearance_refinement.f3d
+cad/design/checkpoints/v05_cloud_v16_before_battery_browser_group.f3d
+cad/design/checkpoints/v05_rotated_choc_before_support1_correction.f3d
+cad/design/checkpoints/v05_unsaved_after_failed_access_move.f3d
+cad/design/checkpoints/v05_verified_*.f3d
