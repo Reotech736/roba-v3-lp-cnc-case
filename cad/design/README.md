@@ -1,4 +1,4 @@
-# 設計データ（2026-11-08、クラウドv21）
+# 設計データ（2026-11-08、クラウドv22）
 
 現行は `left_case_two_stands_v05_NOT_FOR_MANUFACTURE`。同名F3Dが全体・履歴、同名JSONが寸法・参照座標・最新検証への入口です。クラウドとローカルの版を混同しないでください。
 
@@ -6,7 +6,7 @@
 | --- | --- |
 | `left_case_two_stands_v05_NOT_FOR_MANUFACTURE.f3d` | 左ケース全体、Choc23組、PCB・XIAO・電池等の参照と検討工具 |
 | `…_Lower_L_LOCAL.step` | v20下ケース、単一ソリッド、部品ローカル座標 |
-| `…_Upper_L_protective_roof_LOCAL.step` | v20上ケース、単一ソリッド、部品ローカル座標 |
+| `…_Upper_L_protective_roof_LOCAL.step` | v22上ケース、単一ソリッド、部品ローカル座標 |
 | `…_MCU_cover_concept_LOCAL.step` | 別体カバー候補、形状更新の最終出力を維持 |
 | `battery_carrier_provisional_NONMETAL_NOT_FOR_MANUFACTURE_LOCAL.step` | 42×20×5電池用の非金属受け、単一ソリッド |
 | `stand_test_depth3p5_fingerD8_NOT_FOR_MANUFACTURE.*` | 現行の局所試験片。F3D/STEP/mm STL/JSON |
@@ -19,3 +19,5 @@ STEPは組立座標ではありません。下ケースは組立Z−11.5、上�
 `pcb_v2_functional_reference_v01` は公開KiCadの輪郭・取付穴の独立参照で、実装済みLP基板ではありません。古い30×20×4電池や旧配置試作も現行の採用値とは区別し、参照・履歴として保持しています。
 
 v21ではSpring MINI用派生参照の補助固定pin3を除外しました。全体F3D・主JSONはv21、ケース形状が変わらない上下STEPはv20です。[調査と検証](../../docs/spring-mini-fix-pin-removal.md)を参照。
+
+v22では上ケースの旧支持逃げを整理し、全体F3D・上ケースSTEPを更新。下ケースSTEPはv20形状です。[修正記録](../../docs/upper-support-relief-alignment.md)を参照。

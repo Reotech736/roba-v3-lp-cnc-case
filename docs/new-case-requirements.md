@@ -1,4 +1,4 @@
-# 新規ケースの要件（v21）
+# 新規ケースの要件（v22）
 
 更新: 2026-11-08。現行の採用条件と未認定事項を記します。数値は概寸・仮設計を含み、発注仕様ではありません。最新の作業順は[再開メモ](next-session.md)。
 
@@ -36,3 +36,5 @@
 部品間の体積重複、穴の閉塞・ねじ包絡、残肉、裏当て投影、理想平面への侵入を別々に検査。指定条件で0件でも、設計全体・実物適合・製造成立を認定したとは扱わない。v17で見落としたM2穴閉塞と外周張り出しはv18で修正、接地辺はv19、Choc向きと支持1はv20で修正済み。
 
 [LP配置](choc-lp-orientation-correction.md)、[スタンド／M2修正](stand-and-M2-correction.md)、[接地辺](continuous-contact-edge.md)、[電池](battery42-layout-development.md)を参照。過去の要件文は[履歴](history/new-case-requirements-before-v20-cleanup.md)に保持。
+
+v22では現行4支持に対する8逃げの整合と名目空間を確認。[上側逃げの修正](upper-support-relief-alignment.md)を参照。支持を変更するときは小逃げ・拡張逃げ・絶縁材と後段の追加加工を一緒に追従させる。

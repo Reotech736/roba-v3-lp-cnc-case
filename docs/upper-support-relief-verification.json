@@ -1,0 +1,187 @@
+{
+  "activeReliefTiersMatched": 8,
+  "currentSupportsChecked": 4,
+  "reliefChecks": [
+    {
+      "feature": "Support_clearance_1_0p2mm",
+      "support": 1,
+      "margin_mm": 0.2,
+      "actualXYXY_mm": [
+        -106.32000000000002,
+        -53.2,
+        -103.61999999999998,
+        -44.8
+      ],
+      "matchesCurrentSupport": true
+    },
+    {
+      "feature": "Expanded_support_clearance_1",
+      "support": 1,
+      "margin_mm": 1.2,
+      "actualXYXY_mm": [
+        -107.32000000000001,
+        -54.20000000000001,
+        -102.61999999999999,
+        -43.8
+      ],
+      "matchesCurrentSupport": true
+    },
+    {
+      "feature": "Support_clearance_2_0p2mm",
+      "support": 2,
+      "margin_mm": 0.2,
+      "actualXYXY_mm": [
+        -106.32000000000002,
+        -27.199999999999996,
+        -103.61999999999998,
+        -18.8
+      ],
+      "matchesCurrentSupport": true
+    },
+    {
+      "feature": "Expanded_support_clearance_2",
+      "support": 2,
+      "margin_mm": 1.2,
+      "actualXYXY_mm": [
+        -107.32000000000001,
+        -28.2,
+        -102.61999999999999,
+        -17.8
+      ],
+      "matchesCurrentSupport": true
+    },
+    {
+      "feature": "Support_clearance_3_0p2mm",
+      "support": 3,
+      "margin_mm": 0.2,
+      "actualXYXY_mm": [
+        9.076167,
+        -43.2,
+        11.776167,
+        -36.8
+      ],
+      "matchesCurrentSupport": true
+    },
+    {
+      "feature": "Expanded_support_clearance_3",
+      "support": 3,
+      "margin_mm": 1.2,
+      "actualXYXY_mm": [
+        8.076167,
+        -44.2,
+        12.776166999999997,
+        -35.8
+      ],
+      "matchesCurrentSupport": true
+    },
+    {
+      "feature": "Support_clearance_4_0p2mm",
+      "support": 4,
+      "margin_mm": 0.2,
+      "actualXYXY_mm": [
+        -66.5,
+        6.053999999999999,
+        -60.099999999999994,
+        8.754
+      ],
+      "matchesCurrentSupport": true
+    },
+    {
+      "feature": "Expanded_support_clearance_4",
+      "support": 4,
+      "margin_mm": 1.2,
+      "actualXYXY_mm": [
+        -67.5,
+        5.053999999999999,
+        -59.099999999999994,
+        9.754
+      ],
+      "matchesCurrentSupport": true
+    }
+  ],
+  "obsoleteDuplicateSuppressed": true,
+  "nominalCavityChecks": [
+    {
+      "support": 1,
+      "nominalXYClearanceEachSide_mm": 0.2,
+      "globalZRange_mm": [
+        -1,
+        0
+      ],
+      "obstructingUpperMaterial_mm3": 0.0
+    },
+    {
+      "support": 2,
+      "nominalXYClearanceEachSide_mm": 0.2,
+      "globalZRange_mm": [
+        -1,
+        0
+      ],
+      "obstructingUpperMaterial_mm3": 0.0
+    },
+    {
+      "support": 3,
+      "nominalXYClearanceEachSide_mm": 0.2,
+      "globalZRange_mm": [
+        -1,
+        0
+      ],
+      "obstructingUpperMaterial_mm3": 0.0
+    },
+    {
+      "support": 4,
+      "nominalXYClearanceEachSide_mm": 0.2,
+      "globalZRange_mm": [
+        -1,
+        0
+      ],
+      "obstructingUpperMaterial_mm3": 0.0
+    }
+  ],
+  "oldReliefMaterialSamples": [
+    {
+      "pointGlobal_mm": [
+        -106.9,
+        -60,
+        -0.5
+      ],
+      "restoredMaterial": true
+    },
+    {
+      "pointGlobal_mm": [
+        -106.9,
+        -58,
+        -0.5
+      ],
+      "restoredMaterial": true
+    },
+    {
+      "pointGlobal_mm": [
+        -55,
+        8.5,
+        -0.5
+      ],
+      "restoredMaterial": true
+    },
+    {
+      "pointGlobal_mm": [
+        -54,
+        8.8,
+        -0.5
+      ],
+      "restoredMaterial": true
+    },
+    {
+      "pointGlobal_mm": [
+        -53.5,
+        9,
+        -0.5
+      ],
+      "restoredMaterial": true
+    }
+  ],
+  "limitation": "Nominal geometric association/void checks only; root fillets, clearances and machining still require physical/DFM qualification",
+  "cloudVersion": 22,
+  "cloudComplete": true,
+  "modified": false
+}

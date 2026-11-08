@@ -48,18 +48,18 @@
     "Public outline PCB omits functional switch holes and does not establish copper/insulation clearance",
     "F3D includes third-party CC BY-NC-SA component references; case-only STEP exports exclude them"
   ],
-  "cloudVersion": 21,
+  "cloudVersion": 22,
   "cloudComplete": true,
   "minimumExpandedKeycapPlanarGap_mm": 0.6051348553877409,
   "closestKey": "SW17",
-  "cloudCheckpointNote": "v21: omit generic pin3 in23 shared switch instances; preserve two electrical contacts, stems, transforms and case geometry. Raw upstream STEP unchanged. Derived proxy is not a manufacturer-certified Spring MINI model.",
-  "currentVerification": "../../docs/spring-mini-fix-pin-removal.json",
+  "cloudCheckpointNote": "v22: align small/expanded upper reliefs with all4 current supports; suppress obsolete duplicate4. Upper only geometry changed. Choc no-fix-pin derivative and other placements retained. Full assembly/manufacturing pending.",
+  "currentVerification": "../../docs/upper-support-relief-verification.json",
   "resetAccessXY_mm": [
     -5.7153888075073,
     -1.8765400410707997
   ],
   "resetAccessDiameter_mm": 2,
-  "geometryValidatedCloudVersion": 21,
+  "geometryValidatedCloudVersion": 22,
   "coverSideRearWall_mm": 1.2,
   "coverFrontWall_mm": 0.8,
   "pcbSupportInsulationStack_mm": 0.2,
@@ -3206,5 +3206,6 @@
   "detailedChocSwitchSolids": 161,
   "detailedChocSocketSolids": 161,
   "derivedSpringMiniWithoutFixPin": true,
-  "springMiniVariantReport": "../../docs/spring-mini-fix-pin-removal.json"
+  "springMiniVariantReport": "../../docs/spring-mini-fix-pin-removal.json",
+  "upperSupportReliefReport": "../../docs/upper-support-relief-alignment.json"
 }

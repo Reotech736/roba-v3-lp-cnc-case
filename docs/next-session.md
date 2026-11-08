@@ -1,6 +1,6 @@
 # 次セッションの開始メモ
 
-更新: 2026-11-08。v21を現行として、調査・CAD修正・引き継ぎをGitへ分割記録しました。過去段階文書の「未コミット」等は当時の履歴です。今回pushは行いません。現状は発注用ではありません。
+更新: 2026-11-08。v22を現行として、調査・CAD修正・引き継ぎをGitへ分割記録しました。過去段階文書の「未コミット」等は当時の履歴です。今回pushは行いません。現状は発注用ではありません。
 
 ## 最初に読むもの
 
@@ -10,12 +10,16 @@
 
 ## 再開する設計と保護する資料
 
-- 現行は `roba-v3-lp-cnc-case/02_design/left_case_two_stands_v05_NOT_FOR_MANUFACTURE`、クラウドv21。ファイル名のv05とクラウド版v21は別。ID `urn:adsk.wipprod:dm.lineage:H9Nq8f1PSl6GXmxJMgIkbw`。
+- 現行は `roba-v3-lp-cnc-case/02_design/left_case_two_stands_v05_NOT_FOR_MANUFACTURE`、クラウドv22。ファイル名のv05とクラウド版v22は別。ID `urn:adsk.wipprod:dm.lineage:H9Nq8f1PSl6GXmxJMgIkbw`。
 - 最終確認時は保存・処理完了・未保存変更なし。ただし再開時にAPIで状態を読み取り、ユーザーの未保存変更を上書きしない。
 - 全体F3D、上下ケースSTEP、主JSONは `cad/design/` の同名ファイル。STEPは部品ローカル座標、組立変換はF3D。下ケースZ−11.5、上側Z−1、PCB下面Z0。
 - 元STEP6点・公開PCB・第三者部品STEP・旧プロジェクトは読み取り参照。旧ケース外形を新ケースの設計ベースとして継承しない。
 - `balo43_L` はChocの穴配置を調べた機械参照で、現物PCBの電気的な版を確定する資料ではない。読み取り後、保存せず閉じた。
 - 右ケースは未設計。COROPIT実固定部・可動域は未確定。
+
+## v22の支持逃げ修正
+
+[支持逃げの更新漏れ](upper-support-relief-alignment.md)を修正。支持1の拡張逃げ、支持4の旧小逃げ／拡張逃げを現行支持位置へ移動し、後段の重複逃げを抑制。通常0.2・拡張1.2 mmの8フィーチャーと4支持の座標整合・名目空間を検査。今後は支持移動時に小逃げだけでなく拡張逃げと後段加工も追従させる。全体F3D／上ケースSTEPはv22、下ケースSTEPはv20。
 
 ## v21の追加修正
 
@@ -69,7 +73,7 @@ v17では穴が追加材で塞がれたことと外周張り出しを「部品�
 
 ## 新しいセッションへ渡す文
 
-> README.md、CONTRIBUTING.md、docs/next-session.mdを読んで、クラウドv21のleft_case_two_stands_v05_NOT_FOR_MANUFACTUREを引き継いでください。LP版なのでChoc側だけを基準にします。最初はLPの穴・端子・ソケットと組立の未確定事項を整理し、次にねじ・工具の作業性を検討してください。MCP/API優先、元参照と旧モデルは変更せず、実物未確認を確認済みにしないでください。
+> README.md、CONTRIBUTING.md、docs/next-session.mdを読んで、クラウドv22のleft_case_two_stands_v05_NOT_FOR_MANUFACTUREを引き継いでください。LP版なのでChoc側だけを基準にします。最初はLPの穴・端子・ソケットと組立の未確定事項を整理し、次にねじ・工具の作業性を検討してください。MCP/API優先、元参照と旧モデルは変更せず、実物未確認を確認済みにしないでください。
 
 ## 今回のコミット
 

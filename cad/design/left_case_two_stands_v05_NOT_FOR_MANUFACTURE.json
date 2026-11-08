@@ -156,7 +156,7 @@
   ],
   "solidInterferences": 0,
   "collisionSet": "52 coarse-core solids; detailed Choc, sockets, MCU, cable, cap sweep and screw envelopes checked in separate sets",
-  "cloudVersion": 21,
+  "cloudVersion": 22,
   "cloudComplete": true,
   "supportTopGlobalZ_mm": -0.2,
   "residualInteriorSamples": 18,
@@ -178,7 +178,7 @@
   ],
   "upperRoofReport": "upper-roof-development.json",
   "cableAccessInterferences": 0,
-  "cloudCheckpointNote": "v21: omit generic pin3 in23 shared switch instances; preserve two electrical contacts, stems, transforms and case geometry. Raw upstream STEP unchanged. Derived proxy is not a manufacturer-certified Spring MINI model.",
+  "cloudCheckpointNote": "v22: align small/expanded upper reliefs with all4 current supports; suppress obsolete duplicate4. Upper only geometry changed. Choc no-fix-pin derivative and other placements retained. Full assembly/manufacturing pending.",
   "roofTopZ_mm": 3.8,
   "roofBottomZ_mm": 2.6,
   "detailedMCUBodyCountIncludingChildren": 77,
@@ -273,7 +273,7 @@
       "Screw head dimensions, grade, torque, fit and thread serviceability not finalized"
     ]
   },
-  "currentVerification": "../../docs/spring-mini-fix-pin-removal.json",
+  "currentVerification": "../../docs/upper-support-relief-verification.json",
   "serviceAndLocating": {
     "date": "2026-11-08",
     "locatorsXY_mm": [
@@ -351,12 +351,12 @@
   },
   "volumes_mm3": {
     "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 36934.72094132882,
-    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13564.530096681126,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13573.52486371961,
     "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL": 731.484699283006,
     "BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL": 1127.6285834705777
   },
   "lowerMaximumGlobalZ_mm": 0,
-  "geometryValidatedCloudVersion": 21,
+  "geometryValidatedCloudVersion": 22,
   "standPocketDepth_mm": 3.5,
   "standResidual_mm": 2,
   "standBackingTopGlobalZ_mm": -6.0,
@@ -3692,5 +3692,6 @@
   "placementScope": "LP Choc only",
   "chocModelOrientationCorrection_deg": 180,
   "derivedSpringMiniWithoutFixPin": true,
-  "springMiniVariantReport": "../../docs/spring-mini-fix-pin-removal.json"
+  "springMiniVariantReport": "../../docs/spring-mini-fix-pin-removal.json",
+  "upperSupportReliefReport": "../../docs/upper-support-relief-alignment.json"
 }

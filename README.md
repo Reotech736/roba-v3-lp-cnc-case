@@ -6,7 +6,7 @@ roBa v3 LP（COROPIT対応）の左右上下ケースをアルミ削り出しで
 
 ## 現在の状態（2026-11-08）
 
-現行は `02_design/left_case_two_stands_v05_NOT_FOR_MANUFACTURE` のクラウドv21。全体F3Dはv21、形状不変の上下ケースSTEPはv20を維持しています。右ケース・実物適合・製造条件は未完成です。
+現行は `02_design/left_case_two_stands_v05_NOT_FOR_MANUFACTURE` のクラウドv22。全体F3Dと上ケースSTEPはv22、下ケースSTEPは形状不変のv20を維持しています。右ケース・実物適合・製造条件は未完成です。
 
 | 項目 | 現行と検証範囲 |
 | --- | --- |
@@ -19,6 +19,8 @@ roBa v3 LP（COROPIT対応）の左右上下ケースをアルミ削り出しで
 | 試作・見積・発注 | 未実施。指定の幾何検査合格を、実物適合・強度・加工成立の認定としない |
 
 Spring MINIと汎用Choc V2の固定ピン差は[調査・除外記録](docs/spring-mini-fix-pin-removal.md)を参照してください。
+
+支持位置に取り残した旧逃げは[v22で修正](docs/upper-support-relief-alignment.md)。4支持・8逃げを現位置と照合しました。
 
 次のセッションは[再開メモ](docs/next-session.md)から開始してください。[現行要件](docs/new-case-requirements.md)と[CAD一覧](cad/design/README.md)も整理しました。過去段階の「未確認」「未コミット」などの記載は作成時の履歴です。現在のコミット状態はGit履歴を参照してください。
 

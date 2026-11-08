@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-08",
+  "baselineCloudVersion": 21,
+  "changedComponent": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+  "reason": "Expanded relief1 and both old relief4 cuts were not aligned when PCB supports moved",
+  "changes": [
+    {
+      "feature": "Expanded_support_clearance_1",
+      "beforeXYXY_mm": [
+        -107.32000000000001,
+        -62.2,
+        -102.61999999999999,
+        -51.8
+      ],
+      "afterXYXY_mm": [
+        -107.32000000000001,
+        -54.20000000000001,
+        -102.61999999999999,
+        -43.8
+      ]
+    },
+    {
+      "feature": "Support_clearance_4_0p2mm",
+      "beforeXYXY_mm": [
+        -60.2,
+        6.053999999999999,
+        -53.8,
+        8.754
+      ],
+      "afterXYXY_mm": [
+        -66.5,
+        6.053999999999999,
+        -60.099999999999994,
+        8.754
+      ]
+    },
+    {
+      "feature": "Expanded_support_clearance_4",
+      "beforeXYXY_mm": [
+        -61.2,
+        5.053999999999999,
+        -52.8,
+        9.754
+      ],
+      "afterXYXY_mm": [
+        -67.5,
+        5.053999999999999,
+        -59.099999999999994,
+        9.754
+      ]
+    }
+  ],
+  "suppressedObsoleteFeature": "Relocated_support_4_upper_relief_0p2mm",
+  "upperVolumeBefore_mm3": 13564.530096681126,
+  "upperVolumeAfter_mm3": 13573.52486371961,
+  "otherGeometryTransformsAndVisibilityPreserved": true,
+  "timelineIssues": [],
+  "limitations": [
+    "Four reliefs still need current-pad cavity, detail socket and locator/fastener checks; no manufacturing certification"
+  ],
+  "status": "ALL_CURRENT_SUPPORT_RELIEFS_ALIGNED",
+  "verification": "upper-support-relief-verification.json",
+  "fitReports": [
+    "detailed-choc-fit-verification.json",
+    "internal-retention-fit-verification.json",
+    "fastening-and-overhang-current-audit.json"
+  ],
+  "allEightActiveReliefTiersMatch": true,
+  "cloudVersion": 22,
+  "cloudComplete": true,
+  "modified": false
+}
