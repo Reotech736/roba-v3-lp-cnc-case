@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-08",
+  "outer_mm": [
+    64.8,
+    18.8,
+    5.5
+  ],
+  "pocket_mm": [
+    56.8,
+    14.8,
+    3.5
+  ],
+  "pocketR_mm": 2.2,
+  "fingerDiameter_mm": 8,
+  "floor_mm": 2,
+  "pointChecks": [
+    [
+      3,
+      9.4,
+      3,
+      false
+    ],
+    [
+      61.8,
+      9.4,
+      3,
+      false
+    ],
+    [
+      63.8,
+      9.4,
+      3,
+      true
+    ],
+    [
+      61.8,
+      9.4,
+      1,
+      true
+    ]
+  ],
+  "stlUnits": "mm",
+  "bodyCount": 1,
+  "componentDisplayTranslationX_mm": 200,
+  "limitations": [
+    "Local fit coupon only, not a case stiffness/assembly/stand deployment certification",
+    "Actual adhesive thickness and nail access remain unmeasured",
+    "Printer process/material/tolerances are not specified; no print order placed"
+  ],
+  "localMeshVerification": {
+    "triangles": 708,
+    "min_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "max_mm": [
+      64.8,
+      18.8,
+      5.5
+    ],
+    "allMeshEdgesSharedByTwoTriangles": true,
+    "singleSolidSTEP": true,
+    "meshRefinement": "High"
+  },
+  "pocketOriginXY_mm": [
+    2,
+    2
+  ],
+  "fingerCenterXY_mm": [
+    58.8,
+    9.4
+  ],
+  "fingerSide": "positive X; opposite former side"
+}

@@ -1,0 +1,111 @@
+{
+  "pocketAndResidualVolumeChecks": [
+    {
+      "pocketXYWH_mm": [
+        -52.5,
+        -68.5,
+        56.8,
+        14.8
+      ],
+      "fingerXY_mm": [
+        4.3,
+        -61.1
+      ],
+      "nominalPocketAndFingerArea_mm2": 861.6180496720923,
+      "nominalDepth_mm": 3.5,
+      "nominalResidual_mm": 2,
+      "obstructingPocketMaterial_mm3": 0.0,
+      "missingResidualMaterial_mm3": 0.0
+    },
+    {
+      "pocketXYWH_mm": [
+        -52.5,
+        -24.5,
+        56.8,
+        14.8
+      ],
+      "fingerXY_mm": [
+        4.3,
+        -17.1
+      ],
+      "nominalPocketAndFingerArea_mm2": 861.618049672093,
+      "nominalDepth_mm": 3.5,
+      "nominalResidual_mm": 2,
+      "obstructingPocketMaterial_mm3": 0.0,
+      "missingResidualMaterial_mm3": 0.0
+    }
+  ],
+  "M2SeatWallChecks": [
+    {
+      "axisXY_mm": [
+        -108.119997,
+        -59
+      ],
+      "seatRadialAnnulus_mm": 0.9,
+      "missingAnnulusMaterial_mm3": 0.0
+    },
+    {
+      "axisXY_mm": [
+        -108.119997,
+        -17
+      ],
+      "seatRadialAnnulus_mm": 0.9,
+      "missingAnnulusMaterial_mm3": 0.0
+    },
+    {
+      "axisXY_mm": [
+        13.576167,
+        -59
+      ],
+      "seatRadialAnnulus_mm": 0.9,
+      "missingAnnulusMaterial_mm3": 0.0
+    },
+    {
+      "axisXY_mm": [
+        13.576167,
+        -17
+      ],
+      "seatRadialAnnulus_mm": 0.9,
+      "missingAnnulusMaterial_mm3": 0.0
+    }
+  ],
+  "actualBackingFootprints": [
+    {
+      "rectXYXY_mm": [
+        -54.5,
+        -70.5,
+        6.300000000000001,
+        -51.7
+      ],
+      "circle": {
+        "centerXY_mm": [
+          4.299999999999997,
+          -61.1
+        ],
+        "radius_mm": 5.9999999999999964
+      }
+    },
+    {
+      "rectXYXY_mm": [
+        -54.5,
+        -26.5,
+        6.300000000000001,
+        -7.7
+      ],
+      "circle": {
+        "centerXY_mm": [
+          4.299999999999997,
+          -17.1
+        ],
+        "radius_mm": 5.9999999999999964
+      }
+    }
+  ],
+  "limitations": [
+    "Exact nominal model volumes; tolerances, physical stand motion and strength not certified",
+    "0.9mm radial seat wall is verified geometrically, not accepted as a manufacturing/strength requirement"
+  ],
+  "cloudVersion": 20,
+  "cloudComplete": true,
+  "modified": false
+}

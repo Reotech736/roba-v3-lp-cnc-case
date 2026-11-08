@@ -1,0 +1,226 @@
+{
+  "floorChordTolerance_mm": 0.0001,
+  "circleChordErrorUpperBound_mm": 7.059289788724499e-06,
+  "candidates": [
+    {
+      "dx_mm": 0,
+      "firstRowDy_mm": 0,
+      "pockets": [
+        [
+          -50,
+          -71,
+          56.8,
+          14.8
+        ],
+        [
+          -50,
+          -24.5,
+          56.8,
+          14.8
+        ]
+      ],
+      "fingerCenters": [
+        [
+          6.799999999999997,
+          -63.6
+        ],
+        [
+          6.799999999999997,
+          -17.1
+        ]
+      ],
+      "checks": [
+        {
+          "outsideFloorArea_mm2": 4.142225651110331,
+          "minBackingToFloorBoundary_mm": 0.0,
+          "minPocketBoundsToFloorBoundary_mm": 0.7285739529555428,
+          "closestM2SeatToBacking_mm": 0.09005429260339515,
+          "closestM2HoleToBacking_mm": 1.0900389733641784
+        },
+        {
+          "outsideFloorArea_mm2": 0.0,
+          "minBackingToFloorBoundary_mm": 1.2761670000000003,
+          "minPocketBoundsToFloorBoundary_mm": 7.276166999999999,
+          "closestM2SeatToBacking_mm": 0.0,
+          "closestM2HoleToBacking_mm": 0.0
+        }
+      ]
+    },
+    {
+      "dx_mm": -2,
+      "firstRowDy_mm": 2,
+      "pockets": [
+        [
+          -52,
+          -69,
+          56.8,
+          14.8
+        ],
+        [
+          -52,
+          -24.5,
+          56.8,
+          14.8
+        ]
+      ],
+      "fingerCenters": [
+        [
+          4.799999999999997,
+          -61.6
+        ],
+        [
+          4.799999999999997,
+          -17.1
+        ]
+      ],
+      "checks": [
+        {
+          "outsideFloorArea_mm2": 0.0,
+          "minBackingToFloorBoundary_mm": 0.7285739529555428,
+          "minPocketBoundsToFloorBoundary_mm": 2.728573952955543,
+          "closestM2SeatToBacking_mm": 1.0532409278223218,
+          "closestM2HoleToBacking_mm": 2.053222103104924
+        },
+        {
+          "outsideFloorArea_mm2": 0.0,
+          "minBackingToFloorBoundary_mm": 3.2761669999999996,
+          "minPocketBoundsToFloorBoundary_mm": 9.276167,
+          "closestM2SeatToBacking_mm": 0.6767443470871253,
+          "closestM2HoleToBacking_mm": 1.6767431705388276
+        }
+      ]
+    },
+    {
+      "dx_mm": -2,
+      "firstRowDy_mm": 2.5,
+      "pockets": [
+        [
+          -52,
+          -68.5,
+          56.8,
+          14.8
+        ],
+        [
+          -52,
+          -24.5,
+          56.8,
+          14.8
+        ]
+      ],
+      "fingerCenters": [
+        [
+          4.799999999999997,
+          -61.1
+        ],
+        [
+          4.799999999999997,
+          -17.1
+        ]
+      ],
+      "checks": [
+        {
+          "outsideFloorArea_mm2": 0.0,
+          "minBackingToFloorBoundary_mm": 1.2285739529555428,
+          "minPocketBoundsToFloorBoundary_mm": 3.228573952955543,
+          "closestM2SeatToBacking_mm": 0.9239280181834663,
+          "closestM2HoleToBacking_mm": 1.9239268416351687
+        },
+        {
+          "outsideFloorArea_mm2": 0.0,
+          "minBackingToFloorBoundary_mm": 3.2761669999999996,
+          "minPocketBoundsToFloorBoundary_mm": 9.276167,
+          "closestM2SeatToBacking_mm": 0.6767443470871253,
+          "closestM2HoleToBacking_mm": 1.6767431705388276
+        }
+      ]
+    },
+    {
+      "dx_mm": -2.5,
+      "firstRowDy_mm": 2.5,
+      "pockets": [
+        [
+          -52.5,
+          -68.5,
+          56.8,
+          14.8
+        ],
+        [
+          -52.5,
+          -24.5,
+          56.8,
+          14.8
+        ]
+      ],
+      "fingerCenters": [
+        [
+          4.299999999999997,
+          -61.1
+        ],
+        [
+          4.299999999999997,
+          -17.1
+        ]
+      ],
+      "checks": [
+        {
+          "outsideFloorArea_mm2": 0.0,
+          "minBackingToFloorBoundary_mm": 1.2285739529555428,
+          "minPocketBoundsToFloorBoundary_mm": 3.228573952955543,
+          "closestM2SeatToBacking_mm": 1.4109122395477778,
+          "closestM2HoleToBacking_mm": 2.4109110629994785
+        },
+        {
+          "outsideFloorArea_mm2": 0.0,
+          "minBackingToFloorBoundary_mm": 3.7761669999999996,
+          "minPocketBoundsToFloorBoundary_mm": 9.776167,
+          "closestM2SeatToBacking_mm": 1.1767155219251366,
+          "closestM2HoleToBacking_mm": 2.176714345376839
+        }
+      ]
+    },
+    {
+      "dx_mm": -3,
+      "firstRowDy_mm": 3,
+      "pockets": [
+        [
+          -53,
+          -68,
+          56.8,
+          14.8
+        ],
+        [
+          -53,
+          -24.5,
+          56.8,
+          14.8
+        ]
+      ],
+      "fingerCenters": [
+        [
+          3.799999999999997,
+          -60.6
+        ],
+        [
+          3.799999999999997,
+          -17.1
+        ]
+      ],
+      "checks": [
+        {
+          "outsideFloorArea_mm2": 0.0,
+          "minBackingToFloorBoundary_mm": 1.7285739529555426,
+          "minPocketBoundsToFloorBoundary_mm": 3.728573952955543,
+          "closestM2SeatToBacking_mm": 1.8062436543279092,
+          "closestM2HoleToBacking_mm": 2.80623693907863
+        },
+        {
+          "outsideFloorArea_mm2": 0.0,
+          "minBackingToFloorBoundary_mm": 4.276166999999999,
+          "minPocketBoundsToFloorBoundary_mm": 10.276167000000001,
+          "closestM2SeatToBacking_mm": 1.6766866967631482,
+          "closestM2HoleToBacking_mm": 2.676685520214851
+        }
+      ]
+    }
+  ]
+}

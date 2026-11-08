@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-08",
+  "locatorsXY_mm": [
+    [
+      -107.12,
+      -72
+    ],
+    [
+      -107.12,
+      -8
+    ]
+  ],
+  "pinDiameter_mm": 1.6,
+  "pinHeight_mm": 1,
+  "pinTopGlobalZ_mm": 0,
+  "roundHoleDiameter_mm": 2,
+  "slotXY_mm": [
+    2,
+    2.6
+  ],
+  "slotAxis": "Y",
+  "socketDepth_mm": 1.2,
+  "verticalClearance_mm": 0.2,
+  "nominalRadialClearance_mm": 0.2,
+  "locatorWallSamplePoints": 48,
+  "resetModelDatum_mm": {
+    "x": -5.7153888075073,
+    "y": -1.8765400410707997,
+    "topZ": 3.5800000149013207
+  },
+  "resetAccessDiameter_mm": 2,
+  "probeDiameter_mm": 0.8,
+  "beforeVolumes_mm3": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 36010.94061700775,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13052.742557932268,
+    "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL": 681.4346104673141
+  },
+  "afterVolumes_mm3": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 36014.96185560433,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13043.762735563652,
+    "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL": 677.664699283006
+  },
+  "timelineIssues": [],
+  "limitations": [
+    "Locator dimensions and local reinforcing pads remain provisional; tolerances, exterior steps and tool access need DFM review",
+    "Reset hole uses old model placement; actual installed revision and solder gap unverified",
+    "Model button height differs from current manufacturer nominal; no captive plunger or depth stop designed",
+    "Probe is a nonconductive service-tool envelope, not an included manufactured part"
+  ],
+  "pinTopChamfer_mm": 0.15,
+  "pinTopDiameter_mm": 1.3,
+  "chamferedEdges": 2,
+  "chamferRemoved_mm3": 0.10602875205950113,
+  "locatorReinforcement": {
+    "roundOuterDiameter_mm": 4,
+    "slotOuterXY_mm": [
+      4,
+      4.6
+    ],
+    "nominalRadialWall_mm": 1,
+    "upperGlobalZ_mm": [
+      -1,
+      1.5
+    ],
+    "lowerGlobalZ_mm": [
+      -2,
+      -1
+    ],
+    "wallMaterialSamples": 8
+  },
+  "finalVolumes_mm3": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 36019.08232089049,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13054.328970659119
+  }
+}

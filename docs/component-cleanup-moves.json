@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Battery_L_ALLOWANCE_32x22x5p5_NOT_CELL",
+    "target": "OLD_NOT_CURRENT",
+    "moved": true
+  },
+  {
+    "name": "XIAO_KEY_SIDE_ENVELOPE_FROM_OLD_SINGLE_PART_UNVERIFIED",
+    "target": "OLD_NOT_CURRENT",
+    "moved": true
+  },
+  {
+    "name": "SWITCH_LOWER_14mm_PCB_SEATED_ENVELOPES_NOT_LATCHES",
+    "target": "OLD_NOT_CURRENT",
+    "moved": true
+  },
+  {
+    "name": "SWITCH_UPPER_15p2_SQUARE_CONSERVATIVE_ENVELOPES_NOT_FULL_SWITCHES",
+    "target": "OLD_NOT_CURRENT",
+    "moved": true
+  },
+  {
+    "name": "B1_JST_PH_SMD_DATASHEET_RESERVATION_NOT_DETAILED_CAD",
+    "target": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL",
+    "moved": true
+  },
+  {
+    "name": "B1_MATING_PLUG_ACCESS_ASSUMED_8x6x4_NOT_PART",
+    "target": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL",
+    "moved": true
+  },
+  {
+    "name": "BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL",
+    "target": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL",
+    "moved": true
+  },
+  {
+    "name": "CARRIER_BASE_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
+    "target": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL",
+    "moved": true
+  },
+  {
+    "name": "CELL_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
+    "target": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL",
+    "moved": true
+  },
+  {
+    "name": "CELL42_INSTALLATION_SPACE_43x21x5p5_NOT_PART",
+    "target": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL",
+    "moved": true
+  },
+  {
+    "name": "CELL_ADHESIVE_PULL_TAB_ACCESS_RESERVATION_CELL42_NOT_PART",
+    "target": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL",
+    "moved": true
+  },
+  {
+    "name": "BATTERY_SERVICE_SLACK_SPACE_CELL42_10x10x4_NOT_PART",
+    "target": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL",
+    "moved": true
+  },
+  {
+    "name": "BATTERY_WIRE_ROUTE_D3_CELL42_40mm_BUDGET_NOT_PART (1)",
+    "target": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL",
+    "moved": true
+  }
+]

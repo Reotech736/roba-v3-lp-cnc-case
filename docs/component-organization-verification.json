@@ -1,0 +1,3316 @@
+{
+  "date": "2026-11-08",
+  "fileName": "left_case_two_stands_v05_NOT_FOR_MANUFACTURE",
+  "baselineCloudVersion": 16,
+  "rootGroups": [
+    {
+      "name": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "visible": true,
+      "children": 0
+    },
+    {
+      "name": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "visible": true,
+      "children": 0
+    },
+    {
+      "name": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+      "visible": true,
+      "children": 0
+    },
+    {
+      "name": "USB_CABLE_ACCESS_ASSUMED_NOT_A_PART",
+      "visible": false,
+      "children": 0
+    },
+    {
+      "name": "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL",
+      "visible": true,
+      "children": 0
+    },
+    {
+      "name": "KEYCAP_SWEEP_D3p0_18p8_SQUARE_ASSUMED_NOT_PARTS",
+      "visible": false,
+      "children": 0
+    },
+    {
+      "name": "XIAO_DETAILED_FROM_OLD_V2_PLACEMENT_UNVERIFIED",
+      "visible": true,
+      "children": 1
+    },
+    {
+      "name": "COVER_M1p6x6_SCREW_ENVELOPES_HEAD_ASSUMED_THREAD_NOT_MODELED",
+      "visible": false,
+      "children": 0
+    },
+    {
+      "name": "RESET_NONCONDUCTIVE_PROBE_D0p8_ACCESS_TOOL_NOT_A_PART",
+      "visible": false,
+      "children": 0
+    },
+    {
+      "name": "PCB_SUPPORT_INSULATION_STACK_0p2_MATERIAL_PENDING",
+      "visible": true,
+      "children": 0
+    },
+    {
+      "name": "STAND_COUPON_DEPTH3p5_FINGER_D8_LOCAL_TEST_ONLY",
+      "visible": false,
+      "children": 0
+    },
+    {
+      "name": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS",
+      "visible": true,
+      "children": 46
+    },
+    {
+      "name": "OLD_NOT_CURRENT",
+      "visible": false,
+      "children": 12
+    },
+    {
+      "name": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL",
+      "visible": true,
+      "children": 5
+    }
+  ],
+  "originalOccurrenceRecordsVerified": 603,
+  "allTransformsBodyCountsAndVolumesPreserved": true,
+  "deletedComponents": 0,
+  "oldDirectOccurrences": 12,
+  "batteryPhysicalOccurrences": 4,
+  "batteryStudyOccurrences": 6,
+  "batteryStudyGroupInitiallyHidden": true,
+  "coreSolids": 62,
+  "fitReport": "internal-retention-fit-verification.json",
+  "timelineIssues": [],
+  "note": "Coarse switch/MCU envelopes in OLD are retained for conservative checks. They are not manufacturing parts. Current battery dimensions42x20x5, wire budget40 remain unchanged.",
+  "cloudVersion": 17,
+  "cloudComplete": true,
+  "modified": false,
+  "hierarchy": [
+    {
+      "name": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "visible": true,
+      "children": []
+    },
+    {
+      "name": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "visible": true,
+      "children": []
+    },
+    {
+      "name": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+      "visible": true,
+      "children": []
+    },
+    {
+      "name": "USB_CABLE_ACCESS_ASSUMED_NOT_A_PART",
+      "visible": false,
+      "children": []
+    },
+    {
+      "name": "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL",
+      "visible": true,
+      "children": []
+    },
+    {
+      "name": "KEYCAP_SWEEP_D3p0_18p8_SQUARE_ASSUMED_NOT_PARTS",
+      "visible": false,
+      "children": []
+    },
+    {
+      "name": "XIAO_DETAILED_FROM_OLD_V2_PLACEMENT_UNVERIFIED",
+      "visible": true,
+      "children": [
+        {
+          "name": "xiao-nrf52840-v3",
+          "visible": true,
+          "children": [
+            {
+              "name": "USB TYPE C PORT",
+              "visible": true,
+              "children": [
+                {
+                  "name": "USB TYPE C PORT (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "BOSS-EXTRUDE14_8_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE7_4_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE7_3_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE14_4_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE14_2_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE14_11_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE7_7_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE14_9_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE14_3_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE14_7_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "MIRROR2",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE14_5_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE14_12_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE7_8_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE7_1_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE14_10_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE7_9_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE14_6_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "CHAMFER9",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE14_1_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE7_6_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE7_2_",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "CUT-EXTRUDE5",
+                      "visible": true,
+                      "children": []
+                    },
+                    {
+                      "name": "BOSS-EXTRUDE7_5_",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shield",
+              "visible": true,
+              "children": []
+            },
+            {
+              "name": "SKTAAAE010 v1",
+              "visible": true,
+              "children": [
+                {
+                  "name": "Body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "Pins",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "PCB (1)",
+              "visible": true,
+              "children": [
+                {
+                  "name": "CAP",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "ANT1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "Silkscreen",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "CAP 3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "LED",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "USR",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "CAP",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "COVER_M1p6x6_SCREW_ENVELOPES_HEAD_ASSUMED_THREAD_NOT_MODELED",
+      "visible": false,
+      "children": []
+    },
+    {
+      "name": "RESET_NONCONDUCTIVE_PROBE_D0p8_ACCESS_TOOL_NOT_A_PART",
+      "visible": false,
+      "children": []
+    },
+    {
+      "name": "PCB_SUPPORT_INSULATION_STACK_0p2_MATERIAL_PENDING",
+      "visible": true,
+      "children": []
+    },
+    {
+      "name": "STAND_COUPON_DEPTH3p5_FINGER_D8_LOCAL_TEST_ONLY",
+      "visible": false,
+      "children": []
+    },
+    {
+      "name": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS",
+      "visible": true,
+      "children": [
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "red",
+              "visible": true,
+              "children": [
+                {
+                  "name": "bottom",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin1",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "stem",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "top",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin2",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "pin3",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "shrunken_spring",
+                  "visible": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+          "visible": true,
+          "children": [
+            {
+              "name": "choc",
+              "visible": true,
+              "children": [
+                {
+                  "name": "choc_body",
+                  "visible": true,
+                  "children": []
+                },
+                {
+                  "name": "contact (1)",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a1",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a2",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "contact001",
+                  "visible": true,
+                  "children": [
+                    {
+                      "name": "contact_a001",
+                      "visible": true,
+                      "children": [
+                        {
+                          "name": "contact_a003",
+                          "visible": true,
+                          "children": []
+                        },
+                        {
+                          "name": "contact_a004",
+                          "visible": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "contact_b001",
+                      "visible": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OLD_NOT_CURRENT",
+      "visible": false,
+      "children": [
+        {
+          "name": "RETIRED_V15_BATTERY_REMOVABLE_CARRIER_32p6x22p6_PROVISIONAL_NONMETAL",
+          "visible": false,
+          "children": []
+        },
+        {
+          "name": "RETIRED_V15_CARRIER_BASE_REMOVABLE_ADHESIVE_0p2_ALLOWANCE",
+          "visible": false,
+          "children": []
+        },
+        {
+          "name": "RETIRED_V15_CELL_REMOVABLE_ADHESIVE_0p2_ALLOWANCE",
+          "visible": false,
+          "children": []
+        },
+        {
+          "name": "RETIRED_V15_BATTERY_CELL_NOMINAL_30x20x4_USER_APPROX",
+          "visible": false,
+          "children": []
+        },
+        {
+          "name": "RETIRED_V15_CELL_ADHESIVE_PULL_TAB_ACCESS_RESERVATION_NOT_PART",
+          "visible": false,
+          "children": []
+        },
+        {
+          "name": "RETIRED_V15_BATTERY_WIRE_ROUTE_D3_ASSUMED_CLEARANCE_NOT_PART",
+          "visible": false,
+          "children": []
+        },
+        {
+          "name": "RETIRED_V15_BATTERY_SERVICE_SLACK_SPACE_10x10x4_NOT_PART",
+          "visible": false,
+          "children": []
+        },
+        {
+          "name": "RETIRED_CELL42_INITIAL_BATTERY_WIRE_ROUTE_D3_CELL42_40mm_BUDGET_NOT_PART",
+          "visible": false,
+          "children": []
+        },
+        {
+          "name": "Battery_L_ALLOWANCE_32x22x5p5_NOT_CELL",
+          "visible": false,
+          "children": []
+        },
+        {
+          "name": "XIAO_KEY_SIDE_ENVELOPE_FROM_OLD_SINGLE_PART_UNVERIFIED",
+          "visible": false,
+          "children": []
+        },
+        {
+          "name": "SWITCH_LOWER_14mm_PCB_SEATED_ENVELOPES_NOT_LATCHES",
+          "visible": false,
+          "children": []
+        },
+        {
+          "name": "SWITCH_UPPER_15p2_SQUARE_CONSERVATIVE_ENVELOPES_NOT_FULL_SWITCHES",
+          "visible": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL",
+      "visible": true,
+      "children": [
+        {
+          "name": "BATTERY_CELL_NOMINAL_42x20x5_USER_TARGET",
+          "visible": true,
+          "children": []
+        },
+        {
+          "name": "BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL",
+          "visible": true,
+          "children": []
+        },
+        {
+          "name": "CARRIER_BASE_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
+          "visible": true,
+          "children": []
+        },
+        {
+          "name": "CELL_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
+          "visible": true,
+          "children": []
+        },
+        {
+          "name": "CLEARANCE_STUDIES_NOT_PARTS",
+          "visible": false,
+          "children": [
+            {
+              "name": "B1_JST_PH_SMD_DATASHEET_RESERVATION_NOT_DETAILED_CAD",
+              "visible": false,
+              "children": []
+            },
+            {
+              "name": "B1_MATING_PLUG_ACCESS_ASSUMED_8x6x4_NOT_PART",
+              "visible": false,
+              "children": []
+            },
+            {
+              "name": "CELL42_INSTALLATION_SPACE_43x21x5p5_NOT_PART",
+              "visible": false,
+              "children": []
+            },
+            {
+              "name": "CELL_ADHESIVE_PULL_TAB_ACCESS_RESERVATION_CELL42_NOT_PART",
+              "visible": false,
+              "children": []
+            },
+            {
+              "name": "BATTERY_SERVICE_SLACK_SPACE_CELL42_10x10x4_NOT_PART",
+              "visible": false,
+              "children": []
+            },
+            {
+              "name": "BATTERY_WIRE_ROUTE_D3_CELL42_40mm_BUDGET_NOT_PART (1)",
+              "visible": false,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "overallDesignStatus": "KNOWN_V17_FINDINGS_CORRECTED_OTHER_QUALIFICATION_PENDING",
+  "supersedingDesignAudit": "stand-and-M2-correction.json",
+  "unresolvedFindings": [],
+  "knownFindingsResolvedInVersion": 18
+}

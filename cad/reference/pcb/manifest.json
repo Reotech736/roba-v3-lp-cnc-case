@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/kumamuk-git/roBa",
+  "commit": "69fc34d2996e6aaf63b29f6a58d104b32669f610",
+  "date": "2026-11-08",
+  "license": "GPL-3.0",
+  "files": [
+    {
+      "file": "public-v2-left.kicad_pcb",
+      "upstreamPath": "pcb/v2/roBa_L/roba_L.kicad_pcb",
+      "url": "https://raw.githubusercontent.com/kumamuk-git/roBa/69fc34d2996e6aaf63b29f6a58d104b32669f610/pcb/v2/roBa_L/roba_L.kicad_pcb",
+      "bytes": 607521,
+      "sha256": "40b0953de3e708eea273f897b04b55c08414b55aa43503327d440de1c976e495"
+    }
+  ],
+  "usage": "Read-only public revision reference; installed PCB revision is unconfirmed. External D:/ model path in source was not accessed."
+}

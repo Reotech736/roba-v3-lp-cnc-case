@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-08",
+  "cloudVersion": 17,
+  "readOnlyAudit": true,
+  "selectedFace": {
+    "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+    "boundsGlobal_mm": [
+      [
+        -52,
+        -73,
+        -9.5
+      ],
+      [
+        -47.47,
+        -73,
+        -6
+      ]
+    ],
+    "area_mm2": 15.855
+  },
+  "M2HoleAndScrewChecks": [
+    {
+      "axisXY_mm": [
+        -108.119997,
+        -59
+      ],
+      "lowerD2p2PassageObstruction_mm3": 0.0,
+      "lowerD4p2SeatObstruction_mm3": 0.0,
+      "M2NominalShankVsLower_mm3": 0.0,
+      "M2AssumedHeadVsLower_mm3": 0.0
+    },
+    {
+      "axisXY_mm": [
+        -108.119997,
+        -17
+      ],
+      "lowerD2p2PassageObstruction_mm3": 0.0,
+      "lowerD4p2SeatObstruction_mm3": 0.0,
+      "M2NominalShankVsLower_mm3": 0.0,
+      "M2AssumedHeadVsLower_mm3": 0.0
+    },
+    {
+      "axisXY_mm": [
+        13.576167,
+        -59
+      ],
+      "lowerD2p2PassageObstruction_mm3": 0.0,
+      "lowerD4p2SeatObstruction_mm3": 0.0,
+      "M2NominalShankVsLower_mm3": 0.0,
+      "M2AssumedHeadVsLower_mm3": 0.0
+    },
+    {
+      "axisXY_mm": [
+        13.576167,
+        -17
+      ],
+      "lowerD2p2PassageObstruction_mm3": 1.0652695925037226,
+      "lowerD4p2SeatObstruction_mm3": 0.6725971982380028,
+      "M2NominalShankVsLower_mm3": 0.591541232266164,
+      "M2AssumedHeadVsLower_mm3": 0.5076226424145361
+    }
+  ],
+  "backingOverhangSamples": [
+    {
+      "x_mm": -51.9,
+      "existingBaseBoundaryY_mm": -72.14598814252167,
+      "backingEdgeY_mm": -73,
+      "overhangBeyondBaseAtX_mm": 0.8540118574783264
+    },
+    {
+      "x_mm": -51,
+      "existingBaseBoundaryY_mm": -72.1459880897346,
+      "backingEdgeY_mm": -73,
+      "overhangBeyondBaseAtX_mm": 0.8540119102653989
+    },
+    {
+      "x_mm": -50,
+      "existingBaseBoundaryY_mm": -72.14598803108493,
+      "backingEdgeY_mm": -73,
+      "overhangBeyondBaseAtX_mm": 0.8540119689150742
+    },
+    {
+      "x_mm": -49,
+      "existingBaseBoundaryY_mm": -72.12384891332113,
+      "backingEdgeY_mm": -73,
+      "overhangBeyondBaseAtX_mm": 0.876151086678874
+    },
+    {
+      "x_mm": -48,
+      "existingBaseBoundaryY_mm": -71.92501472922231,
+      "backingEdgeY_mm": -73,
+      "overhangBeyondBaseAtX_mm": 1.0749852707776881
+    },
+    {
+      "x_mm": -47.5,
+      "existingBaseBoundaryY_mm": -71.74153957192175,
+      "backingEdgeY_mm": -73,
+      "overhangBeyondBaseAtX_mm": 1.2584604280782514
+    }
+  ],
+  "timelineIssues": [],
+  "limitations": [
+    "M2 head assumed D3.8 H2 and shank nominal D2; no thread, tolerances, torque or strength qualification",
+    "Void-cylinder intersection is measured against the lower only; upper thread/pilot overlap intentionally not counted as an accidental collision",
+    "Previous zero-interference statements covered selected positive solids only; hole continuity and unsupported exterior overhang were not included"
+  ],
+  "upperM2PilotChecks": [
+    {
+      "axisXY_mm": [
+        -108.119997,
+        -59
+      ],
+      "upperD1p6PilotObstruction_mm3": 0.0,
+      "pilotDepth_mm": 4.5,
+      "nominalEndCap_mm": 1,
+      "nominalScrewProjection_mm": 3.7,
+      "nominalTipToCylindricalBottom_mm": 0.8
+    },
+    {
+      "axisXY_mm": [
+        -108.119997,
+        -17
+      ],
+      "upperD1p6PilotObstruction_mm3": 0.0,
+      "pilotDepth_mm": 4.5,
+      "nominalEndCap_mm": 1,
+      "nominalScrewProjection_mm": 3.7,
+      "nominalTipToCylindricalBottom_mm": 0.8
+    },
+    {
+      "axisXY_mm": [
+        13.576167,
+        -59
+      ],
+      "upperD1p6PilotObstruction_mm3": 0.0,
+      "pilotDepth_mm": 4.5,
+      "nominalEndCap_mm": 1,
+      "nominalScrewProjection_mm": 3.7,
+      "nominalTipToCylindricalBottom_mm": 0.8
+    },
+    {
+      "axisXY_mm": [
+        13.576167,
+        -17
+      ],
+      "upperD1p6PilotObstruction_mm3": 0.0,
+      "pilotDepth_mm": 4.5,
+      "nominalEndCap_mm": 1,
+      "nominalScrewProjection_mm": 3.7,
+      "nominalTipToCylindricalBottom_mm": 0.8
+    }
+  ],
+  "coverM1p6PilotAndPassageChecks": [
+    {
+      "axisXY_mm": [
+        -8,
+        3.8
+      ],
+      "upperD1p25PilotObstruction_mm3": 0.0,
+      "coverD1p8PassageObstruction_mm3": 0.0,
+      "nominalTipToPilotBottom_mm": 0.7
+    },
+    {
+      "axisXY_mm": [
+        8,
+        3.8
+      ],
+      "upperD1p25PilotObstruction_mm3": 0.0,
+      "coverD1p8PassageObstruction_mm3": 0.0,
+      "nominalTipToPilotBottom_mm": 0.7
+    }
+  ],
+  "coverScrewsVsOtherCandidates": [],
+  "lowerNominalM2SeatRadialWall_mm": 0.9,
+  "knownLocatorExteriorProtrusionApprox_mm": 0.5,
+  "findingStatus": "NOT_CLEAR: one M2 hole/seat obstructed and stand backing projects outside base footprint. No geometry modified by this audit."
+}

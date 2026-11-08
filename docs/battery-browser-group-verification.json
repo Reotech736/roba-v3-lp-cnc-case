@@ -1,0 +1,12 @@
+{
+  "cloudVersion": 17,
+  "cloudComplete": true,
+  "status": "complete",
+  "rootGroup": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL",
+  "physicalOccurrences": 4,
+  "studyGroup": "CLEARANCE_STUDIES_NOT_PARTS",
+  "studyOccurrences": 6,
+  "studyInitiallyHidden": true,
+  "geometryAndTransformsPreserved": true,
+  "verification": "component-organization-verification.json"
+}

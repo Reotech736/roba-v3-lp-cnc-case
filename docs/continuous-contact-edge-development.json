@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-08",
+  "baselineCloudVersion": 18,
+  "oldSelectedEdgeX_mm": -108.619997,
+  "contactEdgeX_mm": -111.119997,
+  "contactEdgeGlobalZ_mm": -11.5,
+  "contactEdgeYRange_mm": [
+    -59,
+    -17
+  ],
+  "contactEdgeLength_mm": 42,
+  "edgeMovedOutward_mm": 2.5,
+  "overallCaseBoundsUnchanged": true,
+  "boundsBefore_cm": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": {
+      "min": [
+        -11.1119997,
+        -9.14341644873868,
+        -1.15
+      ],
+      "max": [
+        2.3319461794711263,
+        1.1053999999998894,
+        2.220446049250313e-16
+      ]
+    },
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": {
+      "min": [
+        -11.1119997,
+        -9.14341644873868,
+        -0.1
+      ],
+      "max": [
+        2.3319461794711263,
+        1.1053999999998894,
+        0.45000000000000007
+      ]
+    }
+  },
+  "boundsAfter_cm": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": {
+      "min": [
+        -11.1119997,
+        -9.14341644873868,
+        -1.15
+      ],
+      "max": [
+        2.3319461794711263,
+        1.1053999999998894,
+        2.220446049250313e-16
+      ]
+    },
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": {
+      "min": [
+        -11.1119997,
+        -9.14341644873868,
+        -0.1
+      ],
+      "max": [
+        2.3319461794711263,
+        1.1053999999998894,
+        0.45000000000000007
+      ]
+    }
+  },
+  "affectedComponents": [
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL"
+  ],
+  "volumesBefore_mm3": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 35946.494168569996,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13054.328970659119
+  },
+  "volumesAfter_mm3": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 36931.90746907244,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13569.430117682137
+  },
+  "contactEdges": [
+    {
+      "endsGlobal_mm": [
+        [
+          -111.119997,
+          -17.0,
+          -11.5
+        ],
+        [
+          -111.119997,
+          -59.0,
+          -11.5
+        ]
+      ],
+      "length_mm": 42.0
+    }
+  ],
+  "M2AxesPreserved": true,
+  "clearanceDiameter_mm": 2.2,
+  "headSeatDiameter_mm": 4.2,
+  "headSeatDepth_mm": 2.2,
+  "pilotDiameter_mm": 1.6,
+  "pilotDepth_mm": 4.5,
+  "timelineIssues": [],
+  "limitations": [
+    "Contact line is shifted2.5mm outward relative to selected v18 edge, while the former screw-boss envelope remains the outer bound",
+    "Ideal rigid planar-table support only; actual stand angles, feet, rubber and stability are not certified",
+    "No edge chamfer/fillet or protective strip applied to the contact line"
+  ],
+  "status": "CONTACT_EDGE_GEOMETRY_VERIFIED_PHYSICAL_SUPPORT_PENDING",
+  "verification": "continuous-contact-edge-verification.json",
+  "holeAudit": "fastening-and-overhang-current-audit.json",
+  "residualVerification": "corrected-stand-solid-verification.json",
+  "fitReport": "internal-retention-fit-verification.json",
+  "cloudVersion": 19,
+  "cloudComplete": true,
+  "modified": false
+}

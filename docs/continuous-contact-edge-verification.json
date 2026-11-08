@@ -1,0 +1,57 @@
+{
+  "baselineCloudVersion": 18,
+  "contactEdgeX_mm": -111.119997,
+  "contactEdgeZ_mm": -11.5,
+  "continuousEdge": {
+    "yInterval_mm": [
+      -59.0,
+      -17.0
+    ],
+    "length_mm": 42.0
+  },
+  "tablePlaneEquation": "sin(theta)*(X-contactX)+cos(theta)*(Z-contactZ)=0; positive-X side lifted",
+  "tableTests": [
+    {
+      "tilt_deg": 5,
+      "tablePenetrations": [],
+      "oldBossPenetrationBelowOriginalSelectedEdgePlane_mm": 0.2178893568691454
+    },
+    {
+      "tilt_deg": 7,
+      "tablePenetrations": [],
+      "oldBossPenetrationBelowOriginalSelectedEdgePlane_mm": 0.3046733585128687
+    },
+    {
+      "tilt_deg": 10,
+      "tablePenetrations": [],
+      "oldBossPenetrationBelowOriginalSelectedEdgePlane_mm": 0.4341204441673258
+    },
+    {
+      "tilt_deg": 17,
+      "tablePenetrations": [],
+      "oldBossPenetrationBelowOriginalSelectedEdgePlane_mm": 0.7309292618068419
+    },
+    {
+      "tilt_deg": 20,
+      "tablePenetrations": [],
+      "oldBossPenetrationBelowOriginalSelectedEdgePlane_mm": 0.8550503583141718
+    },
+    {
+      "tilt_deg": 30,
+      "tablePenetrations": [],
+      "oldBossPenetrationBelowOriginalSelectedEdgePlane_mm": 1.2499999999999998
+    }
+  ],
+  "physicalBodyBoundsChecked": 438,
+  "allPhysicalBodiesWithinPositiveContactQuadrant": true,
+  "componentTransformsAndVisibilityPreserved": true,
+  "otherComponentVolumesPreserved": true,
+  "limitations": [
+    "Rigid ideal geometry only; actual stand opening angle, legs, feet, tabletop compliance/friction and tip-over stability are unmeasured",
+    "Nominal M2 head D3.8 H2 and nominal shank D2; screw purchase/tolerances/thread qualification remain pending",
+    "No contact-edge chamfer or protective layer modeled; either would need a renewed support-plane check"
+  ],
+  "cloudVersion": 19,
+  "cloudComplete": true,
+  "modified": false
+}

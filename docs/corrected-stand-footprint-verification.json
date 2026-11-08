@@ -1,0 +1,22 @@
+{
+  "method": "Entire actual rectangles and D12 circle footprints vs original floor profile; explicit curve approximation bounds",
+  "floorChordTolerance_mm": 0.0001,
+  "circleMaxChordError_mm": 7.059289788724499e-06,
+  "rows": [
+    {
+      "outsideBaseFootprintArea_mm2": 0.0,
+      "minBackingToBaseBoundary_mm": 1.2285739529555428,
+      "minBackingToM2SeatProjection_mm": 1.4109122395477796
+    },
+    {
+      "outsideBaseFootprintArea_mm2": 0.0,
+      "minBackingToBaseBoundary_mm": 3.7761670000000036,
+      "minBackingToM2SeatProjection_mm": 1.1767155219251402
+    }
+  ],
+  "allBackingsInsideOriginalBaseFootprint": true,
+  "limitation": "Projection geometry only; no strength, manufacturing or tolerance qualification; inputs must track live Fusion geometry",
+  "cloudVersion": 18,
+  "cloudComplete": true,
+  "checkedWorkingGeometryPreservedOnSave": true
+}

@@ -1,0 +1,330 @@
+{
+  "date": "2026-11-08",
+  "id": "urn:adsk.wipprod:dm.lineage:H9Nq8f1PSl6GXmxJMgIkbw",
+  "cloudVersion": 10,
+  "cloudComplete": true,
+  "modified": false,
+  "coreSolids": 52,
+  "coreInterferences": [],
+  "capSweepInterferences": [],
+  "cableAccessInterferences": [],
+  "detailedMCUAndProbeVsCasesInterferences": [],
+  "internalMCUOverlapsExcluded": 12,
+  "pressedProbeAABBHits": [
+    "XIAO_DETAILED_FROM_OLD_V2_PLACEMENT_UNVERIFIED:1+xiao-nrf52840-v3:1+SKTAAAE010 v1:1+Body:1"
+  ],
+  "checkedInstanceDatums": 46,
+  "mainM2PilotDepthUnchanged_mm": 4.5,
+  "timelineIssues": [],
+  "singleSolidParts": 3,
+  "volumes_mm3": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 36019.08232089049,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13054.328970659119,
+    "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL": 677.664699283006
+  },
+  "currentParts": [
+    {
+      "name": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "bodies": 1,
+      "visible": true
+    },
+    {
+      "name": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "bodies": 1,
+      "visible": true
+    },
+    {
+      "name": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+      "bodies": 1,
+      "visible": false
+    },
+    {
+      "name": "Battery_L_ALLOWANCE_32x22x5p5_NOT_CELL",
+      "bodies": 1,
+      "visible": false
+    },
+    {
+      "name": "XIAO_KEY_SIDE_ENVELOPE_FROM_OLD_SINGLE_PART_UNVERIFIED",
+      "bodies": 1,
+      "visible": false
+    },
+    {
+      "name": "SWITCH_LOWER_14mm_PCB_SEATED_ENVELOPES_NOT_LATCHES",
+      "bodies": 23,
+      "visible": false
+    },
+    {
+      "name": "USB_CABLE_ACCESS_ASSUMED_NOT_A_PART",
+      "bodies": 1,
+      "visible": false
+    },
+    {
+      "name": "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL",
+      "bodies": 1,
+      "visible": true
+    },
+    {
+      "name": "SWITCH_UPPER_15p2_SQUARE_CONSERVATIVE_ENVELOPES_NOT_FULL_SWITCHES",
+      "bodies": 23,
+      "visible": false
+    },
+    {
+      "name": "KEYCAP_SWEEP_D3p0_18p8_SQUARE_ASSUMED_NOT_PARTS",
+      "bodies": 23,
+      "visible": false
+    },
+    {
+      "name": "XIAO_DETAILED_FROM_OLD_V2_PLACEMENT_UNVERIFIED",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "COVER_M1p6x6_SCREW_ENVELOPES_HEAD_ASSUMED_THREAD_NOT_MODELED",
+      "bodies": 2,
+      "visible": false
+    },
+    {
+      "name": "RESET_NONCONDUCTIVE_PROBE_D0p8_ACCESS_TOOL_NOT_A_PART",
+      "bodies": 1,
+      "visible": false
+    }
+  ],
+  "oldMCUUnmodified": true,
+  "limitations": [
+    "Locator dimensions and local reinforcing pads remain provisional; tolerances, exterior steps and tool access need DFM review",
+    "Reset hole uses old model placement; actual installed revision and solder gap unverified",
+    "Model button height differs from current manufacturer nominal; no captive plunger or depth stop designed",
+    "Probe is a nonconductive service-tool envelope, not an included manufactured part",
+    "Static geometry checks do not prove physical reset function, complete thread strength, insulation, or stand deployment"
+  ]
+}

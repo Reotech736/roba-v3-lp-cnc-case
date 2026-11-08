@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-08",
+  "baselineCloudVersion": 17,
+  "changedComponent": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+  "standPocketsXYWH_mm": [
+    [
+      -52.5,
+      -68.5,
+      56.8,
+      14.8
+    ],
+    [
+      -52.5,
+      -24.5,
+      56.8,
+      14.8
+    ]
+  ],
+  "standBackingXYXY_mm": [
+    [
+      -54.5,
+      -70.5,
+      6.3,
+      -51.7
+    ],
+    [
+      -54.5,
+      -26.5,
+      6.3,
+      -7.7
+    ]
+  ],
+  "fingerCentersXY_mm": [
+    [
+      4.3,
+      -61.1
+    ],
+    [
+      4.3,
+      -17.1
+    ]
+  ],
+  "pocketDepth_mm": 3.5,
+  "nominalResidual_mm": 2,
+  "fingerDiameter_mm": 8,
+  "fingerBackingDiameter_mm": 12,
+  "lowerVolumeBefore_mm3": 35834.86113140607,
+  "lowerVolumeAfter_mm3": 35946.494168569996,
+  "allOccurrenceTransformsPreserved": true,
+  "otherComponentVolumesPreserved": true,
+  "visibilityPreserved": true,
+  "sketchChanges": [
+    {
+      "sketch": "スケッチ3",
+      "groups": [
+        {
+          "firstRow": true,
+          "curves": 4,
+          "dx_mm": -2.5,
+          "dy_mm": 2.5
+        }
+      ]
+    },
+    {
+      "sketch": "スケッチ4",
+      "groups": [
+        {
+          "firstRow": false,
+          "curves": 4,
+          "dx_mm": -2.5,
+          "dy_mm": 0
+        }
+      ]
+    },
+    {
+      "sketch": "スケッチ5",
+      "groups": [
+        {
+          "firstRow": true,
+          "curves": 8,
+          "dx_mm": -2.5,
+          "dy_mm": 2.5
+        }
+      ]
+    },
+    {
+      "sketch": "スケッチ6",
+      "groups": [
+        {
+          "firstRow": false,
+          "curves": 8,
+          "dx_mm": -2.5,
+          "dy_mm": 0
+        }
+      ]
+    },
+    {
+      "sketch": "スケッチ15",
+      "groups": [
+        {
+          "firstRow": true,
+          "curves": 1,
+          "dx_mm": -2.5,
+          "dy_mm": 2.5
+        },
+        {
+          "firstRow": false,
+          "curves": 1,
+          "dx_mm": -2.5,
+          "dy_mm": 0
+        }
+      ]
+    },
+    {
+      "sketch": "スケッチ16",
+      "groups": [
+        {
+          "firstRow": true,
+          "curves": 1,
+          "dx_mm": -2.5,
+          "dy_mm": 2.5
+        },
+        {
+          "firstRow": false,
+          "curves": 1,
+          "dx_mm": -2.5,
+          "dy_mm": 0
+        }
+      ]
+    },
+    {
+      "sketch": "Original_stand_pocket_clearance_after_added_backing",
+      "groups": [
+        {
+          "firstRow": true,
+          "curves": 8,
+          "dx_mm": -2.5,
+          "dy_mm": 2.5
+        },
+        {
+          "firstRow": false,
+          "curves": 8,
+          "dx_mm": -2.5,
+          "dy_mm": 0
+        }
+      ]
+    }
+  ],
+  "timelineIssues": [],
+  "limitations": [
+    "Corrected placement only; no manufacturing, hinge sweep, strength or physical assembly certification",
+    "Separate current hole, actual backing containment, residual, and assembly interference verification required before save"
+  ],
+  "status": "KNOWN_V17_FINDINGS_CORRECTED_OTHER_QUALIFICATION_PENDING",
+  "M2ObstructedAxes": 0,
+  "M2NominalScrewCollisions": 0,
+  "backingOutsideFloorArea_mm2": [
+    0.0,
+    0.0
+  ],
+  "backingToFloorMinimumDistances_mm": [
+    1.2285739529555428,
+    3.7761670000000036
+  ],
+  "verificationReports": [
+    "fastening-and-overhang-current-audit.json",
+    "corrected-stand-solid-verification.json",
+    "corrected-stand-footprint-verification.json",
+    "internal-retention-fit-verification.json"
+  ],
+  "nominalB1BackingGap_mm": 0.5,
+  "unchangedLocalCoupon": "stand_test_depth3p5_fingerD8_NOT_FOR_MANUFACTURE: local geometry unchanged; assembly pocket positions shifted only",
+  "cloudVersion": 18,
+  "cloudComplete": true,
+  "modified": false
+}

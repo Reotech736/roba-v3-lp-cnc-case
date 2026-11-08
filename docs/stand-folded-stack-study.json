@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-08",
+  "measuredFoldedThickness_mm": 4.2,
+  "pocketDepth_mm": 3.5,
+  "measuredThicknessIncludesTapeAndRubber": true,
+  "scenarios": [],
+  "limitations": [
+    "Ruler approximation; compression and tolerances not established",
+    "No final rubber-foot height, deployment sweep, stability or operating angle established"
+  ],
+  "previousPocketDepth_mm": 3.7,
+  "measuredFoldedMetalThickness_mm": 4,
+  "foldedProtrusionPastCaseNominal_mm": 0.7,
+  "assumedRubberFootHeightFor0p2StandClearance_mm": 0.9,
+  "measurementStatus": "User ruler approximation; 4.2 includes tape and outer rubber. Do not add tape again."
+}

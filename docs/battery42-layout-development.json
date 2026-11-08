@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-08",
+  "baselineCloudVersion": 15,
+  "requestedCell_mm": [
+    42,
+    20,
+    5
+  ],
+  "leadLengthBudget_mm": 40,
+  "nominalCellBoundsGlobal_mm": [
+    [
+      -55,
+      -50,
+      -8.1
+    ],
+    [
+      -13,
+      -30,
+      -3.1
+    ]
+  ],
+  "carrierOuter_mm": [
+    44.6,
+    22.6
+  ],
+  "carrierInner_mm": [
+    43,
+    21
+  ],
+  "carrierBoundsGlobal_mm": [
+    [
+      -56.3,
+      -51.3,
+      -9.3
+    ],
+    [
+      -11.7,
+      -28.7,
+      -6.3
+    ]
+  ],
+  "carrierFloor_mm": 1,
+  "carrierWall_mm": 0.8,
+  "carrierWallHeight_mm": 2,
+  "installationAllowanceBoundsGlobal_mm": [
+    [
+      -55.5,
+      -50.5,
+      -8.1
+    ],
+    [
+      -12.5,
+      -29.5,
+      -2.6
+    ]
+  ],
+  "adhesiveStacks_mm": [
+    0.2,
+    0.2
+  ],
+  "wireRouteCenters_mm": [
+    [
+      -11.8,
+      -28.8,
+      -4.8
+    ],
+    [
+      -8,
+      -24,
+      -3.5
+    ],
+    [
+      -8,
+      -8,
+      -3.5
+    ],
+    [
+      -1.38934,
+      -6,
+      -2.75
+    ]
+  ],
+  "routeLength_mm": 29.205775220073214,
+  "assumedCornerToRouteTransition_mm": 1.8761663039293708,
+  "nominalConnectionRouteIncludingCorner_mm": 31.081941524002584,
+  "remainingWireLengthBudget_mm": 8.918058475997416,
+  "assumedCellExitCornerGlobal_mm": [
+    -13,
+    -30,
+    -5.6
+  ],
+  "wireBundleEnvelope_mm": 3,
+  "metalCaseVolumesUnchanged": false,
+  "metalVolumes_mm3": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 36934.72094132882,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13564.530096681126,
+    "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL": 731.484699283006
+  },
+  "carrierVolume_mm3": 1127.6285834705777,
+  "timelineIssues": [],
+  "retiredComponentCount": 7,
+  "limitations": [
+    "42x20x5 is the requested nominal body target, not confirmed maximum including pouch seams, terminals, protection PCB or swelling",
+    "Exit corner, lead vertical position, connector termination and D3 bundle are assumed; actual 40mm measurement endpoints and bend radius need confirmation",
+    "Remaining8.88mm is arithmetic budget, not a verified service loop or bend allowance; no extra15mm service requirement is retained",
+    "43x21x5.5 installation space is provisional and not a certified battery expansion allowance",
+    "Carrier material, adhesive removability, retention strength and electrical insulation are unqualified; no upper pouch clamp"
+  ],
+  "pullTabAccessBoundsGlobal_mm": [
+    [
+      -18,
+      -42,
+      -8.3
+    ],
+    [
+      -5,
+      -38,
+      -8.1
+    ]
+  ],
+  "installationSpaceInterferences": [],
+  "cornerTransitionInterferences": [],
+  "fitReport": "internal-retention-fit-verification.json",
+  "checkedChocDatums": 46,
+  "coreSolidCount": 62,
+  "retiredLayoutsGrouped": 8,
+  "cloudVersionAtSaveRequest": 15,
+  "cloudVersion": 20,
+  "cloudComplete": true,
+  "currentDocumentModified": false,
+  "groupingStatus": "Complete; 4 physical occurrences plus hidden 6-item CLEARANCE_STUDIES_NOT_PARTS under BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL.",
+  "currentVerification": "internal-retention-fit-verification.json",
+  "organizationVerification": "component-organization-verification.json",
+  "overallDesignStatus": "CHOC_LP_ORIENTATION_CORRECTED_PHYSICAL_ASSEMBLY_PENDING",
+  "supersedingDesignAudit": "stand-and-M2-correction.json",
+  "unresolvedFindings": [],
+  "knownFindingsResolvedInVersion": 18,
+  "caseRevisionNote": "v20 adjusts support1/upper relief after Choc orientation correction; battery layout unchanged.",
+  "contactEdgeVerification": "continuous-contact-edge-verification.json"
+}

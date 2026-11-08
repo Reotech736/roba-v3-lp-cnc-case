@@ -1,0 +1,335 @@
+{
+  "date": "2026-11-08",
+  "caseVolumesUnchanged": false,
+  "pcbInsulationStack_mm": 0.2,
+  "pcbSupportRectsXY_mm": [
+    [
+      -106.12,
+      -61,
+      -103.82,
+      -53
+    ],
+    [
+      -106.12,
+      -27,
+      -103.82,
+      -19
+    ],
+    [
+      9.276167,
+      -43,
+      11.576167,
+      -37
+    ],
+    [
+      -66.3,
+      6.254,
+      -60.3,
+      8.554
+    ]
+  ],
+  "carrier": {
+    "outerXY_mm": [
+      32.6,
+      22.6
+    ],
+    "innerXY_mm": [
+      31,
+      21
+    ],
+    "floor_mm": 1,
+    "wall_mm": 0.8,
+    "wallHeight_mm": 2,
+    "boundsGlobal_mm": [
+      [
+        -66.3,
+        -51.3,
+        -9.3
+      ],
+      [
+        -33.7,
+        -28.7,
+        -6.3
+      ]
+    ]
+  },
+  "nominalCellBoundsGlobal_mm": [
+    [
+      -65,
+      -50,
+      -8.1
+    ],
+    [
+      -35,
+      -30,
+      -4.1
+    ]
+  ],
+  "adhesiveLayers_mm": [
+    0.2,
+    0.2
+  ],
+  "connector": {
+    "reference": "B1",
+    "part": "JST S2B-PH-SM4-TB",
+    "layer": "B.Cu",
+    "originXY_mm": [
+      -1.3893400000000042,
+      -19.341
+    ],
+    "reservedHeight_mm": 5.5,
+    "nominalBackingGap_mm": 0.5,
+    "source": "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+  },
+  "wireRouteCenters_mm": [
+    [
+      -33.3,
+      -40,
+      -6.6
+    ],
+    [
+      -12,
+      -32,
+      -4.6
+    ],
+    [
+      -8,
+      -26,
+      -3.5
+    ],
+    [
+      -8,
+      -8,
+      -3.5
+    ],
+    [
+      -1.3893400000000042,
+      -6,
+      -2.75
+    ]
+  ],
+  "wireBundleEnvelopeDiameter_mm": 3,
+  "wireRouteLength_mm": 55.08223376304753,
+  "assumedAdditionalServiceSlack_mm": 15,
+  "wireLengthComparison_mm": 70.08223376304753,
+  "timelineIssues": [],
+  "limitations": [
+    "All dielectric/adhesive/carrier materials and retention strength are unselected and untested",
+    "Cell dimensions are approximate; terminals, leads and swelling are not represented by its nominal box",
+    "Carrier guards are low and do not clamp the pouch; adhesive removal procedure needs a real product choice",
+    "Public v2 B1 footprint is provisional for actual PCB; exact matching connector STEP was not obtained",
+    "Wire route and plug access are design reservations, not actual wire/connector geometry or a bend-radius specification",
+    "Stand hinge/adhesive thickness and actual battery lead direction/length await user confirmation"
+  ],
+  "initialD2RouteCenters_mm": [
+    [
+      -33.8,
+      -40,
+      -6.6
+    ],
+    [
+      -12,
+      -32,
+      -4.6
+    ],
+    [
+      -8,
+      -26,
+      -3.5
+    ],
+    [
+      -8,
+      -8,
+      -3.5
+    ],
+    [
+      -1.3893400000000042,
+      -6,
+      -2.75
+    ]
+  ],
+  "wireEnvelopeBasis": "JST PH data lists individual wire insulation OD 0.5 to 1.5 mm; D3 is a provisional two-wire bundle allowance, not measured actual wires",
+  "serviceSlackReservationBounds_mm": [
+    [
+      -29,
+      -40,
+      -7
+    ],
+    [
+      -19,
+      -30,
+      -3
+    ]
+  ],
+  "floorRevision": "0.5 to 1.0 mm candidate for prototype handling; no selected process or strength certification",
+  "metalCaseVolumesUnchanged": false,
+  "upperMetalCaseUnchanged": true,
+  "lowerMetalCaseChangedForConnectorClearance": true,
+  "standPocketRevision": {
+    "previousDepth_mm": 3.7,
+    "currentDepth_mm": 3.5,
+    "residual_mm": 2,
+    "backingTopGlobalZ_mm": -6,
+    "additionalFoldedStandProtrusion_mm": 0.2,
+    "materialSamples": [
+      [
+        -52,
+        -63.6,
+        3.49,
+        false
+      ],
+      [
+        -52,
+        -63.6,
+        3.51,
+        true
+      ],
+      [
+        -52,
+        -63.6,
+        5.49,
+        true
+      ],
+      [
+        -52,
+        -63.6,
+        5.51,
+        false
+      ],
+      [
+        -20,
+        -63.6,
+        3.49,
+        false
+      ],
+      [
+        -20,
+        -63.6,
+        3.51,
+        true
+      ],
+      [
+        -20,
+        -63.6,
+        5.49,
+        true
+      ],
+      [
+        -20,
+        -63.6,
+        5.51,
+        false
+      ],
+      [
+        0,
+        -63.6,
+        3.49,
+        false
+      ],
+      [
+        0,
+        -63.6,
+        3.51,
+        true
+      ],
+      [
+        0,
+        -63.6,
+        5.49,
+        true
+      ],
+      [
+        0,
+        -63.6,
+        5.51,
+        false
+      ],
+      [
+        -52,
+        -17.1,
+        3.49,
+        false
+      ],
+      [
+        -52,
+        -17.1,
+        3.51,
+        true
+      ],
+      [
+        -52,
+        -17.1,
+        5.49,
+        true
+      ],
+      [
+        -52,
+        -17.1,
+        5.51,
+        false
+      ],
+      [
+        -20,
+        -17.1,
+        3.49,
+        false
+      ],
+      [
+        -20,
+        -17.1,
+        3.51,
+        true
+      ],
+      [
+        -20,
+        -17.1,
+        5.49,
+        true
+      ],
+      [
+        -20,
+        -17.1,
+        5.51,
+        false
+      ],
+      [
+        0,
+        -17.1,
+        3.49,
+        false
+      ],
+      [
+        0,
+        -17.1,
+        3.51,
+        true
+      ],
+      [
+        0,
+        -17.1,
+        5.49,
+        true
+      ],
+      [
+        0,
+        -17.1,
+        5.51,
+        false
+      ]
+    ],
+    "nominalHeaderClearance_mm": 0.5,
+    "lowerVolumes_mm3": [
+      36019.08232089049,
+      35906.89389369797
+    ]
+  },
+  "userPhysicalClarifications": {
+    "batteryWireExit": "corner; exact corner not located",
+    "batteryWireLengthApprox_mm": 50,
+    "standMetalThicknessApprox_mm": 4,
+    "standMaximumThicknessIncludingTapeAndRubberApprox_mm": 4.2,
+    "fingerAccessSide": "positive X; user corrected opposite former end",
+    "wireRouteAccepted": false,
+    "wireRouteIssue": "Current route 55.08 plus assumed service allowance15 exceeds approximately50mm existing leads"
+  }
+}

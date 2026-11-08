@@ -1,0 +1,395 @@
+{
+  "date": "2026-11-08",
+  "id": "urn:adsk.wipprod:dm.lineage:H9Nq8f1PSl6GXmxJMgIkbw",
+  "cloudVersion": 14,
+  "cloudComplete": true,
+  "modified": false,
+  "metalCaseVolumesUnchanged": false,
+  "upperMetalCaseUnchanged": true,
+  "standPocketDepth_mm": 3.5,
+  "standResidual_mm": 2,
+  "coreSolidCount": 62,
+  "fitReport": "internal-retention-fit-verification.json",
+  "cableInterferences": [],
+  "capSweepInterferences": [],
+  "detailedMCUAndResetProbeInterferences": [],
+  "internalMCUOverlapsExcluded": 12,
+  "checkedInstanceDatums": 46,
+  "pcbPadStacks": 4,
+  "carrierMaterialPointChecks": 4,
+  "headerFloorPointChecks": 2,
+  "timelineIssues": [],
+  "nominalHeaderFloorGap_mm": 0.5,
+  "wireRouteLength_mm": 55.08223376304753,
+  "wireLengthIncludingAssumedSlack_mm": 70.08223376304753,
+  "singleSolidExportParts": 4,
+  "volumes_mm3": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 35906.89389369797,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13054.328970659119,
+    "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL": 731.484699283006,
+    "BATTERY_REMOVABLE_CARRIER_32p6x22p6_PROVISIONAL_NONMETAL": 858.5269896112136
+  },
+  "currentParts": [
+    {
+      "name": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "bodies": 1,
+      "visible": true
+    },
+    {
+      "name": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "bodies": 1,
+      "visible": true
+    },
+    {
+      "name": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+      "bodies": 1,
+      "visible": false
+    },
+    {
+      "name": "Battery_L_ALLOWANCE_32x22x5p5_NOT_CELL",
+      "bodies": 1,
+      "visible": false
+    },
+    {
+      "name": "XIAO_KEY_SIDE_ENVELOPE_FROM_OLD_SINGLE_PART_UNVERIFIED",
+      "bodies": 1,
+      "visible": false
+    },
+    {
+      "name": "SWITCH_LOWER_14mm_PCB_SEATED_ENVELOPES_NOT_LATCHES",
+      "bodies": 23,
+      "visible": false
+    },
+    {
+      "name": "USB_CABLE_ACCESS_ASSUMED_NOT_A_PART",
+      "bodies": 1,
+      "visible": false
+    },
+    {
+      "name": "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL",
+      "bodies": 1,
+      "visible": true
+    },
+    {
+      "name": "SWITCH_UPPER_15p2_SQUARE_CONSERVATIVE_ENVELOPES_NOT_FULL_SWITCHES",
+      "bodies": 23,
+      "visible": false
+    },
+    {
+      "name": "KEYCAP_SWEEP_D3p0_18p8_SQUARE_ASSUMED_NOT_PARTS",
+      "bodies": 23,
+      "visible": false
+    },
+    {
+      "name": "XIAO_DETAILED_FROM_OLD_V2_PLACEMENT_UNVERIFIED",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "CHOC_V2_RED_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": true
+    },
+    {
+      "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
+      "bodies": 0,
+      "visible": false
+    },
+    {
+      "name": "COVER_M1p6x6_SCREW_ENVELOPES_HEAD_ASSUMED_THREAD_NOT_MODELED",
+      "bodies": 2,
+      "visible": false
+    },
+    {
+      "name": "RESET_NONCONDUCTIVE_PROBE_D0p8_ACCESS_TOOL_NOT_A_PART",
+      "bodies": 1,
+      "visible": false
+    },
+    {
+      "name": "PCB_SUPPORT_INSULATION_STACK_0p2_MATERIAL_PENDING",
+      "bodies": 4,
+      "visible": true
+    },
+    {
+      "name": "BATTERY_REMOVABLE_CARRIER_32p6x22p6_PROVISIONAL_NONMETAL",
+      "bodies": 1,
+      "visible": true
+    },
+    {
+      "name": "CARRIER_BASE_REMOVABLE_ADHESIVE_0p2_ALLOWANCE",
+      "bodies": 2,
+      "visible": true
+    },
+    {
+      "name": "CELL_REMOVABLE_ADHESIVE_0p2_ALLOWANCE",
+      "bodies": 2,
+      "visible": true
+    },
+    {
+      "name": "BATTERY_CELL_NOMINAL_30x20x4_USER_APPROX",
+      "bodies": 1,
+      "visible": true
+    },
+    {
+      "name": "CELL_ADHESIVE_PULL_TAB_ACCESS_RESERVATION_NOT_PART",
+      "bodies": 1,
+      "visible": false
+    },
+    {
+      "name": "B1_JST_PH_SMD_DATASHEET_RESERVATION_NOT_DETAILED_CAD",
+      "bodies": 1,
+      "visible": false
+    },
+    {
+      "name": "B1_MATING_PLUG_ACCESS_ASSUMED_8x6x4_NOT_PART",
+      "bodies": 1,
+      "visible": false
+    },
+    {
+      "name": "BATTERY_WIRE_ROUTE_D3_ASSUMED_CLEARANCE_NOT_PART",
+      "bodies": 1,
+      "visible": false
+    },
+    {
+      "name": "BATTERY_SERVICE_SLACK_SPACE_10x10x4_NOT_PART",
+      "bodies": 1,
+      "visible": false
+    }
+  ],
+  "limitations": [
+    "All dielectric/adhesive/carrier materials and retention strength are unselected and untested",
+    "Cell dimensions are approximate; terminals, leads and swelling are not represented by its nominal box",
+    "Carrier guards are low and do not clamp the pouch; adhesive removal procedure needs a real product choice",
+    "Public v2 B1 footprint is provisional for actual PCB; exact matching connector STEP was not obtained",
+    "Wire route and plug access are design reservations, not actual wire/connector geometry or a bend-radius specification",
+    "Stand hinge/adhesive thickness and actual battery lead direction/length await user confirmation",
+    "B1 nominal 0.5 mm floor gap requires installed-part/tolerance confirmation before manufacturing",
+    "Shallower stand pockets increase folded protrusion by 0.2 mm; foot height is provisional",
+    "Cover sidewall section comparison is not structural or RF qualification"
+  ],
+  "geometryValidatedCloudVersion": 12,
+  "cloudCheckpointNote": "v12 geometry validated; v13 added hidden local stand coupon; v14 restored hidden display state. No case geometry changes after v12.",
+  "standCouponVerification": "../../cad/design/stand_test_depth3p5_fingerD8_NOT_FOR_MANUFACTURE.json",
+  "supersededBy": "stand-access-and-browser-group-verification.json",
+  "status": "Historical v14 report; finger side and lower volume superseded in v15; existing wire route not accepted for user 50mm leads."
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-08",
+  "previousSideWall_mm": 0.8,
+  "newSideWall_mm": 1.2,
+  "newRearWall_mm": 1.2,
+  "frontWall_mm": 0.8,
+  "skirtBottomGlobalZ_mm": 5.2,
+  "coarseMCUMainBlockClearanceZ_mm": 0.33,
+  "externalOutlineUnchanged": true,
+  "volumes_mm3": [
+    677.664699283006,
+    731.484699283006
+  ],
+  "addedVolume_mm3": 53.82,
+  "idealUSectionI_mm4": {
+    "previous": 13.975528205128203,
+    "revised": 18.664946551724135,
+    "ratio": 1.3355449810387265
+  },
+  "timelineIssues": [],
+  "limitations": [
+    "Section comparison only; openings, screw feet, joint flexibility, torsion, material modulus and creep excluded",
+    "Not FEA or a prediction of actual cover deflection; rear is still a front-fastened overhang",
+    "Polymer material/process and RF performance remain unselected/unverified"
+  ]
+}
