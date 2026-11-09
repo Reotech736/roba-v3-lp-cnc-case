@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-10",
+  "baselineCloudVersion": 28,
+  "preexistingModifiedFlagPreserved": true,
+  "baselineTimelineCount": 515,
+  "afterTimelineCount": 530,
+  "previousRecordsChecked": 589,
+  "onlyCaseVolumesChanged": true,
+  "allPriorTransformsPreserved": true,
+  "before": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": {
+      "boundsGlobal_mm": [
+        [
+          -111.119997,
+          -91.4341644873868,
+          -11.5
+        ],
+        [
+          23.319461794711263,
+          11.053999999998894,
+          2.220446049250313e-15
+        ]
+      ],
+      "volume_mm3": 36864.844806983405
+    },
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": {
+      "boundsGlobal_mm": [
+        [
+          -111.119997,
+          -91.4341644873868,
+          -1.0
+        ],
+        [
+          23.319461794711263,
+          11.053999999998894,
+          4.500000000000001
+        ]
+      ],
+      "volume_mm3": 13649.461979532638
+    }
+  },
+  "after": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": {
+      "boundsGlobal_mm": [
+        [
+          -111.119997,
+          -91.4341644873868,
+          -11.5
+        ],
+        [
+          23.319461794711263,
+          11.053999999998894,
+          2.220446049250313e-15
+        ]
+      ],
+      "volume_mm3": 37782.01274103005
+    },
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": {
+      "boundsGlobal_mm": [
+        [
+          -111.119997,
+          -91.4341644873868,
+          -1.0
+        ],
+        [
+          23.319461794711263,
+          11.053999999998894,
+          4.500000000000001
+        ]
+      ],
+      "volume_mm3": 14079.790281160458
+    }
+  },
+  "positiveXWall_mm": 16.576167,
+  "rightStraightEdges": [
+    {
+      "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "edge": {
+        "pointsGlobal_mm": [
+          [
+            16.576167,
+            -59.0,
+            -11.5
+          ],
+          [
+            16.576167,
+            -17.0,
+            -11.5
+          ]
+        ],
+        "length_mm": 42.0
+      }
+    },
+    {
+      "component": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "edge": {
+        "pointsGlobal_mm": [
+          [
+            16.576167,
+            -59.0,
+            4.500000000000001
+          ],
+          [
+            16.576167,
+            -17.0,
+            4.500000000000001
+          ]
+        ],
+        "length_mm": 42.0
+      }
+    }
+  ],
+  "caseBoundsUnchanged": true,
+  "lowerBracketReliefPreservedByRecut": true,
+  "rightM2HolesRestoredByRecut": true,
+  "materialPreserved": true,
+  "timelineIssues": [],
+  "saved": false
+}

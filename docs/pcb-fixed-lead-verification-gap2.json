@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-10",
+  "cloudVersion": 28,
+  "lowerDown_mm": 2,
+  "mountingConcept": "PCB_FIXED_BATTERY_AND_WIRES_LOWER_ONLY_MOVES",
+  "wireCurvePoseUsed_mm": 0,
+  "selectedTargetSolids": 408,
+  "leads": [
+    {
+      "side": -1,
+      "APIlength_mm": 39.99999999999997,
+      "distanceQueries": 16,
+      "obstructions": [],
+      "nearestChecked": [
+        {
+          "target": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+          "margin_mm": 0.0
+        },
+        {
+          "target": "BATTERY_CELL_NOMINAL_42x20x5_USER_TARGET",
+          "margin_mm": 0.22362722698663273
+        },
+        {
+          "target": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+          "margin_mm": 2.4043738677734314
+        },
+        {
+          "target": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+          "margin_mm": 2.6391210553274314
+        }
+      ]
+    },
+    {
+      "side": 1,
+      "APIlength_mm": 39.99999999999998,
+      "distanceQueries": 17,
+      "obstructions": [],
+      "nearestChecked": [
+        {
+          "target": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+          "margin_mm": 0.0
+        },
+        {
+          "target": "BATTERY_CELL_NOMINAL_42x20x5_USER_TARGET",
+          "margin_mm": 0.22362722698663273
+        },
+        {
+          "target": "choc_body",
+          "margin_mm": 1.0500000000000003
+        },
+        {
+          "target": "contact_b",
+          "margin_mm": 1.1999999999999997
+        }
+      ]
+    }
+  ],
+  "pairCenterlineDistance_mm": 1.2493830048495194,
+  "pairD1SurfaceMargin_mm": 0.24938300484951936,
+  "intentionalInterfaceExclusions": {
+    "pouchFirstCenterline_mm": 0.8,
+    "solderFinalCenterline_mm": 0.5,
+    "scope": "Exclusions apply only to respective host; other solids and pair tests retain full curve. No real pouch outlet or solder fillet modeled."
+  },
+  "actualMinimumBendSpecificationVerified": false,
+  "continuousOpeningVerified": false
+}

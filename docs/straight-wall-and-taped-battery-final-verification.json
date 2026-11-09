@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-10",
+  "baselineCloudVersion": 28,
+  "saveRequested": true,
+  "approvedRecords": 589,
+  "renameCount": 6,
+  "onlyCaseGeometryChanged": true,
+  "allOriginalTransformsPreserved": true,
+  "outerStraightStockProof": [
+    {
+      "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "outerStripThickness_mm": 0.3,
+      "length_mm": 42,
+      "missingMaterial_mm3": 0
+    },
+    {
+      "component": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "outerStripThickness_mm": 0.3,
+      "length_mm": 42,
+      "missingMaterial_mm3": 0
+    }
+  ],
+  "leftContactEdgePreserved": true,
+  "batteryPhysicalCandidates": 1,
+  "retiredFixtureAndAdhesiveCandidates": 4,
+  "currentBatteryMountingConcept": "PCB-side tape and insulation, actual mounting face/padding/adhesion unqualified",
+  "dedicatedFixturesRequired": false,
+  "rightM2HolesAndExistingBracketReliefPreserved": true,
+  "currentCaseVolumes_mm3": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 37782.01274103005,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 14079.790281160458
+  },
+  "actualAttachmentVerified": false,
+  "manufactureReady": false,
+  "F3DUpdated": true,
+  "cloudVersion": 29,
+  "complete": true,
+  "modified": false,
+  "approvedRecordsMatchedAfterSave": 589,
+  "retiredFixtureOccurrencesHidden": 4,
+  "currentSTEPFilesRoundTripVerified": 2,
+  "immutableSourceFilesVerified": 10
+}

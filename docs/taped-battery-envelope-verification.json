@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-10",
+  "cloudVersion": 28,
+  "wrappingPerFaceAssumed_mm": 0.2,
+  "targetSolids": 407,
+  "currentCellToPCBOutlineDistance_mm": 3.1000000000000005,
+  "rows": [
+    {
+      "liftFromCurrentCell_mm": 0.0,
+      "wrappedCellBoundsZ_mm": [
+        -8.3,
+        -2.9
+      ],
+      "exactOverlapChecks": 1,
+      "collisions": []
+    },
+    {
+      "liftFromCurrentCell_mm": 2.6,
+      "wrappedCellBoundsZ_mm": [
+        -5.700000000000001,
+        -0.2999999999999998
+      ],
+      "exactOverlapChecks": 39,
+      "collisions": [
+        {
+          "target": "choc_body",
+          "volume_mm3": 10.85404929447511
+        },
+        {
+          "target": "contact_a2",
+          "volume_mm3": 0.20592809724509686
+        },
+        {
+          "target": "contact_b",
+          "volume_mm3": 0.7118665926535903
+        },
+        {
+          "target": "pin1",
+          "volume_mm3": 0.15978572003757532
+        },
+        {
+          "target": "pin2",
+          "volume_mm3": 0.08708773723230244
+        },
+        {
+          "target": "choc_body",
+          "volume_mm3": 39.37003933617031
+        },
+        {
+          "target": "contact_a1",
+          "volume_mm3": 0.2125380325070369
+        },
+        {
+          "target": "contact_a2",
+          "volume_mm3": 0.21253803250703343
+        },
+        {
+          "target": "contact_b",
+          "volume_mm3": 1.6367331853073972
+        },
+        {
+          "target": "contact_a003",
+          "volume_mm3": 0.20841783952709028
+        },
+        {
+          "target": "contact_b001",
+          "volume_mm3": 0.7839265926535948
+        },
+        {
+          "target": "bottom",
+          "volume_mm3": 12.910610992723091
+        },
+        {
+          "target": "pin2",
+          "volume_mm3": 0.23890390912918444
+        },
+        {
+          "target": "shrunken_spring",
+          "volume_mm3": 0.7742220513137956
+        },
+        {
+          "target": "choc_body",
+          "volume_mm3": 34.7529656254161
+        },
+        {
+          "target": "contact_a1",
+          "volume_mm3": 0.18327600654812337
+        },
+        {
+          "target": "contact_b",
+          "volume_mm3": 0.5808678426535433
+        },
+        {
+          "target": "contact_a003",
+          "volume_mm3": 0.21253803250702688
+        },
+        {
+          "target": "contact_a004",
+          "volume_mm3": 0.21253803250702188
+        },
+        {
+          "target": "contact_b001",
+          "volume_mm3": 1.6367331853071676
+        },
+        {
+          "target": "bottom",
+          "volume_mm3": 12.910610992723091
+        },
+        {
+          "target": "pin1",
+          "volume_mm3": 0.15978572003755984
+        },
+        {
+          "target": "pin2",
+          "volume_mm3": 0.23890390912918913
+        },
+        {
+          "target": "shrunken_spring",
+          "volume_mm3": 0.7770046699256774
+        },
+        {
+          "target": "choc_body",
+          "volume_mm3": 54.965151627984454
+        },
+        {
+          "target": "contact_a1",
+          "volume_mm3": 0.2125380325070349
+        },
+        {
+          "target": "contact_a2",
+          "volume_mm3": 0.21253803250703912
+        },
+        {
+          "target": "contact_b",
+          "volume_mm3": 1.636733185307148
+        },
+        {
+          "target": "contact_a003",
+          "volume_mm3": 0.21253803250702064
+        },
+        {
+          "target": "contact_a004",
+          "volume_mm3": 0.21253803250704384
+        },
+        {
+          "target": "contact_b001",
+          "volume_mm3": 1.6367331853071678
+        },
+        {
+          "target": "bottom",
+          "volume_mm3": 0.04208895491991161
+        },
+        {
+          "target": "contact_b",
+          "volume_mm3": 0.6590612215384283
+        }
+      ]
+    }
+  ],
+  "conclusion": "Retain current battery elevation as provisional clearance allocation; raising toward PCB requires resolving populated underside collisions. No flat tape bonding face proven.",
+  "limitations": [
+    "Exact PCB revision,copper and solder protrusions unconfirmed",
+    "Tape type,insulation,adhesion,padding,removal,cell swelling and max pouch dimensions unqualified",
+    "0.2mm wrap is a sensitivity assumption, not chosen tape thickness"
+  ]
+}

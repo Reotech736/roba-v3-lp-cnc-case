@@ -108,5 +108,8 @@
       "maxBoundDifference_mm": 0.0,
       "sha256": "c9dd5f00e00658fbbf215ae157af8abe8be12d9dde83f5ebcbdd9debf5f51dd2"
     }
-  ]
+  ],
+  "historical": true,
+  "supersededCurrentCaseSTEPReport": "positive-x-straight-wall-step-roundtrip.json",
+  "bracketNowRequired": false
 }

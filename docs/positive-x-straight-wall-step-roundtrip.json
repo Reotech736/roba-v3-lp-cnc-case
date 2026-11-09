@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-09",
+  "cloudVersion": 29,
+  "method": "Copy native local BRep to an isolated direct-design root, STEP export, import to new temporary document; check single solid, volume and local bounds",
+  "results": [
+    {
+      "file": "left_case_two_stands_v05_NOT_FOR_MANUFACTURE_Lower_L_LOCAL.step",
+      "materialPolicy": "Supplier6061T6 case properties",
+      "singleSolid": true,
+      "bytes": 266724,
+      "expectedVolume_mm3": 37782.01274103005,
+      "roundTripVolume_mm3": 37782.012741030645,
+      "absoluteVolumeDifference_mm3": 5.966285243630409e-10,
+      "expectedLocalBounds_mm": [
+        [
+          -111.119997,
+          -91.4341644873868,
+          0.0
+        ],
+        [
+          23.319461794711263,
+          11.053999999998894,
+          11.500000000000002
+        ]
+      ],
+      "roundTripLocalBounds_mm": [
+        [
+          -111.119997,
+          -91.43416448738677,
+          0.0
+        ],
+        [
+          23.319461794711227,
+          11.053999999998894,
+          11.500000000000002
+        ]
+      ],
+      "maxBoundDifference_mm": 3.552713678800501e-14,
+      "sha256": "4f0eee02891fbd7f94dee22d84a6648ffdac9234c450c92b35dbbba1136d07b6"
+    },
+    {
+      "file": "left_case_two_stands_v05_NOT_FOR_MANUFACTURE_Upper_L_protective_roof_LOCAL.step",
+      "materialPolicy": "Supplier6061T6 case properties",
+      "singleSolid": true,
+      "bytes": 636856,
+      "expectedVolume_mm3": 14079.790281160458,
+      "roundTripVolume_mm3": 14079.790281160873,
+      "absoluteVolumeDifference_mm3": 4.147295840084553e-10,
+      "expectedLocalBounds_mm": [
+        [
+          -111.119997,
+          -91.4341644873868,
+          0.0
+        ],
+        [
+          23.319461794711263,
+          11.053999999998894,
+          5.5
+        ]
+      ],
+      "roundTripLocalBounds_mm": [
+        [
+          -111.119997,
+          -91.43416448738677,
+          0.0
+        ],
+        [
+          23.319461794711227,
+          11.053999999998894,
+          5.5
+        ]
+      ],
+      "maxBoundDifference_mm": 3.552713678800501e-14,
+      "sha256": "2e002037e3a1612091fc3ae3ac71fbf6f210e9e2c3fdfb764544daf7096351a3"
+    }
+  ]
+}

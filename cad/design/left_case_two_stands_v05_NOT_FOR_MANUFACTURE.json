@@ -1,7 +1,7 @@
 {
   "name": "left_case_two_stands_v05_NOT_FOR_MANUFACTURE",
   "id": "urn:adsk.wipprod:dm.lineage:H9Nq8f1PSl6GXmxJMgIkbw",
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "standPocketsXYWH_mm": [
     [
       -52.5,
@@ -156,7 +156,7 @@
   ],
   "solidInterferences": 0,
   "collisionSet": "52 coarse-core solids; detailed Choc, sockets, MCU, cable, cap sweep and screw envelopes checked in separate sets",
-  "cloudVersion": 28,
+  "cloudVersion": 29,
   "cloudComplete": true,
   "supportTopGlobalZ_mm": -0.2,
   "residualInteriorSamples": 18,
@@ -178,7 +178,7 @@
   ],
   "upperRoofReport": "upper-roof-development.json",
   "cableAccessInterferences": 0,
-  "cloudCheckpointNote": "v28: hidden individualD1 lead geometric trials,2 pipes and8 independent open-pose wires. Existing587 records and physical materials preserved; physical STEP files remain v27. Actual bend, exit, installed tie and continuous motion unqualified.",
+  "cloudCheckpointNote": "v29:42mm right straight side; M2 passages and old bracket relief re-cut. Dedicated receiver/wire fixture and adhesives retired as comparisons. PCB-side taped battery concept, current cell position retained; actual mounting unqualified.",
   "roofTopZ_mm": 3.8,
   "roofBottomZ_mm": 2.6,
   "detailedMCUBodyCountIncludingChildren": 77,
@@ -273,7 +273,7 @@
       "Screw head dimensions, grade, torque, fit and thread serviceability not finalized"
     ]
   },
-  "currentVerification": "../../docs/individual-lead-final-verification.json",
+  "currentVerification": "../../docs/straight-wall-and-taped-battery-final-verification.json",
   "serviceAndLocating": {
     "date": "2026-11-08",
     "locatorsXY_mm": [
@@ -350,14 +350,12 @@
     }
   },
   "volumes_mm3": {
-    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 36864.844806983405,
-    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13649.461979532638,
-    "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL": 731.484699283006,
-    "BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL": 1127.6285834705777,
-    "WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL": 92.05725913541602
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 37782.01274103005,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 14079.790281160458,
+    "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL": 731.484699283006
   },
   "lowerMaximumGlobalZ_mm": 0,
-  "geometryValidatedCloudVersion": 28,
+  "geometryValidatedCloudVersion": 29,
   "standPocketDepth_mm": 3.5,
   "standResidual_mm": 2,
   "standBackingTopGlobalZ_mm": -6.0,
@@ -4192,20 +4190,20 @@
           "children": []
         },
         {
-          "name": "BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL",
-          "visible": true,
+          "name": "RETIRED_OPTIONAL_BATTERY_FIXTURE_BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL",
+          "visible": false,
           "bodies": 1,
           "children": []
         },
         {
-          "name": "CARRIER_BASE_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
-          "visible": true,
+          "name": "RETIRED_OPTIONAL_BATTERY_FIXTURE_CARRIER_BASE_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
+          "visible": false,
           "bodies": 2,
           "children": []
         },
         {
-          "name": "CELL_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
-          "visible": true,
+          "name": "RETIRED_OPTIONAL_BATTERY_FIXTURE_CELL_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
+          "visible": false,
           "bodies": 2,
           "children": []
         },
@@ -4263,7 +4261,7 @@
               "children": []
             },
             {
-              "name": "BATTERY_SERVICE_POSES_R3_LENGTH40_CENTERLINES_NOT_PARTS",
+              "name": "RETIRED_LOWER_MOVING_BATTERY_BATTERY_SERVICE_POSES_R3_LENGTH40_CENTERLINES_NOT_PARTS",
               "visible": false,
               "bodies": 4,
               "children": []
@@ -4293,7 +4291,7 @@
               "children": []
             },
             {
-              "name": "BATTERY_TWO_D1_LEADS40_OPEN_POSES_NOT_CONTINUOUS_MOTION",
+              "name": "RETIRED_LOWER_MOVING_BATTERY_BATTERY_TWO_D1_LEADS40_OPEN_POSES_NOT_CONTINUOUS_MOTION",
               "visible": false,
               "bodies": 8,
               "children": []
@@ -4301,8 +4299,8 @@
           ]
         },
         {
-          "name": "WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL",
-          "visible": true,
+          "name": "RETIRED_OPTIONAL_BATTERY_FIXTURE_WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL",
+          "visible": false,
           "bodies": 1,
           "children": []
         }
@@ -4316,11 +4314,12 @@
     "Actual SpringMINI latch/terminal and TaiHao cap fit unqualified",
     "M2/M1.6 effective threads, torque, tool specification and supplierDFM unqualified",
     "Individual40mm geometry exists as trials; actual bends/exits/OD, tied position and continuous flexible motion remain unqualified",
-    "Complete tie routing/release, retention force and wire damage unqualified",
+    "PCB-side tape retention, insulation and removal unqualified; previous tie fixture retired",
     "Battery insulation/swelling/service and actualUSB/RF/reset access unqualified",
     "Actual stand hinge/stop/feet/adhesion and stable contact unqualified",
     "Cover/nonmetal material selection and full assembly mass unqualified",
-    "RightCOROPIT fixing, motion and rightcase unimplemented"
+    "RightCOROPIT fixing, motion and rightcase unimplemented",
+    "PCB-side tape/insulation/padding bonding sites, retention and removal unqualified; optional fixture holes retained pending cost review"
   ],
   "resolvedV17Findings": [
     "Blocked M2 passage/head seat",
@@ -4361,24 +4360,99 @@
   "historicalConnectorB1FloorGap_mm": 0.5,
   "batteryCurrentServiceLoopReport": "../../docs/battery-service-loop-study.json",
   "batteryServiceLoopRadiusAssumed_mm": 3,
-  "batteryIndependentOpenPoses_mm": [
+  "batteryIndependentOpenPoses_mm": [],
+  "strainReliefImplemented": false,
+  "strainReliefQualified": false,
+  "strainReliefMountType": "PCB-side tape concept; former dedicated fixture retired; actual fixation unqualified",
+  "strainReliefReport": "../../docs/battery-fixture-retirement.json",
+  "strainReliefReview": "../../docs/simple-battery-mount-and-right-wall.md",
+  "wireInsulatedDiameterUserApprox_mm": 1,
+  "caseSTEPVersions": {
+    "upper": 29,
+    "lower": 29
+  },
+  "historicalRetiredPCBStrainReliefBondingSiteXYXY_mm": [
+    -4.38934,
+    -24,
+    1.61066,
+    -22
+  ],
+  "materialReport": "../../docs/case-material-verification.json",
+  "consistencyReview": "../../docs/design-consistency-review.md",
+  "batteryWireBudgetScope": "Each40mm closed lead trial retained; cell/wires now provisionally fixed toPCB side, only lower moves. Old lower-moving battery poses retired; actual wire/insulation/tape/exit unqualified.",
+  "standProductEvidence": {
+    "review": "../../docs/purchased-stand-review.md",
+    "purchaseURL": "https://ja.aliexpress.com/item/1005005605228469.html",
+    "userApproxHingeOffset_mm": 8.5,
+    "offsetEndAssumed": "NegativeX end opposite lifted rubber end",
+    "derivedAssumedHingeX_mm": -43.6,
+    "imageHeightClaims_mm": [
+      22,
+      40
+    ],
+    "imageHeightDatumConfirmed": false,
+    "actualProductMotionVerified": false,
+    "caseShapeChanged": false,
+    "temporaryLeafDiscreteComparisons": 114,
+    "temporaryLeafVsLowerCollisions": 0
+  },
+  "physicalGeometryValidatedCloudVersion": 29,
+  "individualBatteryLeads": {
+    "review": "../../docs/individual-battery-leads.md",
+    "study": "../../docs/individual-battery-lead-study.json",
+    "nominalEachLength_mm": 40,
+    "diameterAssumed_mm": 1,
+    "radiiAssumed_mm": [
+      1,
+      3,
+      1.5
+    ],
+    "minimumIndependentPosePairSurfaceMargin_mm": 0.13137084989847514,
+    "batteryStudyChildren": 14,
+    "adoptionStatus": "GEOMETRIC_TRIAL_ONLY_NOT_INSTALLED_TIE_OR_REAL_WIRE_VALIDATION"
+  },
+  "historicalRetiredFixtureVolumes_mm3": {
+    "RETIRED_OPTIONAL_BATTERY_FIXTURE_BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL": 1127.6285834705777,
+    "RETIRED_OPTIONAL_BATTERY_FIXTURE_WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL": 92.05725913541602
+  },
+  "historicalLowerMovingIndependentPoses_mm": [
     0,
     2,
     5,
     8,
     10
   ],
-  "strainReliefImplemented": true,
-  "strainReliefQualified": false,
-  "strainReliefMountType": "UPPER_CASE_TWO_M1p6x4_CANDIDATE_SCREWS_NONMETAL_BRACKET",
-  "strainReliefReport": "../../docs/case-wire-bracket-development.json",
-  "strainReliefReview": "../../docs/case-mounted-wire-restraint.md",
-  "wireInsulatedDiameterUserApprox_mm": 1,
-  "caseSTEPVersions": {
-    "upper": 27,
-    "lower": 27
+  "batteryMounting": {
+    "concept": "PCB-side insulation/padding/removable tape",
+    "nominalCellPositionUnchanged": true,
+    "nominalGapToPCBOutline_mm": 3.1,
+    "dedicatedReceiverRequired": false,
+    "dedicatedWireBracketRequired": false,
+    "tapeAndBondingSiteSelected": false,
+    "currentCandidateCount": 1,
+    "retiredHardwareAndAdhesiveCandidates": 4,
+    "lowerOnlyOpeningPoses_mm": [
+      0,
+      2,
+      5,
+      8,
+      10
+    ],
+    "currentReview": "../../docs/simple-battery-mount-and-right-wall.md"
   },
-  "strainReliefFasteners": {
+  "positiveXOutline": {
+    "x_mm": 16.576167,
+    "yRange_mm": [
+      -59,
+      -17
+    ],
+    "length_mm": 42,
+    "upperAndLowerAligned": true,
+    "overallCaseBoundsUnchanged": true,
+    "retainedUnusedBracketHolesAndRelief": true
+  },
+  "currentDesignReview": "../../docs/simple-battery-mount-and-right-wall.md",
+  "retainedUnusedOptionalBracketFasteners": {
     "candidate": "M1.6x4",
     "axesXY_mm": [
       [
@@ -4396,45 +4470,5 @@
     "headSeatDiameter_mm": 3.4,
     "nominalLocalLowerWall_mm": 1.1,
     "upperThreadComparisonRadialWall_mm": 0.9
-  },
-  "historicalRetiredPCBStrainReliefBondingSiteXYXY_mm": [
-    -4.38934,
-    -24,
-    1.61066,
-    -22
-  ],
-  "materialReport": "../../docs/case-material-verification.json",
-  "consistencyReview": "../../docs/design-consistency-review.md",
-  "batteryWireBudgetScope": "Individual40mm line/arc routes now geometrically modeled for2D1 leads and5independent poses; dimensions, bend limits, exit and installed tie remain unqualified. Prior D3 bundle is a comparison.",
-  "standProductEvidence": {
-    "review": "../../docs/purchased-stand-review.md",
-    "purchaseURL": "https://ja.aliexpress.com/item/1005005605228469.html",
-    "userApproxHingeOffset_mm": 8.5,
-    "offsetEndAssumed": "NegativeX end opposite lifted rubber end",
-    "derivedAssumedHingeX_mm": -43.6,
-    "imageHeightClaims_mm": [
-      22,
-      40
-    ],
-    "imageHeightDatumConfirmed": false,
-    "actualProductMotionVerified": false,
-    "caseShapeChanged": false,
-    "temporaryLeafDiscreteComparisons": 114,
-    "temporaryLeafVsLowerCollisions": 0
-  },
-  "physicalGeometryValidatedCloudVersion": 27,
-  "individualBatteryLeads": {
-    "review": "../../docs/individual-battery-leads.md",
-    "study": "../../docs/individual-battery-lead-study.json",
-    "nominalEachLength_mm": 40,
-    "diameterAssumed_mm": 1,
-    "radiiAssumed_mm": [
-      1,
-      3,
-      1.5
-    ],
-    "minimumIndependentPosePairSurfaceMargin_mm": 0.13137084989847514,
-    "batteryStudyChildren": 14,
-    "adoptionStatus": "GEOMETRIC_TRIAL_ONLY_NOT_INSTALLED_TIE_OR_REAL_WIRE_VALIDATION"
   }
 }

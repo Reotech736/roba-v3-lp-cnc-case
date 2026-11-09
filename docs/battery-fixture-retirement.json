@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-10",
+  "baselineCloudVersion": 28,
+  "physicalCandidatesRetired": 4,
+  "retiredFixtureAndAdhesiveDefinitions": [
+    {
+      "old": "BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL",
+      "new": "RETIRED_OPTIONAL_BATTERY_FIXTURE_BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL",
+      "reason": "Dedicated hardware removed from required configuration; retained read-only by workflow as comparison"
+    },
+    {
+      "old": "CARRIER_BASE_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
+      "new": "RETIRED_OPTIONAL_BATTERY_FIXTURE_CARRIER_BASE_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
+      "reason": "Dedicated hardware removed from required configuration; retained read-only by workflow as comparison"
+    },
+    {
+      "old": "CELL_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
+      "new": "RETIRED_OPTIONAL_BATTERY_FIXTURE_CELL_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
+      "reason": "Dedicated hardware removed from required configuration; retained read-only by workflow as comparison"
+    },
+    {
+      "old": "WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL",
+      "new": "RETIRED_OPTIONAL_BATTERY_FIXTURE_WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL",
+      "reason": "Dedicated hardware removed from required configuration; retained read-only by workflow as comparison"
+    }
+  ],
+  "retiredMotionStudies": [
+    {
+      "old": "BATTERY_SERVICE_POSES_R3_LENGTH40_CENTERLINES_NOT_PARTS",
+      "new": "RETIRED_LOWER_MOVING_BATTERY_BATTERY_SERVICE_POSES_R3_LENGTH40_CENTERLINES_NOT_PARTS",
+      "reason": "Historical lower-mounted battery motion; new provisional mount follows PCB side"
+    },
+    {
+      "old": "BATTERY_TWO_D1_LEADS40_OPEN_POSES_NOT_CONTINUOUS_MOTION",
+      "new": "RETIRED_LOWER_MOVING_BATTERY_BATTERY_TWO_D1_LEADS40_OPEN_POSES_NOT_CONTINUOUS_MOTION",
+      "reason": "Historical lower-mounted battery motion; new provisional mount follows PCB side"
+    }
+  ],
+  "renameMap": [
+    {
+      "old": "BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL",
+      "new": "RETIRED_OPTIONAL_BATTERY_FIXTURE_BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL",
+      "reason": "Dedicated hardware removed from required configuration; retained read-only by workflow as comparison"
+    },
+    {
+      "old": "CARRIER_BASE_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
+      "new": "RETIRED_OPTIONAL_BATTERY_FIXTURE_CARRIER_BASE_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
+      "reason": "Dedicated hardware removed from required configuration; retained read-only by workflow as comparison"
+    },
+    {
+      "old": "CELL_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
+      "new": "RETIRED_OPTIONAL_BATTERY_FIXTURE_CELL_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
+      "reason": "Dedicated hardware removed from required configuration; retained read-only by workflow as comparison"
+    },
+    {
+      "old": "WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL",
+      "new": "RETIRED_OPTIONAL_BATTERY_FIXTURE_WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL",
+      "reason": "Dedicated hardware removed from required configuration; retained read-only by workflow as comparison"
+    },
+    {
+      "old": "BATTERY_SERVICE_POSES_R3_LENGTH40_CENTERLINES_NOT_PARTS",
+      "new": "RETIRED_LOWER_MOVING_BATTERY_BATTERY_SERVICE_POSES_R3_LENGTH40_CENTERLINES_NOT_PARTS",
+      "reason": "Historical lower-mounted battery motion; new provisional mount follows PCB side"
+    },
+    {
+      "old": "BATTERY_TWO_D1_LEADS40_OPEN_POSES_NOT_CONTINUOUS_MOTION",
+      "new": "RETIRED_LOWER_MOVING_BATTERY_BATTERY_TWO_D1_LEADS40_OPEN_POSES_NOT_CONTINUOUS_MOTION",
+      "reason": "Historical lower-mounted battery motion; new provisional mount follows PCB side"
+    }
+  ],
+  "allGeometryAndTransformsPreserved": true,
+  "batteryCurrentPhysicalCandidateCount": 1,
+  "batteryXYZUnchanged": true,
+  "newMountingConcept": "PCB-side insulation/padding and removable tape; no certified bonding site or tape material",
+  "oldDedicatedBracketSTEPCurrent": false,
+  "oldBatteryCarrierSTEPCurrent": false,
+  "existingCasePilotHolesAndBracketReliefRetained": true,
+  "fixedPCBToBatteryNominalGap_mm": 3.1,
+  "actualAttachmentVerified": false,
+  "saved": false
+}

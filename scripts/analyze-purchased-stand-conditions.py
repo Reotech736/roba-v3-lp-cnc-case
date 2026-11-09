@@ -36,7 +36,7 @@ def main():
                 outside=[k for k in keyrows if k['outsideAssumedSupportPolygon']]
                 rows.append({'imageHeightInterpretedAsNormal_mm':height,'assumedHingeZ_mm':hingeZ,'derivedLeafAngle_deg':math.degrees(math.asin(drop/length)),'derivedCaseTilt_deg':math.degrees(theta),'assumedContactWidth_mm':width,'footGlobalXZ_mm':[footX,footZ],'supportPolygonGroundXY_mm':polygon,'keysOutsideAssumedPolygon':len(outside),'minimumCaseOnlyCriticalVerticalForce_N':min(k['caseOnlyCriticalVerticalForce_N'] for k in outside),'keyResults':keyrows})
     picture=BASE/'docs/images/stand-inspection/purchased-stand-product-height.jpg'
-    result={'date':'2026-11-09','cloudVersion':27,'modelChanged':False,'actualProductMotionVerified':False,
+    result={'date':'2026-11-10','cloudVersion':source['cloudVersion'],'modelChanged':False,'actualProductMotionVerified':False,
             'productSource':{'purchaseURL':'https://ja.aliexpress.com/item/1005005605228469.html','livePageRetrieved':False,'evidence':'User-supplied purchased product image and approximate hinge measurement','imageFile':str(picture.relative_to(BASE)).replace('\\','/'),'imageSHA256':hashlib.sha256(picture.read_bytes()).hexdigest(),'imageClaims':{'heightLabels_mm':[22,40],'laptopAngleLabels_deg':[7,17],'adjustmentPositions':3},'imageHeightDatumConfirmed':False},
             'userApproxHingeOffset_mm':8.5,'assumedOffsetEnd':'NegativeX end, opposite lifted rubber end','derivedHingeX_mm':-43.6,
             'hypotheticalMovingLength_mm':47.5,'lengthDerivation':'Nominal56 minus approximate8.5 offset; not actual hinge-to-contact radius measurement',

@@ -4,17 +4,17 @@ roBa v3 LP（COROPIT対応）の左右上下ケースをアルミ削り出しで
 
 **現行v05に横向きスタンド2本、左ボトム、キー間を覆う天板と23か所のLP開口、別体XIAOカバー候補を反映しました。実物の係止・押下時の隙間・カバー固定・右ケースは未完成／未検証です。現時点のSTEPを加工発注には使用しないでください。**
 
-## 現在の状態（2026-11-09）
+## 現在の状態（2026-11-10）
 
-現行は `02_design/left_case_two_stands_v05_NOT_FOR_MANUFACTURE` のクラウドv28。全体F3Dはv28、上下ケースSTEPは形状不変のv27を継続し、非金属の配線保持ブラケットSTEPを追加しました。右ケース・実物適合・製造条件は未完成です。
+現行は `02_design/left_case_two_stands_v05_NOT_FOR_MANUFACTURE` のクラウドv29。全体F3D・上下ケースSTEPをv29へ更新。右側を42 mm直線にそろえ、専用電池受け・配線ブラケットは製作必須から外し比較履歴へ退避。電池の基板側テープ固定は未検証の案です。[最新判断](docs/simple-battery-mount-and-right-wall.md)。
 
 | 項目 | 現行と検証範囲 |
 | --- | --- |
 | LP配置 | Choc側だけを基準に23スイッチ・23ソケットを180°補正。Spring MINI写真にない補助pin3を派生参照から除外。旧LP穴と照合、支持1・対応逃げ・絶縁材も修正。[詳細](docs/choc-lp-orientation-correction.md) |
 | スタンド | 横向き2本、収納56.8×14.8×深さ3.5・指掛かりD8・残肉2。穴閉塞と裏当て張り出しを修正。[収納修正](docs/stand-and-M2-correction.md)・[購入品／可動検討](docs/purchased-stand-review.md) |
 | 接地辺 | ねじ座外端へ揃えた連続42 mm。最大外接寸法を維持し、指定した理想傾斜平面で検査。[詳細](docs/continuous-contact-edge.md) |
-| 電池 | 基板電池パッドへ直付け。42×20×5・線40 mm、被覆外径約1 mm／本。個別2本の40 mm経路を確認用に追加。実曲げ・結束・保持力・連続開閉は未認定。[最新検討](docs/individual-battery-leads.md) |
-| 表示管理 | 旧12個をOLD、Choc46個と電池一式をグループ化。電池側は実体候補5個＋確認用14個。[操作](docs/component-organization.md) |
+| 電池 | 基板電池パッド直付け、42×20×5・各線40 mm。専用受け／配線ブラケットは廃案比較、基板側へ絶縁・緩衝材とテープ固定を検討。実貼付・保持は未認定。[最新検討](docs/simple-battery-mount-and-right-wall.md) |
+| 表示管理 | 旧12個・Choc46個のグループ維持。電池1候補＋退避4候補＋確認用14個。RETIREDを通常表示へ戻さない。[操作](docs/component-organization.md) |
 | 参照保護 | 元STEP6点・公開PCB・第三者部品の保存バイトとハッシュを検証。旧モデルは読み取り参照のみ |
 | 試作・見積・発注 | 未実施。指定の幾何検査合格を、実物適合・強度・加工成立の認定としない |
 

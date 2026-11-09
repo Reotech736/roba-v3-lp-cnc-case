@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-08",
-  "cloudVersion": 26,
+  "date": "2026-11-10",
+  "cloudVersion": 29,
   "connection": "DIRECT_SOLDER",
   "plugAccessApplicable": false,
-  "coreSolidCount": 62,
+  "coreSolidCount": 56,
   "coreInterferences": [],
   "wireVsAssemblyInterferences": [],
   "assumedPlugAccessVsCasesInterferences": [],
