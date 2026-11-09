@@ -1,0 +1,211 @@
+{
+  "cloudVersion": 27,
+  "modified": false,
+  "caseMassesOnly": [
+    {
+      "name": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "mass_kg": 0.10322156545955354,
+      "centerOfMassGlobal_mm": [
+        -45.63638401780185,
+        -39.309877450898455,
+        -8.165039052886403
+      ]
+    },
+    {
+      "name": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "mass_kg": 0.03821849354269139,
+      "centerOfMassGlobal_mm": [
+        -47.28004169602372,
+        -41.282034464576434,
+        2.325097153077269
+      ]
+    }
+  ],
+  "scope": "Upper/lower case mass only, stem centers for conditional vertical-force study; actual assembled COM and keycap force application height unknown",
+  "keyPressXYReference": [
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:1+red:1+stem:1",
+      "xy_mm": [
+        -38.46934000000001,
+        -23.41940063905949
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:2+red:1+stem:1",
+      "xy_mm": [
+        -19.419340000000005,
+        -25.91965063905951
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:3+red:1+stem:1",
+      "xy_mm": [
+        -57.54368000000002,
+        -58.99915063905949
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:4+red:1+stem:1",
+      "xy_mm": [
+        7.962044443275743,
+        -76.71731883196117
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:5+red:1+stem:1",
+      "xy_mm": [
+        -19.419340000000005,
+        -44.9696506390595
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:6+red:1+stem:1",
+      "xy_mm": [
+        -95.61934000000001,
+        -13.56915063905949
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:7+red:1+stem:1",
+      "xy_mm": [
+        -38.46934000000002,
+        -4.369399639059504
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:8+red:1+stem:1",
+      "xy_mm": [
+        -57.51934,
+        -20.91915063905951
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:9+red:1+stem:1",
+      "xy_mm": [
+        -57.51934,
+        -1.8691506390594999
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:10+red:1+stem:1",
+      "xy_mm": [
+        -38.46934000000002,
+        -42.4694006390595
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:11+red:1+stem:1",
+      "xy_mm": [
+        -57.51933999999999,
+        -39.969150639059514
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:12+red:1+stem:1",
+      "xy_mm": [
+        -76.56934000000001,
+        -6.569649639059499
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:13+red:1+stem:1",
+      "xy_mm": [
+        -95.61934000000001,
+        -70.71915063905948
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:14+red:1+stem:1",
+      "xy_mm": [
+        -19.419340000000005,
+        -6.869649639059496
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:15+red:1+stem:1",
+      "xy_mm": [
+        -0.36934000000002243,
+        -49.49415063905951
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:16+red:1+stem:1",
+      "xy_mm": [
+        -76.56934000000001,
+        -25.619650639059493
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:17+red:1+stem:1",
+      "xy_mm": [
+        -0.359340000000003,
+        -30.4491506390595
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:18+red:1+stem:1",
+      "xy_mm": [
+        -95.61934000000001,
+        -51.66915063905948
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:19+red:1+stem:1",
+      "xy_mm": [
+        -95.61934000000001,
+        -32.61915063905951
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:20+red:1+stem:1",
+      "xy_mm": [
+        -34.45234000000002,
+        -68.8681003609405
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:21+red:1+stem:1",
+      "xy_mm": [
+        -76.56934000000001,
+        -63.7196506390595
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:22+red:1+stem:1",
+      "xy_mm": [
+        -76.56934000000001,
+        -44.66965063905951
+      ],
+      "stemTopZ_mm": 10.2
+    },
+    {
+      "path": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS:1+CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN:23+red:1+stem:1",
+      "xy_mm": [
+        -13.115089138374005,
+        -70.8618584813348
+      ],
+      "stemTopZ_mm": 10.2
+    }
+  ]
+}
