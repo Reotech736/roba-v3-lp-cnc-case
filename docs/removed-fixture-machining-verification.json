@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-10",
+  "cloudVersion": 30,
+  "workingModified": false,
+  "formerRecessInteriorStockProbeGlobal_mm": [
+    11.08,
+    -27.2,
+    -5.2,
+    14.9,
+    -18.6,
+    -1
+  ],
+  "nominalProbeVolume_mm3": 137.97840000000005,
+  "missingRecessStock_mm3": 0,
+  "remainingFormerPocketBottomFaces": 0,
+  "filledPilots": [
+    {
+      "XY_mm": [
+        12.8,
+        -25.0
+      ],
+      "formerPilotDiameter_mm": 1.25,
+      "formerPilotDepth_mm": 3.6,
+      "restoredCylinderVolume_mm3": 4.417864669110458,
+      "missingStock_mm3": 0
+    },
+    {
+      "XY_mm": [
+        12.8,
+        -21.5
+      ],
+      "formerPilotDiameter_mm": 1.25,
+      "formerPilotDepth_mm": 3.6,
+      "restoredCylinderVolume_mm3": 4.417864669110458,
+      "missingStock_mm3": 0
+    }
+  ],
+  "straightEdges": [
+    {
+      "X_mm": -111.119997,
+      "Z_mm": -11.5,
+      "singleEdgeLength_mm": 42.0
+    },
+    {
+      "X_mm": 16.576167,
+      "Z_mm": -11.5,
+      "singleEdgeLength_mm": 42.0
+    },
+    {
+      "X_mm": -111.119997,
+      "Z_mm": 4.5,
+      "singleEdgeLength_mm": 42.0
+    },
+    {
+      "X_mm": 16.576167,
+      "Z_mm": 4.5,
+      "singleEdgeLength_mm": 42.0
+    }
+  ],
+  "casesMaterialNames": [
+    "JLCCNC_6061_T6_SUPPLIER_MINIMUM_PROVISIONAL",
+    "JLCCNC_6061_T6_SUPPLIER_MINIMUM_PROVISIONAL"
+  ],
+  "scope": "Exact nominal restored stock and specified edges only; no manufacturing/strength certification"
+}

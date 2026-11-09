@@ -6,7 +6,7 @@ roBa v3 LP（COROPIT対応）の左右上下ケースをアルミ削り出しで
 
 ## 現在の状態（2026-11-10）
 
-現行は `02_design/left_case_two_stands_v05_NOT_FOR_MANUFACTURE` のクラウドv29。全体F3D・上下ケースSTEPをv29へ更新。右側を42 mm直線にそろえ、専用電池受け・配線ブラケットは製作必須から外し比較履歴へ退避。電池の基板側テープ固定は未検証の案です。[最新判断](docs/simple-battery-mount-and-right-wall.md)。
+現行は `02_design/left_case_two_stands_v05_NOT_FOR_MANUFACTURE` のクラウドv30。全体F3D・上下ケースSTEPをv30へ更新。右側を42 mm直線にそろえ、専用電池受け・配線ブラケットは製作必須から外し比較履歴へ退避。電池の基板側テープ固定は未検証の案です。不要になった配線ブラケット用窪みと上側専用下穴2つも撤去しました。[最新修正](docs/removed-fixture-machining.md)。
 
 | 項目 | 現行と検証範囲 |
 | --- | --- |

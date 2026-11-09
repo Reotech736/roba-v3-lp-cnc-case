@@ -1,23 +1,23 @@
 {
-  "cloudVersion": 29,
+  "cloudVersion": 30,
   "modified": false,
   "caseMassesOnly": [
     {
       "name": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
-      "mass_kg": 0.10578963567488414,
+      "mass_kg": 0.10617637587581802,
       "centerOfMassGlobal_mm": [
-        -44.155395341359565,
-        -39.30415938344398,
-        -8.124060186670272
+        -43.947254356734994,
+        -39.24440782693284,
+        -8.105760390410804
       ]
     },
     {
       "name": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
-      "mass_kg": 0.03942341278724928,
+      "mass_kg": 0.03944815282939631,
       "centerOfMassGlobal_mm": [
-        -45.36404112958468,
-        -41.268522928561225,
-        2.3075201454505394
+        -45.32756335494178,
+        -41.257222551111184,
+        2.3065746991048703
       ]
     }
   ],

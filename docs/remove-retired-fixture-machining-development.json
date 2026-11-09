@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-10",
+  "baselineCloudVersion": 29,
+  "suppressedCuts": [
+    {
+      "name": "Restore_existing_lower_wire_bracket_relief_after_straight_wall",
+      "timelineIndex": 524
+    },
+    {
+      "name": "Recut_wire_bracket_relief_after_backing_join_0p3_clearance",
+      "timelineIndex": 497
+    },
+    {
+      "name": "Case_wire_bracket_M1p6_pilots_D1p25_depth3p6_THREAD_NOT_MODELED",
+      "timelineIndex": 483
+    },
+    {
+      "name": "Case_wire_bracket_removable_lower_clearance_0p3",
+      "timelineIndex": 481
+    }
+  ],
+  "before": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": {
+      "volume_mm3": 37782.01274103005,
+      "boundsGlobal_mm": [
+        [
+          -111.119997,
+          -91.4341644873868,
+          -11.5
+        ],
+        [
+          23.319461794711263,
+          11.053999999998894,
+          2.220446049250313e-15
+        ]
+      ]
+    },
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": {
+      "volume_mm3": 14079.790281160458,
+      "boundsGlobal_mm": [
+        [
+          -111.119997,
+          -91.4341644873868,
+          -1.0
+        ],
+        [
+          23.319461794711263,
+          11.053999999998894,
+          4.500000000000001
+        ]
+      ]
+    }
+  },
+  "after": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": {
+      "volume_mm3": 37920.13424136358,
+      "boundsGlobal_mm": [
+        [
+          -111.119997,
+          -91.4341644873868,
+          -11.5
+        ],
+        [
+          23.319461794711263,
+          11.053999999998894,
+          2.220446049250313e-15
+        ]
+      ]
+    },
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": {
+      "volume_mm3": 14088.626010498681,
+      "boundsGlobal_mm": [
+        [
+          -111.119997,
+          -91.4341644873868,
+          -1.0
+        ],
+        [
+          23.319461794711263,
+          11.053999999998894,
+          4.500000000000001
+        ]
+      ]
+    }
+  },
+  "previousRecordsChecked": 589,
+  "onlyCaseVolumesChanged": true,
+  "allPreviousTransformsPreserved": true,
+  "caseBoundsUnchanged": true,
+  "singleSolidCases": 2,
+  "timelineIssues": [],
+  "saved": false,
+  "limitations": [
+    "Removed only retired fixture machining; actual taped attachment, realwire bending and manufacturing remain unqualified"
+  ]
+}

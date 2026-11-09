@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "cloudVersion": 28,
+  "cloudVersion": 29,
   "lowerDown_mm": 5,
   "mountingConcept": "PCB_FIXED_BATTERY_AND_WIRES_LOWER_ONLY_MOVES",
   "wireCurvePoseUsed_mm": 0,

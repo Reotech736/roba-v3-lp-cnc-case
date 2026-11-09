@@ -30,3 +30,5 @@
 - `v05_cloud_v27_before_individual_lead_study.f3d`: v28個別電池線の確認用モデル追加前。実体形状は現行と同じ、確認用子は12個。
 
 - `v05_cloud_v28_WORKING_before_positive_x_straight_wall.f3d`: 右側直線化・専用電池治具の退避前。開始時の未保存状態も保持。
+
+- `v05_cloud_v29_WORKING_before_remove_retired_fixture_machining.f3d`: v30の旧窪み・専用下穴撤去前。開始時の未保存状態も保持。

@@ -58,6 +58,6 @@
   "nonmetalBracketMaterialSelected": false,
   "strengthAnalysisPerformed": false,
   "caseVolumeAndMassRowsHistoricalCloudVersion": 27,
-  "propertiesStillAppliedCloudVersion": 29,
+  "propertiesStillAppliedCloudVersion": 30,
   "latestCaseMassReference": "stand-case-mass-reference.json"
 }

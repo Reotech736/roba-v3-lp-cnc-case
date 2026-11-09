@@ -9,7 +9,7 @@ GAPS=[0,2,5,8,10]
 
 def run(_context: str):
     app=adsk.core.Application.get();doc=app.activeDocument;d=adsk.fusion.Design.cast(app.activeProduct)
-    assert doc.dataFile.versionNumber in [28,29]
+    assert doc.dataFile.versionNumber in [28,29,30]
     mgr=adsk.fusion.TemporaryBRepManager.get();study=json.loads((BASE/'docs/individual-battery-lead-study.json').read_text(encoding='utf-8'))
     def point(p):return adsk.core.Point3D.create(*[v/10 for v in p])
     def walk(o):

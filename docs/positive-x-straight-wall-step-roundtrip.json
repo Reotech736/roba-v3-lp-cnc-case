@@ -73,5 +73,7 @@
       "maxBoundDifference_mm": 3.552713678800501e-14,
       "sha256": "2e002037e3a1612091fc3ae3ac71fbf6f210e9e2c3fdfb764544daf7096351a3"
     }
-  ]
+  ],
+  "historical": true,
+  "supersededCurrentCaseSTEPReport": "removed-fixture-machining-step-roundtrip.json"
 }

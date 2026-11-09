@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-10",
+  "baselineCloudVersion": 29,
+  "saveRequested": true,
+  "approvedRecords": 589,
+  "allPriorTransformsPreserved": true,
+  "onlyCaseVolumesChanged": true,
+  "suppressedCutCount": 4,
+  "lowerRecessRemoved": true,
+  "upperDedicatedPilotCountRemoved": 2,
+  "M2CaseHoleAxesPreserved": 4,
+  "supportCount": 4,
+  "reliefTierCount": 8,
+  "straight42mmEdgesVerified": 4,
+  "coreSolidsChecked": 56,
+  "chocOriginsPreserved": 46,
+  "stemTopsChecked": 23,
+  "pin3Absent": true,
+  "caseVolumes_mm3": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 37920.13424136358,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 14088.626010498681
+  },
+  "F3DUpdated": true,
+  "manufactureReady": false,
+  "tapeAttachmentQualified": false,
+  "timelineIssues": [],
+  "cloudVersion": 30,
+  "complete": true,
+  "modified": false,
+  "approvedRecordsMatchedAfterSave": 589,
+  "caseSTEPFilesRoundTripVerified": 2
+}

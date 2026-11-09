@@ -156,7 +156,7 @@
   ],
   "solidInterferences": 0,
   "collisionSet": "52 coarse-core solids; detailed Choc, sockets, MCU, cable, cap sweep and screw envelopes checked in separate sets",
-  "cloudVersion": 29,
+  "cloudVersion": 30,
   "cloudComplete": true,
   "supportTopGlobalZ_mm": -0.2,
   "residualInteriorSamples": 18,
@@ -178,7 +178,7 @@
   ],
   "upperRoofReport": "upper-roof-development.json",
   "cableAccessInterferences": 0,
-  "cloudCheckpointNote": "v29:42mm right straight side; M2 passages and old bracket relief re-cut. Dedicated receiver/wire fixture and adhesives retired as comparisons. PCB-side taped battery concept, current cell position retained; actual mounting unqualified.",
+  "cloudCheckpointNote": "v30: suppress all3 lower retired bracket-relief cuts and2 upper bracket pilots. Restore ordinary wall stock; preserve both42mm sides,M2 case holes,support reliefs and all original transforms. Tape mount remains unqualified.",
   "roofTopZ_mm": 3.8,
   "roofBottomZ_mm": 2.6,
   "detailedMCUBodyCountIncludingChildren": 77,
@@ -273,7 +273,7 @@
       "Screw head dimensions, grade, torque, fit and thread serviceability not finalized"
     ]
   },
-  "currentVerification": "../../docs/straight-wall-and-taped-battery-final-verification.json",
+  "currentVerification": "../../docs/removed-fixture-machining-final-verification.json",
   "serviceAndLocating": {
     "date": "2026-11-08",
     "locatorsXY_mm": [
@@ -350,12 +350,12 @@
     }
   },
   "volumes_mm3": {
-    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 37782.01274103005,
-    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 14079.790281160458,
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 37920.13424136358,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 14088.626010498681,
     "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL": 731.484699283006
   },
   "lowerMaximumGlobalZ_mm": 0,
-  "geometryValidatedCloudVersion": 29,
+  "geometryValidatedCloudVersion": 30,
   "standPocketDepth_mm": 3.5,
   "standResidual_mm": 2,
   "standBackingTopGlobalZ_mm": -6.0,
@@ -4319,7 +4319,7 @@
     "Actual stand hinge/stop/feet/adhesion and stable contact unqualified",
     "Cover/nonmetal material selection and full assembly mass unqualified",
     "RightCOROPIT fixing, motion and rightcase unimplemented",
-    "PCB-side tape/insulation/padding bonding sites, retention and removal unqualified; optional fixture holes retained pending cost review"
+    "PCB-side tape/insulation/padding bonding sites, retention and removal unqualified; optional fixture holes and relief now removed; tape mount still unqualified"
   ],
   "resolvedV17Findings": [
     "Blocked M2 passage/head seat",
@@ -4368,8 +4368,8 @@
   "strainReliefReview": "../../docs/simple-battery-mount-and-right-wall.md",
   "wireInsulatedDiameterUserApprox_mm": 1,
   "caseSTEPVersions": {
-    "upper": 29,
-    "lower": 29
+    "upper": 30,
+    "lower": 30
   },
   "historicalRetiredPCBStrainReliefBondingSiteXYXY_mm": [
     -4.38934,
@@ -4396,7 +4396,7 @@
     "temporaryLeafDiscreteComparisons": 114,
     "temporaryLeafVsLowerCollisions": 0
   },
-  "physicalGeometryValidatedCloudVersion": 29,
+  "physicalGeometryValidatedCloudVersion": 30,
   "individualBatteryLeads": {
     "review": "../../docs/individual-battery-leads.md",
     "study": "../../docs/individual-battery-lead-study.json",
@@ -4449,10 +4449,10 @@
     "length_mm": 42,
     "upperAndLowerAligned": true,
     "overallCaseBoundsUnchanged": true,
-    "retainedUnusedBracketHolesAndRelief": true
+    "retainedUnusedBracketHolesAndRelief": false
   },
-  "currentDesignReview": "../../docs/simple-battery-mount-and-right-wall.md",
-  "retainedUnusedOptionalBracketFasteners": {
+  "currentDesignReview": "../../docs/removed-fixture-machining.md",
+  "historicalRetiredOptionalBracketFasteners": {
     "candidate": "M1.6x4",
     "axesXY_mm": [
       [
@@ -4469,6 +4469,19 @@
     "bracketClearance_mm": 1.8,
     "headSeatDiameter_mm": 3.4,
     "nominalLocalLowerWall_mm": 1.1,
-    "upperThreadComparisonRadialWall_mm": 0.9
+    "upperThreadComparisonRadialWall_mm": 0.9,
+    "casePilotCutsNowSuppressed": true
+  },
+  "retiredFixtureMachining": {
+    "lowerReliefRemoved": true,
+    "upperD1p25PilotCountRemoved": 2,
+    "suppressedFeatureNames": [
+      "Restore_existing_lower_wire_bracket_relief_after_straight_wall",
+      "Recut_wire_bracket_relief_after_backing_join_0p3_clearance",
+      "Case_wire_bracket_M1p6_pilots_D1p25_depth3p6_THREAD_NOT_MODELED",
+      "Case_wire_bracket_removable_lower_clearance_0p3"
+    ],
+    "historyPreserved": true,
+    "review": "../../docs/removed-fixture-machining.md"
   }
 }
