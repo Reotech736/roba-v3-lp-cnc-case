@@ -11,7 +11,7 @@ roBa v3 LP（COROPIT対応）の左右上下ケースをアルミ削り出しで
 | 項目 | 現行と検証範囲 |
 | --- | --- |
 | LP配置 | Choc側だけを基準に23スイッチ・23ソケットを180°補正。Spring MINI写真にない補助pin3を派生参照から除外。旧LP穴と照合、支持1・対応逃げ・絶縁材も修正。[詳細](docs/choc-lp-orientation-correction.md) |
-| スタンド | 横向き2本、収納56.8×14.8×深さ3.5・指掛かりD8・残肉2。穴閉塞と裏当て張り出しを修正。[詳細](docs/stand-and-M2-correction.md) |
+| スタンド | 横向き2本、収納56.8×14.8×深さ3.5・指掛かりD8・残肉2。穴閉塞と裏当て張り出しを修正。[収納修正](docs/stand-and-M2-correction.md)・[購入品／可動検討](docs/purchased-stand-review.md) |
 | 接地辺 | ねじ座外端へ揃えた連続42 mm。最大外接寸法を維持し、指定した理想傾斜平面で検査。[詳細](docs/continuous-contact-edge.md) |
 | 電池 | 基板電池パッドへ直付け。42×20×5・線40 mm、被覆外径約1 mm／本。仮R3全長ループとケース固定の保持ブラケットを追加。保持力・連続開閉は未認定。[最新検討](docs/case-mounted-wire-restraint.md) |
 | 表示管理 | 旧12個をOLD、Choc46個と電池一式をグループ化。電池側は実体候補5個＋確認用12個。[操作](docs/component-organization.md) |

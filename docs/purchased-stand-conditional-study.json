@@ -1,0 +1,2654 @@
+{
+  "date": "2026-11-09",
+  "cloudVersion": 27,
+  "modelChanged": false,
+  "actualProductMotionVerified": false,
+  "productSource": {
+    "purchaseURL": "https://ja.aliexpress.com/item/1005005605228469.html",
+    "livePageRetrieved": false,
+    "evidence": "User-supplied purchased product image and approximate hinge measurement",
+    "imageFile": "docs/images/stand-inspection/purchased-stand-product-height.jpg",
+    "imageSHA256": "41ae98c0ffc0bed582f5426b1b4ae313c84a1e26c34a87350316dc46b37b418f",
+    "imageClaims": {
+      "heightLabels_mm": [
+        22,
+        40
+      ],
+      "laptopAngleLabels_deg": [
+        7,
+        17
+      ],
+      "adjustmentPositions": 3
+    },
+    "imageHeightDatumConfirmed": false
+  },
+  "userApproxHingeOffset_mm": 8.5,
+  "assumedOffsetEnd": "NegativeX end, opposite lifted rubber end",
+  "derivedHingeX_mm": -43.6,
+  "hypotheticalMovingLength_mm": 47.5,
+  "lengthDerivation": "Nominal56 minus approximate8.5 offset; not actual hinge-to-contact radius measurement",
+  "normalHeightScenarios_mm": [
+    22,
+    40
+  ],
+  "heightInterpretation": "Sensitivity calculation only: foot normal distance below mounting planeZ-8. Product image labels are vertical under an inclined laptop; the datum differs and intermediate third position is unknown.",
+  "caseOnlyMass_kg": 0.14144005900224493,
+  "caseOnlyCOMGlobal_mm": [
+    -46.08051647083286,
+    -39.84277365176351,
+    -5.330501188028665
+  ],
+  "rows": [
+    {
+      "imageHeightInterpretedAsNormal_mm": 22.0,
+      "assumedHingeZ_mm": -8.0,
+      "derivedLeafAngle_deg": 27.5910691643836,
+      "derivedCaseTilt_deg": 9.57941199029821,
+      "assumedContactWidth_mm": 0.0,
+      "footGlobalXZ_mm": [
+        -1.5019002804164572,
+        -30.0
+      ],
+      "supportPolygonGroundXY_mm": [
+        [
+          0.0,
+          -59.0
+        ],
+        [
+          111.16823794782381,
+          -61.1
+        ],
+        [
+          111.16823794782381,
+          -17.1
+        ],
+        [
+          0.0,
+          -17.0
+        ]
+      ],
+      "keysOutsideAssumedPolygon": 10,
+      "minimumCaseOnlyCriticalVerticalForce_N": 1.8131200693662564,
+      "keyResults": [
+        {
+          "xy_mm": [
+            -38.46934000000001,
+            -23.41940063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -25.91965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.54368000000002,
+            -58.99915063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            7.962044443275743,
+            -76.71731883196117
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 1.8131200693662564
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -44.9696506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -13.56915063905949
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 9.184013282627634
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -4.369399639059504
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.4902237590341185
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -20.91915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -1.8691506390594999
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.0827085897210154
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -42.4694006390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51933999999999,
+            -39.969150639059514
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -6.569649639059499
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.0221997202831683
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -70.71915063905948
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.4546889902083024
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -6.869649639059496
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.096007218113376
+        },
+        {
+          "xy_mm": [
+            -0.36934000000002243,
+            -49.49415063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -25.619650639059493
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -0.359340000000003,
+            -30.4491506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -51.66915063905948
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -32.61915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -34.45234000000002,
+            -68.8681003609405
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.3174415145784373
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -63.7196506390595
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 6.810705462893701
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -44.66965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -13.115089138374005,
+            -70.8618584813348
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.793353741666012
+        }
+      ]
+    },
+    {
+      "imageHeightInterpretedAsNormal_mm": 22.0,
+      "assumedHingeZ_mm": -8.0,
+      "derivedLeafAngle_deg": 27.5910691643836,
+      "derivedCaseTilt_deg": 9.57941199029821,
+      "assumedContactWidth_mm": 14.4,
+      "footGlobalXZ_mm": [
+        -1.5019002804164572,
+        -30.0
+      ],
+      "supportPolygonGroundXY_mm": [
+        [
+          0.0,
+          -59.0
+        ],
+        [
+          111.16823794782381,
+          -68.3
+        ],
+        [
+          111.16823794782381,
+          -9.900000000000002
+        ],
+        [
+          0.0,
+          -17.0
+        ]
+      ],
+      "keysOutsideAssumedPolygon": 10,
+      "minimumCaseOnlyCriticalVerticalForce_N": 3.109863478939151,
+      "keyResults": [
+        {
+          "xy_mm": [
+            -38.46934000000001,
+            -23.41940063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -25.91965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.54368000000002,
+            -58.99915063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            7.962044443275743,
+            -76.71731883196117
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.135370890251882
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -44.9696506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -13.56915063905949
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 13.88090967634003
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -4.369399639059504
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.498521908970314
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -20.91915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -1.8691506390594999
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.109863478939151
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -42.4694006390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51933999999999,
+            -39.969150639059514
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -6.569649639059499
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.392934816714998
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -70.71915063905948
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.1551673549148087
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -6.869649639059496
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 8.127905535333026
+        },
+        {
+          "xy_mm": [
+            -0.36934000000002243,
+            -49.49415063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -25.619650639059493
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -0.359340000000003,
+            -30.4491506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -51.66915063905948
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -32.61915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -34.45234000000002,
+            -68.8681003609405
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 8.813312476893076
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -63.7196506390595
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 15.607786920590007
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -44.66965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -13.115089138374005,
+            -70.8618584813348
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 8.30856116384019
+        }
+      ]
+    },
+    {
+      "imageHeightInterpretedAsNormal_mm": 22.0,
+      "assumedHingeZ_mm": -10.1,
+      "derivedLeafAngle_deg": 24.7681482829534,
+      "derivedCaseTilt_deg": 9.491667134350156,
+      "assumedContactWidth_mm": 0.0,
+      "footGlobalXZ_mm": [
+        -0.46950035067991536,
+        -30.0
+      ],
+      "supportPolygonGroundXY_mm": [
+        [
+          0.0,
+          -59.0
+        ],
+        [
+          112.18637354305197,
+          -61.1
+        ],
+        [
+          112.18637354305197,
+          -17.1
+        ],
+        [
+          0.0,
+          -17.0
+        ]
+      ],
+      "keysOutsideAssumedPolygon": 10,
+      "minimumCaseOnlyCriticalVerticalForce_N": 1.8100676385982444,
+      "keyResults": [
+        {
+          "xy_mm": [
+            -38.46934000000001,
+            -23.41940063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -25.91965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.54368000000002,
+            -58.99915063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            7.962044443275743,
+            -76.71731883196117
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 1.8100676385982444
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -44.9696506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -13.56915063905949
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 9.184378662591765
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -4.369399639059504
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.490377559600097
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -20.91915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -1.8691506390594999
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.082803075795483
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -42.4694006390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51933999999999,
+            -39.969150639059514
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -6.569649639059499
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.0223261565036004
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -70.71915063905948
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.4531618911143642
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -6.869649639059496
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.0962738900016586
+        },
+        {
+          "xy_mm": [
+            -0.36934000000002243,
+            -49.49415063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -25.619650639059493
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -0.359340000000003,
+            -30.4491506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -51.66915063905948
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -32.61915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -34.45234000000002,
+            -68.8681003609405
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.3113339236611057
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -63.7196506390595
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 6.799954578716046
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -44.66965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -13.115089138374005,
+            -70.8618584813348
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.787832556933315
+        }
+      ]
+    },
+    {
+      "imageHeightInterpretedAsNormal_mm": 22.0,
+      "assumedHingeZ_mm": -10.1,
+      "derivedLeafAngle_deg": 24.7681482829534,
+      "derivedCaseTilt_deg": 9.491667134350156,
+      "assumedContactWidth_mm": 14.4,
+      "footGlobalXZ_mm": [
+        -0.46950035067991536,
+        -30.0
+      ],
+      "supportPolygonGroundXY_mm": [
+        [
+          0.0,
+          -59.0
+        ],
+        [
+          112.18637354305197,
+          -68.3
+        ],
+        [
+          112.18637354305197,
+          -9.900000000000002
+        ],
+        [
+          0.0,
+          -17.0
+        ]
+      ],
+      "keysOutsideAssumedPolygon": 10,
+      "minimumCaseOnlyCriticalVerticalForce_N": 3.0991984969338633,
+      "keyResults": [
+        {
+          "xy_mm": [
+            -38.46934000000001,
+            -23.41940063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -25.91965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.54368000000002,
+            -58.99915063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            7.962044443275743,
+            -76.71731883196117
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.087141117796193
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -44.9696506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -13.56915063905949
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 13.839960703651352
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -4.369399639059504
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.4731360192532374
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -20.91915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -1.8691506390594999
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.0991984969338633
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -42.4694006390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51933999999999,
+            -39.969150639059514
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -6.569649639059499
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.379467689902433
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -70.71915063905948
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.147552343185206
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -6.869649639059496
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 8.035386891516705
+        },
+        {
+          "xy_mm": [
+            -0.36934000000002243,
+            -49.49415063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -25.619650639059493
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -0.359340000000003,
+            -30.4491506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -51.66915063905948
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -32.61915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -34.45234000000002,
+            -68.8681003609405
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 8.683180388298654
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -63.7196506390595
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 15.438639564181551
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -44.66965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -13.115089138374005,
+            -70.8618584813348
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 8.16126161835117
+        }
+      ]
+    },
+    {
+      "imageHeightInterpretedAsNormal_mm": 22.0,
+      "assumedHingeZ_mm": -12.2,
+      "derivedLeafAngle_deg": 22.008049009876327,
+      "derivedCaseTilt_deg": 9.415781900789254,
+      "assumedContactWidth_mm": 0.0,
+      "footGlobalXZ_mm": [
+        0.4387329518005032,
+        -30.0
+      ],
+      "supportPolygonGroundXY_mm": [
+        [
+          0.0,
+          -59.0
+        ],
+        [
+          113.08227194595425,
+          -61.1
+        ],
+        [
+          113.08227194595425,
+          -17.1
+        ],
+        [
+          0.0,
+          -17.0
+        ]
+      ],
+      "keysOutsideAssumedPolygon": 10,
+      "minimumCaseOnlyCriticalVerticalForce_N": 1.807429581092718,
+      "keyResults": [
+        {
+          "xy_mm": [
+            -38.46934000000001,
+            -23.41940063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -25.91965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.54368000000002,
+            -58.99915063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            7.962044443275743,
+            -76.71731883196117
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 1.807429581092718
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -44.9696506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -13.56915063905949
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 9.184696285879944
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -4.369399639059504
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.490510819919008
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -20.91915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -1.8691506390594999
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.082884951719507
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -42.4694006390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51933999999999,
+            -39.969150639059514
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -6.569649639059499
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.022435768604816
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -70.71915063905948
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.4518377387194823
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -6.869649639059496
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.0965049335641965
+        },
+        {
+          "xy_mm": [
+            -0.36934000000002243,
+            -49.49415063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -25.619650639059493
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -0.359340000000003,
+            -30.4491506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -51.66915063905948
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -32.61915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -34.45234000000002,
+            -68.8681003609405
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.3060555080052705
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -63.7196506390595
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 6.790649169850625
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -44.66965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -13.115089138374005,
+            -70.8618584813348
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.783062916783682
+        }
+      ]
+    },
+    {
+      "imageHeightInterpretedAsNormal_mm": 22.0,
+      "assumedHingeZ_mm": -12.2,
+      "derivedLeafAngle_deg": 22.008049009876327,
+      "derivedCaseTilt_deg": 9.415781900789254,
+      "assumedContactWidth_mm": 14.4,
+      "footGlobalXZ_mm": [
+        0.4387329518005032,
+        -30.0
+      ],
+      "supportPolygonGroundXY_mm": [
+        [
+          0.0,
+          -59.0
+        ],
+        [
+          113.08227194595425,
+          -68.3
+        ],
+        [
+          113.08227194595425,
+          -9.900000000000002
+        ],
+        [
+          0.0,
+          -17.0
+        ]
+      ],
+      "keysOutsideAssumedPolygon": 10,
+      "minimumCaseOnlyCriticalVerticalForce_N": 3.0899929306833056,
+      "keyResults": [
+        {
+          "xy_mm": [
+            -38.46934000000001,
+            -23.41940063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -25.91965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.54368000000002,
+            -58.99915063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            7.962044443275743,
+            -76.71731883196117
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.046123436555681
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -44.9696506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -13.56915063905949
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 13.804444982247292
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -4.369399639059504
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.4513179956873925
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -20.91915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -1.8691506390594999
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.0899929306833056
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -42.4694006390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51933999999999,
+            -39.969150639059514
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -6.569649639059499
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.367829075282141
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -70.71915063905948
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.140952406179302
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -6.869649639059496
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 7.95673035590354
+        },
+        {
+          "xy_mm": [
+            -0.36934000000002243,
+            -49.49415063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -25.619650639059493
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -0.359340000000003,
+            -30.4491506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -51.66915063905948
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -32.61915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -34.45234000000002,
+            -68.8681003609405
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 8.573111698770408
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -63.7196506390595
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 15.294334855778313
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -44.66965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -13.115089138374005,
+            -70.8618584813348
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 8.037386195234067
+        }
+      ]
+    },
+    {
+      "imageHeightInterpretedAsNormal_mm": 40.0,
+      "assumedHingeZ_mm": -8.0,
+      "derivedLeafAngle_deg": 57.36310249644626,
+      "derivedCaseTilt_deg": 21.399926562260863,
+      "assumedContactWidth_mm": 0.0,
+      "footGlobalXZ_mm": [
+        -17.982623085101004,
+        -48.0
+      ],
+      "supportPolygonGroundXY_mm": [
+        [
+          0.0,
+          -59.0
+        ],
+        [
+          100.03409628603494,
+          -61.1
+        ],
+        [
+          100.03409628603494,
+          -17.1
+        ],
+        [
+          0.0,
+          -17.0
+        ]
+      ],
+      "keysOutsideAssumedPolygon": 10,
+      "minimumCaseOnlyCriticalVerticalForce_N": 1.817290985358392,
+      "keyResults": [
+        {
+          "xy_mm": [
+            -38.46934000000001,
+            -23.41940063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -25.91965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.54368000000002,
+            -58.99915063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            7.962044443275743,
+            -76.71731883196117
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 1.817290985358392
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -44.9696506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -13.56915063905949
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 9.194057490217947
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -4.369399639059504
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.4903499155782356
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -20.91915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -1.8691506390594999
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.0828885118195277
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -42.4694006390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51933999999999,
+            -39.969150639059514
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -6.569649639059499
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.0229104021468545
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -70.71915063905948
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.4407556954799277
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -6.869649639059496
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.095999648546816
+        },
+        {
+          "xy_mm": [
+            -0.36934000000002243,
+            -49.49415063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -25.619650639059493
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -0.359340000000003,
+            -30.4491506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -51.66915063905948
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -32.61915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -34.45234000000002,
+            -68.8681003609405
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.3119074174180367
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -63.7196506390595
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 6.714029838752512
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -44.66965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -13.115089138374005,
+            -70.8618584813348
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.7955257675952736
+        }
+      ]
+    },
+    {
+      "imageHeightInterpretedAsNormal_mm": 40.0,
+      "assumedHingeZ_mm": -8.0,
+      "derivedLeafAngle_deg": 57.36310249644626,
+      "derivedCaseTilt_deg": 21.399926562260863,
+      "assumedContactWidth_mm": 14.4,
+      "footGlobalXZ_mm": [
+        -17.982623085101004,
+        -48.0
+      ],
+      "supportPolygonGroundXY_mm": [
+        [
+          0.0,
+          -59.0
+        ],
+        [
+          100.03409628603494,
+          -68.3
+        ],
+        [
+          100.03409628603494,
+          -9.900000000000002
+        ],
+        [
+          0.0,
+          -17.0
+        ]
+      ],
+      "keysOutsideAssumedPolygon": 10,
+      "minimumCaseOnlyCriticalVerticalForce_N": 3.0674793250718793,
+      "keyResults": [
+        {
+          "xy_mm": [
+            -38.46934000000001,
+            -23.41940063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -25.91965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.54368000000002,
+            -58.99915063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            7.962044443275743,
+            -76.71731883196117
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.185028552534228
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -44.9696506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -13.56915063905949
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 12.60705373716644
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -4.369399639059504
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.4596821231821515
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -20.91915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -1.8691506390594999
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.0799756104400635
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -42.4694006390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51933999999999,
+            -39.969150639059514
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -6.569649639059499
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.297104123782638
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -70.71915063905948
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.0674793250718793
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -6.869649639059496
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 8.078553655640793
+        },
+        {
+          "xy_mm": [
+            -0.36934000000002243,
+            -49.49415063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -25.619650639059493
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -0.359340000000003,
+            -30.4491506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -51.66915063905948
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -32.61915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -34.45234000000002,
+            -68.8681003609405
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 8.591475226303244
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -63.7196506390595
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 13.829307356167211
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -44.66965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -13.115089138374005,
+            -70.8618584813348
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 8.284894847790037
+        }
+      ]
+    },
+    {
+      "imageHeightInterpretedAsNormal_mm": 40.0,
+      "assumedHingeZ_mm": -10.1,
+      "derivedLeafAngle_deg": 52.92953219972079,
+      "derivedCaseTilt_deg": 20.786959748802303,
+      "assumedContactWidth_mm": 0.0,
+      "footGlobalXZ_mm": [
+        -14.967151730922751,
+        -48.0
+      ],
+      "supportPolygonGroundXY_mm": [
+        [
+          0.0,
+          -59.0
+        ],
+        [
+          102.84755540769606,
+          -61.1
+        ],
+        [
+          102.84755540769606,
+          -17.1
+        ],
+        [
+          0.0,
+          -17.0
+        ]
+      ],
+      "keysOutsideAssumedPolygon": 10,
+      "minimumCaseOnlyCriticalVerticalForce_N": 1.8095992817126982,
+      "keyResults": [
+        {
+          "xy_mm": [
+            -38.46934000000001,
+            -23.41940063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -25.91965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.54368000000002,
+            -58.99915063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            7.962044443275743,
+            -76.71731883196117
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 1.8095992817126982
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -44.9696506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -13.56915063905949
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 9.194336417249948
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -4.369399639059504
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.4907168666227273
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -20.91915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -1.8691506390594999
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.083107712121022
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -42.4694006390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51933999999999,
+            -39.969150639059514
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -6.569649639059499
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.02317515929034
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -70.71915063905948
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.4379088571048566
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -6.869649639059496
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.096649649942756
+        },
+        {
+          "xy_mm": [
+            -0.36934000000002243,
+            -49.49415063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -25.619650639059493
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -0.359340000000003,
+            -30.4491506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -51.66915063905948
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -32.61915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -34.45234000000002,
+            -68.8681003609405
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.2974593318715946
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -63.7196506390595
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 6.694306731569651
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -44.66965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -13.115089138374005,
+            -70.8618584813348
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.781978438841905
+        }
+      ]
+    },
+    {
+      "imageHeightInterpretedAsNormal_mm": 40.0,
+      "assumedHingeZ_mm": -10.1,
+      "derivedLeafAngle_deg": 52.92953219972079,
+      "derivedCaseTilt_deg": 20.786959748802303,
+      "assumedContactWidth_mm": 14.4,
+      "footGlobalXZ_mm": [
+        -14.967151730922751,
+        -48.0
+      ],
+      "supportPolygonGroundXY_mm": [
+        [
+          0.0,
+          -59.0
+        ],
+        [
+          102.84755540769606,
+          -68.3
+        ],
+        [
+          102.84755540769606,
+          -9.900000000000002
+        ],
+        [
+          0.0,
+          -17.0
+        ]
+      ],
+      "keysOutsideAssumedPolygon": 10,
+      "minimumCaseOnlyCriticalVerticalForce_N": 3.05480714274531,
+      "keyResults": [
+        {
+          "xy_mm": [
+            -38.46934000000001,
+            -23.41940063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -25.91965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.54368000000002,
+            -58.99915063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            7.962044443275743,
+            -76.71731883196117
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.064398997345296
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -44.9696506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -13.56915063905949
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 12.59147438721898
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -4.369399639059504
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.4016783757725895
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -20.91915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -1.8691506390594999
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.056350671880988
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -42.4694006390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51933999999999,
+            -39.969150639059514
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -6.569649639059499
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.271250207925123
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -70.71915063905948
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.05480714274531
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -6.869649639059496
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 7.862591998434454
+        },
+        {
+          "xy_mm": [
+            -0.36934000000002243,
+            -49.49415063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -25.619650639059493
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -0.359340000000003,
+            -30.4491506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -51.66915063905948
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -32.61915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -34.45234000000002,
+            -68.8681003609405
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 8.308446167183641
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -63.7196506390595
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 13.595954753834816
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -44.66965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -13.115089138374005,
+            -70.8618584813348
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 7.9391490756701675
+        }
+      ]
+    },
+    {
+      "imageHeightInterpretedAsNormal_mm": 40.0,
+      "assumedHingeZ_mm": -12.2,
+      "derivedLeafAngle_deg": 48.91053143361564,
+      "derivedCaseTilt_deg": 20.287457928006518,
+      "assumedContactWidth_mm": 0.0,
+      "footGlobalXZ_mm": [
+        -12.381255630631138,
+        -48.0
+      ],
+      "supportPolygonGroundXY_mm": [
+        [
+          0.0,
+          -59.0
+        ],
+        [
+          105.2691267523727,
+          -61.1
+        ],
+        [
+          105.2691267523727,
+          -17.1
+        ],
+        [
+          0.0,
+          -17.0
+        ]
+      ],
+      "keysOutsideAssumedPolygon": 10,
+      "minimumCaseOnlyCriticalVerticalForce_N": 1.803215962278632,
+      "keyResults": [
+        {
+          "xy_mm": [
+            -38.46934000000001,
+            -23.41940063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -25.91965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.54368000000002,
+            -58.99915063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            7.962044443275743,
+            -76.71731883196117
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 1.803215962278632
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -44.9696506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -13.56915063905949
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 9.194605542836284
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -4.369399639059504
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.4910242382683507
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -20.91915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -1.8691506390594999
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.0832916813474496
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -42.4694006390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51933999999999,
+            -39.969150639059514
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -6.569649639059499
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.0233991172885415
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -70.71915063905948
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.4354781836364077
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -6.869649639059496
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.0971933526536026
+        },
+        {
+          "xy_mm": [
+            -0.36934000000002243,
+            -49.49415063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -25.619650639059493
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -0.359340000000003,
+            -30.4491506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -51.66915063905948
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -32.61915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -34.45234000000002,
+            -68.8681003609405
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.285424762091238
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -63.7196506390595
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 6.677525123480249
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -44.66965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -13.115089138374005,
+            -70.8618584813348
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 2.7707300056647237
+        }
+      ]
+    },
+    {
+      "imageHeightInterpretedAsNormal_mm": 40.0,
+      "assumedHingeZ_mm": -12.2,
+      "derivedLeafAngle_deg": 48.91053143361564,
+      "derivedCaseTilt_deg": 20.287457928006518,
+      "assumedContactWidth_mm": 14.4,
+      "footGlobalXZ_mm": [
+        -12.381255630631138,
+        -48.0
+      ],
+      "supportPolygonGroundXY_mm": [
+        [
+          0.0,
+          -59.0
+        ],
+        [
+          105.2691267523727,
+          -68.3
+        ],
+        [
+          105.2691267523727,
+          -9.900000000000002
+        ],
+        [
+          0.0,
+          -17.0
+        ]
+      ],
+      "keysOutsideAssumedPolygon": 10,
+      "minimumCaseOnlyCriticalVerticalForce_N": 3.0366465658551856,
+      "keyResults": [
+        {
+          "xy_mm": [
+            -38.46934000000001,
+            -23.41940063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -25.91965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.54368000000002,
+            -58.99915063905949
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            7.962044443275743,
+            -76.71731883196117
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.968054461185168
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -44.9696506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -13.56915063905949
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 12.57427728119963
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -4.369399639059504
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.353893770518968
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -20.91915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51934,
+            -1.8691506390594999
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.0366465658551856
+        },
+        {
+          "xy_mm": [
+            -38.46934000000002,
+            -42.4694006390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -57.51933999999999,
+            -39.969150639059514
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -6.569649639059499
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 4.249406318621077
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -70.71915063905948
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 3.0438949989322843
+        },
+        {
+          "xy_mm": [
+            -19.419340000000005,
+            -6.869649639059496
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 7.68945225775956
+        },
+        {
+          "xy_mm": [
+            -0.36934000000002243,
+            -49.49415063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -25.619650639059493
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -0.359340000000003,
+            -30.4491506390595
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -51.66915063905948
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -95.61934000000001,
+            -32.61915063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -34.45234000000002,
+            -68.8681003609405
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 8.083054378837302
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -63.7196506390595
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 13.399793862894152
+        },
+        {
+          "xy_mm": [
+            -76.56934000000001,
+            -44.66965063905951
+          ],
+          "outsideAssumedSupportPolygon": false,
+          "caseOnlyCriticalVerticalForce_N": null
+        },
+        {
+          "xy_mm": [
+            -13.115089138374005,
+            -70.8618584813348
+          ],
+          "outsideAssumedSupportPolygon": true,
+          "caseOnlyCriticalVerticalForce_N": 7.669020558835087
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "HingeZ and moving contact radius unmeasured",
+    "Actual contact shape, friction, tape peel, lock strength and assembled COM unknown",
+    "Advertised7/17deg are laptop examples, not case angle inputs",
+    "No actual force rating; case-only static calculation at stem top",
+    "Three hingeZ values and two heights are hypothetical scenarios, not certified product bounds"
+  ]
+}

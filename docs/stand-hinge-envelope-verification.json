@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-09",
+  "cloudVersion": 27,
+  "modified": false,
+  "hingeOffsetUserApprox_mm": 8.5,
+  "assumedNegativeXEndReference": true,
+  "hingeX_mm": -43.6,
+  "hypotheticalLeafLengthWidthThicknessR_mm": [
+    47.5,
+    14.4,
+    4.2,
+    2.0
+  ],
+  "comparison": "Temporary rounded plate; two Y positions, three assumed hinge heights,19 angles0..90deg; against lower case only",
+  "totalDiscreteComparisons": 114,
+  "rows": [
+    {
+      "centerY_mm": -61.1,
+      "hingeZ_mm": -8.0,
+      "sampledAngles": 19,
+      "collisions": []
+    },
+    {
+      "centerY_mm": -61.1,
+      "hingeZ_mm": -10.1,
+      "sampledAngles": 19,
+      "collisions": []
+    },
+    {
+      "centerY_mm": -61.1,
+      "hingeZ_mm": -12.2,
+      "sampledAngles": 19,
+      "collisions": []
+    },
+    {
+      "centerY_mm": -17.1,
+      "hingeZ_mm": -8.0,
+      "sampledAngles": 19,
+      "collisions": []
+    },
+    {
+      "centerY_mm": -17.1,
+      "hingeZ_mm": -10.1,
+      "sampledAngles": 19,
+      "collisions": []
+    },
+    {
+      "centerY_mm": -17.1,
+      "hingeZ_mm": -12.2,
+      "sampledAngles": 19,
+      "collisions": []
+    }
+  ],
+  "actualProductMotionVerified": false,
+  "limitations": [
+    "Leaf behind/above axis, fixed base, support linkage and rubber shape not known",
+    "No continuous sweep proof, tolerances, ground trajectory or simultaneous hand access checked",
+    "Three hinge heights are hypothetical sensitivity cases, not measured bounds"
+  ]
+}

@@ -4393,5 +4393,21 @@
   ],
   "materialReport": "../../docs/case-material-verification.json",
   "consistencyReview": "../../docs/design-consistency-review.md",
-  "batteryWireBudgetScope": "40mm each specified by user; modeled bundle centerline budget only, not independently validated individual wires"
+  "batteryWireBudgetScope": "40mm each specified by user; modeled bundle centerline budget only, not independently validated individual wires",
+  "standProductEvidence": {
+    "review": "../../docs/purchased-stand-review.md",
+    "purchaseURL": "https://ja.aliexpress.com/item/1005005605228469.html",
+    "userApproxHingeOffset_mm": 8.5,
+    "offsetEndAssumed": "NegativeX end opposite lifted rubber end",
+    "derivedAssumedHingeX_mm": -43.6,
+    "imageHeightClaims_mm": [
+      22,
+      40
+    ],
+    "imageHeightDatumConfirmed": false,
+    "actualProductMotionVerified": false,
+    "caseShapeChanged": false,
+    "temporaryLeafDiscreteComparisons": 114,
+    "temporaryLeafVsLowerCollisions": 0
+  }
 }
