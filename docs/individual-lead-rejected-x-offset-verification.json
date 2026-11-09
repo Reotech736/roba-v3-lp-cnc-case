@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-09",
+  "cloudVersion": 27,
+  "lowerDown_mm": 0,
+  "selectedTargetSolids": 414,
+  "leads": [
+    {
+      "side": -1,
+      "APIlength_mm": 39.99999999999997,
+      "distanceQueries": 19,
+      "obstructions": [
+        {
+          "target": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+          "distance_mm": 0.0,
+          "insideSample": false,
+          "radialOverlap_mm": 0.5
+        },
+        {
+          "target": "BATTERY_CELL_NOMINAL_42x20x5_USER_TARGET",
+          "distance_mm": 0.0,
+          "insideSample": false,
+          "radialOverlap_mm": 0.5
+        }
+      ],
+      "nearestChecked": [
+        {
+          "target": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+          "margin_mm": -0.5
+        },
+        {
+          "target": "BATTERY_CELL_NOMINAL_42x20x5_USER_TARGET",
+          "margin_mm": -0.5
+        },
+        {
+          "target": "WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL",
+          "margin_mm": 0.6366037245359082
+        },
+        {
+          "target": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+          "margin_mm": 1.2999999999999983
+        }
+      ]
+    },
+    {
+      "side": 1,
+      "APIlength_mm": 39.99999999999997,
+      "distanceQueries": 19,
+      "obstructions": [
+        {
+          "target": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+          "distance_mm": 0.0,
+          "insideSample": false,
+          "radialOverlap_mm": 0.5
+        }
+      ],
+      "nearestChecked": [
+        {
+          "target": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+          "margin_mm": -0.5
+        },
+        {
+          "target": "BATTERY_CELL_NOMINAL_42x20x5_USER_TARGET",
+          "margin_mm": 0.0500000000000016
+        },
+        {
+          "target": "WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL",
+          "margin_mm": 0.6480335232557588
+        },
+        {
+          "target": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+          "margin_mm": 1.2999999999999983
+        }
+      ]
+    }
+  ],
+  "pairCenterlineDistance_mm": 0.0,
+  "pairD1SurfaceMargin_mm": -1.0,
+  "actualMinimumBendSpecificationVerified": false,
+  "continuousOpeningVerified": false
+}

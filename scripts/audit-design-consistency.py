@@ -1,4 +1,4 @@
-"""Fusion readOnly: audit live v26/v27 configuration and bracket load path.
+"""Fusion readOnly: audit live v26/v27/v28 configuration and bracket load path.
 
 Checks existing evidence, does not certify material strength or manufacture.
 """
@@ -9,7 +9,7 @@ BASE=Path('C:/Users/Reo Komatsubara/git-repositories/roba-v3-lp-cnc-case')
 
 def run(_context: str):
     app=adsk.core.Application.get();doc=app.activeDocument;d=adsk.fusion.Design.cast(app.activeProduct);root=d.rootComponent
-    assert doc.dataFile.versionNumber in [26,27]
+    assert doc.dataFile.versionNumber in [26,27,28]
     approved=json.loads((BASE/'docs/current-approved-component-state.json').read_text(encoding='utf-8'))
     live={o.fullPathName:o for o in root.allOccurrences};matches=[];deviations=[]
     for row in approved:

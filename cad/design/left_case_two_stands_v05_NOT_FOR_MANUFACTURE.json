@@ -156,7 +156,7 @@
   ],
   "solidInterferences": 0,
   "collisionSet": "52 coarse-core solids; detailed Choc, sockets, MCU, cable, cap sweep and screw envelopes checked in separate sets",
-  "cloudVersion": 27,
+  "cloudVersion": 28,
   "cloudComplete": true,
   "supportTopGlobalZ_mm": -0.2,
   "residualInteriorSamples": 18,
@@ -178,7 +178,7 @@
   ],
   "upperRoofReport": "upper-roof-development.json",
   "cableAccessInterferences": 0,
-  "cloudCheckpointNote": "v27: reinforce upper two M1.6 pilot outer walls; full radial0.9mm comparison sleeves verified. Upper/lower supplier6061T6 provisional properties; no strength/DFM qualification.",
+  "cloudCheckpointNote": "v28: hidden individualD1 lead geometric trials,2 pipes and8 independent open-pose wires. Existing587 records and physical materials preserved; physical STEP files remain v27. Actual bend, exit, installed tie and continuous motion unqualified.",
   "roofTopZ_mm": 3.8,
   "roofBottomZ_mm": 2.6,
   "detailedMCUBodyCountIncludingChildren": 77,
@@ -273,7 +273,7 @@
       "Screw head dimensions, grade, torque, fit and thread serviceability not finalized"
     ]
   },
-  "currentVerification": "../../docs/design-consistency-audit-current.json",
+  "currentVerification": "../../docs/individual-lead-final-verification.json",
   "serviceAndLocating": {
     "date": "2026-11-08",
     "locatorsXY_mm": [
@@ -357,7 +357,7 @@
     "WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL": 92.05725913541602
   },
   "lowerMaximumGlobalZ_mm": 0,
-  "geometryValidatedCloudVersion": 27,
+  "geometryValidatedCloudVersion": 28,
   "standPocketDepth_mm": 3.5,
   "standResidual_mm": 2,
   "standBackingTopGlobalZ_mm": -6.0,
@@ -4285,6 +4285,18 @@
               "visible": false,
               "bodies": 2,
               "children": []
+            },
+            {
+              "name": "BATTERY_TWO_D1_LEADS40_CLOSED_GEOMETRY_TRIAL_NOT_PARTS",
+              "visible": false,
+              "bodies": 2,
+              "children": []
+            },
+            {
+              "name": "BATTERY_TWO_D1_LEADS40_OPEN_POSES_NOT_CONTINUOUS_MOTION",
+              "visible": false,
+              "bodies": 8,
+              "children": []
             }
           ]
         },
@@ -4303,7 +4315,7 @@
     "Actual PCB revision, copper and complete LP mechanical fit unqualified",
     "Actual SpringMINI latch/terminal and TaiHao cap fit unqualified",
     "M2/M1.6 effective threads, torque, tool specification and supplierDFM unqualified",
-    "Each individual40mm lead path and real bend limits, continuous flexible opening unqualified",
+    "Individual40mm geometry exists as trials; actual bends/exits/OD, tied position and continuous flexible motion remain unqualified",
     "Complete tie routing/release, retention force and wire damage unqualified",
     "Battery insulation/swelling/service and actualUSB/RF/reset access unqualified",
     "Actual stand hinge/stop/feet/adhesion and stable contact unqualified",
@@ -4393,7 +4405,7 @@
   ],
   "materialReport": "../../docs/case-material-verification.json",
   "consistencyReview": "../../docs/design-consistency-review.md",
-  "batteryWireBudgetScope": "40mm each specified by user; modeled bundle centerline budget only, not independently validated individual wires",
+  "batteryWireBudgetScope": "Individual40mm line/arc routes now geometrically modeled for2D1 leads and5independent poses; dimensions, bend limits, exit and installed tie remain unqualified. Prior D3 bundle is a comparison.",
   "standProductEvidence": {
     "review": "../../docs/purchased-stand-review.md",
     "purchaseURL": "https://ja.aliexpress.com/item/1005005605228469.html",
@@ -4409,5 +4421,20 @@
     "caseShapeChanged": false,
     "temporaryLeafDiscreteComparisons": 114,
     "temporaryLeafVsLowerCollisions": 0
+  },
+  "physicalGeometryValidatedCloudVersion": 27,
+  "individualBatteryLeads": {
+    "review": "../../docs/individual-battery-leads.md",
+    "study": "../../docs/individual-battery-lead-study.json",
+    "nominalEachLength_mm": 40,
+    "diameterAssumed_mm": 1,
+    "radiiAssumed_mm": [
+      1,
+      3,
+      1.5
+    ],
+    "minimumIndependentPosePairSurfaceMargin_mm": 0.13137084989847514,
+    "batteryStudyChildren": 14,
+    "adoptionStatus": "GEOMETRIC_TRIAL_ONLY_NOT_INSTALLED_TIE_OR_REAL_WIRE_VALIDATION"
   }
 }

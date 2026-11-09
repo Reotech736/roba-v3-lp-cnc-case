@@ -1,8 +1,10 @@
-# 設計データ（2026-11-09、クラウドv27）
+# 設計データ（2026-11-09、クラウドv28）
 
-現行は `left_case_two_stands_v05_NOT_FOR_MANUFACTURE` のv27。[ケース固定の配線保持部](../../docs/case-mounted-wire-restraint.md)を追加し、上下ケースSTEP・全体F3Dを更新。非金属ブラケットはケースのアルミ部品から分離する。40 mm仮R3ループは維持し、旧PCB接着候補面は履歴へ退避した。保持力・強度・実線の曲げ・連続開閉は未認定。
+現行は `left_case_two_stands_v05_NOT_FOR_MANUFACTURE` のv28。[ケース固定の配線保持部](../../docs/case-mounted-wire-restraint.md)を追加し、上下ケースSTEP・全体F3Dを更新。非金属ブラケットはケースのアルミ部品から分離する。40 mm仮R3ループは維持し、旧PCB接着候補面は履歴へ退避した。保持力・強度・実線の曲げ・連続開閉は未認定。
 
 v27の[再点検](../../docs/design-consistency-review.md)で上側2穴の周囲を補強し、上下ケースへJLCCNC6061-T6仮材料を設定。ブラケットは材質未選定なのでSTEP材料属性を省略。
+
+v28で[電池線2本の確認用経路](../../docs/individual-battery-leads.md)を追加。F3Dはv28、実体形状・材料不変の上下ケース／ブラケットSTEPはv27を継続。
 
 同名F3Dが全体・履歴、同名JSONが寸法・参照座標・最新検証への入口です。クラウドとローカルの版を混同しないでください。
 
@@ -13,7 +15,7 @@ v24までの[直付け電池条件](../../docs/lp-and-direct-solder-current-revi
 | `left_case_two_stands_v05_NOT_FOR_MANUFACTURE.f3d` | 左ケース全体、Choc23組、PCB・XIAO・電池等の参照と検討工具 |
 | `…_Lower_L_LOCAL.step` | v27下ケース、単一ソリッド、部品ローカル座標 |
 | `…_Upper_L_protective_roof_LOCAL.step` | v27上ケース、単一ソリッド、部品ローカル座標 |
-| `wire_strain_relief_case_bracket_NONMETAL_NOT_FOR_MANUFACTURE_LOCAL.step` | v26非金属保持ブラケット、単一ソリッド。上下ケースと共にSTEP再読み込み・体積・ローカルBBoxを検証 |
+| `wire_strain_relief_case_bracket_NONMETAL_NOT_FOR_MANUFACTURE_LOCAL.step` | v27非金属保持ブラケット、単一ソリッド。上下ケースと共にSTEP再読み込み・体積・ローカルBBoxを検証 |
 | `…_MCU_cover_concept_LOCAL.step` | 別体カバー候補、形状更新の最終出力を維持 |
 | `battery_carrier_provisional_NONMETAL_NOT_FOR_MANUFACTURE_LOCAL.step` | 42×20×5電池用の非金属受け、単一ソリッド |
 | `stand_test_depth3p5_fingerD8_NOT_FOR_MANUFACTURE.*` | 現行の局所試験片。F3D/STEP/mm STL/JSON |

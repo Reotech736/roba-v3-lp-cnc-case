@@ -26,3 +26,5 @@
 `v26_lower_EMPTY_FAILED_EXPORT_NOT_MODEL.step` はAPIが成功応答した空の出力を保存した診断資料で、モデルではありません。現行下ケースSTEPは独立ルート経由で再出力し、再読み込みで単一ソリッド・体積・ローカルBBoxを検証済みです。
 
 - `v05_cloud_v26_before_consistency_audit_correction.f3d`: v27の上側M1.6壁補強・材料設定前。現行ではない。
+
+- `v05_cloud_v27_before_individual_lead_study.f3d`: v28個別電池線の確認用モデル追加前。実体形状は現行と同じ、確認用子は12個。

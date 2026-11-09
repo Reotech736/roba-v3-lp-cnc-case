@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-09",
+  "baselineCloudVersion": 27,
+  "cloudVersionAtSaveRequest": 27,
+  "saveRequested": true,
+  "previousApprovedRecordsPreserved": 587,
+  "approvedRecords": 589,
+  "addedClosedD1StudySolids": 2,
+  "addedOpenPoseWireBodies": 8,
+  "physicalPartGeometryAndPlacementChanged": false,
+  "physicalCaseMaterialPreserved": true,
+  "physicalSTEPVersions": {
+    "upper": 27,
+    "lower": 27,
+    "bracket": 27
+  },
+  "closedPipeVolumes_mm3": [
+    31.4159265358969,
+    31.415926535896894
+  ],
+  "closedPipeSurfaceGap_mm": 0.24938300484951795,
+  "minimumIndependentPosePairMargin_mm": 0.13137084989847514,
+  "batteryStudyChildren": 14,
+  "pin3Absent": true,
+  "stemTopsChecked": 23,
+  "actualMinimumBendSpecificationVerified": false,
+  "installedTieRoutingVerified": false,
+  "continuousFlexibleMotionVerified": false,
+  "F3DExported": true,
+  "cloudVersion": 28,
+  "complete": true,
+  "modified": false,
+  "approvedRecordsMatchedAfterSave": 589
+}

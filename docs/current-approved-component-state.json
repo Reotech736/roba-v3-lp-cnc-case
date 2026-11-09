@@ -14976,6 +14976,66 @@
     ]
   },
   {
+    "name": "BATTERY_TWO_D1_LEADS40_CLOSED_GEOMETRY_TRIAL_NOT_PARTS",
+    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+CLEARANCE_STUDIES_NOT_PARTS:1+BATTERY_TWO_D1_LEADS40_CLOSED_GEOMETRY_TRIAL_NOT_PARTS:1",
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "bodies": 2,
+    "volumes": [
+      31.4159265358969,
+      31.415926535896894
+    ]
+  },
+  {
+    "name": "BATTERY_TWO_D1_LEADS40_OPEN_POSES_NOT_CONTINUOUS_MOTION",
+    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+CLEARANCE_STUDIES_NOT_PARTS:1+BATTERY_TWO_D1_LEADS40_OPEN_POSES_NOT_CONTINUOUS_MOTION:1",
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "bodies": 8,
+    "volumes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
     "name": "WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL",
     "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL:1",
     "matrix": [

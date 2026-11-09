@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-09",
+  "cloudVersion": 27,
+  "lowerDown_mm": 2,
+  "selectedTargetSolids": 414,
+  "leads": [
+    {
+      "side": -1,
+      "APIlength_mm": 39.99999999999997,
+      "distanceQueries": 18,
+      "obstructions": [],
+      "nearestChecked": [
+        {
+          "target": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+          "margin_mm": 0.0
+        },
+        {
+          "target": "BATTERY_CELL_NOMINAL_42x20x5_USER_TARGET",
+          "margin_mm": 0.22362722698663273
+        },
+        {
+          "target": "WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL",
+          "margin_mm": 0.6908655176404106
+        },
+        {
+          "target": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+          "margin_mm": 0.7276779034335141
+        }
+      ]
+    },
+    {
+      "side": 1,
+      "APIlength_mm": 40.000000000000014,
+      "distanceQueries": 18,
+      "obstructions": [],
+      "nearestChecked": [
+        {
+          "target": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
+          "margin_mm": 0.0
+        },
+        {
+          "target": "BATTERY_CELL_NOMINAL_42x20x5_USER_TARGET",
+          "margin_mm": 0.22362722698663273
+        },
+        {
+          "target": "choc_body",
+          "margin_mm": 1.0946558725629103
+        },
+        {
+          "target": "WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL",
+          "margin_mm": 1.25734202283184
+        }
+      ]
+    }
+  ],
+  "pairCenterlineDistance_mm": 1.2493830048495198,
+  "pairD1SurfaceMargin_mm": 0.2493830048495198,
+  "intentionalInterfaceExclusions": {
+    "pouchFirstCenterline_mm": 0.8,
+    "solderFinalCenterline_mm": 0.5,
+    "scope": "Exclusions apply only to respective host; other solids and pair tests retain full curve. No real pouch outlet or solder fillet modeled."
+  },
+  "actualMinimumBendSpecificationVerified": false,
+  "continuousOpeningVerified": false
+}
