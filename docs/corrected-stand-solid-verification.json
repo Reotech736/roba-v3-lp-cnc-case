@@ -104,8 +104,5 @@
   "limitations": [
     "Exact nominal model volumes; tolerances, physical stand motion and strength not certified",
     "0.9mm radial seat wall is verified geometrically, not accepted as a manufacturing/strength requirement"
-  ],
-  "cloudVersion": 20,
-  "cloudComplete": true,
-  "modified": false
+  ]
 }

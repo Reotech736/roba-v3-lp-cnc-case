@@ -1,7 +1,7 @@
 {
   "name": "left_case_two_stands_v05_NOT_FOR_MANUFACTURE",
   "id": "urn:adsk.wipprod:dm.lineage:H9Nq8f1PSl6GXmxJMgIkbw",
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "standPocketsXYWH_mm": [
     [
       -52.5,
@@ -156,7 +156,7 @@
   ],
   "solidInterferences": 0,
   "collisionSet": "52 coarse-core solids; detailed Choc, sockets, MCU, cable, cap sweep and screw envelopes checked in separate sets",
-  "cloudVersion": 22,
+  "cloudVersion": 27,
   "cloudComplete": true,
   "supportTopGlobalZ_mm": -0.2,
   "residualInteriorSamples": 18,
@@ -178,7 +178,7 @@
   ],
   "upperRoofReport": "upper-roof-development.json",
   "cableAccessInterferences": 0,
-  "cloudCheckpointNote": "v22: align small/expanded upper reliefs with all4 current supports; suppress obsolete duplicate4. Upper only geometry changed. Choc no-fix-pin derivative and other placements retained. Full assembly/manufacturing pending.",
+  "cloudCheckpointNote": "v27: reinforce upper two M1.6 pilot outer walls; full radial0.9mm comparison sleeves verified. Upper/lower supplier6061T6 provisional properties; no strength/DFM qualification.",
   "roofTopZ_mm": 3.8,
   "roofBottomZ_mm": 2.6,
   "detailedMCUBodyCountIncludingChildren": 77,
@@ -273,7 +273,7 @@
       "Screw head dimensions, grade, torque, fit and thread serviceability not finalized"
     ]
   },
-  "currentVerification": "../../docs/upper-support-relief-verification.json",
+  "currentVerification": "../../docs/design-consistency-audit-current.json",
   "serviceAndLocating": {
     "date": "2026-11-08",
     "locatorsXY_mm": [
@@ -350,17 +350,17 @@
     }
   },
   "volumes_mm3": {
-    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 36934.72094132882,
-    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13573.52486371961,
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 36864.844806983405,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13649.461979532638,
     "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL": 731.484699283006,
-    "BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL": 1127.6285834705777
+    "BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL": 1127.6285834705777,
+    "WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL": 92.05725913541602
   },
   "lowerMaximumGlobalZ_mm": 0,
-  "geometryValidatedCloudVersion": 22,
+  "geometryValidatedCloudVersion": 27,
   "standPocketDepth_mm": 3.5,
   "standResidual_mm": 2,
   "standBackingTopGlobalZ_mm": -6.0,
-  "nominalB1FloorGap_mm": 0.5,
   "pcbSupportInsulationStack_mm": 0.2,
   "coverSideRearWall_mm": 1.2,
   "coverFrontWall_mm": 0.8,
@@ -558,7 +558,7 @@
     5
   ],
   "batteryWireBudget_mm": 40,
-  "batteryRouteIncludingAssumedCorner_mm": 31.081941524002584,
+  "batteryRouteIncludingAssumedCorner_mm": 40,
   "batteryCarrierOuterXY_mm": [
     44.6,
     22.6
@@ -571,167 +571,201 @@
     {
       "name": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
       "visible": false,
+      "bodies": 1,
       "children": []
     },
     {
       "name": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
-      "visible": false,
+      "visible": true,
+      "bodies": 1,
       "children": []
     },
     {
       "name": "PCB_L_v2_OUTLINE_REFERENCE_ACTUAL_REVISION_UNKNOWN",
       "visible": false,
+      "bodies": 1,
       "children": []
     },
     {
       "name": "USB_CABLE_ACCESS_ASSUMED_NOT_A_PART",
       "visible": false,
+      "bodies": 1,
       "children": []
     },
     {
       "name": "MCU_RAISED_SKIRT_COVER_FRONT_M1p6_PROVISIONAL",
       "visible": true,
+      "bodies": 1,
       "children": []
     },
     {
       "name": "KEYCAP_SWEEP_D3p0_18p8_SQUARE_ASSUMED_NOT_PARTS",
       "visible": false,
+      "bodies": 23,
       "children": []
     },
     {
       "name": "XIAO_DETAILED_FROM_OLD_V2_PLACEMENT_UNVERIFIED",
       "visible": false,
+      "bodies": 0,
       "children": [
         {
           "name": "xiao-nrf52840-v3",
           "visible": true,
+          "bodies": 1,
           "children": [
             {
               "name": "USB TYPE C PORT",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "USB TYPE C PORT (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "BOSS-EXTRUDE14_8_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE7_4_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE7_3_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE14_4_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE14_2_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE14_11_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE7_7_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE14_9_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE14_3_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE14_7_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "MIRROR2",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE14_5_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE14_12_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE7_8_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE7_1_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE14_10_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE7_9_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE14_6_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "CHAMFER9",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE14_1_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE7_6_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE7_2_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "CUT-EXTRUDE5",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     },
                     {
                       "name": "BOSS-EXTRUDE7_5_",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -741,20 +775,24 @@
             {
               "name": "Shield",
               "visible": true,
+              "bodies": 1,
               "children": []
             },
             {
               "name": "SKTAAAE010 v1",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "Body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "Pins",
                   "visible": true,
+                  "bodies": 4,
                   "children": []
                 }
               ]
@@ -762,40 +800,48 @@
             {
               "name": "PCB (1)",
               "visible": true,
+              "bodies": 16,
               "children": [
                 {
                   "name": "CAP",
                   "visible": true,
+                  "bodies": 3,
                   "children": []
                 },
                 {
                   "name": "ANT1",
                   "visible": true,
+                  "bodies": 3,
                   "children": []
                 },
                 {
                   "name": "Silkscreen",
                   "visible": true,
+                  "bodies": 13,
                   "children": []
                 },
                 {
                   "name": "CAP 3",
                   "visible": true,
+                  "bodies": 3,
                   "children": []
                 },
                 {
                   "name": "LED",
                   "visible": true,
+                  "bodies": 4,
                   "children": []
                 },
                 {
                   "name": "USR",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "CAP",
                   "visible": true,
+                  "bodies": 3,
                   "children": []
                 }
               ]
@@ -807,68 +853,82 @@
     {
       "name": "COVER_M1p6x6_SCREW_ENVELOPES_HEAD_ASSUMED_THREAD_NOT_MODELED",
       "visible": false,
+      "bodies": 2,
       "children": []
     },
     {
       "name": "RESET_NONCONDUCTIVE_PROBE_D0p8_ACCESS_TOOL_NOT_A_PART",
       "visible": false,
+      "bodies": 1,
       "children": []
     },
     {
       "name": "PCB_SUPPORT_INSULATION_STACK_0p2_MATERIAL_PENDING",
       "visible": true,
+      "bodies": 4,
       "children": []
     },
     {
       "name": "STAND_COUPON_DEPTH3p5_FINGER_D8_LOCAL_TEST_ONLY",
       "visible": false,
+      "bodies": 1,
       "children": []
     },
     {
       "name": "CHOC_SWITCHES_AND_SOCKETS_REFERENCE_23_PAIRS",
-      "visible": true,
+      "visible": false,
+      "bodies": 0,
       "children": [
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -878,32 +938,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -911,6 +978,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -918,19 +986,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -938,6 +1010,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -949,44 +1022,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -996,32 +1078,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1029,6 +1118,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1036,19 +1126,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1056,6 +1150,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1067,44 +1162,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -1114,32 +1218,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1147,6 +1258,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1154,19 +1266,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1174,6 +1290,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1185,44 +1302,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -1232,32 +1358,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1265,6 +1398,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1272,19 +1406,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1292,6 +1430,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1303,44 +1442,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -1350,32 +1498,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1383,6 +1538,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1390,19 +1546,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1410,6 +1570,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1421,44 +1582,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -1468,32 +1638,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1501,6 +1678,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1508,19 +1686,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1528,6 +1710,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1539,44 +1722,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -1586,32 +1778,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1619,6 +1818,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1626,19 +1826,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1646,6 +1850,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1657,44 +1862,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -1704,32 +1918,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1737,6 +1958,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1744,19 +1966,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1764,6 +1990,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1775,44 +2002,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -1822,32 +2058,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1855,6 +2098,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1862,19 +2106,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1882,6 +2130,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1893,44 +2142,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -1940,32 +2198,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -1973,6 +2238,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -1980,19 +2246,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2000,6 +2270,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2011,44 +2282,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -2058,32 +2338,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2091,6 +2378,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2098,19 +2386,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2118,6 +2410,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2129,44 +2422,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -2176,32 +2478,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2209,6 +2518,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2216,19 +2526,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2236,6 +2550,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2247,44 +2562,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -2294,32 +2618,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2327,6 +2658,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2334,19 +2666,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2354,6 +2690,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2365,44 +2702,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -2412,32 +2758,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2445,6 +2798,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2452,19 +2806,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2472,6 +2830,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2483,44 +2842,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -2530,32 +2898,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2563,6 +2938,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2570,19 +2946,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2590,6 +2970,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2601,44 +2982,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -2648,32 +3038,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2681,6 +3078,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2688,19 +3086,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2708,6 +3110,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2719,44 +3122,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -2766,32 +3178,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2799,6 +3218,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2806,19 +3226,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2826,6 +3250,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2837,44 +3262,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -2884,32 +3318,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2917,6 +3358,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2924,19 +3366,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -2944,6 +3390,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -2955,44 +3402,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -3002,32 +3458,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -3035,6 +3498,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -3042,19 +3506,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -3062,6 +3530,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -3073,44 +3542,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -3120,32 +3598,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -3153,6 +3638,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -3160,19 +3646,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -3180,6 +3670,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -3191,44 +3682,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -3238,32 +3738,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -3271,6 +3778,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -3278,19 +3786,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -3298,6 +3810,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -3309,44 +3822,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -3356,32 +3878,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -3389,6 +3918,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -3396,19 +3926,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -3416,6 +3950,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -3427,44 +3962,53 @@
         {
           "name": "CHOC_V2_RED_DETAILED_DERIVED_SPRING_MINI_NO_FIX_PIN",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "red",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "bottom",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin1",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "stem",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "top",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "pin2",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "shrunken_spring",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 }
               ]
@@ -3474,32 +4018,39 @@
         {
           "name": "CHOC_SOCKET_DETAILED_AUTHOR_REFERENCE",
           "visible": true,
+          "bodies": 0,
           "children": [
             {
               "name": "choc",
               "visible": true,
+              "bodies": 0,
               "children": [
                 {
                   "name": "choc_body",
                   "visible": true,
+                  "bodies": 1,
                   "children": []
                 },
                 {
                   "name": "contact (1)",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a1",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a2",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -3507,6 +4058,7 @@
                     {
                       "name": "contact_b",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -3514,19 +4066,23 @@
                 {
                   "name": "contact001",
                   "visible": true,
+                  "bodies": 0,
                   "children": [
                     {
                       "name": "contact_a001",
                       "visible": true,
+                      "bodies": 0,
                       "children": [
                         {
                           "name": "contact_a003",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         },
                         {
                           "name": "contact_a004",
                           "visible": true,
+                          "bodies": 1,
                           "children": []
                         }
                       ]
@@ -3534,6 +4090,7 @@
                     {
                       "name": "contact_b001",
                       "visible": true,
+                      "bodies": 1,
                       "children": []
                     }
                   ]
@@ -3547,135 +4104,212 @@
     {
       "name": "OLD_NOT_CURRENT",
       "visible": false,
+      "bodies": 0,
       "children": [
         {
           "name": "RETIRED_V15_BATTERY_REMOVABLE_CARRIER_32p6x22p6_PROVISIONAL_NONMETAL",
           "visible": false,
+          "bodies": 1,
           "children": []
         },
         {
           "name": "RETIRED_V15_CARRIER_BASE_REMOVABLE_ADHESIVE_0p2_ALLOWANCE",
           "visible": false,
+          "bodies": 2,
           "children": []
         },
         {
           "name": "RETIRED_V15_CELL_REMOVABLE_ADHESIVE_0p2_ALLOWANCE",
           "visible": false,
+          "bodies": 2,
           "children": []
         },
         {
           "name": "RETIRED_V15_BATTERY_CELL_NOMINAL_30x20x4_USER_APPROX",
           "visible": false,
+          "bodies": 1,
           "children": []
         },
         {
           "name": "RETIRED_V15_CELL_ADHESIVE_PULL_TAB_ACCESS_RESERVATION_NOT_PART",
           "visible": false,
+          "bodies": 1,
           "children": []
         },
         {
           "name": "RETIRED_V15_BATTERY_WIRE_ROUTE_D3_ASSUMED_CLEARANCE_NOT_PART",
           "visible": false,
+          "bodies": 1,
           "children": []
         },
         {
           "name": "RETIRED_V15_BATTERY_SERVICE_SLACK_SPACE_10x10x4_NOT_PART",
           "visible": false,
+          "bodies": 1,
           "children": []
         },
         {
           "name": "RETIRED_CELL42_INITIAL_BATTERY_WIRE_ROUTE_D3_CELL42_40mm_BUDGET_NOT_PART",
           "visible": false,
+          "bodies": 1,
           "children": []
         },
         {
           "name": "Battery_L_ALLOWANCE_32x22x5p5_NOT_CELL",
           "visible": false,
+          "bodies": 1,
           "children": []
         },
         {
           "name": "XIAO_KEY_SIDE_ENVELOPE_FROM_OLD_SINGLE_PART_UNVERIFIED",
           "visible": false,
+          "bodies": 1,
           "children": []
         },
         {
           "name": "SWITCH_LOWER_14mm_PCB_SEATED_ENVELOPES_NOT_LATCHES",
           "visible": false,
+          "bodies": 23,
           "children": []
         },
         {
           "name": "SWITCH_UPPER_15p2_SQUARE_CONSERVATIVE_ENVELOPES_NOT_FULL_SWITCHES",
           "visible": false,
+          "bodies": 23,
           "children": []
         }
       ]
     },
     {
       "name": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL",
-      "visible": true,
+      "visible": false,
+      "bodies": 0,
       "children": [
         {
           "name": "BATTERY_CELL_NOMINAL_42x20x5_USER_TARGET",
           "visible": true,
+          "bodies": 1,
           "children": []
         },
         {
           "name": "BATTERY_REMOVABLE_CARRIER_44p6x22p6_CELL42_PROVISIONAL_NONMETAL",
           "visible": true,
+          "bodies": 1,
           "children": []
         },
         {
           "name": "CARRIER_BASE_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
           "visible": true,
+          "bodies": 2,
           "children": []
         },
         {
           "name": "CELL_REMOVABLE_ADHESIVE_0p2_CELL42_ALLOWANCE",
           "visible": true,
+          "bodies": 2,
           "children": []
         },
         {
           "name": "CLEARANCE_STUDIES_NOT_PARTS",
           "visible": false,
+          "bodies": 0,
           "children": [
             {
-              "name": "B1_JST_PH_SMD_DATASHEET_RESERVATION_NOT_DETAILED_CAD",
+              "name": "RETIRED_CONNECTOR_VARIANT_B1_JST_PH_SMD_DATASHEET_RESERVATION_NOT_DETAILED_CAD",
               "visible": false,
+              "bodies": 1,
               "children": []
             },
             {
-              "name": "B1_MATING_PLUG_ACCESS_ASSUMED_8x6x4_NOT_PART",
+              "name": "RETIRED_CONNECTOR_VARIANT_B1_MATING_PLUG_ACCESS_ASSUMED_8x6x4_NOT_PART",
               "visible": false,
+              "bodies": 1,
               "children": []
             },
             {
               "name": "CELL42_INSTALLATION_SPACE_43x21x5p5_NOT_PART",
               "visible": false,
+              "bodies": 1,
               "children": []
             },
             {
               "name": "CELL_ADHESIVE_PULL_TAB_ACCESS_RESERVATION_CELL42_NOT_PART",
               "visible": false,
+              "bodies": 1,
               "children": []
             },
             {
               "name": "BATTERY_SERVICE_SLACK_SPACE_CELL42_10x10x4_NOT_PART",
               "visible": false,
+              "bodies": 1,
               "children": []
             },
             {
-              "name": "BATTERY_WIRE_ROUTE_D3_CELL42_40mm_BUDGET_NOT_PART (1)",
+              "name": "RETIRED_CONNECTOR_VARIANT_BATTERY_WIRE_ROUTE_D3_CELL42_40mm_BUDGET_NOT_PART (1)",
               "visible": false,
+              "bodies": 1,
+              "children": []
+            },
+            {
+              "name": "RETIRED_MINIMUM_PATH_BATTERY_WIRE_ROUTE_D3_DIRECT_SOLDER_B1_40mm_BUDGET_NOT_PART",
+              "visible": false,
+              "bodies": 1,
+              "children": []
+            },
+            {
+              "name": "BATTERY_WIRE_ROUTE_D3_DIRECT_SOLDER_B1_40mm_R3_LOOP_NOT_PART",
+              "visible": false,
+              "bodies": 1,
+              "children": []
+            },
+            {
+              "name": "BATTERY_SERVICE_POSES_R3_LENGTH40_CENTERLINES_NOT_PARTS",
+              "visible": false,
+              "bodies": 4,
+              "children": []
+            },
+            {
+              "name": "RETIRED_PCB_BONDING_ALTERNATIVE_PCB_WIRE_STRAIN_RELIEF_BOND_FOOTPRINT_6x2_STUDY_NOT_PART",
+              "visible": false,
+              "bodies": 1,
+              "children": []
+            },
+            {
+              "name": "WIRE_BRACKET_M1p6x4_TWO_SCREW_ENVELOPES_NOT_PARTS",
+              "visible": false,
+              "bodies": 2,
+              "children": []
+            },
+            {
+              "name": "WIRE_BRACKET_TIE_HEAD_AND_UNDERSIDE_BAND_ASSUMED_NOT_PARTS",
+              "visible": false,
+              "bodies": 2,
               "children": []
             }
           ]
+        },
+        {
+          "name": "WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL",
+          "visible": true,
+          "bodies": 1,
+          "children": []
         }
       ]
     }
   ],
-  "overallDesignStatus": "SPRING_MINI_DERIVED_PROXY_NO_FIX_PIN_PHYSICAL_ASSEMBLY_PENDING",
+  "overallDesignStatus": "CASE_MOUNTED_WIRE_RESTRAINT_PROTOTYPE_HOLDING_FORCE_AND_DFM_PENDING",
   "supersedingDesignAudit": "../../docs/stand-and-M2-correction.json",
-  "unresolvedFindings": [],
+  "unresolvedFindings": [
+    "Actual PCB revision, copper and complete LP mechanical fit unqualified",
+    "Actual SpringMINI latch/terminal and TaiHao cap fit unqualified",
+    "M2/M1.6 effective threads, torque, tool specification and supplierDFM unqualified",
+    "Each individual40mm lead path and real bend limits, continuous flexible opening unqualified",
+    "Complete tie routing/release, retention force and wire damage unqualified",
+    "Battery insulation/swelling/service and actualUSB/RF/reset access unqualified",
+    "Actual stand hinge/stop/feet/adhesion and stable contact unqualified",
+    "Cover/nonmetal material selection and full assembly mass unqualified",
+    "RightCOROPIT fixing, motion and rightcase unimplemented"
+  ],
   "resolvedV17Findings": [
     "Blocked M2 passage/head seat",
     "Stand backing outside original floor footprint"
@@ -3693,5 +4327,71 @@
   "chocModelOrientationCorrection_deg": 180,
   "derivedSpringMiniWithoutFixPin": true,
   "springMiniVariantReport": "../../docs/spring-mini-fix-pin-removal.json",
-  "upperSupportReliefReport": "../../docs/upper-support-relief-alignment.json"
+  "upperSupportReliefReport": "../../docs/upper-support-relief-alignment.json",
+  "currentUserConnectionRequirement": {
+    "date": "2026-11-08",
+    "type": "DIRECT_SOLDER_TO_PCB_BATTERY_PADS_NO_CONNECTOR",
+    "wireLength_mm": 40,
+    "wireLengthEndpoints": "Pouch exit to PCB solder termination",
+    "physicalPCBRevisionConfirmed": false,
+    "study": "docs/direct-solder-battery-study.json",
+    "review": "docs/lp-and-direct-solder-current-review.md",
+    "CADState": "v26 saved/complete/unmodified; upper-case wire restraint prototype added",
+    "caseGeometryChangedThisSession": false,
+    "newGeometryVerification": "docs/battery-service-loop-development.json",
+    "incident": "docs/fusion-service-audit-timeout.json",
+    "LPVerification": "docs/current-lp-interface-audit.json",
+    "finalVerification": "docs/case-wire-bracket-final-verification.json",
+    "wireODApprox_mm": 1
+  },
+  "batteryConnection": "DIRECT_SOLDER_TO_PCB_BATTERY_PADS_NO_CONNECTOR",
+  "historicalConnectorRoute_mm": 31.081941524002584,
+  "historicalConnectorB1FloorGap_mm": 0.5,
+  "batteryCurrentServiceLoopReport": "../../docs/battery-service-loop-study.json",
+  "batteryServiceLoopRadiusAssumed_mm": 3,
+  "batteryIndependentOpenPoses_mm": [
+    0,
+    2,
+    5,
+    8,
+    10
+  ],
+  "strainReliefImplemented": true,
+  "strainReliefQualified": false,
+  "strainReliefMountType": "UPPER_CASE_TWO_M1p6x4_CANDIDATE_SCREWS_NONMETAL_BRACKET",
+  "strainReliefReport": "../../docs/case-wire-bracket-development.json",
+  "strainReliefReview": "../../docs/case-mounted-wire-restraint.md",
+  "wireInsulatedDiameterUserApprox_mm": 1,
+  "caseSTEPVersions": {
+    "upper": 27,
+    "lower": 27
+  },
+  "strainReliefFasteners": {
+    "candidate": "M1.6x4",
+    "axesXY_mm": [
+      [
+        12.8,
+        -25
+      ],
+      [
+        12.8,
+        -21.5
+      ]
+    ],
+    "pilotDiameter_mm": 1.25,
+    "cylindricalDepth_mm": 3.6,
+    "bracketClearance_mm": 1.8,
+    "headSeatDiameter_mm": 3.4,
+    "nominalLocalLowerWall_mm": 1.1,
+    "upperThreadComparisonRadialWall_mm": 0.9
+  },
+  "historicalRetiredPCBStrainReliefBondingSiteXYXY_mm": [
+    -4.38934,
+    -24,
+    1.61066,
+    -22
+  ],
+  "materialReport": "../../docs/case-material-verification.json",
+  "consistencyReview": "../../docs/design-consistency-review.md",
+  "batteryWireBudgetScope": "40mm each specified by user; modeled bundle centerline budget only, not independently validated individual wires"
 }

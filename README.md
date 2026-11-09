@@ -4,23 +4,31 @@ roBa v3 LP（COROPIT対応）の左右上下ケースをアルミ削り出しで
 
 **現行v05に横向きスタンド2本、左ボトム、キー間を覆う天板と23か所のLP開口、別体XIAOカバー候補を反映しました。実物の係止・押下時の隙間・カバー固定・右ケースは未完成／未検証です。現時点のSTEPを加工発注には使用しないでください。**
 
-## 現在の状態（2026-11-08）
+## 現在の状態（2026-11-09）
 
-現行は `02_design/left_case_two_stands_v05_NOT_FOR_MANUFACTURE` のクラウドv22。全体F3Dと上ケースSTEPはv22、下ケースSTEPは形状不変のv20を維持しています。右ケース・実物適合・製造条件は未完成です。
+現行は `02_design/left_case_two_stands_v05_NOT_FOR_MANUFACTURE` のクラウドv27。全体F3D・上下ケースSTEPをv27へ更新し、非金属の配線保持ブラケットSTEPを追加しました。右ケース・実物適合・製造条件は未完成です。
 
 | 項目 | 現行と検証範囲 |
 | --- | --- |
 | LP配置 | Choc側だけを基準に23スイッチ・23ソケットを180°補正。Spring MINI写真にない補助pin3を派生参照から除外。旧LP穴と照合、支持1・対応逃げ・絶縁材も修正。[詳細](docs/choc-lp-orientation-correction.md) |
 | スタンド | 横向き2本、収納56.8×14.8×深さ3.5・指掛かりD8・残肉2。穴閉塞と裏当て張り出しを修正。[詳細](docs/stand-and-M2-correction.md) |
 | 接地辺 | ねじ座外端へ揃えた連続42 mm。最大外接寸法を維持し、指定した理想傾斜平面で検査。[詳細](docs/continuous-contact-edge.md) |
-| 電池 | 設計対象42×20×5・線40 mm、受け内寸43×21・仮経路31.08 mm。実端子・曲げ・交換は未確認。[詳細](docs/battery42-layout-development.md) |
-| 表示管理 | 旧12個をOLD、Choc46個と電池一式をグループ化。[操作](docs/component-organization.md) |
+| 電池 | 基板電池パッドへ直付け。42×20×5・線40 mm、被覆外径約1 mm／本。仮R3全長ループとケース固定の保持ブラケットを追加。保持力・連続開閉は未認定。[最新検討](docs/case-mounted-wire-restraint.md) |
+| 表示管理 | 旧12個をOLD、Choc46個と電池一式をグループ化。電池側は実体候補5個＋確認用12個。[操作](docs/component-organization.md) |
 | 参照保護 | 元STEP6点・公開PCB・第三者部品の保存バイトとハッシュを検証。旧モデルは読み取り参照のみ |
 | 試作・見積・発注 | 未実施。指定の幾何検査合格を、実物適合・強度・加工成立の認定としない |
 
 Spring MINIと汎用Choc V2の固定ピン差は[調査・除外記録](docs/spring-mini-fix-pin-removal.md)を参照してください。
 
 支持位置に取り残した旧逃げは[v22で修正](docs/upper-support-relief-alignment.md)。4支持・8逃げを現位置と照合しました。
+
+v24までの[LP照合・電池直付けの検討](docs/lp-and-direct-solder-current-review.md)で、23組の中央穴・ソケット受けを再照合。31.08 mmのJST経由案は履歴扱いです。Choc46配置・23ステム上端・pin3除外はv26でも維持。連続した組立移動は未確認です。
+
+v25で[電池余長ループと整備姿勢](docs/battery-service-loop.md)を反映し、短い18.58 mm経路を履歴へ退避。基板側の接着候補面はv26で比較履歴へ移し、次のケース固定案へ進めました。
+
+v26では[ケース固定の配線保持ブラケット](docs/case-mounted-wire-restraint.md)を追加し、上下ケースを局所修正。基板への接着を不要にし、上側へ独立M1.6ねじ2本で固定する候補としました。既存M2穴・支持逃げ・スタンド収納・42 mm接地辺を再確認しています。保持力・線の損傷・強度・加工性は未認定です。
+
+v27で[整合性を再点検](docs/design-consistency-review.md)し、上側M1.6穴の外側を補強。上下ケースへJLCCNC6061-T6の仮材料値を設定し、STEPを再読込検証しました。強度・加工成立は未認定です。
 
 次のセッションは[再開メモ](docs/next-session.md)から開始してください。[現行要件](docs/new-case-requirements.md)と[CAD一覧](cad/design/README.md)も整理しました。過去段階の「未確認」「未コミット」などの記載は作成時の履歴です。現在のコミット状態はGit履歴を参照してください。
 

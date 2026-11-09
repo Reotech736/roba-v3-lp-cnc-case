@@ -1,5 +1,8 @@
 {
   "date": "2026-11-08",
+  "cloudVersion": 26,
+  "connection": "DIRECT_SOLDER",
+  "plugAccessApplicable": false,
   "coreSolidCount": 62,
   "coreInterferences": [],
   "wireVsAssemblyInterferences": [],
@@ -7,8 +10,11 @@
   "slackSpaceVsAssemblyInterferences": [],
   "pullTabAccessVsAssemblyInterferences": [],
   "detailedSocketsVsNewPartsInterferences": [],
-  "intentionalWireVsSlackReservationOverlap": [],
-  "cloudVersion": 22,
-  "cloudComplete": true,
-  "modified": false
+  "intentionalWireVsSlackReservationOverlap": [
+    {
+      "first": "BATTERY_WIRE_ROUTE_D3_DIRECT_SOLDER_B1_40mm_R3_LOOP_NOT_PART",
+      "second": "BATTERY_SERVICE_SLACK_SPACE_CELL42_10x10x4_NOT_PART",
+      "volume_mm3": 61.501744503294184
+    }
+  ]
 }

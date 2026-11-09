@@ -1,5 +1,5 @@
 {
-  "cloudVersion": 22,
+  "cloudVersion": 26,
   "M2Checks": [
     {
       "axisXY_mm": [
@@ -102,7 +102,5 @@
   "limitations": [
     "Only specified axes, nominal screw dimensions and selected backing samples; not full exterior containment or manufacturing certification",
     "Full thread engagement, radial wall distribution, drill tip, driver access, fastener tolerances, preload and strength are not certified"
-  ],
-  "cloudComplete": true,
-  "modified": false
+  ]
 }

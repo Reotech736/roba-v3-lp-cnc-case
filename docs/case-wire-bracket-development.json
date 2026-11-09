@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-09",
+  "baselineCloudVersion": 25,
+  "saved": true,
+  "changedCases": [
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL"
+  ],
+  "caseVolumesBefore_mm3": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 36934.72094132882,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13573.52486371961
+  },
+  "caseVolumesAfter_mm3": {
+    "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL": 36864.844806983405,
+    "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL": 13564.68913438139
+  },
+  "bracketVolume_mm3": 92.05725913541602,
+  "bracketSolidCount": 1,
+  "axesXY_mm": [
+    [
+      12.8,
+      -25
+    ],
+    [
+      12.8,
+      -21.5
+    ]
+  ],
+  "caseMount": "Two independent M1.6x4 candidate screws from below; upper D1.25x3.6 pilots",
+  "wireContact": "D3.4 open saddle for D3 comparison bundle; adjustable tie required, not modeled as a qualified preload",
+  "tieInterface_mm": [
+    2.2,
+    1.1
+  ],
+  "tieHeadEnvelopeAssumed_mm": [
+    3.6,
+    3.3,
+    2.8
+  ],
+  "allPreviousTransformsPreserved": true,
+  "nonCaseOriginalVolumesPreserved": true,
+  "timelineIssues": [],
+  "PCBAdhesiveRequired": false,
+  "limitations": [
+    "Nonmetal material, printed/machined tolerances, rib stiffness, friction and tie force unqualified.",
+    "Tie-head box and underside band are clearance studies, not a complete installed cable tie.",
+    "Local lower outer wall is nominal1.1mm and needs structural/DFM review.",
+    "Actual wire diameters and insulation remain unconfirmed."
+  ],
+  "backingExplicitlyJoined": true,
+  "lowerSingleSolid": true,
+  "headSeatsDiameter_mm": 3.4,
+  "inboardWebAddedGlobal_mm": [
+    10.3,
+    -24,
+    -4.9,
+    11.1,
+    -20,
+    -1
+  ],
+  "correction": "Initial backing remained a second body and was omitted from the first relief; explicitly join and re-cut. Add inboard web and D3.4 head seats to avoid screw-head contact.",
+  "cloudVersion": 26,
+  "cloudComplete": true,
+  "currentDocumentModified": false,
+  "userWireODApprox_mm": 1,
+  "finalVerification": "case-wire-bracket-final-verification.json",
+  "caseSTEPVersions": {
+    "upper": 26,
+    "lower": 26
+  }
+}

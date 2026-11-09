@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-08",
+  "baselineCloudVersion": 24,
+  "caseAndCarrierGeometryChanged": false,
+  "previousTransformsAndVolumesPreserved": true,
+  "nominalEachLeadLength_mm": 40,
+  "bendRadiusAssumed_mm": 3,
+  "independentOpenPoses_mm": [
+    2,
+    5,
+    8,
+    10
+  ],
+  "currentWireSolidCount": 1,
+  "currentWireNonSolidCenterlines": 0,
+  "bondingFootprintXYXY_mm": [
+    -4.38934,
+    -24,
+    1.61066,
+    -22
+  ],
+  "strainReliefStatus": "SITE_ALLOCATION_ONLY_NO_IMPLEMENTED_RESTRAINT",
+  "timelineIssues": [],
+  "saved": true,
+  "cloudVersion": 25,
+  "cloudComplete": true,
+  "currentDocumentModified": false,
+  "finalVerification": "battery-service-loop-final-verification.json"
+}

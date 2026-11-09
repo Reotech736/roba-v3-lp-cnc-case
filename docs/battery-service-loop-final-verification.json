@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-08",
+  "baselineCloudVersion": 24,
+  "cloudVersionAtSaveRequest": 24,
+  "previousApprovedRecordsChecked": 581,
+  "currentApprovedRecords": 584,
+  "ChocOriginsPreserved": 46,
+  "stemTopsChecked": 23,
+  "pin3Absent": true,
+  "timelineIssues": [],
+  "batteryPhysicalOccurrences": 4,
+  "batteryStudyOccurrences": 10,
+  "currentF3DUpdated": true,
+  "caseSTEPVersions": {
+    "upper": 22,
+    "lower": 20
+  },
+  "caseGeometryChanged": false,
+  "continuousMotionCertified": false,
+  "strainReliefImplemented": false,
+  "nominalR3LoopPosesChecked_mm": [
+    0,
+    2,
+    5,
+    8,
+    10
+  ],
+  "cloudVersion": 25,
+  "complete": true,
+  "modified": false,
+  "localF3DArchivesValidatedWithLibarchive": true,
+  "immutableReferenceFilesVerified": 10
+}

@@ -30,8 +30,12 @@ def run(_context: str):
     assert before==after,'Current approved component transforms/body counts/volumes must match; refresh baseline only after verified design revisions'
     old=next(o for o in root.occurrences if o.component.name=='OLD_NOT_CURRENT');assert old.component.occurrences.count==12
     battery=next(o for o in root.occurrences if o.component.name=='BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL')
-    assert battery.component.occurrences.count==5
-    study=next(o for o in battery.childOccurrences if o.component.name=='CLEARANCE_STUDIES_NOT_PARTS');assert study.childOccurrences.count==6
+    bracket=any(o.component.name.startswith('WIRE_STRAIN_RELIEF_CASE_BRACKET_') for o in battery.childOccurrences)
+    assert battery.component.occurrences.count==(6 if bracket else 5)
+    study=next(o for o in battery.childOccurrences if o.component.name=='CLEARANCE_STUDIES_NOT_PARTS')
+    direct=any(o.component.name.startswith('BATTERY_WIRE_ROUTE_D3_DIRECT_SOLDER_') for o in study.childOccurrences)
+    service=any(o.component.name.startswith('BATTERY_SERVICE_POSES_R3_') for o in study.childOccurrences)
+    assert study.childOccurrences.count==(12 if bracket else 10 if service else 7 if direct else 6)
     fit=json.load(open(BASE+'docs/internal-retention-fit-verification.json',encoding='utf-8'))
     for key in ['coreInterferences','wireVsAssemblyInterferences','assumedPlugAccessVsCasesInterferences','slackSpaceVsAssemblyInterferences','pullTabAccessVsAssemblyInterferences','detailedSocketsVsNewPartsInterferences']:assert not fit[key],str((key,fit[key]))
     for o in root.allOccurrences:o.isLightBulbOn=False
@@ -51,7 +55,7 @@ def run(_context: str):
     assert view.saveAsImageFile(BASE+'docs/images/v05-organized-current-assembly.png',1500,1100)
     report=dict(date='2026-11-08',fileName=doc.name,baselineCloudVersion=16,rootGroups=[dict(name=o.component.name,visible=o.isLightBulbOn,children=o.childOccurrences.count) for o in root.occurrences],
         originalOccurrenceRecordsVerified=len(baseline),allTransformsAndBodyCountsPreserved=True,volumesMatchApprovedGeometryBaseline=True,approvedLowerCorrectionCloudVersion=correction.get('cloudVersion') if correction else None,deletedComponents=0,oldDirectOccurrences=12,
-        batteryPhysicalOccurrences=4,batteryStudyOccurrences=6,batteryStudyGroupInitiallyHidden=True,coreSolids=fit['coreSolidCount'],fitReport='internal-retention-fit-verification.json',timelineIssues=issues,
+        batteryPhysicalOccurrences=5 if bracket else 4,batteryStudyOccurrences=study.childOccurrences.count,batteryStudyGroupInitiallyHidden=True,coreSolids=fit['coreSolidCount'],fitReport='internal-retention-fit-verification.json',timelineIssues=issues,
         note='Coarse switch/MCU envelopes in OLD are retained for conservative checks. They are not manufacturing parts. Current battery dimensions42x20x5, wire budget40 remain unchanged.')
     json.dump(report,open(BASE+'docs/component-organization-verification.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
     assert doc.save('Organize obsolete comparisons under OLD; group battery parts and study tools; enable current assembly. Preserve all original transforms and geometry.')

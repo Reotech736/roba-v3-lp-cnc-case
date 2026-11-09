@@ -16,8 +16,5 @@
     }
   ],
   "positionsCaptured": true,
-  "excluded": "Public outline PCB and hidden coarse switch envelopes; neither is the populated PCB or exact switch solid",
-  "cloudVersion": 22,
-  "cloudComplete": true,
-  "modified": false
+  "excluded": "Public outline PCB and hidden coarse switch envelopes; neither is the populated PCB or exact switch solid"
 }

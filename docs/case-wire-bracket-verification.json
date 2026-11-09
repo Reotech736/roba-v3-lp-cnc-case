@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-09",
+  "baselineCloudVersion": 25,
+  "bracketVsPhysicalAndWireCollisions": [],
+  "hardwareStudies": [
+    {
+      "study": "WIRE_BRACKET_M1p6x4_",
+      "body": "ボディ1",
+      "collisionsExcludingUpperThreadMajorOverlap": []
+    },
+    {
+      "study": "WIRE_BRACKET_M1p6x4_",
+      "body": "ボディ2",
+      "collisionsExcludingUpperThreadMajorOverlap": []
+    },
+    {
+      "study": "WIRE_BRACKET_TIE_HEAD_",
+      "body": "ボディ1",
+      "collisionsExcludingUpperThreadMajorOverlap": []
+    },
+    {
+      "study": "WIRE_BRACKET_TIE_HEAD_",
+      "body": "ボディ2",
+      "collisionsExcludingUpperThreadMajorOverlap": []
+    }
+  ],
+  "newHoleChecks": [
+    {
+      "axisXY_mm": [
+        12.8,
+        -25
+      ],
+      "upperD1p25PilotObstruction_mm3": 0.0,
+      "bracketD1p8ClearanceObstruction_mm3": 0.0,
+      "headAnnulusSupportMissing_mm3": 0
+    },
+    {
+      "axisXY_mm": [
+        12.8,
+        -21.5
+      ],
+      "upperD1p25PilotObstruction_mm3": 0.0,
+      "bracketD1p8ClearanceObstruction_mm3": 0.0,
+      "headAnnulusSupportMissing_mm3": 0
+    }
+  ],
+  "driverChecks": [
+    {
+      "axisXY_mm": [
+        12.8,
+        -25
+      ],
+      "shaftDiameter_mm": 1.8,
+      "lowerRemoved": true,
+      "collisions": []
+    },
+    {
+      "axisXY_mm": [
+        12.8,
+        -25
+      ],
+      "shaftDiameter_mm": 3,
+      "lowerRemoved": true,
+      "collisions": []
+    },
+    {
+      "axisXY_mm": [
+        12.8,
+        -21.5
+      ],
+      "shaftDiameter_mm": 1.8,
+      "lowerRemoved": true,
+      "collisions": []
+    },
+    {
+      "axisXY_mm": [
+        12.8,
+        -21.5
+      ],
+      "shaftDiameter_mm": 3,
+      "lowerRemoved": true,
+      "collisions": []
+    }
+  ],
+  "nominal1p1WallMissingMaterial_mm3": 0,
+  "lowerMaxBoundsUnchanged": true,
+  "lowerBounds_mm": [
+    [
+      -111.119997,
+      -91.4341644873868,
+      -11.5
+    ],
+    [
+      23.319461794711263,
+      11.053999999998894,
+      2.220446049250313e-15
+    ]
+  ],
+  "terminalCurveInvariance": [
+    {
+      "lowerDown_mm": 0,
+      "terminalCurveMaxEndpointDeviation_mm": 0.0
+    },
+    {
+      "lowerDown_mm": 2,
+      "terminalCurveMaxEndpointDeviation_mm": 0.0
+    },
+    {
+      "lowerDown_mm": 5,
+      "terminalCurveMaxEndpointDeviation_mm": 0.0
+    },
+    {
+      "lowerDown_mm": 8,
+      "terminalCurveMaxEndpointDeviation_mm": 0.0
+    },
+    {
+      "lowerDown_mm": 10,
+      "terminalCurveMaxEndpointDeviation_mm": 4.440892098500626e-16
+    }
+  ],
+  "threadComparison": {
+    "screw": "M1.6x4",
+    "grip_mm": 1.2,
+    "projection_mm": 2.8,
+    "cylindricalPilotDepth_mm": 3.6,
+    "bottomGap_mm": 0.8,
+    "assumed118degDrillPointExtra_mm": 0.37553788689222517
+  },
+  "limitations": [
+    "Nominal geometry only; new 1.1mm local wall and cantilever need material, strength and DFM validation.",
+    "A complete installed tie, contact force, friction and continuous opening/removal are not proven.",
+    "D1.8 and D3 are assumed straight shafts; current D3.4 head seats clear both. Actual driver/handle unselected."
+  ]
+}

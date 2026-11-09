@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-08",
+  "name": "left_case_two_stands_v05_NOT_FOR_MANUFACTURE",
+  "id": "urn:adsk.wipprod:dm.lineage:H9Nq8f1PSl6GXmxJMgIkbw",
+  "cloudVersion": 24,
+  "complete": true,
+  "modified": false,
+  "approvedOccurrenceRecordsChecked": 581,
+  "chocOccurrences": 46,
+  "stemTopsChecked": 23,
+  "pin3Absent": true,
+  "timelineIssues": [],
+  "caseGeometryChanged": false,
+  "caseSTEPVersions": {
+    "upper": 22,
+    "lower": 20
+  },
+  "F3DExportUpdated": true,
+  "savedVisibilityRestored": true,
+  "localArchiveValidation": {
+    "method": "Windows tar/libarchive extraction to discarded stdout; Zstandard ZIP method93 supported",
+    "currentF3D": true,
+    "v22CheckpointF3D": true
+  }
+}

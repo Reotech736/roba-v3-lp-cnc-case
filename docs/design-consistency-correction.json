@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-09",
+  "baselineCloudVersion": 26,
+  "fix": "Add local upper outside backing for the two M1.6 pilots; old outer-side thread-major stock approx0.476mm.",
+  "addedBackingGlobal_mm": [
+    13.8,
+    -27.6,
+    -1,
+    16,
+    -18.2,
+    4.5
+  ],
+  "comparisonSleeveRadialWall_mm": 0.9,
+  "before": {
+    "upperVolume_mm3": 13564.68913438139,
+    "bodyGlobalBounds_mm": [
+      [
+        -111.119997,
+        -91.4341644873868,
+        -1.0
+      ],
+      [
+        23.319461794711263,
+        11.053999999998894,
+        4.500000000000001
+      ]
+    ]
+  },
+  "after": {
+    "upperVolume_mm3": 13649.461979532638,
+    "bodyGlobalBounds_mm": [
+      [
+        -111.119997,
+        -91.4341644873868,
+        -1.0
+      ],
+      [
+        23.319461794711263,
+        11.053999999998894,
+        4.500000000000001
+      ]
+    ]
+  },
+  "upperSingleSolid": true,
+  "upperMaximumBodyBoundsUnchanged": true,
+  "timelineIssues": [],
+  "saved": true,
+  "cloudVersion": 27,
+  "complete": true,
+  "modified": false
+}

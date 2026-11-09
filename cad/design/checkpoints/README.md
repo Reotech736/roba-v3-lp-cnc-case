@@ -1,6 +1,6 @@
 # 設計の節目の退避
 
-現行は親フォルダの `left_case_two_stands_v05_NOT_FOR_MANUFACTURE.f3d`（クラウドv22）。このフォルダは変更前の履歴で、発注用・現行データではありません。既存v6〜v9以前の退避も保持しています。
+現行は親フォルダの `left_case_two_stands_v05_NOT_FOR_MANUFACTURE.f3d`（クラウドv26）。このフォルダは変更前の履歴で、発注用・現行データではありません。既存v6〜v9以前の退避も保持しています。
 
 | 退避名の版 | その後に行った変更 |
 | --- | --- |
@@ -15,5 +15,14 @@
 | cloud_v19 | Choc向き180°補正とPCB支持1の移動 |
 | cloud_v20 | Spring MINIにない補助固定pin3の除外（派生参照） |
 | cloud_v21 | 上ケースの旧支持逃げの整理・現位置への追従 |
+| cloud_v22 | コネクタ用参照の退避・基板B1直付け配線の検討 |
+| cloud_v24 | 40 mm全長の余長ループと独立した開口姿勢・接着候補面 |
+| cloud_v25 | 上ケースねじ固定の非金属配線保持ブラケット、下ケース逃げ／補強 |
+
+旧上v22／下v20のSTEPも `v05_upper_v22_before_case_wire_bracket_LOCAL.step`／`v05_lower_v20_before_case_wire_bracket_LOCAL.step` に退避。
 
 失敗直後・診断途中の重複F3Dは削除せずローカルへ保持し、`.gitignore` の個別指定でコミット対象から外しました。それらは完成した検証済み状態ではなく、診断スクリプトや旧文書にパスが残っていても通常の再開には不要です。
+
+`v26_lower_EMPTY_FAILED_EXPORT_NOT_MODEL.step` はAPIが成功応答した空の出力を保存した診断資料で、モデルではありません。現行下ケースSTEPは独立ルート経由で再出力し、再読み込みで単一ソリッド・体積・ローカルBBoxを検証済みです。
+
+- `v05_cloud_v26_before_consistency_audit_correction.f3d`: v27の上側M1.6壁補強・材料設定前。現行ではない。

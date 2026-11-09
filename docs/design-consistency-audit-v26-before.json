@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-09",
+  "cloudVersion": 26,
+  "modified": false,
+  "approvedRecordsChecked": 587,
+  "matchingApprovedRecords": 587,
+  "approvedStateDeviations": [],
+  "webFootJunction": {
+    "webExpectedWidth_mm": 0.8,
+    "webYLength_mm": 4,
+    "expectedFullLapArea_mm2": 3.2,
+    "sliceBelowFoot_mm2": 3.200000000000008,
+    "sliceAboveFoot_mm2": 3.200000000000008,
+    "fullLapMaterialFraction": 1.0000000000000024,
+    "criterion": "Full inboard-web footprint should reach mounting foot; this is geometric continuity, not strength qualification."
+  },
+  "upperMountWallScan": [
+    {
+      "axisXY_mm": [
+        12.8,
+        -25
+      ],
+      "samplePitch_mm": 0.005,
+      "leftMaterialMinX_mm": 11.08,
+      "rightMaterialMaxX_mm": 14.075
+    },
+    {
+      "axisXY_mm": [
+        12.8,
+        -21.5
+      ],
+      "samplePitch_mm": 0.005,
+      "leftMaterialMinX_mm": 11.08,
+      "rightMaterialMaxX_mm": 14.075
+    }
+  ],
+  "upperThreadRadialSleeves": [
+    {
+      "axisXY_mm": [
+        12.8,
+        -25
+      ],
+      "threadMajorRadius_mm": 0.8,
+      "comparisonOuterRadius_mm": 1.7,
+      "nominalRadialWall_mm": 0.9,
+      "nominalSleeveVolume_mm3": 25.446900494076232,
+      "missingSleeveMaterial_mm3": 2.3486852764773296
+    },
+    {
+      "axisXY_mm": [
+        12.8,
+        -21.5
+      ],
+      "threadMajorRadius_mm": 0.8,
+      "comparisonOuterRadius_mm": 1.7,
+      "nominalRadialWall_mm": 0.9,
+      "nominalSleeveVolume_mm3": 25.446900494076225,
+      "missingSleeveMaterial_mm3": 2.3313260218084473
+    }
+  ],
+  "pin3Absent": true,
+  "timelineIssues": []
+}

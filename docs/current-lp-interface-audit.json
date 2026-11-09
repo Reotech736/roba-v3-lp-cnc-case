@@ -1,0 +1,4128 @@
+{
+  "date": "2026-11-08",
+  "cloudVersion": 23,
+  "geometryModified": false,
+  "legacyCloudVersion": 5,
+  "legacyPCBThickness_mm": 1.51,
+  "currentPCBThicknessAssumed_mm": 1.6,
+  "legacyToCurrentTranslation_mm": [
+    -191.31934,
+    55.424,
+    0
+  ],
+  "approvedStateMatched": true,
+  "pin3Absent": true,
+  "summary": {
+    "keys": 23,
+    "partsChecked": 322,
+    "legacyPCBOverlapCount": 0,
+    "upperCaseOverlapCount": 0,
+    "maxHoleCenterError_mm": 1.406839748341491e-06,
+    "pin1MaxCenterError_mm": 1.4068397402048964e-06,
+    "pin2MaxCenterError_mm": 0.10000000000500853
+  },
+  "timelineIssues": [],
+  "keys": [
+    {
+      "key": "SW14",
+      "centerXY_mm": [
+        -38.46934000000002,
+        -23.456249999999997
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.449999999999997,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.4500000000000038,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -38.46934000000002,
+            -29.35624999999999
+          ],
+          "nearestHoleXYRadius_mm": [
+            -38.46934000000001,
+            -29.356250000000024,
+            1.5000000000000002
+          ],
+          "centerError_mm": 3.6230712748823524e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.4,
+              -3.999999999999999,
+              -1.6
+            ],
+            [
+              -4.6,
+              -3.5999999999999988,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -43.46934000000002,
+            -27.25624999999999
+          ],
+          "nearestHoleXYRadius_mm": [
+            -43.469341,
+            -27.15625000000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000496945
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -38.46934000000002,
+            -23.456249999999997
+          ],
+          "legacyXYRadius_mm": [
+            -38.46934000000001,
+            -23.45625000000001,
+            2.5
+          ],
+          "error_mm": 1.5888218580782548e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -38.46934000000002,
+            -29.356249999999996
+          ],
+          "legacyXYRadius_mm": [
+            -38.46934000000001,
+            -29.356250000000024,
+            1.5000000000000002
+          ],
+          "error_mm": 2.929642751054232e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -43.46934000000002,
+            -27.156249999999996
+          ],
+          "legacyXYRadius_mm": [
+            -43.469341,
+            -27.15625000000002,
+            1.5000000000000002
+          ],
+          "error_mm": 9.999999832643882e-07
+        }
+      ]
+    },
+    {
+      "key": "SW18",
+      "centerXY_mm": [
+        -19.419340000000005,
+        -25.956500000000005
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.44999999999999923,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.44999999999999934,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -19.419340000000005,
+            -31.856500000000008
+          ],
+          "nearestHoleXYRadius_mm": [
+            -19.41934,
+            -31.85650000000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 1.2809491335957507e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.4,
+              -3.999999999999999,
+              -1.6
+            ],
+            [
+              -4.6,
+              -3.5999999999999988,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -24.419340000000005,
+            -29.75650000000001
+          ],
+          "nearestHoleXYRadius_mm": [
+            -24.41934100000001,
+            -29.65650000000001,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000500142
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -19.419340000000005,
+            -25.956500000000005
+          ],
+          "legacyXYRadius_mm": [
+            -19.41934,
+            -25.9565,
+            2.5
+          ],
+          "error_mm": 1.0048591735576161e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -19.419340000000005,
+            -31.856500000000004
+          ],
+          "legacyXYRadius_mm": [
+            -19.41934,
+            -31.85650000000002,
+            1.5000000000000002
+          ],
+          "error_mm": 1.5888218580782548e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -24.419340000000005,
+            -29.656500000000005
+          ],
+          "legacyXYRadius_mm": [
+            -24.41934100000001,
+            -29.65650000000001,
+            1.5000000000000002
+          ],
+          "error_mm": 1.00000000458067e-06
+        }
+      ]
+    },
+    {
+      "key": "SW12",
+      "centerXY_mm": [
+        -57.54368000000002,
+        -59.036
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.45000000000000145,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.44999999999999934,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -57.54368000000002,
+            -64.93599999999999
+          ],
+          "nearestHoleXYRadius_mm": [
+            -57.54368000000001,
+            -64.93599999999999,
+            1.5000000000000002
+          ],
+          "centerError_mm": 1.4210854715202004e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.4,
+              -3.9999999999999947,
+              -1.6
+            ],
+            [
+              -4.6,
+              -3.600000000000003,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -62.54368000000002,
+            -62.83599999999999
+          ],
+          "nearestHoleXYRadius_mm": [
+            -62.54368100000001,
+            -62.73599999999999,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000500142
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -57.54368000000002,
+            -59.036
+          ],
+          "legacyXYRadius_mm": [
+            -57.54368000000001,
+            -59.036,
+            2.5
+          ],
+          "error_mm": 1.4210854715202004e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -57.54368000000002,
+            -64.936
+          ],
+          "legacyXYRadius_mm": [
+            -57.54368000000001,
+            -64.93599999999999,
+            1.5000000000000002
+          ],
+          "error_mm": 2.0097183471152322e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -62.54368000000002,
+            -62.736000000000004
+          ],
+          "legacyXYRadius_mm": [
+            -62.54368100000001,
+            -62.73599999999999,
+            1.5000000000000002
+          ],
+          "error_mm": 9.99999983264388e-07
+        }
+      ]
+    },
+    {
+      "key": "SW23",
+      "centerXY_mm": [
+        7.962044443275744,
+        -76.12690902650048
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.44999999999999263,
+              -6.000000000000032,
+              -1.6
+            ],
+            [
+              0.45000000000000817,
+              -5.800000000000036,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            9.979963288897194,
+            -70.5827225638636
+          ],
+          "nearestHoleXYRadius_mm": [
+            9.979962000000029,
+            -70.582722,
+            1.5000000000000002
+          ],
+          "centerError_mm": 1.4068397402048964e-06
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.399999999999996,
+              -4.000000000000021,
+              -1.6
+            ],
+            [
+              -4.599999999999991,
+              -3.600000000000021,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            13.960184091842827,
+            -74.26617778414236
+          ],
+          "nearestHoleXYRadius_mm": [
+            13.925981999999983,
+            -74.360147,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.09999998307662926
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            7.962044443275744,
+            -76.12690902650048
+          ],
+          "legacyXYRadius_mm": [
+            7.962044000000006,
+            -76.126909,
+            2.5
+          ],
+          "error_mm": 4.44067174674811e-07
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            9.97996328889719,
+            -70.58272256386363
+          ],
+          "legacyXYRadius_mm": [
+            9.979962000000029,
+            -70.582722,
+            1.5000000000000002
+          ],
+          "error_mm": 1.406839748341491e-06
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            13.925982077510259,
+            -74.36014704622097
+          ],
+          "legacyXYRadius_mm": [
+            13.925981999999983,
+            -74.360147,
+            1.5000000000000002
+          ],
+          "error_mm": 9.024533998115526e-08
+        }
+      ]
+    },
+    {
+      "key": "SW19",
+      "centerXY_mm": [
+        -19.419340000000005,
+        -45.0065
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.44999999999999923,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.44999999999999934,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -19.41934000000001,
+            -50.9065
+          ],
+          "nearestHoleXYRadius_mm": [
+            -19.41934,
+            -50.90650000000003,
+            1.5000000000000002
+          ],
+          "centerError_mm": 3.03543989777123e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.399999999999999,
+              -3.9999999999999947,
+              -1.6
+            ],
+            [
+              -4.599999999999998,
+              -3.600000000000003,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -24.419340000000005,
+            -48.8065
+          ],
+          "nearestHoleXYRadius_mm": [
+            -24.41934100000001,
+            -48.70650000000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.1000000000049801
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -19.419340000000005,
+            -45.0065
+          ],
+          "legacyXYRadius_mm": [
+            -19.41934,
+            -45.00650000000001,
+            2.5
+          ],
+          "error_mm": 1.0048591735576161e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -19.419340000000005,
+            -50.9065
+          ],
+          "legacyXYRadius_mm": [
+            -19.41934,
+            -50.90650000000003,
+            1.5000000000000002
+          ],
+          "error_mm": 2.929642751054232e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -24.419340000000005,
+            -48.706500000000005
+          ],
+          "legacyXYRadius_mm": [
+            -24.41934100000001,
+            -48.70650000000002,
+            1.5000000000000002
+          ],
+          "error_mm": 1.00000000458067e-06
+        }
+      ]
+    },
+    {
+      "key": "SW1",
+      "centerXY_mm": [
+        -95.61934000000001,
+        -13.605999999999996
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.45000000000000145,
+              -6.000000000000001,
+              -1.6
+            ],
+            [
+              0.44999999999999934,
+              -5.799999999999999,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -95.61934000000001,
+            -19.505999999999993
+          ],
+          "nearestHoleXYRadius_mm": [
+            -95.61934000000001,
+            -19.50600000000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 2.842170943040401e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.3999999999999915,
+              -3.999999999999999,
+              -1.6
+            ],
+            [
+              -4.6000000000000085,
+              -3.5999999999999988,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -100.61934000000001,
+            -17.405999999999988
+          ],
+          "nearestHoleXYRadius_mm": [
+            -100.619341,
+            -17.30600000000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000496945
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -95.61934000000001,
+            -13.605999999999996
+          ],
+          "legacyXYRadius_mm": [
+            -95.61934000000001,
+            -13.606000000000007,
+            2.5
+          ],
+          "error_mm": 1.0658141036401503e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -95.61934000000001,
+            -19.505999999999997
+          ],
+          "legacyXYRadius_mm": [
+            -95.61934000000001,
+            -19.50600000000002,
+            1.5000000000000002
+          ],
+          "error_mm": 2.4868995751603507e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -100.61934000000001,
+            -17.305999999999994
+          ],
+          "legacyXYRadius_mm": [
+            -100.619341,
+            -17.30600000000002,
+            1.5000000000000002
+          ],
+          "error_mm": 9.99999997475243e-07
+        }
+      ]
+    },
+    {
+      "key": "SW13",
+      "centerXY_mm": [
+        -38.46934000000002,
+        -4.406249000000004
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.449999999999997,
+              -6.000000000000001,
+              -1.6
+            ],
+            [
+              0.4500000000000038,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -38.46934000000002,
+            -10.306249000000005
+          ],
+          "nearestHoleXYRadius_mm": [
+            -38.46934000000001,
+            -10.30624900000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 1.7495085916501026e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.4,
+              -4.000000000000001,
+              -1.6
+            ],
+            [
+              -4.6,
+              -3.6000000000000005,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -43.46934000000002,
+            -8.206249000000003
+          ],
+          "nearestHoleXYRadius_mm": [
+            -43.469341,
+            -8.106249000000014,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000498899
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -38.46934000000002,
+            -4.406249000000004
+          ],
+          "legacyXYRadius_mm": [
+            -38.46934000000001,
+            -4.406249000000004,
+            2.5
+          ],
+          "error_mm": 7.105427357601002e-15
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -38.46934000000002,
+            -10.306249000000005
+          ],
+          "legacyXYRadius_mm": [
+            -38.46934000000001,
+            -10.30624900000002,
+            1.5000000000000002
+          ],
+          "error_mm": 1.7495085916501026e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -43.46934000000002,
+            -8.106249000000004
+          ],
+          "legacyXYRadius_mm": [
+            -43.469341,
+            -8.106249000000014,
+            1.5000000000000002
+          ],
+          "error_mm": 9.99999983264388e-07
+        }
+      ]
+    },
+    {
+      "key": "SW10",
+      "centerXY_mm": [
+        -57.51934,
+        -20.956000000000003
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.45000000000000145,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.44999999999999934,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -57.51934,
+            -26.85600000000001
+          ],
+          "nearestHoleXYRadius_mm": [
+            -57.519339999999985,
+            -26.856000000000016,
+            1.5000000000000002
+          ],
+          "centerError_mm": 1.5888218580782548e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.4,
+              -3.999999999999999,
+              -1.6
+            ],
+            [
+              -4.6,
+              -3.5999999999999988,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -62.51934,
+            -24.756000000000007
+          ],
+          "nearestHoleXYRadius_mm": [
+            -62.51934099999998,
+            -24.656000000000013,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000499432
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -57.51934,
+            -20.956000000000003
+          ],
+          "legacyXYRadius_mm": [
+            -57.519339999999985,
+            -20.956000000000003,
+            2.5
+          ],
+          "error_mm": 1.4210854715202004e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -57.51934,
+            -26.856
+          ],
+          "legacyXYRadius_mm": [
+            -57.519339999999985,
+            -26.856000000000016,
+            1.5000000000000002
+          ],
+          "error_mm": 2.0097183471152322e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -62.51934,
+            -24.656000000000002
+          ],
+          "legacyXYRadius_mm": [
+            -62.51934099999998,
+            -24.656000000000013,
+            1.5000000000000002
+          ],
+          "error_mm": 9.99999983264388e-07
+        }
+      ]
+    },
+    {
+      "key": "SW9",
+      "centerXY_mm": [
+        -57.51934,
+        -1.9060000000000001
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.45000000000000145,
+              -6.000000000000001,
+              -1.6
+            ],
+            [
+              0.44999999999999934,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -57.51934,
+            -7.806000000000001
+          ],
+          "nearestHoleXYRadius_mm": [
+            -57.519339999999985,
+            -7.806000000000024,
+            1.5000000000000002
+          ],
+          "centerError_mm": 2.7114910356960115e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.4,
+              -4.0,
+              -1.6
+            ],
+            [
+              -4.6,
+              -3.5999999999999996,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -62.51934,
+            -5.705999999999999
+          ],
+          "nearestHoleXYRadius_mm": [
+            -62.51934099999998,
+            -5.606000000000018,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.100000000004981
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -57.51934,
+            -1.9060000000000001
+          ],
+          "legacyXYRadius_mm": [
+            -57.519339999999985,
+            -1.9060000000000077,
+            2.5
+          ],
+          "error_mm": 1.6091724337024826e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -57.51934,
+            -7.806000000000001
+          ],
+          "legacyXYRadius_mm": [
+            -57.519339999999985,
+            -7.806000000000024,
+            1.5000000000000002
+          ],
+          "error_mm": 2.7114910356960115e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -62.51934,
+            -5.605999999999999
+          ],
+          "legacyXYRadius_mm": [
+            -62.51934099999998,
+            -5.606000000000018,
+            1.5000000000000002
+          ],
+          "error_mm": 9.999999832643882e-07
+        }
+      ]
+    },
+    {
+      "key": "SW15",
+      "centerXY_mm": [
+        -38.46934000000002,
+        -42.506249999999994
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.449999999999997,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.4500000000000038,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -38.469340000000024,
+            -48.40625
+          ],
+          "nearestHoleXYRadius_mm": [
+            -38.46934000000001,
+            -48.40625000000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 2.5618982671915014e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.400000000000005,
+              -3.9999999999999947,
+              -1.6
+            ],
+            [
+              -4.600000000000004,
+              -3.600000000000003,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -43.46934000000003,
+            -46.306250000000006
+          ],
+          "nearestHoleXYRadius_mm": [
+            -43.469341,
+            -46.20625000000001,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000499432
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -38.46934000000002,
+            -42.506249999999994
+          ],
+          "legacyXYRadius_mm": [
+            -38.46934000000001,
+            -42.50625,
+            2.5
+          ],
+          "error_mm": 1.0048591735576161e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -38.46934000000002,
+            -48.40624999999999
+          ],
+          "legacyXYRadius_mm": [
+            -38.46934000000001,
+            -48.40625000000002,
+            1.5000000000000002
+          ],
+          "error_mm": 2.929642751054232e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -43.46934000000002,
+            -46.20625
+          ],
+          "legacyXYRadius_mm": [
+            -43.469341,
+            -46.20625000000001,
+            1.5000000000000002
+          ],
+          "error_mm": 9.99999983264388e-07
+        }
+      ]
+    },
+    {
+      "key": "SW11",
+      "centerXY_mm": [
+        -57.51934,
+        -40.006
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.45000000000000145,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.44999999999999934,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -57.51933999999999,
+            -45.90600000000001
+          ],
+          "nearestHoleXYRadius_mm": [
+            -57.519339999999985,
+            -45.90600000000003,
+            1.5000000000000002
+          ],
+          "centerError_mm": 1.5888218580782548e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.4,
+              -3.9999999999999947,
+              -1.6
+            ],
+            [
+              -4.6,
+              -3.600000000000003,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -62.51933999999999,
+            -43.80600000000001
+          ],
+          "nearestHoleXYRadius_mm": [
+            -62.51934099999998,
+            -43.706000000000024,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000498721
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -57.51934,
+            -40.006
+          ],
+          "legacyXYRadius_mm": [
+            -57.519339999999985,
+            -40.006000000000014,
+            2.5
+          ],
+          "error_mm": 2.0097183471152322e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -57.51934,
+            -45.906
+          ],
+          "legacyXYRadius_mm": [
+            -57.519339999999985,
+            -45.90600000000003,
+            1.5000000000000002
+          ],
+          "error_mm": 3.1776437161565096e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -62.51934,
+            -43.706
+          ],
+          "legacyXYRadius_mm": [
+            -62.51934099999998,
+            -43.706000000000024,
+            1.5000000000000002
+          ],
+          "error_mm": 9.999999832643882e-07
+        }
+      ]
+    },
+    {
+      "key": "SW5",
+      "centerXY_mm": [
+        -76.56934000000001,
+        -6.606499000000001
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.45000000000000145,
+              -6.0,
+              -1.6
+            ],
+            [
+              0.44999999999999934,
+              -5.8,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -76.56934000000001,
+            -12.506499
+          ],
+          "nearestHoleXYRadius_mm": [
+            -76.56934,
+            -12.506499000000018,
+            1.5000000000000002
+          ],
+          "centerError_mm": 2.2748467065386707e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.3999999999999915,
+              -4.0,
+              -1.6
+            ],
+            [
+              -4.6000000000000085,
+              -3.5999999999999996,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -81.56934000000001,
+            -10.406498999999998
+          ],
+          "nearestHoleXYRadius_mm": [
+            -81.569341,
+            -10.306499000000011,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000498721
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -76.56934000000001,
+            -6.606499000000001
+          ],
+          "legacyXYRadius_mm": [
+            -76.56934,
+            -6.606499000000001,
+            2.5
+          ],
+          "error_mm": 1.4210854715202004e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -76.56934000000001,
+            -12.506499000000002
+          ],
+          "legacyXYRadius_mm": [
+            -76.56934,
+            -12.506499000000018,
+            1.5000000000000002
+          ],
+          "error_mm": 2.1390168887322673e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -81.56934000000001,
+            -10.306499
+          ],
+          "legacyXYRadius_mm": [
+            -81.569341,
+            -10.306499000000011,
+            1.5000000000000002
+          ],
+          "error_mm": 9.99999983264388e-07
+        }
+      ]
+    },
+    {
+      "key": "SW4",
+      "centerXY_mm": [
+        -95.61934000000001,
+        -70.756
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.45000000000000145,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.44999999999999934,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -95.61934000000001,
+            -76.65599999999999
+          ],
+          "nearestHoleXYRadius_mm": [
+            -95.61934000000001,
+            -76.65600000000003,
+            1.5000000000000002
+          ],
+          "centerError_mm": 4.263256414560601e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.3999999999999915,
+              -3.9999999999999947,
+              -1.6
+            ],
+            [
+              -4.6000000000000085,
+              -3.600000000000003,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -100.61934000000001,
+            -74.55599999999998
+          ],
+          "nearestHoleXYRadius_mm": [
+            -100.619341,
+            -74.45600000000003,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000495168
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -95.61934000000001,
+            -70.756
+          ],
+          "legacyXYRadius_mm": [
+            -95.61934000000001,
+            -70.75600000000003,
+            2.5
+          ],
+          "error_mm": 2.842170943040401e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -95.61934000000001,
+            -76.656
+          ],
+          "legacyXYRadius_mm": [
+            -95.61934000000001,
+            -76.65600000000003,
+            1.5000000000000002
+          ],
+          "error_mm": 2.842170943040401e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -100.61934000000001,
+            -74.456
+          ],
+          "legacyXYRadius_mm": [
+            -100.619341,
+            -74.45600000000003,
+            1.5000000000000002
+          ],
+          "error_mm": 9.999999974752431e-07
+        }
+      ]
+    },
+    {
+      "key": "SW17",
+      "centerXY_mm": [
+        -19.419340000000005,
+        -6.906498999999998
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.45000000000000145,
+              -6.000000000000001,
+              -1.6
+            ],
+            [
+              0.4499999999999971,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -19.419340000000012,
+            -12.806498999999999
+          ],
+          "nearestHoleXYRadius_mm": [
+            -19.41934,
+            -12.806499000000029,
+            1.5000000000000002
+          ],
+          "centerError_mm": 3.337471495267141e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.399999999999999,
+              -4.000000000000002,
+              -1.6
+            ],
+            [
+              -4.599999999999998,
+              -3.600000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -24.419340000000005,
+            -10.706498999999997
+          ],
+          "nearestHoleXYRadius_mm": [
+            -24.41934100000001,
+            -10.606499000000023,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000497478
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -19.419340000000005,
+            -6.906498999999998
+          ],
+          "legacyXYRadius_mm": [
+            -19.41934,
+            -6.906499000000013,
+            2.5
+          ],
+          "error_mm": 1.5888218580782548e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -19.419340000000005,
+            -12.806498999999999
+          ],
+          "legacyXYRadius_mm": [
+            -19.41934,
+            -12.806499000000029,
+            1.5000000000000002
+          ],
+          "error_mm": 3.102273850532274e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -24.419340000000005,
+            -10.606498999999998
+          ],
+          "legacyXYRadius_mm": [
+            -24.41934100000001,
+            -10.606499000000023,
+            1.5000000000000002
+          ],
+          "error_mm": 1.0000000045806703e-06
+        }
+      ]
+    },
+    {
+      "key": "SW22",
+      "centerXY_mm": [
+        -0.36934000000002243,
+        -49.531000000000006
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.4499999999999999,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.45000000000000007,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -0.36934000000002387,
+            -55.43100000000001
+          ],
+          "nearestHoleXYRadius_mm": [
+            -0.36934000000002243,
+            -55.43100000000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 7.250529895255517e-15
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.4,
+              -3.9999999999999947,
+              -1.6
+            ],
+            [
+              -4.6000000000000005,
+              -3.600000000000003,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -5.369340000000023,
+            -53.33100000000001
+          ],
+          "nearestHoleXYRadius_mm": [
+            -5.369341000000034,
+            -53.23100000000001,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000500142
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -0.36934000000002243,
+            -49.531000000000006
+          ],
+          "legacyXYRadius_mm": [
+            -0.36934000000002243,
+            -49.531,
+            2.5
+          ],
+          "error_mm": 7.105427357601002e-15
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -0.36934000000002387,
+            -55.431000000000004
+          ],
+          "legacyXYRadius_mm": [
+            -0.36934000000002243,
+            -55.43100000000002,
+            1.5000000000000002
+          ],
+          "error_mm": 1.4283958749745402e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -5.369340000000023,
+            -53.23100000000001
+          ],
+          "legacyXYRadius_mm": [
+            -5.369341000000034,
+            -53.23100000000001,
+            1.5000000000000002
+          ],
+          "error_mm": 1.000000010797919e-06
+        }
+      ]
+    },
+    {
+      "key": "SW6",
+      "centerXY_mm": [
+        -76.56934000000001,
+        -25.656499999999994
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.45000000000000145,
+              -6.000000000000001,
+              -1.6
+            ],
+            [
+              0.44999999999999934,
+              -5.800000000000005,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -76.56934000000001,
+            -31.556499999999996
+          ],
+          "nearestHoleXYRadius_mm": [
+            -76.56934,
+            -31.55650000000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 2.864289338439558e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.4,
+              -4.0000000000000036,
+              -1.6
+            ],
+            [
+              -4.600000000000017,
+              -3.5999999999999988,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -81.56934000000004,
+            -29.45649999999999
+          ],
+          "nearestHoleXYRadius_mm": [
+            -81.569341,
+            -29.35650000000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.100000000004973
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -76.56934000000001,
+            -25.656499999999994
+          ],
+          "legacyXYRadius_mm": [
+            -76.56934,
+            -25.65650000000001,
+            2.5
+          ],
+          "error_mm": 2.0097183471152322e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -76.56934000000001,
+            -31.556499999999993
+          ],
+          "legacyXYRadius_mm": [
+            -76.56934,
+            -31.55650000000002,
+            1.5000000000000002
+          ],
+          "error_mm": 3.1776437161565096e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -81.56934000000001,
+            -29.356499999999993
+          ],
+          "legacyXYRadius_mm": [
+            -81.569341,
+            -29.35650000000002,
+            1.5000000000000002
+          ],
+          "error_mm": 9.999999832643882e-07
+        }
+      ]
+    },
+    {
+      "key": "SW21",
+      "centerXY_mm": [
+        -0.3593400000000031,
+        -30.486
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.45000000000000007,
+              -6.000000000000001,
+              -1.6
+            ],
+            [
+              0.4499999999999999,
+              -5.800000000000005,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -0.35934000000000466,
+            -36.386
+          ],
+          "nearestHoleXYRadius_mm": [
+            -0.3593400000000102,
+            -36.38600000000001,
+            1.5000000000000002
+          ],
+          "centerError_mm": 9.016760895373711e-15
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.4,
+              -3.999999999999999,
+              -1.6
+            ],
+            [
+              -4.6000000000000005,
+              -3.5999999999999988,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -5.359340000000005,
+            -34.286
+          ],
+          "nearestHoleXYRadius_mm": [
+            -5.359341000000022,
+            -34.18600000000001,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000499432
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -0.3593400000000031,
+            -30.486
+          ],
+          "legacyXYRadius_mm": [
+            -0.3593400000000102,
+            -30.485999999999997,
+            2.5
+          ],
+          "error_mm": 7.944109290391274e-15
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -0.35934000000000454,
+            -36.386
+          ],
+          "legacyXYRadius_mm": [
+            -0.3593400000000102,
+            -36.38600000000001,
+            1.5000000000000002
+          ],
+          "error_mm": 9.085532354264799e-15
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -5.359340000000004,
+            -34.186
+          ],
+          "legacyXYRadius_mm": [
+            -5.359341000000022,
+            -34.18600000000001,
+            1.5000000000000002
+          ],
+          "error_mm": 1.0000000179033464e-06
+        }
+      ]
+    },
+    {
+      "key": "SW3",
+      "centerXY_mm": [
+        -95.61934000000001,
+        -51.706
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.45000000000000145,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.44999999999999934,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -95.61934000000001,
+            -57.605999999999995
+          ],
+          "nearestHoleXYRadius_mm": [
+            -95.61934000000001,
+            -57.60600000000003,
+            1.5000000000000002
+          ],
+          "centerError_mm": 3.552713678800501e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.3999999999999915,
+              -3.9999999999999947,
+              -1.6
+            ],
+            [
+              -4.6000000000000085,
+              -3.600000000000003,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -100.61934000000001,
+            -55.50599999999999
+          ],
+          "nearestHoleXYRadius_mm": [
+            -100.619341,
+            -55.40600000000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.100000000004973
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -95.61934000000001,
+            -51.706
+          ],
+          "legacyXYRadius_mm": [
+            -95.61934000000001,
+            -51.70600000000001,
+            2.5
+          ],
+          "error_mm": 7.105427357601002e-15
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -95.61934000000001,
+            -57.606
+          ],
+          "legacyXYRadius_mm": [
+            -95.61934000000001,
+            -57.60600000000003,
+            1.5000000000000002
+          ],
+          "error_mm": 2.842170943040401e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -100.61934000000001,
+            -55.406000000000006
+          ],
+          "legacyXYRadius_mm": [
+            -100.619341,
+            -55.40600000000002,
+            1.5000000000000002
+          ],
+          "error_mm": 9.999999974752427e-07
+        }
+      ]
+    },
+    {
+      "key": "SW2",
+      "centerXY_mm": [
+        -95.61934000000001,
+        -32.656000000000006
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.4499999999999837,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.4500000000000171,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -95.61934,
+            -38.55600000000001
+          ],
+          "nearestHoleXYRadius_mm": [
+            -95.61934000000001,
+            -38.55600000000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 1.5888218580782548e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.3999999999999915,
+              -4.0000000000000036,
+              -1.6
+            ],
+            [
+              -4.599999999999991,
+              -3.600000000000003,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -100.61934000000001,
+            -36.45600000000001
+          ],
+          "nearestHoleXYRadius_mm": [
+            -100.619341,
+            -36.35600000000001,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000500142
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -95.61934000000001,
+            -32.656000000000006
+          ],
+          "legacyXYRadius_mm": [
+            -95.61934000000001,
+            -32.656,
+            2.5
+          ],
+          "error_mm": 7.105427357601002e-15
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -95.61934000000001,
+            -38.556000000000004
+          ],
+          "legacyXYRadius_mm": [
+            -95.61934000000001,
+            -38.55600000000002,
+            1.5000000000000002
+          ],
+          "error_mm": 1.4210854715202004e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -100.61934000000001,
+            -36.35600000000001
+          ],
+          "legacyXYRadius_mm": [
+            -100.619341,
+            -36.35600000000001,
+            1.5000000000000002
+          ],
+          "error_mm": 9.999999974752427e-07
+        }
+      ]
+    },
+    {
+      "key": "SW16",
+      "centerXY_mm": [
+        -34.45234000000002,
+        -68.83125100000001
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.45000000000000145,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.44999999999999934,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -34.45234000000002,
+            -62.93125100000001
+          ],
+          "nearestHoleXYRadius_mm": [
+            -34.45234000000001,
+            -62.931251,
+            1.5000000000000002
+          ],
+          "centerError_mm": 1.5888218580782548e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.4,
+              -3.9999999999999947,
+              -1.6
+            ],
+            [
+              -4.6,
+              -3.600000000000003,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -29.45234000000002,
+            -65.03125100000001
+          ],
+          "nearestHoleXYRadius_mm": [
+            -29.452339000000016,
+            -65.131251,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000499432
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -34.45234000000002,
+            -68.83125100000001
+          ],
+          "legacyXYRadius_mm": [
+            -34.45234000000001,
+            -68.83125100000002,
+            2.5
+          ],
+          "error_mm": 2.0097183471152322e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -34.45234000000002,
+            -62.93125100000001
+          ],
+          "legacyXYRadius_mm": [
+            -34.45234000000001,
+            -62.931251,
+            1.5000000000000002
+          ],
+          "error_mm": 1.5888218580782548e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -29.45234000000002,
+            -65.131251
+          ],
+          "legacyXYRadius_mm": [
+            -29.452339000000016,
+            -65.131251,
+            1.5000000000000002
+          ],
+          "error_mm": 1.00000000458067e-06
+        }
+      ]
+    },
+    {
+      "key": "SW8",
+      "centerXY_mm": [
+        -76.56934000000001,
+        -63.7565
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.45000000000000145,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.44999999999999934,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -76.56934000000001,
+            -69.65650000000001
+          ],
+          "nearestHoleXYRadius_mm": [
+            -76.56934,
+            -69.65650000000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 2.0097183471152322e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.4,
+              -3.9999999999999947,
+              -1.6
+            ],
+            [
+              -4.600000000000017,
+              -3.600000000000003,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -81.56934000000001,
+            -67.55650000000001
+          ],
+          "nearestHoleXYRadius_mm": [
+            -81.569341,
+            -67.45650000000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000499432
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -76.56934000000001,
+            -63.7565
+          ],
+          "legacyXYRadius_mm": [
+            -76.56934,
+            -63.75650000000001,
+            2.5
+          ],
+          "error_mm": 1.5888218580782548e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -76.56934000000001,
+            -69.65650000000001
+          ],
+          "legacyXYRadius_mm": [
+            -76.56934,
+            -69.65650000000002,
+            1.5000000000000002
+          ],
+          "error_mm": 2.0097183471152322e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -81.56934000000001,
+            -67.4565
+          ],
+          "legacyXYRadius_mm": [
+            -81.569341,
+            -67.45650000000002,
+            1.5000000000000002
+          ],
+          "error_mm": 9.99999983264388e-07
+        }
+      ]
+    },
+    {
+      "key": "SW7",
+      "centerXY_mm": [
+        -76.56934000000001,
+        -44.706500000000005
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.45000000000000145,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.44999999999999934,
+              -5.800000000000001,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -76.56934000000001,
+            -50.60650000000002
+          ],
+          "nearestHoleXYRadius_mm": [
+            -76.56934,
+            -50.60650000000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 1.4210854715202004e-14
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.3999999999999915,
+              -3.9999999999999947,
+              -1.6
+            ],
+            [
+              -4.6000000000000085,
+              -3.600000000000003,
+              -0.09000000000000008
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -81.56934000000001,
+            -48.50650000000002
+          ],
+          "nearestHoleXYRadius_mm": [
+            -81.569341,
+            -48.40650000000001,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.10000000000500853
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -76.56934000000001,
+            -44.706500000000005
+          ],
+          "legacyXYRadius_mm": [
+            -76.56934,
+            -44.7065,
+            2.5
+          ],
+          "error_mm": 1.5888218580782548e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -76.56934000000001,
+            -50.606500000000004
+          ],
+          "legacyXYRadius_mm": [
+            -76.56934,
+            -50.60650000000002,
+            1.5000000000000002
+          ],
+          "error_mm": 2.0097183471152322e-14
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -81.56934000000001,
+            -48.40650000000001
+          ],
+          "legacyXYRadius_mm": [
+            -81.569341,
+            -48.40650000000001,
+            1.5000000000000002
+          ],
+          "error_mm": 9.99999983264388e-07
+        }
+      ]
+    },
+    {
+      "key": "SW20",
+      "centerXY_mm": [
+        -13.115089138374003,
+        -70.57125679148511
+      ],
+      "parts": [
+        {
+          "kind": "switch",
+          "component": "bottom",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "contact",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -0.4499999999999976,
+              -5.9999999999999964,
+              -1.6
+            ],
+            [
+              0.45000000000000095,
+              -5.800000000000001,
+              -0.0899999999999998
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -12.192125794636643,
+            -64.7438955819738
+          ],
+          "nearestHoleXYRadius_mm": [
+            -12.192125999999988,
+            -64.743896,
+            1.5000000000000002
+          ],
+          "centerError_mm": 4.657467232615365e-07
+        },
+        {
+          "kind": "switch",
+          "component": "stem",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "top",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "switch",
+          "component": "pin2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0,
+          "pinPCBSlabBoundsSwitchLocal_mm": [
+            [
+              -5.4,
+              -3.999999999999986,
+              -1.6
+            ],
+            [
+              -4.6000000000000005,
+              -3.5999999999999943,
+              -0.0899999999999998
+            ]
+          ],
+          "pinSlabCenterXY_mm": [
+            -7.582196468245441,
+            -67.60021342242476
+          ],
+          "nearestHoleXYRadius_mm": [
+            -7.597839000000022,
+            -67.69898200000002,
+            1.5000000000000002
+          ],
+          "centerError_mm": 0.09999960357887705
+        },
+        {
+          "kind": "switch",
+          "component": "shrunken_spring",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "choc_body",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a1",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a2",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a003",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_a004",
+          "legacyPCBOverlap_mm3": 0.0,
+          "upperCaseOverlap_mm3": 0.0
+        },
+        {
+          "kind": "socket",
+          "component": "contact_b001",
+          "legacyPCBOverlap_mm3": 0,
+          "upperCaseOverlap_mm3": 0.0
+        }
+      ],
+      "holeCenters": [
+        {
+          "role": "central_post",
+          "expectedXY_mm": [
+            -13.115089138374003,
+            -70.57125679148511
+          ],
+          "legacyXYRadius_mm": [
+            -13.115088999999998,
+            -70.57125700000002,
+            2.5
+          ],
+          "error_mm": 2.502515354335862e-07
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -12.19212579463664,
+            -64.7438955819738
+          ],
+          "legacyXYRadius_mm": [
+            -12.192125999999988,
+            -64.743896,
+            1.5000000000000002
+          ],
+          "error_mm": 4.6574672482804705e-07
+        },
+        {
+          "role": "socket_receiver",
+          "expectedXY_mm": [
+            -7.597839914749461,
+            -67.69898225648426
+          ],
+          "legacyXYRadius_mm": [
+            -7.597839000000022,
+            -67.69898200000002,
+            1.5000000000000002
+          ],
+          "error_mm": 9.500266850013813e-07
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Legacy solid has mechanical holes but does not certify electrical pads, nets or actual PCB revision.",
+    "Pin centers use actual proxy material clipped to old PCB Z0..1.51; not whole component bounding boxes.",
+    "0.09 mm thickness difference remains. Generic Red is not exact Spring MINI geometry.",
+    "Static latch/case collision check does not demonstrate snap insertion, retention force or removal access.",
+    "No physical PCB, switch, socket, keycap or tolerance acceptance inferred."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-09",
+  "cloudVersion": 26,
+  "rows": [
+    {
+      "lowerDown_mm": 8,
+      "radiusAssumed_mm": 3,
+      "leadLength_mm": 39.99999999999865,
+      "apiBundleLength_mm": 35.82105805833728,
+      "distanceQueries": 18,
+      "nearest": "BATTERY_CELL_NOMINAL_42x20x5_USER_TARGET",
+      "minimumCheckedRadiusMargin_mm": 0.19705627484771426,
+      "obstructions": []
+    }
+  ],
+  "method": "Exact temporary line/arc wire-body minimum distance; D3 spherical offset, point-containment samples; lower and battery translated as one rigid set",
+  "notProven": [
+    "Continuous deformation",
+    "Actual wire bend specification",
+    "Paired-wire offsets",
+    "Pouch transition, terminal-branch bends and solder fillet",
+    "Physical opening or strain relief"
+  ],
+  "checkedWorkingState": "v26 geometry before cloud save on v25; finalized unchanged"
+}

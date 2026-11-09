@@ -1,0 +1,243 @@
+{
+  "date": "2026-11-08",
+  "cloudVersion": 23,
+  "status": "SPECIFIED_AXIAL_ENVELOPES_CHECKED",
+  "checks": [
+    {
+      "kind": "M2",
+      "axisXY_mm": [
+        -108.119997,
+        -59
+      ],
+      "toolDiameter_mm": 3,
+      "toolZInterval_mm": [
+        -40,
+        -10.3
+      ],
+      "positiveBBoxCandidates": 1,
+      "collisions": []
+    },
+    {
+      "kind": "M2",
+      "axisXY_mm": [
+        -108.119997,
+        -59
+      ],
+      "toolDiameter_mm": 1.8,
+      "toolZInterval_mm": [
+        -40,
+        -10.3
+      ],
+      "positiveBBoxCandidates": 1,
+      "collisions": []
+    },
+    {
+      "kind": "M2",
+      "axisXY_mm": [
+        -108.119997,
+        -17
+      ],
+      "toolDiameter_mm": 3,
+      "toolZInterval_mm": [
+        -40,
+        -10.3
+      ],
+      "positiveBBoxCandidates": 1,
+      "collisions": []
+    },
+    {
+      "kind": "M2",
+      "axisXY_mm": [
+        -108.119997,
+        -17
+      ],
+      "toolDiameter_mm": 1.8,
+      "toolZInterval_mm": [
+        -40,
+        -10.3
+      ],
+      "positiveBBoxCandidates": 1,
+      "collisions": []
+    },
+    {
+      "kind": "M2",
+      "axisXY_mm": [
+        13.576167,
+        -59
+      ],
+      "toolDiameter_mm": 3,
+      "toolZInterval_mm": [
+        -40,
+        -10.3
+      ],
+      "positiveBBoxCandidates": 1,
+      "collisions": []
+    },
+    {
+      "kind": "M2",
+      "axisXY_mm": [
+        13.576167,
+        -59
+      ],
+      "toolDiameter_mm": 1.8,
+      "toolZInterval_mm": [
+        -40,
+        -10.3
+      ],
+      "positiveBBoxCandidates": 1,
+      "collisions": []
+    },
+    {
+      "kind": "M2",
+      "axisXY_mm": [
+        13.576167,
+        -17
+      ],
+      "toolDiameter_mm": 3,
+      "toolZInterval_mm": [
+        -40,
+        -10.3
+      ],
+      "positiveBBoxCandidates": 1,
+      "collisions": []
+    },
+    {
+      "kind": "M2",
+      "axisXY_mm": [
+        13.576167,
+        -17
+      ],
+      "toolDiameter_mm": 1.8,
+      "toolZInterval_mm": [
+        -40,
+        -10.3
+      ],
+      "positiveBBoxCandidates": 1,
+      "collisions": []
+    },
+    {
+      "kind": "M1.6",
+      "axisXY_mm": [
+        -8,
+        3.8
+      ],
+      "toolDiameter_mm": 3,
+      "toolZInterval_mm": [
+        8.9,
+        40
+      ],
+      "positiveBBoxCandidates": 0,
+      "collisions": []
+    },
+    {
+      "kind": "M1.6",
+      "axisXY_mm": [
+        -8,
+        3.8
+      ],
+      "toolDiameter_mm": 1.8,
+      "toolZInterval_mm": [
+        8.9,
+        40
+      ],
+      "positiveBBoxCandidates": 0,
+      "collisions": []
+    },
+    {
+      "kind": "M1.6",
+      "axisXY_mm": [
+        8,
+        3.8
+      ],
+      "toolDiameter_mm": 3,
+      "toolZInterval_mm": [
+        8.9,
+        40
+      ],
+      "positiveBBoxCandidates": 0,
+      "collisions": []
+    },
+    {
+      "kind": "M1.6",
+      "axisXY_mm": [
+        8,
+        3.8
+      ],
+      "toolDiameter_mm": 1.8,
+      "toolZInterval_mm": [
+        8.9,
+        40
+      ],
+      "positiveBBoxCandidates": 0,
+      "collisions": []
+    }
+  ],
+  "fastenerDepthStudy": [
+    {
+      "kind": "M2",
+      "pitch_mm": 0.4,
+      "length_mm": 12,
+      "nominalGrip_mm": 8.3,
+      "geometricProjection_mm": 3.6999999999999993,
+      "cylindricalPilotDiameter_mm": 1.6,
+      "cylindricalDepth_mm": 4.5,
+      "bottomGap_mm": 0.8000000000000007,
+      "marginOverHalfPilotDiameter_mm": 6.661338147750939e-16,
+      "assumedDrillPoint118degDepth_mm": 0.48068849522204826,
+      "axialCapAfterAssumedDrillPoint_mm": 0.5193115047779517,
+      "engagementSensitivity_mm": [
+        {
+          "assumedLostThreadTurns": 1,
+          "remainingOverlap_mm": 3.2999999999999994
+        },
+        {
+          "assumedLostThreadTurns": 2,
+          "remainingOverlap_mm": 2.8999999999999995
+        },
+        {
+          "assumedLostThreadTurns": 3,
+          "remainingOverlap_mm": 2.499999999999999
+        }
+      ]
+    },
+    {
+      "kind": "M1.6",
+      "pitch_mm": 0.35,
+      "length_mm": 6,
+      "nominalGrip_mm": 3.5,
+      "geometricProjection_mm": 2.5,
+      "cylindricalPilotDiameter_mm": 1.25,
+      "cylindricalDepth_mm": 3.2,
+      "bottomGap_mm": 0.7000000000000002,
+      "marginOverHalfPilotDiameter_mm": 0.07500000000000018,
+      "assumedDrillPoint118degDepth_mm": 0.37553788689222517,
+      "axialCapAfterAssumedDrillPoint_mm": 0.9244621131077748,
+      "engagementSensitivity_mm": [
+        {
+          "assumedLostThreadTurns": 1,
+          "remainingOverlap_mm": 2.15
+        },
+        {
+          "assumedLostThreadTurns": 2,
+          "remainingOverlap_mm": 1.8
+        },
+        {
+          "assumedLostThreadTurns": 3,
+          "remainingOverlap_mm": 1.4500000000000002
+        }
+      ]
+    }
+  ],
+  "geometryModified": false,
+  "sources": [
+    "https://us.misumi-ec.com/blog/metric-socket-head-cap-screws-dimensions/",
+    "https://jlccnc.com/help/article/threaded-hole-guideline"
+  ],
+  "limitations": [
+    "D3 and D1.8 straight cylinders are study assumptions. 1.5 AF hex has circumscribed diameter 1.732 mm; actual shaft, holder and hand need separate access.",
+    "Screw heads and recess shape are excluded from tool collision targets; socket engagement is assumed, not modeled.",
+    "Cap sweep is the existing D3.0 drop, 18.8 mm square assumption; exact cap geometry is unconfirmed.",
+    "Thread projection is not effective engagement. Tap lead, chamfer, drill point, tolerances, strength and torque remain unqualified.",
+    "No continuous PCB, cover, battery or stand motion has been certified."
+  ]
+}

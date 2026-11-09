@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-09",
+  "baselineCloudVersion": 25,
+  "contactEdgeX_mm": -111.119997,
+  "contactEdgeZ_mm": -11.5,
+  "continuousEdge": {
+    "length_mm": 42.0,
+    "yInterval_mm": [
+      -59.0,
+      -17.0
+    ]
+  },
+  "solidBoundsChecked": 420,
+  "positiveQuadrantViolations": [],
+  "nominalM2Screws": "D3.8xH2 heads at Z-11.3..-9.3; D2 shanks at Z-9.3..2.7 remain above Z-11.5 and right of X-111.119997",
+  "idealPlaneProof": "All checked solid points satisfy dx>=0 and dz>=0, so sin(theta)*dx+cos(theta)*dz>=0 for0..90deg positive-X lift.",
+  "limitations": [
+    "Rigid selected solids only; real stand geometry, feet, compliance, friction and tip-over stability unverified.",
+    "No contact-edge chamfer or protective layer qualified."
+  ]
+}

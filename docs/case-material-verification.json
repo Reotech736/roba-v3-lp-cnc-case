@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-09",
+  "materialName": "JLCCNC_6061_T6_SUPPLIER_MINIMUM_PROVISIONAL",
+  "source": "https://jlccnc.com/help/article/aluminum-6061-cnc-machining",
+  "supplierValues": {
+    "UTS_MPa": 290,
+    "yield0p2_MPa": 240,
+    "density_kg_m3": 2800
+  },
+  "supplierScope": "Supplier page describes seamless stock specimen diameter >=70mm; material basis for prototype, not a certificate for the purchased plate or finished thin sections. Density follows supplier listing; typical 6061 is often listed as2700, procurement confirmation pending.",
+  "inheritedUnqualifiedTypicalProperties": [
+    "Young modulus68.9GPa",
+    "Poisson ratio0.33",
+    "other thermal properties from Fusion6061 library"
+  ],
+  "properties": {
+    "structural_Minimum_tensile_strength": {
+      "value": 290000.0,
+      "units": "Kilopascal"
+    },
+    "structural_Minimum_yield_stress": {
+      "value": 240000.0,
+      "units": "Kilopascal"
+    },
+    "structural_Density": {
+      "value": 2800.0,
+      "units": "KilogramPerCubicMeter"
+    },
+    "thermal_Density": {
+      "value": 2800.0,
+      "units": "KilogramPerCubicMeter"
+    },
+    "structural_Young_modulus": {
+      "value": 68900000.0,
+      "units": "Kilopascal"
+    },
+    "structural_Poisson_ratio": {
+      "value": 0.33,
+      "units": "Unitless"
+    }
+  },
+  "caseComponents": [
+    {
+      "component": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "material": "JLCCNC_6061_T6_SUPPLIER_MINIMUM_PROVISIONAL",
+      "bodyMaterial": "JLCCNC_6061_T6_SUPPLIER_MINIMUM_PROVISIONAL",
+      "volume_mm3": 13649.461979532638,
+      "mass_kg": 0.03821849354269139
+    },
+    {
+      "component": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "material": "JLCCNC_6061_T6_SUPPLIER_MINIMUM_PROVISIONAL",
+      "bodyMaterial": "JLCCNC_6061_T6_SUPPLIER_MINIMUM_PROVISIONAL",
+      "volume_mm3": 36864.844806983405,
+      "mass_kg": 0.10322156545955354
+    }
+  ],
+  "nonmetalBracketMaterialSelected": false,
+  "strengthAnalysisPerformed": false
+}

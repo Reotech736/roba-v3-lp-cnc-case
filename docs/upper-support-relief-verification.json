@@ -180,8 +180,5 @@
       "restoredMaterial": true
     }
   ],
-  "limitation": "Nominal geometric association/void checks only; root fillets, clearances and machining still require physical/DFM qualification",
-  "cloudVersion": 22,
-  "cloudComplete": true,
-  "modified": false
+  "limitation": "Nominal geometric association/void checks only; root fillets, clearances and machining still require physical/DFM qualification"
 }

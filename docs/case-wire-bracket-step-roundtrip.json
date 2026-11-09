@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-09",
+  "cloudVersion": 27,
+  "method": "Copy native local BRep to an isolated direct-design root, STEP export, import to new temporary document; check single solid, volume and local bounds",
+  "results": [
+    {
+      "file": "left_case_two_stands_v05_NOT_FOR_MANUFACTURE_Lower_L_LOCAL.step",
+      "materialPolicy": "Supplier6061T6 case properties",
+      "singleSolid": true,
+      "bytes": 270860,
+      "expectedVolume_mm3": 36864.844806983405,
+      "roundTripVolume_mm3": 36864.84480698394,
+      "absoluteVolumeDifference_mm3": 5.384208634495735e-10,
+      "expectedLocalBounds_mm": [
+        [
+          -111.119997,
+          -91.4341644873868,
+          0.0
+        ],
+        [
+          23.319461794711263,
+          11.053999999998894,
+          11.500000000000002
+        ]
+      ],
+      "roundTripLocalBounds_mm": [
+        [
+          -111.119997,
+          -91.43416448738677,
+          0.0
+        ],
+        [
+          23.319461794711227,
+          11.053999999998894,
+          11.500000000000002
+        ]
+      ],
+      "maxBoundDifference_mm": 3.552713678800501e-14,
+      "sha256": "2c658a0f607a60260cbc592a6ffa15ee2a7a49ccd629bff9aa3c357d1c5673cd"
+    },
+    {
+      "file": "left_case_two_stands_v05_NOT_FOR_MANUFACTURE_Upper_L_protective_roof_LOCAL.step",
+      "materialPolicy": "Supplier6061T6 case properties",
+      "singleSolid": true,
+      "bytes": 641378,
+      "expectedVolume_mm3": 13649.461979532638,
+      "roundTripVolume_mm3": 13649.461979533073,
+      "absoluteVolumeDifference_mm3": 4.347384674474597e-10,
+      "expectedLocalBounds_mm": [
+        [
+          -111.119997,
+          -91.4341644873868,
+          0.0
+        ],
+        [
+          23.319461794711263,
+          11.053999999998894,
+          5.5
+        ]
+      ],
+      "roundTripLocalBounds_mm": [
+        [
+          -111.119997,
+          -91.43416448738677,
+          0.0
+        ],
+        [
+          23.319461794711227,
+          11.053999999998894,
+          5.5
+        ]
+      ],
+      "maxBoundDifference_mm": 3.552713678800501e-14,
+      "sha256": "616c4b0e1fae503f33311328239188b5bc03c40b866e8e38b0760b680a48717a"
+    },
+    {
+      "file": "wire_strain_relief_case_bracket_NONMETAL_NOT_FOR_MANUFACTURE_LOCAL.step",
+      "materialPolicy": "Unselected nonmetal: default steel material subgraph omitted; CAD bracket mass is not qualified",
+      "singleSolid": true,
+      "bytes": 58328,
+      "expectedVolume_mm3": 92.05725913541602,
+      "roundTripVolume_mm3": 92.05729258753722,
+      "absoluteVolumeDifference_mm3": 3.345212120109409e-05,
+      "expectedLocalBounds_mm": [
+        [
+          -4.0,
+          -26.8,
+          -4.9
+        ],
+        [
+          14.6,
+          -16.5,
+          -1.0000000000000004
+        ]
+      ],
+      "roundTripLocalBounds_mm": [
+        [
+          -4.0,
+          -26.8,
+          -4.9
+        ],
+        [
+          14.6,
+          -16.5,
+          -1.0000000000000004
+        ]
+      ],
+      "maxBoundDifference_mm": 0.0,
+      "sha256": "c9dd5f00e00658fbbf215ae157af8abe8be12d9dde83f5ebcbdd9debf5f51dd2"
+    }
+  ]
+}

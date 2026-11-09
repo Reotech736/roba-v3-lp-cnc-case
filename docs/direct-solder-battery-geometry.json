@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-08",
+  "baselineCloudVersion": 22,
+  "temporaryWireCollisions": [],
+  "physicalTargetsChecked": 336,
+  "positiveBBoxCandidates": 6,
+  "wireReservationVolume_mm3": 116.8165069191032,
+  "retiredStudies": [
+    {
+      "oldName": "B1_JST_PH_SMD_DATASHEET_RESERVATION_NOT_DETAILED_CAD",
+      "newName": "RETIRED_CONNECTOR_VARIANT_B1_JST_PH_SMD_DATASHEET_RESERVATION_NOT_DETAILED_CAD"
+    },
+    {
+      "oldName": "B1_MATING_PLUG_ACCESS_ASSUMED_8x6x4_NOT_PART",
+      "newName": "RETIRED_CONNECTOR_VARIANT_B1_MATING_PLUG_ACCESS_ASSUMED_8x6x4_NOT_PART"
+    },
+    {
+      "oldName": "BATTERY_WIRE_ROUTE_D3_CELL42_40mm_BUDGET_NOT_PART (1)",
+      "newName": "RETIRED_CONNECTOR_VARIANT_BATTERY_WIRE_ROUTE_D3_CELL42_40mm_BUDGET_NOT_PART (1)"
+    }
+  ],
+  "allPreviousTransformsAndVolumesPreserved": true,
+  "caseGeometryChanged": false,
+  "timelineIssues": [],
+  "checkpoint": "C:\\Users\\Reo Komatsubara\\git-repositories\\roba-v3-lp-cnc-case\\cad\\design\\checkpoints\\v05_cloud_v22_before_direct_solder_battery.f3d",
+  "limitations": [
+    "Exit corner, wire diameters and solder fillet shape remain assumptions.",
+    "Polyline lengths do not certify minimum bend radius, a retained service loop or collision-free motion.",
+    "With direct solder, the lower and PCB remain tethered; never prescribe unplugging a nonexistent connector.",
+    "Service comparisons add translation to assembled path as a numerical comparison, not a proven flexible route.",
+    "Strain relief must support insulated wire, not load solder pads or pouch tabs; exact material/retention unqualified."
+  ],
+  "status": "DIRECT_SOLDER_PROVISIONAL_GEOMETRY_CHECKED_NOT_MANUFACTURING_APPROVAL",
+  "cloudVersion": 24,
+  "geometryAppliedInCloudVersion": 23,
+  "cloudComplete": true,
+  "currentDocumentModified": false,
+  "finalVerification": "direct-solder-final-verification.json"
+}

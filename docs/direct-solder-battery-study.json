@@ -1,0 +1,280 @@
+{
+  "date": "2026-11-08",
+  "baselineCloudVersion": 22,
+  "userConfirmed": {
+    "connection": "Direct solder to PCB battery connector pads; no battery connector on this unit",
+    "wire40mmEndpoints": "Pouch exit to solder termination, not connector tip"
+  },
+  "repositoryMainAtInspection": "69fc34d2996e6aaf63b29f6a58d104b32669f610",
+  "sourceURL": "https://github.com/kumamuk-git/roBa/blob/69fc34d2996e6aaf63b29f6a58d104b32669f610/pcb/v2/roBa_L/roba_L.kicad_pcb",
+  "sourceSHA256": "40b0953de3e708eea273f897b04b55c08414b55aa43503327d440de1c976e495",
+  "pcbRevisionStatus": "Public v2 mechanical/electrical reference; exact physical board revision still unconfirmed",
+  "pads": [
+    {
+      "number": "1",
+      "layer": "B.Cu",
+      "sizeXY_mm": [
+        1.0,
+        3.5
+      ],
+      "net": [
+        "1",
+        "Bat"
+      ],
+      "centerGlobalXY_mm": [
+        -0.38934000000000424,
+        -19.341
+      ]
+    },
+    {
+      "number": "2",
+      "layer": "B.Cu",
+      "sizeXY_mm": [
+        1.0,
+        3.5
+      ],
+      "net": [
+        "2",
+        "Net-(B1--)"
+      ],
+      "centerGlobalXY_mm": [
+        -2.3893400000000042,
+        -19.341
+      ]
+    }
+  ],
+  "assumedPouchExit_mm": [
+    -13,
+    -30,
+    -5.6
+  ],
+  "bundleRadius_mm": 1.5,
+  "bundleRoute_mm": [
+    [
+      -13,
+      -30,
+      -5.6
+    ],
+    [
+      -11.8,
+      -28.8,
+      -4.8
+    ],
+    [
+      -8,
+      -25,
+      -3.5
+    ],
+    [
+      -5,
+      -22,
+      -2.5
+    ],
+    [
+      -1.38934,
+      -19.341,
+      -2
+    ]
+  ],
+  "branches": [
+    {
+      "pad": "1",
+      "net": [
+        "1",
+        "Bat"
+      ],
+      "wireCenterRoute_mm": [
+        [
+          -13,
+          -30,
+          -5.6
+        ],
+        [
+          -11.8,
+          -28.8,
+          -4.8
+        ],
+        [
+          -8,
+          -25,
+          -3.5
+        ],
+        [
+          -5,
+          -22,
+          -2.5
+        ],
+        [
+          -1.38934,
+          -19.341,
+          -2
+        ],
+        [
+          -0.38934000000000424,
+          -19.341,
+          -0.5
+        ]
+      ],
+      "assumedSolderPlaneZ_mm": 0,
+      "assumedWireRadius_mm": 0.5,
+      "routePlusFinalHalfMillimeter_mm": 18.578744739022742,
+      "remainingFrom40_mm": 21.421255260977258,
+      "serviceComparisons": [
+        {
+          "lowerDown_mm": 0,
+          "endpointDistanceLowerBound_mm": 17.435682568675077,
+          "routePlusTranslationComparison_mm": 18.578744739022742,
+          "comparisonRemainingFrom40_mm": 21.421255260977258
+        },
+        {
+          "lowerDown_mm": 5,
+          "endpointDistanceLowerBound_mm": 19.621493996013655,
+          "routePlusTranslationComparison_mm": 23.578744739022742,
+          "comparisonRemainingFrom40_mm": 16.421255260977258
+        },
+        {
+          "lowerDown_mm": 10,
+          "endpointDistanceLowerBound_mm": 22.71570000320483,
+          "routePlusTranslationComparison_mm": 28.578744739022742,
+          "comparisonRemainingFrom40_mm": 11.421255260977258
+        },
+        {
+          "lowerDown_mm": 15,
+          "endpointDistanceLowerBound_mm": 26.40081488582502,
+          "routePlusTranslationComparison_mm": 33.57874473902274,
+          "comparisonRemainingFrom40_mm": 6.421255260977258
+        },
+        {
+          "lowerDown_mm": 20,
+          "endpointDistanceLowerBound_mm": 30.463142100505653,
+          "routePlusTranslationComparison_mm": 38.57874473902274,
+          "comparisonRemainingFrom40_mm": 1.421255260977258
+        },
+        {
+          "lowerDown_mm": 25,
+          "endpointDistanceLowerBound_mm": 34.770720824216454,
+          "routePlusTranslationComparison_mm": 43.57874473902274,
+          "comparisonRemainingFrom40_mm": -3.578744739022742
+        },
+        {
+          "lowerDown_mm": 30,
+          "endpointDistanceLowerBound_mm": 39.242872303586545,
+          "routePlusTranslationComparison_mm": 48.57874473902274,
+          "comparisonRemainingFrom40_mm": -8.578744739022742
+        },
+        {
+          "lowerDown_mm": 40,
+          "endpointDistanceLowerBound_mm": 48.49745381600564,
+          "routePlusTranslationComparison_mm": 58.57874473902274,
+          "comparisonRemainingFrom40_mm": -18.578744739022742
+        }
+      ]
+    },
+    {
+      "pad": "2",
+      "net": [
+        "2",
+        "Net-(B1--)"
+      ],
+      "wireCenterRoute_mm": [
+        [
+          -13,
+          -30,
+          -5.6
+        ],
+        [
+          -11.8,
+          -28.8,
+          -4.8
+        ],
+        [
+          -8,
+          -25,
+          -3.5
+        ],
+        [
+          -5,
+          -22,
+          -2.5
+        ],
+        [
+          -1.38934,
+          -19.341,
+          -2
+        ],
+        [
+          -2.3893400000000042,
+          -19.341,
+          -0.5
+        ]
+      ],
+      "assumedSolderPlaneZ_mm": 0,
+      "assumedWireRadius_mm": 0.5,
+      "routePlusFinalHalfMillimeter_mm": 18.578744739022746,
+      "remainingFrom40_mm": 21.421255260977254,
+      "serviceComparisons": [
+        {
+          "lowerDown_mm": 0,
+          "endpointDistanceLowerBound_mm": 16.048688003559665,
+          "routePlusTranslationComparison_mm": 18.578744739022746,
+          "comparisonRemainingFrom40_mm": 21.421255260977254
+        },
+        {
+          "lowerDown_mm": 5,
+          "endpointDistanceLowerBound_mm": 18.40001050639917,
+          "routePlusTranslationComparison_mm": 23.578744739022746,
+          "comparisonRemainingFrom40_mm": 16.421255260977254
+        },
+        {
+          "lowerDown_mm": 10,
+          "endpointDistanceLowerBound_mm": 21.66934209051119,
+          "routePlusTranslationComparison_mm": 28.578744739022746,
+          "comparisonRemainingFrom40_mm": 11.421255260977254
+        },
+        {
+          "lowerDown_mm": 15,
+          "endpointDistanceLowerBound_mm": 25.506085286370386,
+          "routePlusTranslationComparison_mm": 33.578744739022746,
+          "comparisonRemainingFrom40_mm": 6.421255260977254
+        },
+        {
+          "lowerDown_mm": 20,
+          "endpointDistanceLowerBound_mm": 29.691082611376768,
+          "routePlusTranslationComparison_mm": 38.578744739022746,
+          "comparisonRemainingFrom40_mm": 1.4212552609772544
+        },
+        {
+          "lowerDown_mm": 25,
+          "endpointDistanceLowerBound_mm": 34.09633978355448,
+          "routePlusTranslationComparison_mm": 43.578744739022746,
+          "comparisonRemainingFrom40_mm": -3.5787447390227456
+        },
+        {
+          "lowerDown_mm": 30,
+          "endpointDistanceLowerBound_mm": 38.646608992712416,
+          "routePlusTranslationComparison_mm": 48.578744739022746,
+          "comparisonRemainingFrom40_mm": -8.578744739022746
+        },
+        {
+          "lowerDown_mm": 40,
+          "endpointDistanceLowerBound_mm": 48.016251276371,
+          "routePlusTranslationComparison_mm": 58.578744739022746,
+          "comparisonRemainingFrom40_mm": -18.578744739022746
+        }
+      ]
+    }
+  ],
+  "oldConnectorRouteLength_mm": 31.081941524002584,
+  "supersedes": [
+    "JST component assumed installed",
+    "JST mating-plug service access",
+    "31.08 mm connector route as current solution"
+  ],
+  "limitations": [
+    "Exit corner, wire diameters and solder fillet shape remain assumptions.",
+    "Polyline lengths do not certify minimum bend radius, a retained service loop or collision-free motion.",
+    "With direct solder, the lower and PCB remain tethered; never prescribe unplugging a nonexistent connector.",
+    "Service comparisons add translation to assembled path as a numerical comparison, not a proven flexible route.",
+    "Strain relief must support insulated wire, not load solder pads or pouch tabs; exact material/retention unqualified."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-08",
+  "baselineCloudVersion": 24,
+  "caseDistances": [
+    {
+      "target": "Lower_L_FROM_PCB_OUTLINE_PROVISIONAL",
+      "minimumDistance_mm": 5.799999999999999
+    },
+    {
+      "target": "Upper_L_PROTECTIVE_ROOF_23_LP_OPENINGS_PROVISIONAL",
+      "minimumDistance_mm": 2.6
+    }
+  ],
+  "PCBOutlineSupportSamples": [
+    [
+      -4.38934,
+      -24,
+      0.01
+    ],
+    [
+      1.61066,
+      -24,
+      0.01
+    ],
+    [
+      1.61066,
+      -22,
+      0.01
+    ],
+    [
+      -4.38934,
+      -22,
+      0.01
+    ],
+    [
+      -1.38934,
+      -23,
+      0.01
+    ]
+  ],
+  "B1SignalPadNominalPlanGap_mm": 0.909,
+  "status": "BONDING_SITE_STUDY_ONLY",
+  "limitations": [
+    "Not a finished clamp or strain relief",
+    "Actual copper, vias, solder mask, components and adhesive compatibility unconfirmed",
+    "No load or retention certification"
+  ]
+}

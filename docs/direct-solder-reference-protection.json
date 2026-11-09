@@ -1,0 +1,7 @@
+{
+  "date": "2026-11-08",
+  "cloudVersion": 24,
+  "verifiedImmutableFiles": 10,
+  "method": "Git blob SHA1 for six upstream case STEP files; SHA256 for public PCB and three koktoh reference files",
+  "allMatch": true
+}

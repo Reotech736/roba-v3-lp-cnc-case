@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-09",
+  "baselineCloudVersion": 25,
+  "bracketStockBoxesGlobal_mm": [
+    [
+      -4,
+      -24,
+      -4.9,
+      4,
+      -16.5,
+      -4
+    ],
+    [
+      3,
+      -22,
+      -4.9,
+      11.7,
+      -19.5,
+      -4
+    ],
+    [
+      10.9,
+      -24,
+      -4.9,
+      11.7,
+      -20,
+      -1
+    ],
+    [
+      10.9,
+      -26.8,
+      -2.2,
+      14.6,
+      -19.7,
+      -1
+    ]
+  ],
+  "axesXY_mm": [
+    [
+      12.8,
+      -25
+    ],
+    [
+      12.8,
+      -21.5
+    ]
+  ],
+  "lowerBackingGlobal_mm": [
+    13.8,
+    -27.6,
+    -5.4,
+    16,
+    -18.2,
+    -1
+  ],
+  "lowerReliefGlobal_mm": [
+    10.7,
+    -27.2,
+    -5.2,
+    14.9,
+    -18.6,
+    -1
+  ],
+  "tieSlots": [
+    {
+      "centerXY_mm": [
+        1.3365890422187847,
+        -18.174912863639904
+      ],
+      "longAxisXY": [
+        -0.7867751679265158,
+        0.6172396901805675
+      ],
+      "width_mm": 2.2,
+      "thickness_mm": 1.1
+    },
+    {
+      "centerXY_mm": [
+        -1.8730573467201663,
+        -22.266143736857785
+      ],
+      "longAxisXY": [
+        -0.7867751679265158,
+        0.6172396901805675
+      ],
+      "width_mm": 2.2,
+      "thickness_mm": 1.1
+    }
+  ],
+  "bracketPreflightVolume_mm3": 94.46387432193362,
+  "bracketCollisions": [],
+  "pilotStock": [
+    {
+      "axisXY_mm": [
+        12.8,
+        -25
+      ],
+      "majorCylinderStockFraction": 1.0
+    },
+    {
+      "axisXY_mm": [
+        12.8,
+        -21.5
+      ],
+      "majorCylinderStockFraction": 1.0
+    }
+  ],
+  "lowerBoundsBefore_mm": [
+    [
+      -111.119997,
+      -91.4341644873868,
+      -11.5
+    ],
+    [
+      23.319461794711263,
+      11.053999999998894,
+      2.220446049250313e-15
+    ]
+  ],
+  "lowerBoundsAfter_mm": [
+    [
+      -111.119997,
+      -91.4341644873868,
+      -11.5
+    ],
+    [
+      23.319461794711263,
+      11.053999999998894,
+      2.220446049250313e-15
+    ]
+  ],
+  "localOuterWallNominal_mm": 1.1,
+  "reliefToBracketZNominal_mm": 0.3,
+  "limitations": [
+    "Preflight uses only terminal tangent groove; final uses the exact curved D3.4 path.",
+    "Nonmetal material and tie/insulation contact force unqualified. Tie selected only by size class.",
+    "Case wall/neck and cantilever strength, corner finish and manufacturing tool access require review.",
+    "No PCB copper contact required for this mounting concept."
+  ]
+}

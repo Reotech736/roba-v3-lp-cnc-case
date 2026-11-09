@@ -22,7 +22,7 @@
     ],
     "bodies": 1,
     "volumes": [
-      36934.72094132882
+      36864.844806983405
     ]
   },
   {
@@ -48,7 +48,7 @@
     ],
     "bodies": 1,
     "volumes": [
-      13573.52486371961
+      13649.461979532638
     ]
   },
   {
@@ -14659,8 +14659,8 @@
     ]
   },
   {
-    "name": "B1_JST_PH_SMD_DATASHEET_RESERVATION_NOT_DETAILED_CAD",
-    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+CLEARANCE_STUDIES_NOT_PARTS:1+B1_JST_PH_SMD_DATASHEET_RESERVATION_NOT_DETAILED_CAD:1",
+    "name": "RETIRED_CONNECTOR_VARIANT_B1_JST_PH_SMD_DATASHEET_RESERVATION_NOT_DETAILED_CAD",
+    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+CLEARANCE_STUDIES_NOT_PARTS:1+RETIRED_CONNECTOR_VARIANT_B1_JST_PH_SMD_DATASHEET_RESERVATION_NOT_DETAILED_CAD:1",
     "matrix": [
       1.0,
       0.0,
@@ -14685,8 +14685,8 @@
     ]
   },
   {
-    "name": "B1_MATING_PLUG_ACCESS_ASSUMED_8x6x4_NOT_PART",
-    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+CLEARANCE_STUDIES_NOT_PARTS:1+B1_MATING_PLUG_ACCESS_ASSUMED_8x6x4_NOT_PART:1",
+    "name": "RETIRED_CONNECTOR_VARIANT_B1_MATING_PLUG_ACCESS_ASSUMED_8x6x4_NOT_PART",
+    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+CLEARANCE_STUDIES_NOT_PARTS:1+RETIRED_CONNECTOR_VARIANT_B1_MATING_PLUG_ACCESS_ASSUMED_8x6x4_NOT_PART:1",
     "matrix": [
       1.0,
       0.0,
@@ -14789,8 +14789,8 @@
     ]
   },
   {
-    "name": "BATTERY_WIRE_ROUTE_D3_CELL42_40mm_BUDGET_NOT_PART (1)",
-    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+CLEARANCE_STUDIES_NOT_PARTS:1+BATTERY_WIRE_ROUTE_D3_CELL42_40mm_BUDGET_NOT_PART (1):1",
+    "name": "RETIRED_CONNECTOR_VARIANT_BATTERY_WIRE_ROUTE_D3_CELL42_40mm_BUDGET_NOT_PART (1)",
+    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+CLEARANCE_STUDIES_NOT_PARTS:1+RETIRED_CONNECTOR_VARIANT_BATTERY_WIRE_ROUTE_D3_CELL42_40mm_BUDGET_NOT_PART (1):1",
     "matrix": [
       1.0,
       0.0,
@@ -14812,6 +14812,193 @@
     "bodies": 1,
     "volumes": [
       220.04491611175666
+    ]
+  },
+  {
+    "name": "RETIRED_MINIMUM_PATH_BATTERY_WIRE_ROUTE_D3_DIRECT_SOLDER_B1_40mm_BUDGET_NOT_PART",
+    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+CLEARANCE_STUDIES_NOT_PARTS:1+RETIRED_MINIMUM_PATH_BATTERY_WIRE_ROUTE_D3_DIRECT_SOLDER_B1_40mm_BUDGET_NOT_PART:1",
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "bodies": 1,
+    "volumes": [
+      116.8165069191032
+    ]
+  },
+  {
+    "name": "BATTERY_WIRE_ROUTE_D3_DIRECT_SOLDER_B1_40mm_R3_LOOP_NOT_PART",
+    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+CLEARANCE_STUDIES_NOT_PARTS:1+BATTERY_WIRE_ROUTE_D3_DIRECT_SOLDER_B1_40mm_R3_LOOP_NOT_PART:1",
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "bodies": 1,
+    "volumes": [
+      255.6941113150014
+    ]
+  },
+  {
+    "name": "BATTERY_SERVICE_POSES_R3_LENGTH40_CENTERLINES_NOT_PARTS",
+    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+CLEARANCE_STUDIES_NOT_PARTS:1+BATTERY_SERVICE_POSES_R3_LENGTH40_CENTERLINES_NOT_PARTS:1",
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "bodies": 4,
+    "volumes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "name": "RETIRED_PCB_BONDING_ALTERNATIVE_PCB_WIRE_STRAIN_RELIEF_BOND_FOOTPRINT_6x2_STUDY_NOT_PART",
+    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+CLEARANCE_STUDIES_NOT_PARTS:1+RETIRED_PCB_BONDING_ALTERNATIVE_PCB_WIRE_STRAIN_RELIEF_BOND_FOOTPRINT_6x2_STUDY_NOT_PART:1",
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "bodies": 1,
+    "volumes": [
+      2.4000000000000026
+    ]
+  },
+  {
+    "name": "WIRE_BRACKET_M1p6x4_TWO_SCREW_ENVELOPES_NOT_PARTS",
+    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+CLEARANCE_STUDIES_NOT_PARTS:1+WIRE_BRACKET_M1p6x4_TWO_SCREW_ENVELOPES_NOT_PARTS:1",
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "bodies": 2,
+    "volumes": [
+      19.3522107461123,
+      19.352210746112306
+    ]
+  },
+  {
+    "name": "WIRE_BRACKET_TIE_HEAD_AND_UNDERSIDE_BAND_ASSUMED_NOT_PARTS",
+    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+CLEARANCE_STUDIES_NOT_PARTS:1+WIRE_BRACKET_TIE_HEAD_AND_UNDERSIDE_BAND_ASSUMED_NOT_PARTS:1",
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "bodies": 2,
+    "volumes": [
+      33.264,
+      7.488000000000009
+    ]
+  },
+  {
+    "name": "WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL",
+    "path": "BATTERY_ASSEMBLY_CELL42_WIRE40_PROVISIONAL:1+WIRE_STRAIN_RELIEF_CASE_BRACKET_NONMETAL_PROVISIONAL:1",
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "bodies": 1,
+    "volumes": [
+      92.05725913541602
     ]
   }
 ]

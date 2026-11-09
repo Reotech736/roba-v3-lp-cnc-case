@@ -49,3 +49,9 @@ cad/design/checkpoints/v05_cloud_v16_before_battery_browser_group.f3d
 cad/design/checkpoints/v05_rotated_choc_before_support1_correction.f3d
 cad/design/checkpoints/v05_unsaved_after_failed_access_move.f3d
 cad/design/checkpoints/v05_verified_*.f3d
+
+# Local failed/partial diagnostics, not approved geometry/evidence
+cad/design/checkpoints/v26_lower_EMPTY_FAILED_EXPORT_NOT_MODEL.step
+docs/battery-service-loop-progress.json
+docs/direct-solder-battery-check-progress.json
+docs/driver-access-progress.json
